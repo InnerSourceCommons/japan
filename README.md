@@ -5,3 +5,5 @@ https://innersourcecommons.org/learn/books/getting-started-with-innersource/
 
 Japanese book :point_right: [jp.md](jp.md)
 English book :point_right: [en.md](en.md)
+
+Gitbook is [here](https://george-15.gitbook.io/innersource-wohajimeyou/jp)
