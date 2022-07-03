@@ -1,206 +1,205 @@
 # Chapter 1. A Robust Approach to Team Collaboration
 
-Inspired by the spread of open source software throughout the areas of operating systems, cloud computing, JavaScript frameworks, and elsewhere, a number of companies are mimicking the practices of the powerful open source movement to create an internal company collaboration under the rubric _InnerSource_. In these pages, you’ll read about the experience of the leading Internet commerce facilitator PayPal and see how InnerSource can benefit engineers, management, and marketing/PR departments.
+OS、クラウドコンピューティング、JavaScriptフレームワークなど、オープンソースソフトウェアの普及に刺激され、強力なオープンソースムーブメントの実践を真似て、_InnerSource_という名の社内コラボレーションを行う企業が続出しています。このページでは、インターネット商取引の大手PayPalの経験を読み、InnerSourceがエンジニア、経営者、マーケティング/PR部門にどのような利益をもたらすかを見ていきます。
 
-To understand the appeal of InnerSource project management, consider what has made open source software development so successful:
+InnerSourceのプロジェクト管理の魅力を理解するために、何がそんなに成功したオープンソースのソフトウェア開発を作っていることを考えてみましょう。
 
-* Programmers share their work with a wide audience, instead of just with a manager or team. In most open source projects, anyone in the world is free to view the code, comment on it, learn new skills by examining it, and submit changes that they think will improve it or customize it to their needs.
-* New code repositories (branches) based on the project can be made freely, so that sites with unanticipated uses for the code can adapt it. There are usually rules and technical support for remerging different branches into the original master branch.
-* People at large geographical distances, at separate times, can work on the same code or contribute different files of code to the same project.
-* Communication tends to be written and posted to public sites instead of shared informally by word of mouth, which provides a history of the project as well as learning opportunities for new project members.
-* Writing unit tests becomes a key programming task. A “unit test” is a small test that checks for a particular, isolated behavior such as rejecting incorrect input or taking the proper branch under certain conditions. In open source and InnerSource, testing is done constantly as changes are checked in, to protect against failures during production runs.
+* プログラマは、自分の仕事を、マネージャやチームだけでなく、広い範囲の人々と共有します。ほとんどのオープンソースプロジェクトでは、世界中の誰もが自由にコードを閲覧し、コメントし、コードを調べて新しいスキルを学び、コードを改善したり自分のニーズに合わせてカスタマイズしたりできると思う変更を提出することができます。
+* プロジェクトに基づく新しいコードリポジトリ（ブランチ）を自由に作成することができるので、コードの予期せぬ使い方をするサイトがコードを適応させることができる。異なるブランチを元のマスターブランチに再合成するためのルールや技術的なサポートが通常ある。
+* 地理的に離れた場所にいる人が、別々の時間に、同じコードで作業したり、同じプロジェクトに異なるコードのファイルを提供することができます。
+* コミュニケーションは、口コミで非公式に共有されるのではなく、文書化されて公開サイトに投稿される傾向があり、プロジェクトの歴史と新しいプロジェクトメンバーの学習の機会を提供します。
+* ユニットテストを書くことがプログラミングの重要な仕事になる。ユニットテストとは、ある条件下で不正な入力を拒否したり、適切な分岐を行うなど、特定の孤立した動作をチェックする小さなテストのことです。オープンソースやInnerSourceでは、本番稼動時の不具合から守るために、変更がチェックインされるたびにテストが行われます。
 
-InnerSource differs from classic open source by remaining within the view and control of a single organization. The “openness” of the project extends across many teams within the organization. This allows the organization to embed differentiating trade secrets into the code without fear that they will be revealed to outsiders, while benefitting from the creativity and diverse perspectives contributed by people throughout the organization.
+InnerSourceは、単一の組織の見解とコントロールの範囲内にとどまることによって、古典的なオープンソースとは異なります。プロジェクトの "開放性 "は、組織内の多くのチームにまたがる。これにより、組織全体から提供される創造性と多様な視点の恩恵を受けながら、差別化された企業秘密を部外者に知られる心配なくコードに埋め込むことができます。
 
-Often, the organization chooses to share parts of an InnerSource project with the public, effectively turning them into open source. When the technologies and management practices of open source are used internally, moving the project into a public arena becomes much easier.
+多くの場合、組織はInnerSourceプロジェクトの一部を一般に公開し、事実上オープンソースにすることを選択します。オープンソースの技術と管理手法が社内で使用されている場合、プロジェクトを公共の場に移すことは非常に容易になります。
 
-Advantages of adopting an InnerSource strategy include:
+InnerSource戦略を採用するメリットは以下の通りです。
 
-* Code reuse across the organization grows immensely. Programmers from each team can understand the code and architecture of modules developed by other teams, and contribute code.
-* This cross-team collaboration becomes relatively frictionless. Contributed code rarely has to be rewritten by the team receiving it, and no discussions are required at a high management level.
-* Development becomes faster as programmers learn to use unit tests, code coverage, and continuous integration to remove bugs at an early stage of development. The written comments exchanged among team members, although taking up some time, more than pay for themselves by helping new programmers learn the system faster.
-* Programmers learn to document their code better, both formally (as in-code comments and documentation) and informally (on discussion lists). The documentation provides a history of the project, and helps outsiders understand it so that more can contribute to it.
+* 組織横断的なコードの再利用が飛躍的に向上します。各チームのプログラマーは、他のチームが開発したモジュールのコードとアーキテクチャを理解し、コードを提供することができます。
+* このようなチーム間のコラボレーションは、比較的摩擦の少ないものになります。貢献したコードを受け取ったチームが書き直すことはほとんどなく、上層部での議論も必要ない。
+* プログラマーがユニットテスト、コードカバレッジ、継続的インテグレーションを使いこなし、開発の早い段階でバグを除去するようになるため、開発が速くなる。チームメンバー間で交わされるコメント文は、時間はかかるが、新人プログラマーのシステム習得を早め、元を取ることができる。
+* プログラマーは、正式には（コード内のコメントや文書として）、非公式には（ディスカッションリストで）、自分のコードをより良く文書化することを学びます。ドキュメントはプロジェクトの歴史を提供し、外部の人間がそれを理解するのを助け、より多くの人がそれに貢献することができるようになります。
 
 # Where Open Source Principles Work
 
-Before thinking about what InnerSource could accomplish for your organization, it’s important to consider where the source of these practices—the free and open source software movement—has been found to work well, and where it has historically been less successful.
-
+InnerSourceはあなたの組織のために何を達成することができるかについて考える前に、これらの慣行の源 - フリー＆オープンソースソフトウェアの動きはうまく機能することが判明していると、それは歴史的にあまり成功している場所を検討することが重要です。
 
 ## Cross-Organizational Collaboration
 
-Open source software development crosses the boundaries of teams, companies, and nations, letting individuals around the world collaborate on such major computing advances as Linux and Apache. The stereotype of scruffy hackers creating code in a basement somewhere is outdated (if it was ever relevant): the major contributors to central open source projects such as Linux now work for major corporations.
+オープンソースソフトウェアの開発は、チーム、企業、国の境界を越え、世界中の個人がLinuxやApacheのような主要なコンピュータの進歩に協力することを可能にします。Linuxのようなオープンソース・プロジェクトの中心的な貢献者は、今や大企業に勤めているのです。
 
-A lot of important open source projects start out as the brainchildren of independent programmers, but they are frequently adopted by large companies. In other cases, open source projects emerge from within such companies, including PayPal. What remains crucial to their open source success is that people inside any single organization allow outsiders to play a major role in developing, testing, documenting, and promoting the software, creating as level a playing field for all contributors as possible.
+重要なオープンソースプロジェクトの多くは、独立したプログラマーの発案で始まりましたが、大企業に採用されることがよくあります。また、PayPalをはじめ、そのような企業の中からオープンソースプロジェクトが生まれるケースもある。オープンソースの成功に欠かせないのは、どのような組織であっても、内部の人々が部外者にソフトウェアの開発、テスト、文書化、プロモーションの主要な役割をさせ、すべての貢献者に可能な限り公平な競争の場を提供することです。
 
 ## The Difference Between Geographically Dispersed Development and Agile Programming
 
-The cross-boundary activity of open source contrasts strongly with popular corporate development approaches, such as Agile and Scrum. The latter development methods were explicitly designed for teams working in a single office, communicating face-to-face. Not only must the developers in such projects work together, but they must meet with the software users and other stakeholders regularly. All this informal information sharing reduces the need for documentation and formal requirements. But such development methods don’t work as well in environments larger than a single work site.
+オープンソースの国境を越えた活動は、アジャイルやスクラムのような一般的な企業の開発アプローチと強く対照的です。後者の開発手法は、一つのオフィスで顔を合わせて仕事をするチームのために設計されたものであることは明らかです。このようなプロジェクトでは、開発者は一緒に仕事をするだけでなく、ソフトウェアユーザーやその他の利害関係者と定期的に会わなければなりません。このような非公式な情報共有により、文書や正式な要件の必要性を減らすことができます。しかし、このような開発手法は、1つの作業現場よりも大きな環境では、あまりうまくいきません。
 
-If Agile and Scrum pay a price in scalability, open source development pays a price in speed. Open source projects just can’t move as quickly as dedicated teams working in a single office. This price obviously makes a big difference for start-up ventures with tight deadlines (sometimes insanely tight deadlines). The difference also has a subtle effect on the types of software that are well-suited to each development model, as you’ll see in [“Value for Software Infrastructure”](#value-for-software-infrastructure).
+アジャイルやスクラムが拡張性という代償を払うとすれば、オープンソース開発はスピードという代償を払うことになります。オープンソースプロジェクトは、1つのオフィスで働く専門チームほど速く動くことができません。この代償は、締め切りの厳しい（時には狂おしいほど厳しい）スタートアップ・ベンチャーにとって、明らかに大きな違いとなる。この違いは、[“Value for Software Infrastructure”](#value-for-software-infrastructure)で説明するように、それぞれの開発モデルに適したソフトウェアの種類にも微妙な影響を及ぼします。
 
-Despite the limitations on speed of progress, many open source projects keep strict deadlines and have predictable releases. However, they often sacrifice features for predictability. Some enhancements that are planned for a particular release may have to be postponed in order to avoid slipping the deadline.
+進行速度に制限があるにもかかわらず、多くのオープンソースプロジェクトは、厳しい納期を守り、予測可能なリリースを行っています。しかし、予測可能性を高めるために機能を犠牲にすることも少なくありません。特定のリリースで計画されている機能拡張の中には、期限を過ぎないようにするために延期しなければならないものもあるかもしれません。
 
-Agile programming does not have to be the enemy of open source development—in fact, the literature reports teams who combine the two.<sup>[1](ch01.html#idm45896890983640)</sup> But understanding their different requirements and assumptions can give you a better understanding of open source.
+実際、文献にはこの 2 つを組み合わせたチームが報告されています。<sup>[1](ch01.html#idm45896890983640)</sup> しかし、彼らの異なる要件と前提を理解することは、オープン ソースをよりよく理解することになります。
 
 ## Continuous Testing and Development
 
-In general, open source projects maintain quality and trust among collaborators by setting up a rigorous system of objectively testing each contribution. Many open source projects have adopted such commonly recommended practices as unit testing and continuous integration and have developed formal organizational models to ensure their use. Open source developers have turned quality control into a science.
+一般に、オープンソースプロジェクトでは、各寄与を客観的にテストする厳格なシステムを設定することで、品質と協力者間の信頼性を維持しています。多くのオープンソースプロジェクトは、ユニットテストや継続的インテグレーションといった一般的に推奨されているプラクティスを採用し、その使用を保証するための正式な組織モデルを開発しました。オープンソースの開発者は、品質管理を科学に変えています。
 
-Although test-driven development is not required for open source, unit testing is taken very seriously. Whether or not an open source project maintains a quality assurance team, each programmer is expected to write unit tests to assure the quality of her own code. Tools and protocols for committing changes require the tests to be run and produce a clean result before the code can be accepted into the repository. The process offers assurance not only that the code works the way it was promised to work, but that it doesn’t react badly with some other piece of code elsewhere in the project.
+テスト駆動開発はオープンソースでは必須ではありませんが、ユニットテストは非常に重要視されています。オープンソースプロジェクトが品質保証チームを保持しているかどうかに関わらず、各プログラマは自分のコードの品質を保証するためにユニットテストを書くことが期待されています。変更をコミットするためのツールやプロトコルは、コードがリポジトリに受け入れられる前にテストを実行し、クリーンな結果を生成することを要求します。このプロセスは、コードが約束されたとおりに動作することを保証するだけでなく、プロジェクト内の他のコードと悪い反応をしないことを保証するものです。
 
-Modern techniques such as code coverage tools and static analysis are used less often in open source communities, and they’ve been adopted with dedication at PayPal.
+コードカバレッジツールや静的解析などの最新の技術は、オープンソースコミュニティではあまり使われていませんが、PayPalでは献身的に採用されています。
 
-Overall, testing and continuous integration play two important roles. Foremost, of course, they keep the product from breaking. But they also help to identify good coders who can be given greater responsibility for the project. For instance, getting a large number of commits accepted into the repository is usually a prerequisite to gaining the coveted status of a _trusted committer_. The trusted committers review and approve other programmers’ work, and can make changes without needing such approval themselves. They also provide mentorship to promising contributors whose code doesn’t yet meet quality standards.
+全体として、テストと継続的インテグレーションは2つの重要な役割を担っています。一番は、もちろん、製品が壊れないようにすることです。しかし、テストは、プロジェクトにより大きな責任を持たせることができる優秀なコーダーを特定するのにも役立つ。たとえば、多くのコミットをリポジトリに受け入れることは、通常、「信頼されるコミッター」という憧れの地位を得るための前提条件となります。信頼されたコミッターは他のプログラマーの作業をレビューして承認し、自分自身が承認する必要なしに変更を加えることができます。彼らはまた、コードがまだ品質基準を満たしていない有望な貢献者に対して指導を行います。
 
 ## The Importance of Documentation
 
-Another tenet of open source development, stemming from the dispersion of its practitioners over geography and time, is full documentation. Open source projects tend to be weak on user documentation (a failing they share with most proprietary projects), but the developers obsessively write for each other about their assumptions, decisions, and implementations.
+オープンソース開発のもう一つの信条は、その実践者が地理的・時間的に分散していることに起因するもので、完全な文書化です。オープンソースプロジェクトは、ユーザードキュメントに弱い傾向がありますが（これはほとんどのプロプライエタリプロジェクトと共通の欠点です）、開発者は互いの前提、決定、および実装について執拗に書き込みます。
 
-This practice represents another contrast with Agile programming, which calls for some documentation but generally favors “working software over documentation” (an oft-quoted clause from the [Agile Manifesto](http://agilemanifesto.org/)). It should be noted that working source code is also the platinum standard in the open source community (as well as standards bodies dominated by developers), but these communities still consider it important to document what has been done.
+この慣習は、アジャイルプログラミングとのもう一つの対照を表しています。アジャイルプログラミングは、ある程度の文書化を要求しますが、一般に「文書よりも動作するソフトウェア」（[アジャイル宣言](http://agilemanifesto.org/)のよく引用される条項）を優先します。 オープンソースコミュニティ（および開発者が支配する標準化団体）では、ソースコードが動くことがプラチナスタンダードになっていますが、これらのコミュニティでは、何が行われたかを文書化することが依然として重要であると考えていることに注意する必要があります。
 
-Every facet of communication in open source software is written. Comments on GitHub are a key driver of many projects. Open source projects depend on mailing lists for discussions leading to all decisions, and you often hear, “If it’s not on the mailing list, it didn’t happen.”
+オープンソースソフトウェアにおけるコミュニケーションのあらゆる側面が書き込まれています。GitHub上のコメントは、多くのプロジェクトの重要な推進力となっています。オープンソースプロジェクトは、すべての決定につながる議論をメーリングリストに依存しています。"If it's not on the mailing list, it didn't happen." という言葉をよく耳にします。
 
-One value of documenting decisions and implementation details is that a history of the project is created for anyone new who wants to join. Anyone who can take the time to peruse the discussion archives can pick up the project’s culture and best practices.
+決定事項や実装の詳細を文書化することの価値として、新しく参加しようとする人のためにプロジェクトの履歴が作成されることが挙げられます。時間をかけてディスカッションのアーカイブを熟読すれば、誰でもそのプロジェクトの文化やベストプラクティスを知ることができます。
 
-Every collaboration assumes that participants share a common language. Given the geographic diversity of open source projects, of course, English has become the _lingua franca_ practiced by all programmers (although there are significant open source projects in other languages as well). Making decisions through written communication plays a democratizing role here, because more people can learn to read and write a foreign language than learn to speak it fluently. These people could participate more in open source projects than in tightly knit teams using a language they don’t know well.
+すべてのコラボレーションは、参加者が共通の言語を共有していることを前提にしています。オープンソースプロジェクトの地理的な多様性を考えると、もちろん、英語はすべてのプログラマーが実践する _lingua franca_ となっています（他の言語でも重要なオープンソースプロジェクトは存在しますが）。なぜなら、外国語を流暢に話せるようになるよりも、読み書きができるようになる人の方が多いからです。このような人たちは、よく知らない言語を使う緊密なチームよりも、オープンソースプロジェクトに参加することができるのです。
 
 ## Value for Software Infrastructure
 
-Open source software has traditionally worked well for lower layers of the software stack: operating systems and hypervisors, tools used by programmers such as compilers and editors, security software (which benefits from open code reviews to detect weaknesses), and other things tucked away where the end user doesn’t see it.
+オペレーティングシステムやハイパーバイザー、プログラマーが使用するコンパイラやエディタなどのツール、セキュリティソフトウェア（オープンコードレビューにより弱点を発見できる）、その他エンドユーザーが目にしない場所に隠されているものなど、ソフトウェアスタックの低レイヤーではオープンソースソフトウェアは伝統的にうまく機能しています。
 
-In contrast, the user interface (UI) has proven stubbornly resistant to open source development. It’s hard to point to an open source end-user tool that has achieved mass adoption. Mozilla Firefox is a rare example.
+一方、ユーザーインターフェース（UI）は、オープンソースの開発に対して頑固なまでに抵抗があることが分かっています。オープンソースのエンドユーザーツールで、大量採用を達成したものを挙げるのは難しい。Mozilla Firefoxはその稀有な例です。
 
-Looking back at the contrast between open source and Agile development ([“The Difference Between Geographically Dispersed Development and Agile Programming”](#the-difference-between)) gives you a clue to the reason for this lack of success. The Agile model has been widely adopted because it keeps programmers in close contact with users. Developers get user feedback and can start working with it in a matter of days. Most open source projects involve end users in relatively old-fashioned ways, such as through alpha and beta releases.
+オープンソースとアジャイル開発の対比（["地理的に分散した開発とアジャイルプログラミングの違い"](#the-difference-between)）を振り返ると、この成功しない理由を知るヒントがある。アジャイルモデルが広く採用されているのは、プログラマーがユーザーと密接に連絡を取り合うからだ。開発者はユーザーのフィードバックを得て、数日のうちに作業を開始することができます。ほとんどのオープンソースプロジェクトは、アルファ版やベータ版のリリースなど、比較的古風な方法でエンドユーザーを巻き込んでいます。
 
-The emphasis on unit testing ([“Continuous Testing and Development”](#continuous-testing)) also marks open source as appropriate for infrastructure. About five years ago, Agile expert Mike Cohn described a _test pyramid_ that puts various layers of infrastructure underneath a small user interface layer. He mandated unit tests for as many layers of the software as possible, reducing dependence on functional testing.
+ユニットテスト（["Continuous Testing and Development"](#continuous-testing) ）に重点を置いていることも、オープンソースがインフラに適していることの証左である。5年ほど前、アジャイルの専門家であるMike Cohn氏は、小さなユーザーインターフェイス層の下に様々なインフラの層を置く「テストピラミッド」を説明しました。彼は、ソフトウェアのできるだけ多くの層に対してユニットテストを義務付け、機能テストへの依存を減らした。
 
-The UI layer, by contrast, is very hard to check through unit testing, and these tests show decreasing reliability and value at that layer. Here’s where functional testing enters to check the overall operation of a system and ensure that each action taken by the end user produces the desired result.
+一方、UI層はユニットテストでのチェックが非常に難しく、その信頼性と価値は低下しています。そこで、システム全体の動作を確認し、エンドユーザが行う各アクションが望ましい結果を生むことを確認する機能テストが登場するのです。
 
-Thus, the testing process that undergirds quality and trust in open source is weak at the user interface level, which may be another reason that open source tools are less popular at that level.
+このように、オープンソースの品質と信頼を支えるテストプロセスが、ユーザーインターフェースレベルでは弱いことが、オープンソースツールがこのレベルであまり普及しないもう一つの理由かもしれません。
 
 ## Finding the Right Level for Open Source
 
-Open source and free software has traditionally been contrasted with proprietary software (especially Microsoft Windows and the Oracle database). A more common approach to proprietary development nowadays is software as a service (SaaS). With this software delivery model, you can use the guidelines in this section to determine what should be developed in an InnerSource or open source manner, and what to do in a more closed manner using Agile or some other team-oriented methodology.
+オープンソースやフリーソフトは、伝統的にプロプライエタリなソフトウェア（特にMicrosoft WindowsやOracleデータベース）と対比されてきた。現在、プロプライエタリな開発に対してより一般的なアプローチは、SaaS(Software as a Service)です。このソフトウェアデリバリーモデルでは、このセクションのガイドラインを使って、何をInnerSourceやオープンソースで開発し、何をアジャイルやその他のチーム指向の方法論を使ってよりクローズドな方法で行うべきかを判断することができます。
 
-Lots of companies mix these models. Such companies could be called "[closed core](http://radar.oreilly.com/2011/12/could-closed-core-prove-a-more.html),” because they keep the software critical to their business behind SaaS, but freely share infrastructure software. This arrangement benefits the wider programming community, makes it easier to recruit and train employees, and brings them the benefits of outside contributions.
+多くの企業がこれらのモデルを組み合わせています。このような企業は「[クローズドコア](http://radar.oreilly.com/2011/12/could-closed-core-prove-a-more.html)」と呼ばれます。なぜなら、ビジネスに不可欠なソフトウェアはSaaSの背後に置いておき、インフラストラクチャー・ソフトウェアを自由に共有するからです。このような配置は、より広いプログラミング・コミュニティに利益をもたらし、従業員の採用と訓練を容易にし、外部からの貢献という利益を彼らにもたらします。
 
 # How PayPal Adopted InnerSource
 
-PayPal’s path to InnerSource involved a series of historic, large-scale corporate decisions. It adopted the model as one of several shifts consciously made in tools and corporate culture, as is often the case.
+PayPalがInnerSourceに辿り着くまでには、一連の歴史的かつ大規模な企業決定がありました。それはしばしばそうであるように、ツールや企業文化に意識的に行われたいくつかのシフトの一つとして、このモデルを採用しました。
 
-In PayPal’s case, the shifts that preceded the adoption of InnerSource included:
+PayPalの場合、InnerSourceの採用に先立つシフトは以下の通りです。
 
-* A search for technologies that would promote faster development (replacing Java with JavaScript and Node.js on many projects, for example)
-* A consequent interest in a better understanding of the open source communities and development models tied up in the newly adopted technologies
-* Use of GitHub for collaboration both internally and externally
-* A heightened concern for quality
+* より高速な開発を促進する技術の模索（例えば、多くのプロジェクトでJavaをJavaScriptやNode.jsに置き換えた）。
+* その結果、新しく採用した技術に関連するオープンソースコミュニティや開発モデルをより深く理解することに興味を持ちました。
+* 社内外でのコラボレーションにGitHubを使用するようになった。
+* 品質に対する高い関心
 
-PayPal, therefore, adopted some open source technologies and even open sourced some of its own code before experimenting with the InnerSource model. Other companies may take the reverse route: they may try out the tools and practices of open source within their own walls before producing any open source code, although that route is generally thought to be more challenging. In either case, a familiarity with open source tools, along with sites such as GitHub that facilitate collaboration in an open source manner, is crucial.
+PayPalは、InnerSourceモデルを試す前に、いくつかのオープンソース技術を採用し、自社のコードの一部もオープンソース化しました。他の企業は逆のルートを取るかもしれません。オープンソースのコードを作成する前に、自社内でオープンソースのツールや手法を試すかもしれませんが、このルートは一般的に困難だと考えられています。どちらの場合でも、オープンソースのツールや、オープンソース的なコラボレーションを促進するGitHubのようなサイトに精通していることが重要である。
 
-Although the various changes at PayPal took place together and clearly had impacts on one another, the next few sections will describe each change individually, focusing on each one’s particular activities.
+PayPal のさまざまな変革は一緒に行われ、明らかに互いに影響を及ぼし合っているが、次のいくつかのセクションでは、それぞれの変革について個別に説明し、それぞれの特定の活動に焦点を当てることにする。
 
 ## Starting at the Edge
 
-InnerSource at PayPal started with Regional Sales Engineers, working outside the United States, who modified user-facing code to support local usage preferences and sometimes to support regional promotions. These programmers could not get their changes accepted by the core teams in the timely manner required. Often, these changes required the intervention of a VP somewhere to demand that they be merged in, after which an embattled core engineer would rewrite the submitted changes before merging them.
+PayPalのInnerSourceは、米国外で働く地域セールスエンジニアから始まりました。彼らは、地域の利用者の好みに合わせてユーザー向けのコードを修正し、時には地域のプロモーションをサポートするために働いていました。これらのプログラマーは、必要なタイミングでコアチームから変更を受け入れてもらうことができませんでした。しばしば、こうした変更は、どこかの副社長が介入してマージするよう要求する必要があり、その後、袂を分かったコアエンジニアが、提出された変更をマージする前に書き直すということもありました。
 
-At the same time, inadequate documentation was being filled in through email exchanges carried out on an urgent basis between developers on different teams. Although these messages contained valuable information, they were unseen by most developers. Many regional organizations independently started efforts to cut and paste these messages into wikis.
+その一方で、不十分なドキュメントは、異なるチームの開発者間で緊急に交わされるEメールのやり取りで補われていた。しかし、これらのメールには貴重な情報が含まれているにもかかわらず、ほとんどの開発者の目に触れることはなかった。そこで、多くの地域組織が独自にWikiに切り貼りする取り組みを始めた。
 
-A number of regional engineers were flown to the San Jose headquarters to spend a month learning directly from the core teams, but that method of bootstrapping trusted committers did not spread knowledge widely enough and was not worth the investment. No written documentation developed from it. After the engineers went back to their home countries, they were forced by distance to seek core mentorship through written queries.
+多くの地域のエンジニアがサンノゼの本社に飛んできて、1ヶ月間コアチームから直接学びましたが、信頼できるコミッターを育てるこの方法は、知識を十分に広めることができず、投資に見合うものではありませんでした。また、文書化されたドキュメントも作成されなかった。エンジニアが母国に帰った後、彼らは距離の問題から、書面による問い合わせでコアメンターシップを求めることを余儀なくされました。
 
-Eventually, it was suggested that InnerSource might be a better way to go. Teams found that InnerSource really streamlined their projects, and the trusted committers on the core side found the process much better. Remote engineers could pull code samples from GitHub.
+最終的には、InnerSourceがより良い方法かもしれないことが提案されました。チームは InnerSource が本当にプロジェクトを効率化し、コア側の信頼できるコミッターはそのプロセスがはるかに優れていることに気づきました。リモートエンジニアは GitHub からコードサンプルをプルすることができました。
 
-In addition to learning how to work with regional collaborators better, the core teams started to get clues (through their mentorship of regional contributors) about where to refactor core code to increase modularity and understandability. They were also able to notice patterns between work done in different regions that allowed them to promote experienced regional engineers as mentors to their peers in other regions.
+地域の共同作業者とうまく連携する方法を学ぶことに加えて、コアチームは、地域の貢献者の指導を通じて、モジュール性と理解しやすさを高めるためにコアコードのどこをリファクタリングすればよいかのヒントを得るようになりました。また、異なる地域で行われた作業のパターンに気づくことができたため、経験豊富な地域のエンジニアをメンターとして他の地域の仲間に登用することができました。
 
 ## A Speedier Development Process
 
-PayPal started life with a relatively monolithic C++ platform. Although some legacy elements are still in C++, new development for a time was done in a more modular fashion using Java Spring. Even after this shift, as developer Jeff Harrell put it, a lot of “tribal knowledge” was embedded in each product. It took several weeks to roll out even a small change, and each new hire required a six-week training period.
+PayPalは、比較的モノリシックなC++プラットフォームで人生をスタートしました。レガシーな要素はまだC++で残っていますが、一時期の新規開発は、Java Springを使ってよりモジュール化された方法で行われました。この移行後も、開発者のジェフ・ハレルが言うように、各製品には多くの「部族的知識」が埋め込まれていた。小さな変更であっても導入には数週間を要し、新入社員には6週間のトレーニング期間が必要だった。
 
-Three years ago, PayPal made a major shift by adopting Node.js. According to Poornima Venkatakrishnan, a Node.js developer at PayPal, the platform was used there first for prototyping. Happy with the results, developers wanted to deploy it in production. First they tried an experiment where teams developed the same functionality side-by-side on the Java Spring platform and on Node.js. The company compared the platforms on the basis of development time, number of lines of code, and number of engineers required for development. Node.js was an obvious winner.
+3年前、PayPalはNode.jsを採用し、大きな変化を遂げました。PayPal の Node.js 開発者である Poornima Venkatakrishnan 氏によると、このプラットフォームはまずプロトタイピングのために使用され ました。その結果に満足した開発者は、それを本番環境に導入したいと考えました。まず、Java Spring プラットフォームと Node.js で同じ機能を並行して開発する実験を試みました。開発時間、コード行数、開発に必要なエンジニアの数などを基準に、両プラットフォームを比較したのです。Node.jsは明らかに勝者でした。
 
-The announcement that PayPal was adopting Node.js worried many programmers, especially those who remembered the change from C++ to Java as long and grueling. However, PayPal demonstrated that the change to Node.js was completely different. It scheduled just two days for the transition training. According to Harrell, participants quickly realized they were entering a new, vibrant, and exciting world. PayPal was also lucky to have on staff a leader in the field of JavaScript, Douglas Crockford, to do the training. (Crockford is the author of a highly popular book, _[JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)_, and creator of an O’Reilly [JavaScript Master Class video](http://shop.oreilly.com/product/9780596809614.do).)
+PayPal が Node.js を採用するという発表は、多くのプログラマ、特に C++ から Java への変更が長くて大変だったことを記憶しているプログラマを心配させました。しかし、PayPal は、Node.js への変更がまったく違うものであることを示しました。PayPal は、移行トレーニングにわずか 2 日間のスケジュールを組みました。Harrell 氏によると、参加者はすぐに、自分たちが新しく、活気があり、エキサイティングな世界に入ったことを実感したという。また、PayPalは、JavaScriptの分野のリーダーであるDouglas Crockford氏をトレーニングのスタッフとして迎えることができたことも幸運でした。(Crockfordは、非常に人気の高い書籍[JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)_の著者であり、オライリーの[JavaScript Master Classビデオ](http://shop.oreilly.com/product/9780596809614.do)の制作者でもあります)。
 
-Much new PayPal feature development still uses Java, but those teams have adopted the InnerSource practices that were pioneered by the Node.js teams. 
+PayPalの新機能開発の多くはまだJavaを使用していますが、これらのチームは、Node.jsチームが開拓したInnerSourceのプラクティスを採用しています。 
 
 ## Engaging with Open Source
 
-Training for the move to Node.js was quick and painless, because so much instructional material was available online and because adoption of the software required less customization than the previous move to Java. Essentially, two days of training was enough to prepare staff to continue their own learning processes.
+Node.jsに移行するためのトレーニングは、多くの教材がオンラインで利用できたことと、前回のJavaへの移行に比べてカスタマイズの必要性が少なかったことから、短時間で簡単に行うことができました。基本的には、2日間のトレーニングで、スタッフが自ら学習プロセスを継続できるように準備するのに十分だった。
 
-According to Harrell, it took some time to convey to PayPal programmers that they could simply search for basic information on sites such as StackOverflow (or just use a search engine) instead of asking senior programmers on an internal PayPal mailing list. But eventually the queries for information broadened into a whole-hearted engagement with open source communities.
+ハレル氏によると、PayPalのプログラマーに、基本的な情報はPayPal社内のメーリングリストで上級プログラマーに尋ねるのではなく、StackOverflowなどのサイトで検索すればよい（あるいは単に検索エンジンを使えばよい）ことを伝えるのに時間がかかったそうです。しかし、やがて情報への問い合わせは、オープンソースコミュニティへの全面的な関与へと広がっていきました。
 
-Most companies find that adopting open source technologies—which may originally be attractive simply because they’re high quality and free of charge—leads to a sustained entry into the communities that produce the technologies.
+多くの企業は、オープンソースの技術を採用することで、単に高品質で無料であることに魅力を感じ、その技術を生み出すコミュニティへの継続的な参加につながることに気づきます。
 
-This happened to PayPal when they adopted Node.js. By now it is a pretty mature technology. Some commentators even suggest that Node.js has passed its peak and that JavaScript programmers are looking at alternatives. (The pace of change in open source technologies, as you will see later in this section, alters decision-making about which ones to adopt.) But PayPal came in at an early stage, where there was plenty of room to develop useful tools for the Node.js community. PayPal also became a very active member of the Node.js foundation and the ECMAScript Technical Committee 39.
+これは、PayPalがNode.jsを採用したときに起こったことです。今では、Node.jsはかなり成熟した技術になっています。Node.jsはピークを過ぎ、JavaScriptプログラマは代替品を探していると指摘するコメンテータもいるほどです。(後述するように、オープンソース技術の変化のスピードは、どの技術を採用するかの意思決定を変化させます)。しかし、PayPalは、Node.jsコミュニティのために有用なツールを開発する余地が十分にある、初期の段階で参入してきました。PayPal は、Node.js 財団と ECMAScript Technical Committee 39 の非常にアクティブなメンバになりました。
 
-To promote the twin goals of programmer self-education and immediate productivity among new hires, PayPal enthusiastically brought other popular open source tools along during the move to JavaScript and Node.js. For instance, Selenium is widely used for testing, Jenkins for continuous integration, and such tools as TestNG, JUnit, and Mockito for Java testing. Along the way, PayPal developed and open sourced a number of tools compatible with the open source components, such as [Nemo](https://github.com/paypal/nemo) (originally written by Matt Edelman), [SeLion](http://selion.io), and [Illuminator](https://github.com/paypal/Illuminator).
+プログラマの自己啓発と新入社員の即時生産性という2つの目標を促進するために、PayPalはJavaScriptとNode.jsへの移行時に他の人気のあるオープンソースツールを積極的に導入しました。例えば、テストにはSelenium、継続的インテグレーションにはJenkins、JavaのテストにはTestNG、JUnit、Mockitoといったツールが広く使われている。その過程で、PayPalは、[Nemo](https://github.com/paypal/nemo) (元々はMatt Edelmanが書いた)、 [SeLion](http://selion.io) および [Illuminator](https://github.com/paypal/Illuminator) など、オープンソースのコンポーネントと互換性のある多くのツールを開発しオープンソースを提供しました。
 
-Since PayPal adopted Node.js when it was early in development and lacked certain tools, the company developed [Kraken](http://krakenjs.com/), a framework for controlling Node.js architectures. Harrell says the team decided to develop the framework as open source to make sure it was of general value, free from the “tribal” knowledge that Harrell had seen in other PayPal code. Kraken became what is probably their most successful open source project.
+PayPal は Node.js を開発初期に採用し、特定のツールが不足していたため、同社は Node.js アーキテクチャを制御するフレームワークである [Kraken] (http://krakenjs.com/) を開発しました。Harrellによると、チームは、Harrellが他のPayPalのコードで見た「部族的」知識から解放され、一般的な価値があることを確認するために、フレームワークをオープンソースとして開発することに決めたそうです。Krakenは、おそらく彼らの最も成功したオープンソースプロジェクトになりました。
 
-Venkatakrishnan lists the following open source practices that entered PayPal at this time:
+Venkatakrishnanは、この時PayPalに入ったオープンソースの実践を次のように挙げている。
 
-* Setting high quality standards. Before code is committed, code coverage tests must run on at least 90% of it. When someone sends a commit, it triggers an automatic rebuild to make sure it’s of sufficient quality to be merged.
-* Requiring documentation for all code in the repositories themselves.
-* Conducting all discussions on GitHub to enable collaboration and to facilitate input from people outside the team. There’s a private GitHub repository for in-house projects as well as public GitHub repositories for open source code.
-* Making everyone feel they can innovate.
-* Teaching engineers that not all expertise needs to come from one team. With open source software, help can come from anywhere in the world. Also, contributing to public open source projects adds more visibility to the company and shows its commitment to the community.
-* Cultivating pride in the work done in teams, encouraging them to speak about it at conferences and write about it in PayPal’s engineering blog.
+* 高い品質基準を設定すること。コードをコミットする前に、コードカバレッジテストを少なくとも90%以上実行しなければならない。誰かがコミットを送ると、それが自動的な再構築の引き金となり、マージするのに十分な品質であることが確認されます。
+* リポジトリにあるすべてのコードに対して、ドキュメントを要求すること。
+* すべてのディスカッションをGitHub上で行い、コラボレーションを可能にし、チーム外の人からのインプットを促進する。社内プロジェクト用のプライベートなGitHubリポジトリと、オープンソースのコード用のパブリックなGitHubリポジトリがあります。
+* 誰もがイノベーションを起こせると感じられるようにすること。
+* すべての専門知識が1つのチームから得られる必要はないことをエンジニアに教えること。オープンソースソフトウェアでは、世界中のどこからでも助けを得ることができるのです。また、公開されているオープンソースプロジェクトに貢献することで、会社の知名度が上がり、コミュニティに対するコミットメントを示すことができます。
+* チーム内で行われた仕事に対する誇りを育み、カンファレンスでそれについて話したり、PayPalのエンジニアリングブログに書いたりするよう奨励する。
 
-Harrell points out that the higher one goes in a software stack, the more volatile the technologies are. Change in software development is ongoing, especially with open source technologies. So PayPal encourages a team to constantly evaluate their technologies. Continuous learning is expected of each developer.
+ハレルは、ソフトウェアスタックの上位に行けば行くほど、技術の変動が激しいと指摘する。ソフトウェア開発における変化は、特にオープンソース技術では継続的である。そこでPayPalは、チームが常に自分たちの技術を評価することを推奨している。各開発者には継続的な学習が期待される。
 
-Inevitably, the evaluation of alternative tools leads to a diversity of tools from one team to another. Developer Matt Edelman points out that this phenomenon is particularly common in open source, because developers like to develop tools along the lines suggested by Unix patriarch Ken Thompson: many small programs working together.
+必然的に、代替ツールの評価は、チームごとにツールの多様性をもたらす。開発者のマット・エデルマンは、この現象はオープンソースに特によく見られると指摘しています。なぜなら、開発者はUnixの家長であるケン・トンプソンが提案した、「多くの小さなプログラムが一緒に動く」という線に沿ってツールを開発するのが好きだからです。
 
-Thus, teams use a variety of cutting-edge technologies such as React and Angular. Programmers are expected to do a toy project to try out a tool before recommending it, and to compare alternatives carefully before making a choice.
+そのため、ReactやAngularなど、さまざまな最先端技術が使用されています。プログラマーは、ツールを推奨する前にトイプロジェクトで試し、選択肢を慎重に比較した上で選択することが期待されています。
 
-Open source architectures often feature plug-ins to permit alternate implementations of technologies that extend their functionality. Edelman says that PayPal develops some Kraken plug-ins internally (through the InnerSource model) and others as open source.
+オープンソースのアーキテクチャは、機能を拡張する技術の代替実装を可能にするプラグインを備えていることがよくあります。Edelmanによると、PayPalはKrakenのプラグインの一部を内部で（InnerSourceモデルを通じて）開発し、その他をオープンソースとして開発しているそうです。
 
 ## GitHub Collaboration
 
-One company holds a uniquely important place in modern code development: GitHub. Originally a SaaS platform to make life easier for developers using the Git version control software, GitHub evolved into a sophisticated collaboration platform with tools that developers find indispensable. Two resources on this topic include the book _[Git for Teams](http://shop.oreilly.com/product/0636920034520.do)_ and the [Collaborating with Git video](http://shop.oreilly.com/product/0636920034872.do).
+現代のコード開発において、唯一無二の重要な位置を占める企業がある。それはGitHubです。もともとはバージョン管理ソフトウェアGitを使う開発者の生活を楽にするためのSaaSプラットフォームでしたが、GitHubは開発者が必要不可欠と感じるツールを備えた洗練されたコラボレーションプラットフォームへと進化しました。このトピックに関する2つのリソースは、書籍_[Git for Teams](http://shop.oreilly.com/product/0636920034520.do)_ と [Collaborating with Git video](http://shop.oreilly.com/product/0636920034872.do)です。
 
-In addition to putting code for open source projects such as Kraken on GitHub, PayPal has set up an internal GitHub Enterprise repository so that programmers within the company can collaborate exactly as public GitHub users do. Code reviews, commits, and tests take place in an open source manner, but on the internal repository. Most crucially, each team gets accustomed to accepting new code from PayPal programmers outside the team.
+KrakenのようなオープンソースプロジェクトのコードをGitHubに置くだけでなく、PayPalは社内にGitHub Enterpriseリポジトリを設置し、社内のプログラマーがGitHubのパブリックユーザーとまったく同じように共同作業ができるようにしています。コードレビュー、コミット、テストはオープンソースと同じように行われますが、内部リポジトリ上で行われます。最も重要なことは、各チームがチーム外のPayPalプログラマーから新しいコードを受け入れることに慣れることです。
 
-Before the move to GitHub and InnerSource, according to Edelman, PayPal programmers felt competent to contribute only minor bug fixes to another team’s work. If they contributed larger chunks, the team accepting the code would scrutinize it and often do so much rewriting that there was little advantage over doing the code from scratch. High-level managers would often have to get involved to negotiate the acceptance of code between teams.
+Edelman氏によると、GitHubとInnerSourceに移行する前、PayPalのプログラマーは、他のチームの仕事に対して小さなバグ修正だけを提供することに能力を感じていた。もし彼らがより大きなコードを提供した場合、そのコードを受け取ったチームはそれを精査し、ゼロからコードを作成する利点がほとんどないほど多くの書き換えを行うことがよくあります。チーム間でコードの受け入れについて交渉するために、高いレベルの管理者が関与しなければならないこともしばしばでした。
 
-These days, substantial new functionality can be checked in with no rewriting. One reason is the new focus on documentation. Edelman stresses that InnerSource projects must rest on a broader programming base than a few privileged programmers who deeply understand the system. Anyone can study a project and suggest major changes.
+しかし、最近では、実質的な新機能を書き換えることなく、チェックインできるようになりました。その理由の1つは、ドキュメンテーションに新たに注目したことだ。エーデルマン氏は、インナーソースのプロジェクトは、システムを深く理解する少数の特権的なプログラマーだけでなく、より広いプログラミングの基盤の上に成り立っていなければならないと強調する。誰でも、プロジェクトを研究し、大きな変更を提案することができる。
 
-Also thanks to documentation (both in the code and the GitHub comments), developers come to recognize the need for architecture changes. If you have to explain four times to various people why something is complicated and counterintuitive, you start to think about changing it.
+また、ドキュメント（コードとGitHubのコメントの両方）のおかげで、開発者はアーキテクチャ変更の必要性を認識するようになります。なぜそれが複雑で直感的でないのかを、いろいろな人に4回も説明しなければならないとしたら、それを変えようと考えるようになるのです。
 
-Empowering programmers across the country also promotes greater intellectual growth and job satisfaction. Programmers think more comprehensively about the design of the code, while learning new skills in doing code reviews, testing, and writing documentation. Edelman says InnerSource “raises everybody’s game.”
+また、プログラマーが国を超えて力を発揮することで、知的な成長、仕事のやりがいを感じるようになります。プログラマーは、コードの設計についてより包括的に考えるようになり、同時にコードレビュー、テスト、ドキュメントの書き方などの新しいスキルを身につけることができる。エデルマン氏は、InnerSourceは "全員のゲームを向上させる "と言う。
 
-Edelman mentions one security-related bug that turned up in the core infrastructure module. One function wasn’t following the specification (RFC) precisely. At first a lot of email was exchanged, with people outside the infrastructure team pressuring them to do a fix. But then one outsider—for whom security was not a specialty—took a look at the RFC and realized he could handle the fix himself. He turned in a fix that worked, and it was quickly merged by the core infrastructure team. This anecdote illustrates two principles: the importance of programmers taking initiative, and the value of following well-documented standards.
+Edelman氏は、コアインフラストラクチャモジュールで見つかった、あるセキュリティ関連のバグについて言及している。ある機能が、仕様書（RFC）に正確に沿っていなかったのです。当初は、インフラ・チームの外部の人間が修正するよう圧力をかけ、多くの電子メールが交わされました。しかし、ある部外者（セキュリティは専門外）がRFCを見て、自分でも修正できることに気づいた。そして、その修正案を提出したところ、コア・インフラ・チームがすぐにそれをマージしてくれたのです」。この逸話は、プログラマーが自発的に行動することの重要性と、きちんと文書化された標準に従うことの価値という、2つの原則を示している。
 
 ## Quality Improvement
 
-At the same time that PayPal was moving large parts of its platform to Node.js and adopting open source practices, it made a commitment to better quality. According to Quality Assurance leader Doug Simmons, steps toward this goal at PayPal included:
+PayPalは、プラットフォームの大部分をNode.jsに移行し、オープンソースを採用すると同時に、品質向上への取り組みを開始しました。品質保証のリーダーであるDoug Simmonsによると、PayPalのこの目標に向けたステップは以下の通りです。
 
-* More unit testing
-* Continuous integration
-* Code reviews
-* More code coverage reports
-* Static analysis
+* より多くのユニットテスト
+* 継続的な統合
+* コードレビュー
+* より多くのコードカバレッジレポート
+* 静的解析
 
-Not all conversations have to take place in public, but the comment process on GitHub has improved quality in several ways. Trusted committers effectively act as mentors for newer programmers hoping to get their code accepted into the repository. The back-and-forth comments between submitters and trusted committers are educational for both the submitters and other programmers who can watch these dialogs and learn from them.
+すべての会話が公の場で行われる必要はありませんが、GitHub のコメントプロセスはいくつかの点で品質を向上させています。信頼できるコミッターは、自分のコードをリポジトリに受け入れたいと願っている新人プログラマーのメンターとして効果的に機能します。投稿者と信頼できるコミッターの間で交わされるコメントのやりとりは、投稿者にとっても他のプログラマーにとっても、そのやりとりを見て学ぶことができる教育的なものです。
 
 ## Culture Change
 
-A corporate move as significant as adopting InnerSource calls for sensitivity in handling employee fears and expectations. PayPal hired outside experts in open source development to aid the transition.
+InnerSourceを採用するような重要な企業の動きは、従業員の恐怖と期待を扱う上で繊細さを求めています。PayPalは、移行を支援するためにオープンソース開発の外部専門家を雇いました。
 
-Observers from many companies seem to agree that the most important cultural change is to give employees the confidence to contribute code to other teams. Full documentation and good mentoring can achieve this—but as Edelman points out, staff have to change their habits from complaining about bugs to going in and making fixes.
+多くの企業のオブザーバーは、最も重要な文化的変化は、従業員が他のチームにコードを貢献する自信を与えることであることに同意しているようです。しかし、Edelman氏が指摘するように、社員はバグについて不平を言う習慣から、自ら進んで修正する習慣に変わらなければならない。
 
-Harrell remembers persuading team members to let other PayPal programmers outside the team make contributions. The team members commonly objected that they’d end up spending all their time vetting outside code and not writing their own. In a study of another company, programmers worried about the burden that new contributions would add to future maintenance.<sup>[2](ch01.html#idm45896890913528)</sup><sup>,</sup> <sup>[3](ch01.html#idm45896890901048)</sup>
+ハレルは、チーム外のPayPalプログラマーに貢献させるよう、チームメンバーを説得したことを思い出す。しかし，チームメンバーは，外部のコードを吟味することにばかり時間を取られ，自分たちのコードを書けなくなるのではないかと，よく反論していました．また、別の企業では、プログラマーが、新たな貢献によって将来のメンテナンスにかかる負担を心配していました。<sup>[2](ch01.html#idm45896890913528)</sup><sup>,</sup> <sup>[3](ch01.html#idm45896890901048)</sup>
 
-As you know by now, these drawbacks proved less fearsome than expected, because the rigorous testing and build process ensured the quality of contributions. In any case, Harrell told them, vetting contributions required sophisticated skills of its own. And the contributions multiplied the value of the code created by the team.
+しかし、このような欠点は、思ったほど恐れるに足りないものであった。というのも、厳格なテストとビルドのプロセスによって、コントリビューションの品質が確保されていたからだ。そして、その貢献が、チームが生み出すコードの価値を高めている。
 
-Edelman writes, “Module authors are expected to curate their software by being open to feedback and changes from the community, while enforcing quality and consistency standards.” He says developers have evolved from complaining about the task for writing tests or doing code reviews to insisting on them.
+Edelman氏は、"モジュールの作者は、品質と一貫性の基準を実施しながら、コミュニティからのフィードバックや変更にオープンであることによって、ソフトウェアをキュレーションすることが期待される "と書いている。彼によると、開発者は、テストを書いたり、コードレビューをしたりするためのタスクに文句を言っていたのが、それらを主張するように進化したのだという。
 
-In the quality arena, when programmers submit InnerSource bug reports, they go initially to the person who is responsible for the module. This programmer may then pass them on to the original contributors of the affected code.
+品質面では、プログラマーがInnerSourceのバグレポートを提出すると、まずそのモジュールの担当者に送られます。このプログラマは、その後、影響を受けるコードの元の貢献者にそれらを渡すことができます。
 
-Modular architectures and well-defined APIs have also been identified by many programming teams as crucial to encouraging contributions from outside the team.
+モジュラーアーキテクチャと明確に定義されたAPIは、多くのプログラミングチームがチーム外からの貢献を促進するために重要であると認識しています。
 
-Because InnerSource development practices are essentially the most popular open source practices, open sourcing a project that was developed inside the company is fairly easy. Technically, all the team has to do is move the code to a public repository and start dealing with external bug reports and code contributions the way they have been dealing with such input from other members of their company.
+InnerSourceの開発プラクティスは、基本的に最も一般的なオープンソースプラクティスであるため、社内で開発されたプロジェクトをオープンソース化することは非常に簡単です。技術的には、チームがしなければならないのは、コードを公開リポジトリに移動し、社内の他のメンバーからのそのような入力に対処してきたように、外部のバグレポートやコードの貢献に対処し始めることだけです。
 
-However, a few legal barriers may stand in the way. If programmers incorporated outside code into the project, the legal department must examine all licenses to ensure they have the right to open the code and that their license is compatible with the licenses on the code they incorporated. Some branding review may also be involved. At PayPal, the legal team consulted with open source experts and developed a web-based process for going through the necessary steps.
+しかし、いくつかの法律の壁が立ちはだかるかもしれない。プログラマーが外部のコードをプロジェクトに組み込んだ場合、法務部門は、彼らがコードを開く権利を持っていること、そして彼らのライセンスが組み込んだコードのライセンスと互換性があることを確認するために、すべてのライセンスを調査する必要があります。また、ブランディングの審査も行われることがあります。PayPalでは、法務チームがオープンソースの専門家と相談し、必要なステップを踏むためのWebベースのプロセスを開発しました。
 
-Modern programmers learn to thrive on change. Aside from new technologies and tools, a change of culture can help them stay nimble and keep skills up to date. InnerSource is a step toward all these achievements.
+現代のプログラマーは、変化に対応することを学ぶ。新しい技術やツールもさることながら、文化を変えることで、機敏さを保ち、スキルを最新に保つことができるのです。InnerSourceは、これらすべての成果への一歩となるのです。
 
 <sup>[1](ch01.html#idm45896890983640-marker)</sup> Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
 
@@ -210,4 +209,4 @@ Modern programmers learn to thrive on change. Aside from new technologies and to
 
 # About the Author
 
-**Andy Oram** is an editor at O’Reilly Media. An employee of the company since 1992, Andy currently specializes in open source technologies and software engineering. His work for O’Reilly includes the first books ever released by a US publisher on Linux, the 2001 title _Peer-to-Peer_, and the 2007 bestseller _Beautiful Code_.
+**Andy Oram** は、オライリー・メディアの編集者です。1992年から同社の社員で、現在はオープンソース技術とソフトウェアエンジニアリングを専門としています。オライリーでは、2001年に米国出版社から初めて発売されたLinuxに関する書籍_Peer-to-Peer_や、2007年のベストセラー_Beautiful Code_などを手がけています。
