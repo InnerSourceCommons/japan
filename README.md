@@ -1,9 +1,7 @@
-# Getting Started with InnerSource
+# InnerSource 入門
 
-以下で公開されている Creative Commons License (CC BY) の本を元に日本語へ翻訳するプロジェクトです
-https://innersourcecommons.org/learn/books/getting-started-with-innersource/
+Creative Commons License (CC BY) で公開されている _Getting Start with InnerSource_ を日本語に翻訳するプロジェクトです
 
-日本語:point_right: [jp.md](jp.md)
-英語:point_right: [en.md](en.md)
-
-Gitbook is [here](https://george-15.gitbook.io/innersource-wohajimeyou/jp)
+* [日本語](/jp.md)
+* [日本語版Gitbook](https://george-15.gitbook.io/innersource-wohajimeyou/jp)
+* [英語](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)
