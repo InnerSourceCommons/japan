@@ -1,0 +1,27 @@
+# InnerSource Japanese Translation Project へのコントリビューションについて
+
+InnerSource Japanese Translation ワーキンググループの目標は、インナーソースに関するドキュメントを日本語に翻訳し、公開し、日本でインナーソースの概念とプラクティスを普及することです。詳細については、[README.md](README.md) ファイルを参照してください。
+
+このワーキンググループが発展していくために、小さなものから大きなものまで、どんなものでも貢献をお待ちしています!!
+
+## コントリビューションをするには
+
+Please consider contributing in the following ways:
+
+1. (to be added)
+
+## 連携の取り方
+
+TBD
+
+   1. **Slack** でコミュニケーションをしています。 InnerSource Commons の[Slack](https://isc-inviter.herokuapp.com/) にある `#jp-general` へご参加ください
+
+   1. **InnerSource Commons Japan コミュニティ** へご参加ください。定期ミーティングを実施しています。
+
+## コントリビューションにかかるライセンス
+
+このリポジトリのコンテンツは [CC-BY-SA-4.0](LICENSE.txt) の下でライセンスされています。このリポジトリに寄稿することで、あなたは私たち（そして他のすべての人）に対して、このライセンスに従ってあなたの寄稿物を使用する権利を与えることになります。
+
+## Code of Conduct
+
+私たちは、まだ完全に正式な行動規範を持っているわけではありません。しかし私たちは、すべてのコントリビューターがお互いを尊重し合い、このコミュニティをハラスメントや差別のないものにするために協力することを期待しています。
