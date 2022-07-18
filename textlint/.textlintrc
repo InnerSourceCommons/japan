@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "prh":{
+      "rulePaths": [
+        "./rules.yml"
+      ]
+    },
+    "preset-ja-technical-writing":{
+      "sentence-length": {
+        "max": 120,
+        "severity": "warning"
+      },
+      "max-comma": {
+        "max": 4
+      },
+      "max-ten": {
+        "max": 4
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "",
+        "preferInBody": "ですます",
+        "preferInList": ""
+      },
+      "ja-no-weak-phrase": false,
+      "no-exclamation-question-mark": {
+        "severity": "warning"
+      }
+    }
+  },
+  "filters": {}
+}
