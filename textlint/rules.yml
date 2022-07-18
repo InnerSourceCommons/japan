@@ -1,0 +1,4 @@
+rules:
+  - expected: サーバー
+    patterns:
+      - サーバ
