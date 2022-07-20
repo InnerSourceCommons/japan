@@ -25,7 +25,6 @@ Advantages of adopting an InnerSource strategy include:
 
 Before thinking about what InnerSource could accomplish for your organization, it’s important to consider where the source of these practices—the free and open source software movement—has been found to work well, and where it has historically been less successful.
 
-
 ## Cross-Organizational Collaboration
 
 Open source software development crosses the boundaries of teams, companies, and nations, letting individuals around the world collaborate on such major computing advances as Linux and Apache. The stereotype of scruffy hackers creating code in a basement somewhere is outdated (if it was ever relevant): the major contributors to central open source projects such as Linux now work for major corporations.
@@ -70,9 +69,9 @@ Open source software has traditionally worked well for lower layers of the softw
 
 In contrast, the user interface (UI) has proven stubbornly resistant to open source development. It’s hard to point to an open source end-user tool that has achieved mass adoption. Mozilla Firefox is a rare example.
 
-Looking back at the contrast between open source and Agile development ([“The Difference Between Geographically Dispersed Development and Agile Programming”](#the-difference-between)) gives you a clue to the reason for this lack of success. The Agile model has been widely adopted because it keeps programmers in close contact with users. Developers get user feedback and can start working with it in a matter of days. Most open source projects involve end users in relatively old-fashioned ways, such as through alpha and beta releases.
+Looking back at the contrast between open source and Agile development ([“The Difference Between Geographically Dispersed Development and Agile Programming”](#the-difference-between-geographically-dispersed-development-and-agile-programming)) gives you a clue to the reason for this lack of success. The Agile model has been widely adopted because it keeps programmers in close contact with users. Developers get user feedback and can start working with it in a matter of days. Most open source projects involve end users in relatively old-fashioned ways, such as through alpha and beta releases.
 
-The emphasis on unit testing ([“Continuous Testing and Development”](#continuous-testing)) also marks open source as appropriate for infrastructure. About five years ago, Agile expert Mike Cohn described a _test pyramid_ that puts various layers of infrastructure underneath a small user interface layer. He mandated unit tests for as many layers of the software as possible, reducing dependence on functional testing.
+The emphasis on unit testing ([“Continuous Testing and Development”](#continuous-testing-and-development)) also marks open source as appropriate for infrastructure. About five years ago, Agile expert Mike Cohn described a _test pyramid_ that puts various layers of infrastructure underneath a small user interface layer. He mandated unit tests for as many layers of the software as possible, reducing dependence on functional testing.
 
 The UI layer, by contrast, is very hard to check through unit testing, and these tests show decreasing reliability and value at that layer. Here’s where functional testing enters to check the overall operation of a system and ensure that each action taken by the end user produces the desired result.
 
@@ -119,7 +118,7 @@ Three years ago, PayPal made a major shift by adopting Node.js. According to Poo
 
 The announcement that PayPal was adopting Node.js worried many programmers, especially those who remembered the change from C++ to Java as long and grueling. However, PayPal demonstrated that the change to Node.js was completely different. It scheduled just two days for the transition training. According to Harrell, participants quickly realized they were entering a new, vibrant, and exciting world. PayPal was also lucky to have on staff a leader in the field of JavaScript, Douglas Crockford, to do the training. (Crockford is the author of a highly popular book, _[JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)_, and creator of an O’Reilly [JavaScript Master Class video](http://shop.oreilly.com/product/9780596809614.do).)
 
-Much new PayPal feature development still uses Java, but those teams have adopted the InnerSource practices that were pioneered by the Node.js teams. 
+Much new PayPal feature development still uses Java, but those teams have adopted the InnerSource practices that were pioneered by the Node.js teams.
 
 ## Engaging with Open Source
 
