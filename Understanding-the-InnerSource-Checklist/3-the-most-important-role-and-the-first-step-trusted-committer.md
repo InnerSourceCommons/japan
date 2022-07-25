@@ -45,7 +45,7 @@ In our lower-risk projects like tooling, a single TC works on 10 repos or more. 
 Immediate Benefits
 ==================
 
-Assigning the code reviews of PRs<sup>[1](#tbd)</sup> to the TC role greatly accelerated the turnaround on the PRs and increased the level of code reviews. Plus, we found that TCs used their mentoring time to create some wonderful documentation for the next big refactor of code. The lead for one of the major architectural reworks said that using InnerSource helped his team really understand how to significantly refactor the codebase. It also greatly decreased the amount of interrupt-driven coding from external bug fixes because those were also addressed in the bug fix PRs.
+Assigning the code reviews of PRs<sup>[1](#annotation-1)</sup> to the TC role greatly accelerated the turnaround on the PRs and increased the level of code reviews. Plus, we found that TCs used their mentoring time to create some wonderful documentation for the next big refactor of code. The lead for one of the major architectural reworks said that using InnerSource helped his team really understand how to significantly refactor the codebase. It also greatly decreased the amount of interrupt-driven coding from external bug fixes because those were also addressed in the bug fix PRs.
 
 The documentation was created semi-painlessly by archiving public mentorship discussions between the TCs and contributors, and making them easily accessible in a context-relevant location in the codebase itself. This meant that the time spent on mentoring, valuable in and of itself, served double duty. We call this passive documentation, and we discuss it in more depth in [Chapter 4, _Passive Documentation and the Need for Findability_](/chapter-4#passive_documentation_and_the_need_for_f).
 
@@ -58,4 +58,4 @@ The TC role illuminates a developer’s advanced skills in mentoring, deep knowl
 
 We are enhancing our promotion path to Fellow for developers to reflect this complexity. This allows us to reward the “full-stack” developers we are creating and allows promotion without having to move to management roles that some developers find to be tedious. We get to keep the programmers that really understand the various codebases and encourage them to help refactor and reduce technical debt.
 
-<sup>[1](#tbd)</sup> GitHub uses the term PR, as do several other tools. Companies not using these tools might call the same thing problem reports, change requests, or tickets.
+<sup><span id="annotation-1">1</span></sup> GitHub uses the term PR, as do several other tools. Companies not using these tools might call the same thing problem reports, change requests, or tickets.

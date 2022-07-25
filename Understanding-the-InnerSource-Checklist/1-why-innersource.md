@@ -15,7 +15,7 @@ One of the great things about InnerSource is that it doesn’t need to begin—i
 
 Many InnerSource processes were born out of errors or problems. In fact, one of our biggest strengths is our ability to learn from errors—those we make, and those that others make and then share. Others will help us learn if we let them. That’s one reason we encourage transparency.
 
-For example, people working on product integration often find it easier to send a series of private email exchanges or hold meetings among a fraction of the people planning the integration than to bring all stakeholders into the process. Requiring all of those involved to collaborate transparently has enormous payoffs,<sup>[1](#tbd)</sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
+For example, people working on product integration often find it easier to send a series of private email exchanges or hold meetings among a fraction of the people planning the integration than to bring all stakeholders into the process. Requiring all of those involved to collaborate transparently has enormous payoffs,<sup><span id="annotation-1">1</span></sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
 
 InnerSource is enabled by tools and processes, but it is also a change to the culture. The biggest change is allowing mistakes, talking about them, and learning from them.
 
@@ -38,7 +38,7 @@ Briefly, open source has flexibility, synergy across groups because of transpare
 Open Source Today
 =================
 
-Open source software has “won.” Every _Fortune 500_ company uses or works on some kind of open source project. Sonatype, a major player in the open source community, conducted a survey in 2014 of large enterprises and found that “more than 90 percent of a typical application is now open source components.”<sup>[2](#tbd)</sup> One major advantage of open source software is that it has consistently shown a lower defect density than the industry average.<sup>[3](#tbd)</sup>
+Open source software has “won.” Every _Fortune 500_ company uses or works on some kind of open source project. Sonatype, a major player in the open source community, conducted a survey in 2014 of large enterprises and found that “more than 90 percent of a typical application is now open source components.”<sup><span id="annotation-2">2</span></sup> One major advantage of open source software is that it has consistently shown a lower defect density than the industry average.<sup>[3](#annotation-3)</sup>
 
 Open Source’s Future in the Commercial World: InnerSource
 =========================================================
@@ -76,7 +76,7 @@ Most business documents stress _how_ to do things, but not  _why_ . Business env
 
 Of course, you can skip to the checklist in this book or at this [book’s website](http://paypal.github.io/InnerSourceCommons/) if you’re eager to move on. But we’ve made it easy to skim the  _why_ s: Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a problem we found, the smallest possible step to move toward a solution, and why that solution works.
 
-<sup>[1](#tbd)</sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
-<sup>[2](#tbd)</sup> Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
-<sup>[3](#tbd)</sup> In Coverity’s annual static code analysis reports, most recently, the [“Coverity Scan Report”](http://bit.ly/2o3g7O6).
-<sup>[4](#tbd)</sup> Specifically, Apache Software Foundation style.
+<sup><span id="annotation-1">1</span></sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
+<sup><span id="annotation-2">2</span></sup> Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
+<sup><span id="annotation-3">3</span></sup> In Coverity’s annual static code analysis reports, most recently, the [“Coverity Scan Report”](http://bit.ly/2o3g7O6).
+<sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.

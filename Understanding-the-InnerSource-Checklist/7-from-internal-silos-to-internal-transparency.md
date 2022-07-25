@@ -11,7 +11,7 @@ TL;DR
 Where Did Silos Come From?
 ==========================
 
-British anthropologist Robin Dunbar has proposed a theory that a social animal’s neocortex size limits that animal’s comfortable social group size. [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number) suggests that humans are best able to handle approximately 150 relationships in a larger sense, and tend to maintain stronger ties to smaller groups of around 50.<sup>[1](#tbd)</sup> This maps back to tribes and their sizes. Many in the corporate world have noticed similar size limitations when creating organizational charts. Silos are a natural extension of those hierarchical situations. They also evolve out of specialization, and from these groupings tribal knowledge is born.
+British anthropologist Robin Dunbar has proposed a theory that a social animal’s neocortex size limits that animal’s comfortable social group size. [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number) suggests that humans are best able to handle approximately 150 relationships in a larger sense, and tend to maintain stronger ties to smaller groups of around 50.<sup>[1](#annotation-1)</sup> This maps back to tribes and their sizes. Many in the corporate world have noticed similar size limitations when creating organizational charts. Silos are a natural extension of those hierarchical situations. They also evolve out of specialization, and from these groupings tribal knowledge is born.
 
 With silos, people do not need to care as much about consensus. They make communication and permissions easier because they divide people into smaller groups. And dividing people into assigned groups can make accountability easier. If something goes wrong with security, people can blame the security group.
 
@@ -25,9 +25,9 @@ In the modern world of integrations and acquisitions, silos seriously hamper cro
 Transparency for Community Sourcing
 ===================================
 
-Hopefully, by now you are convinced that transparency in coding has multiple benefits. But consider this, as well: transparency is a core tenet in science and academia. It is a key element in scientific rigor.<sup>[2](#tbd)</sup> We believe that it works within a company for the same reasons it works with academia. It improves collaboration, and empowers anyone within the company to see when a project is going off track and help to fix it.
+Hopefully, by now you are convinced that transparency in coding has multiple benefits. But consider this, as well: transparency is a core tenet in science and academia. It is a key element in scientific rigor.<sup>[2](#annotation-2)</sup> We believe that it works within a company for the same reasons it works with academia. It improves collaboration, and empowers anyone within the company to see when a project is going off track and help to fix it.
 
-Many businesses are learning the value of transparent communication with customers. Facebook, Twitter, and other forms of social media empower customers to get issues resolved publicly. Businesses have the opportunity to increase trust by handling problems effectively.<sup>[3](#tbd)</sup>
+Many businesses are learning the value of transparent communication with customers. Facebook, Twitter, and other forms of social media empower customers to get issues resolved publicly. Businesses have the opportunity to increase trust by handling problems effectively.<sup>[3](#annotation-3)</sup>
 
 Transparency Boosts Decision-Making
 ===================================
@@ -82,6 +82,6 @@ Still, the push to recover lost tribal knowledge, combined with the increased pr
 
 There is also the topic of information overload and overcommunication. This is why search is a key element. We want to transition corporate culture from a push mentality, in which endless bulletins are sent out, to a pull mentality, in which people are confident that they will get the information they need when they need it via search.
 
-<sup>[1](#tbd)</sup> Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
-<sup>[2](#tbd)</sup> [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
-<sup>[3](#tbd)</sup> [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
+<sup><span id="annotation-1">1</span></sup> Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
+<sup><span id="annotation-2">2</span></sup> [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
+<sup><span id="annotation-3">3</span></sup> [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
