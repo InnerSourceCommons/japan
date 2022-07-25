@@ -34,7 +34,7 @@ A Parable: GitHub Without InnerSource
 
 The first big problem we encountered when introducing InnerSource was an increase in escalation up the management chain. We like to call it the “Big Cheese Story” (see the following sidebar). At its core, it is a story of fear. We believe it is unique to the corporate environment and not the open source world. We found that this story resonated with many of our participants in the InnerSource Commons. The awesome part is that open source’s existing processes already had several pieces of the solution, though they had not been put together before.
 
-##### The Big Cheese Story
+**The Big Cheese Story**
 
 Once upon a time, there was a company that decided to embrace InnerSource, so it dictated that all code was to be moved to GitHub Enterprise. Because there was no cohesive version control before, there was much rejoicing across the company. Now, the developers finally had visibility to one another’s code! No longer would the developers need to submit a change request to planning, and hope it was accepted and scheduled some time in the next year. Visions of seamless collaborations danced in developers’ heads!
 

@@ -83,7 +83,5 @@ Still, the push to recover lost tribal knowledge, combined with the increased pr
 There is also the topic of information overload and overcommunication. This is why search is a key element. We want to transition corporate culture from a push mentality, in which endless bulletins are sent out, to a pull mentality, in which people are confident that they will get the information they need when they need it via search.
 
 <sup>[1](#tbd)</sup> Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
-
 <sup>[2](#tbd)</sup> [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
-
 <sup>[3](#tbd)</sup> [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)

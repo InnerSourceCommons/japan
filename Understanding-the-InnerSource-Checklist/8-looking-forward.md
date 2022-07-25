@@ -20,7 +20,7 @@ We are spreading information in several ways:
   
 * We have [training materials on the wiki](http://www.innersourcecommons.org/training). If you have any feedback or create any materials that you want to share, please contact us there or follow the link to our Slack chat channel.
   
-##### InnerSource Pattern Language
+**InnerSource Pattern Language**
 
 One very large-scale project under way at the Commons is creating a pattern language for finding solutions to problems. Leonardo da Vinci looked to nature for solutions to difficult problems. When _we_ encounter a difficult problem, we look to an open source collection of previously solved problems that have a pattern similar to ours. In the pattern project, we create simple patterns that contain five elements:
 
