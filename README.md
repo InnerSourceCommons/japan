@@ -1,14 +1,15 @@
 # InnerSource Japanese Translation Project
 
+[![Markdownlint](https://github.com/InnerSourceCommons/japanese-contents/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/InnerSourceCommons/japanese-contents/actions/workflows/markdownlint.yml)
+
 This is a repository for the translation of InnerSource Commons contents into Japanese.
 Our first priority is to translate InnerSource books.
 
-## InnerSource 入門
+## インナーソース入門
 
 Creative Commons License (CC BY) で公開されている _**Getting Start with InnerSource**_ を日本語に翻訳するプロジェクトです。該当の書籍に関しては Andy Oram 氏の承認済みです。
 
 * [プロジェクトの Path](/Getting-Started-with-InnerSource/jp.md)
-* [日本語版 Gitbook (Staging)](https://george-15.gitbook.io/innersource-wohajimeyou/jp)
 * [英語版原本](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)
 
 ## コントリビュートの方法
@@ -23,13 +24,14 @@ Creative Commons License (CC BY) で公開されている _**Getting Start with 
 
 ### 今後翻訳が予定されている書籍
 
-#### 詳解 InnerSource チェックリスト (仮)
+#### 詳解 インナーソース チェックリスト
 
 _**Understanding the InnerSource Checklist**_ の和訳です。一部は「[9章のチェックリスト日本語版](https://elinux.org/images/3/3d/Checklist.ja-9f733d2f6e9b.pdf)」としてコミュニティ翻訳が存在します。InnerSource Commons Japan として以下が**確認タスク**として残っています。
 
-* [ ] 翻訳にかかるライセンス関連の調査
+* [x] 翻訳にかかるライセンス関連の調査 -> 翻訳に関しては Silona 氏に許可をいただいています
+* [ ] [New!] コミュニティとして改めて翻訳を再開している旨を Silona 氏に伝達
 
-#### 「実践 InnerSource」(仮)
+#### 実践 インナーソース(仮)
 
 _**Adopting InnerSource**_ の和訳です。InnerSource Commons Japan として以下が**確認タスク**として残っています。
 
