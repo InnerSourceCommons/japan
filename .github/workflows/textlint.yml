@@ -1,7 +1,10 @@
 name: TextLint
 
 on:
-  [push, pull_request]:
+  push:
+    path:
+      - '**.md'
+  pull_request:
     path:
       - '**.md'
 jobs:
