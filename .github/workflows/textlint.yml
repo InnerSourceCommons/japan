@@ -1,8 +1,10 @@
 name: TextLint
 
 on:
-  - push
-  - pull_request
+  - push:
+    - '**.md'
+  - pull_request:
+    - '**.md'
 jobs:
   run-textlint:
     runs-on: ubuntu-latest
@@ -15,5 +17,5 @@ jobs:
         node-version: 12.x
     - name: Run TextLint
       run: |
-        npm install
-        npm run textlint
+        npm install textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
+        textlint -c ./textlint/.textlintrc ./Getting-Started-with-InnerSource/jp.md
