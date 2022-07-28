@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "textlint": "textlint -c ./textlint/.textlintrc ./Getting-Started-with-InnerSource/jp.md"
+  },
   "dependencies": {
     "textlint": "^12.2.1",
     "textlint-filter-rule-allowlist": "^4.0.0",
