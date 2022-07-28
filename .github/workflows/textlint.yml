@@ -16,4 +16,4 @@ jobs:
     - name: Run TextLint
       run: |
         npm install textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
-        npx textlint "**/*.md"
+        npx textlint -c .\textlint\.textlintrc .\Getting-Started-with-InnerSource\jp.md
