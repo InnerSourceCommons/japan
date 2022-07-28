@@ -1,8 +1,9 @@
 name: TextLint
 
 on:
-  - [push, pull_request]:
-    - '**.md'
+  [push, pull_request]:
+    path:
+      - '**.md'
 jobs:
   run-textlint:
     runs-on: ubuntu-latest
