@@ -2,10 +2,10 @@ name: TextLint
 
 on:
   push:
-    path:
+    paths:
       - '**/jp.md'
   pull_request:
-    path:
+    paths:
       - '**/jp.md'
 jobs:
   run-textlint:
