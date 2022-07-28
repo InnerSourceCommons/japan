@@ -1,9 +1,7 @@
 name: TextLint
 
 on:
-  - push:
-    - '**.md'
-  - pull_request:
+  - [push, pull_request]:
     - '**.md'
 jobs:
   run-textlint:
