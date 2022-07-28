@@ -19,5 +19,5 @@ jobs:
         node-version: 12.x
     - name: Run TextLint
       run: |
-        npm install textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
+        npm install -g textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
         textlint -c ./textlint/.textlintrc ./Getting-Started-with-InnerSource/jp.md
