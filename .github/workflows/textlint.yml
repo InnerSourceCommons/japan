@@ -17,6 +17,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
+    - name: Cache Dependencies
+      with:
+        path: ~/.npm
+        key: npm-${{ hashFiles('package-lock.json') }}
+        restore-keys: npm-
     - name: Install TextLint
       run: npm install --save-dev textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing 
         
