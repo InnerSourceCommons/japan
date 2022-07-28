@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: 12.x
     - name: Install TextLint
-      run: npm install -g textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing 
+      run: npm install --save-dev textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing 
         
     - name: Install Dependent Module
       run: npm install

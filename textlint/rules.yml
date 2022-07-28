@@ -1,4 +1,25 @@
 rules:
-  - expected: サーバー
+  - expected: コメンテーター
     patterns:
-      - サーバ
+      - コメンテータ
+  - expected: コントリビューション
+    patterns:
+      - 貢献
+  - expected: リポジトリ
+    patterns:
+      - レポジトリ
+  - expected: ユニットテスト
+    patterns:
+      - 単体テスト
+  - expected: ドキュメント
+    patterns:
+      - 文書
+  - expected: インナーソース 
+    patterns:
+      - InnerSource 
+  - expected: (
+    patterns:
+      - （
+  - expected: ) 
+    patterns:
+      - ） 
