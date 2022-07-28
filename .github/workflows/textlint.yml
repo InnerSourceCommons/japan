@@ -1,0 +1,19 @@
+name: TextLint
+
+on:
+  - push
+  - pull_request
+jobs:
+  run-textlint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.x
+    - name: Run TextLint
+      run: |
+        npm install textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
+        npx textlint "**/*.md"
