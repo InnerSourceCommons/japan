@@ -3,10 +3,10 @@ name: TextLint
 on:
   push:
     path:
-      - '**.md'
+      - '**/jp.md'
   pull_request:
     path:
-      - '**.md'
+      - '**/jp.md'
 jobs:
   run-textlint:
     runs-on: ubuntu-latest
