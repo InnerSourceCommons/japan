@@ -1,8 +1,10 @@
 # Textlint による文章校正
+
 [TRANSLATION-POLICY.md](https://github.com/InnerSourceCommons/japanese-contents/blob/main/TRANSLATION-POLICY.md) に示された翻訳のポリシーを実現するため、Textlint という文章校正ツールを用います。
 文体と語彙を統一し、平易な文章を書くために役立ちます。
 
 ## 使用準備
+
 [Node.js](https://nodejs.dev/) が必要です。各自の環境に合わせてご準備ください。
 
 Textlint 本体と、校正対象ルールのパッケージをインストールします。
@@ -13,6 +15,7 @@ $ cd (path to your clone of this repository)
 ```
 
 ## 使用方法
+
 コマンドラインで校正対象の文書ファイルを指定します。
 以下は翻訳者がクローンした jp-contentes リポジトリにて、Getting Started with InnerSource の日本語版を校正する例です。
 
@@ -25,6 +28,7 @@ $ ./node_modules/textlint/bin/textlint.js -c=textlint/.textlintrc Getting-Starte
 このファイルは校正内容を記すものです。
 
 ## 結果の例
+
 Textlint を実行すると、校正提案箇所が行と文字数で示されます。
 また、その箇所に何の校正内容が求められるかが示されます。
 校正内容には severity (深刻度) があり、error が高く、warning が低いものとなっています。
@@ -58,20 +62,25 @@ Try to run: $ textlint --fix [file]
 また、修復範囲はファイル全体です。複数人で編集しているファイルをこのオプションで修復すると、自分の担当外の箇所も修復されることに注意してください。
 
 ## 校正内容の設定方法
+
 Textlint が提案する校正内容は .textlintrc という JSON 形式の設定ファイルによって定められます。
 校正内容は rules と filters に分かれ、rules に守りたいルールを、filters にその例外を記します。多くは rules に書くことになるでしょう。
 
 ### 用語の統一
+
 [prh(proofreading helper)](https://github.com/textlint-rule/textlint-rule-prh) という仕組みを用いて実現します。
 用いたい用語と禁止したい用語を yaml ファイルに記し、そのファイルを .textlintrc に指定します。
 
 ### 文章の校正
+
 文体の統一や、1文あたりの長さの限定といった文章の校正は、校正ルールをまとめたプリセットと、それに含まれるルールごとの設定を記述することで実現します。
 
 本プロジェクトでは以下のプリセットを採用します。
+
 * [textlint-rule-preset-ja-technical-writing](https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing)
 
 .textlintrc では、プリセットに含まれる各ルールの有効/無効、逸脱と判定するしきい値の変更、error/warning の選択を記すことができます。
 
 ### 例外の指定
+
 [allowlist](https://github.com/textlint/textlint-filter-rule-allowlist) という仕組みを用いて実現します。
