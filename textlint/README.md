@@ -8,10 +8,11 @@
 [Node.js](https://nodejs.dev/) が必要です。各自の環境に合わせてご準備ください。
 
 Textlint 本体と、校正対象ルールのパッケージをインストールします。
+(必要なパッケージについては package.json で管理しています。)
 
 ```
 $ cd (path to your clone of this repository)
-# npm install textlint textlint-rule-prh textlint-filter-rule-allowlist textlint-rule-preset-ja-technical-writing
+# npm install
 ```
 
 ## 使用方法
@@ -21,10 +22,14 @@ $ cd (path to your clone of this repository)
 
 ```
 $ cd (path to your clone of this repository)
-$ ./node_modules/textlint/bin/textlint.js -c=textlint/.textlintrc Getting-Started-with-InnerSource/jp.md
+$ npm run lint Getting-Started-with-InnerSource/jp.md
 ```
 
-`-c` オプションでは `.textlintrc` という設定ファイルを指定します。
+`npm run lint` に続いて校正対象のファイルを指定してください。
+
+`npm run lint "**/jp.md"`のように正規表現を用いてファイルを指定することも可能です。
+
+npm script 内で設定ファイルとして`.textlintrc` という指定しています。
 このファイルは校正内容を記すものです。
 
 ## 結果の例
