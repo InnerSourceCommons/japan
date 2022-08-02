@@ -9,7 +9,7 @@ Our first priority is to translate InnerSource books.
 
 Creative Commons License (CC BY) で公開されている _**Getting Start with InnerSource**_ を日本語に翻訳するプロジェクトです。該当の書籍に関しては Andy Oram 氏の承認済みです。
 
-* [プロジェクトの Path](/Getting-Started-with-InnerSource/jp.md)
+* [プロジェクトの Path](/Getting-Started-with-InnerSource/ja.md)
 * [英語版原本](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)
 
 ## コントリビュートの方法
