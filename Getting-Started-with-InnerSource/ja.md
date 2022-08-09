@@ -149,7 +149,7 @@ Harrell によると、基本的な情報は社内のメーリングリストで
 
 プログラマーの自己学習と新規採用社員の即戦力化という2つの目標を促進するため、PayPal は JavaScript と Node.js へ移行する際に、他の人気のオープンソースのツールを積極的に導入しました。例えば、テストには広く使われている Selenium、継続的インテグレーションには Jenkins、Java のテストには TestNG、JUnit、Mockito といった具合です。その過程で、PayPal は、[Nemo](https://github.com/paypal/nemo) (当初は Matt Edelman によって開発されました)や、[SeLion](http://selion.io)、そして [Illuminator](https://github.com/paypal/Illuminator) といった、オープンソースのコンポーネントと互換性のあるツールをいくつか開発しオープンソースで提供しました。
 
-Paypal が Node.js を採用したのは開発初期であったため、いくつかのツールが不足していました。そこで Paypal はこの機能不足を解消するために Node.js アーキテクチャを制御するフレームワークである [Kraken] (http://krakenjs.com/) を開発しました。
+Paypal が Node.js を採用したのは開発初期であったため、いくつかのツールが不足していました。そこで Paypal はこの機能不足を解消するために Node.js アーキテクチャを制御するフレームワークである [Kraken](http://krakenjs.com/) を開発しました。
 他の Paypal の社内コードで見るような「部族内知識」から解放され、一般的な価値を持たせるためにチーム自身がこの Kraken をオープンソースで開発すると決めたのだと Harrell はいいます。Kraken はおそらく彼らの最も成功したオープンソースプロジェクトになりました。
 
 Venkatakrishnanは、この時 PayPal に導入したオープンソースプラクティスを次のように挙げています。
