@@ -252,7 +252,6 @@ PayPal は、Node.js Foundation と ECMAScript Technical Committee 39 の会員�
 
 Paypal が Node.js を採用したのは開発初期であったため、いくつかのツールが不足していました。
 そこで Paypal はこの機能不足を解消するために Node.js アーキテクチャを制御するフレームワークである [Kraken] (http://krakenjs.com/) を開発しました。
-
 他の Paypal の社内コードで見るような「部族内知識」から解放され、一般的な価値を持たせるためにチーム自身がこの Kraken をオープンソースで開発すると決めたのだと Harrell はいいます。
 Kraken はおそらく彼らの最も成功したオープンソースプロジェクトになりました。
 
