@@ -22,8 +22,9 @@ InnerSource Commons はインナーソースの理解、適用、実践を推進
 
 服部 佑樹
 
-## 訳者 コメント
+## 訳者一覧 (GitHub アカウント名)
 
+@yuhattor (代表者)
 @amixedcolor
 @bory-kb
 @kawaguti
