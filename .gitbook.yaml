@@ -1,5 +1,4 @@
 root : ./Getting-Started-with-InnerSource/
 
 structure:
-  readme: ./Getting-Started-with-InnerSource/README.md
-  summary: ./Getting-Started-with-InnerSource/README.md
+  summary: ./SUMMARY.md

@@ -18,10 +18,10 @@
 
 ## 訳者一覧 (GitHub アカウント名)
 
-@yuhattor (代表者)
-@amixedcolor
-@bory-kb
-@kawaguti
-@masskaneko
-@shrimp78
-@ystk
+@yuhattor (代表者)<br />
+@amixedcolor<br />
+@bory-kb<br />
+@kawaguti<br />
+@masskaneko<br />
+@shrimp78<br />
+@ystk<br />
