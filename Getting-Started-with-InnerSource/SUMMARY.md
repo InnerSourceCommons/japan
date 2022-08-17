@@ -1,3 +1,3 @@
 * [本書について](./README.md)
 * [インナーソース入門](./ja.md)
-* [あとがき](./afterword.md)
+* [訳者あとがき](./afterword.md)
