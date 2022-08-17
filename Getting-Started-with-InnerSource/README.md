@@ -10,7 +10,7 @@
 **著者:** Andy Oram<br />
 **発行日:** 2015年7月<br />
 **発行元:** O’Reilly Media<br />
-**翻訳:** InnerSource Commos Japan
+**翻訳:** InnerSource Commons Japan
 
 ## まえがき
 
