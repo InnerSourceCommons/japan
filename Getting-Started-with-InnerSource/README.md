@@ -6,7 +6,7 @@
 
 ![インナーソース入門][cover-image]
 
-**原題:** Getting Started with InnerSource<br />
+**原題:** [Getting Started with InnerSource](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)<br />
 **著者:** Andy Oram<br />
 **発行日:** 2015年7月<br />
 **発行元:** O’Reilly Media<br />
