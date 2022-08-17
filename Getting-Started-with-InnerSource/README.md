@@ -24,7 +24,7 @@ PayPal におけるインナーソースのパスは、ツールや企業文化�
 * チーム横断的なコラボレーション: チーム外からの貢献には摩擦がなくなり、書き直されることがほとんどなくなります。
 * GitHub を使った開発: GitHub では、社内プロジェクト用のプライベートリポジトリと、オープンソースコード用のパブリックリポジトリを管理します。
 
-この書籍は、クリエイティブ・コモンズ・ライセンス（CC BY）のライセンスにより提供されています。
-どなたでも無料でこの書籍を手に取れるほか、原本をPDF形式（3.3 MB）でダウンロードすることができます。
+この書籍は、クリエイティブ・コモンズ・ライセンス(CC BY)のライセンスにより提供されています。
+どなたでも無料でこの書籍を手に取れるほか、[原本](https://innersourcecommons.org/documents/books/GettingStartedWithInnerSource.pdf)をPDF形式（3.3 MB）でダウンロードすることができます。
 
 [cover-image]: https://innersourcecommons.org/images/learn/books/getting-started-with-innersource-cover-thumb.jpg "インナーソース入門"
