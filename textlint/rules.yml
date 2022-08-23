@@ -12,6 +12,9 @@ rules:
   - expected: ドキュメント
     patterns:
       - 文書
+  - expected: インナーソース
+    patterns:
+      - InnerSource
 # 人名と社名
   - expected: PayPal
     patterns:
