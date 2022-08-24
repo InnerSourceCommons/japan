@@ -58,10 +58,10 @@ OSS プロジェクトは、1 つのオフィスで働く専門チームほど�
 特定のリリースで計画されている機能を拡張することの中には、期限を過ぎないように後回しにしなければならないものも含まれているかもしれません。
 
 実を言うと、アジャイルなプログラミングは必ずしも OSS 開発の敵ではありません。
-実際、文献においてこの2つを組み合わせたチームが報告されています [^1]。
+実際、文献においてこの2つを組み合わせたチームが報告されています <sup><a href="#stol2014">1</a></sup>。
 しかし、彼らにおいては要件と前提が異なるということを理解することが、OSS をよりよく理解することに繋がるでしょう。
 
-[^1]: Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
+[1]:<a href="#stol2014" id="stol2014"></a> Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
 
 ### 継続的なテストと開発 <a href="#continuous-testing-and-development" id="continuous-testing-and-development"></a>
 大半の OSS プロジェクトでは、寄せられるコントリビューションの一つ一つを厳しく客観的にテストする仕組みを設けています。
