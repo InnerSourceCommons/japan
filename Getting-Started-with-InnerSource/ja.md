@@ -58,7 +58,7 @@ OSS プロジェクトは、1 つのオフィスで働く専門チームほど�
 特定のリリースで計画されている機能を拡張することの中には、期限を過ぎないように後回しにしなければならないものも含まれているかもしれません。
 
 実を言うと、アジャイルなプログラミングは必ずしも OSS 開発の敵ではありません。
-実際、文献においてこの2つを組み合わせたチームが報告されています [^stol2014]。
+実際、文献においてこの2つを組み合わせたチームが報告されています [^1]。
 しかし、彼らにおいては要件と前提が異なるということを理解することが、OSS をよりよく理解することに繋がるでしょう。
 
 ### 継続的なテストと開発 <a href="#continuous-testing-and-development" id="continuous-testing-and-development"></a>
@@ -345,7 +345,7 @@ PayPal では、法務チームが OSS 専門家と相談し、必要な手順�
 新しい技術やツールはさておき、文化を変えることで、機敏に行動し、最新のスキルを身につけ続けることができるのです。
 インナーソースは、これらすべての成果への第一歩です。
 
-[^stol2014]: Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
+[^1]: Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
 
 [^stol2011]: Stol, KJ, AB Muhammad, et al. [“A comparative study of challenges in integrating Open Source Software and Inner Source Software.”](http://www.cs.rug.nl/paris/papers/IST11.pdf) _Information and Software Technology_ 53 (2011): 1319–1336\.
 
