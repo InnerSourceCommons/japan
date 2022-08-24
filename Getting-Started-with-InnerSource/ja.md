@@ -61,6 +61,8 @@ OSS プロジェクトは、1 つのオフィスで働く専門チームほど�
 実際、文献においてこの2つを組み合わせたチームが報告されています [^1]。
 しかし、彼らにおいては要件と前提が異なるということを理解することが、OSS をよりよく理解することに繋がるでしょう。
 
+[^1]: Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
+
 ### 継続的なテストと開発 <a href="#continuous-testing-and-development" id="continuous-testing-and-development"></a>
 大半の OSS プロジェクトでは、寄せられるコントリビューションの一つ一つを厳しく客観的にテストする仕組みを設けています。
 これにより品質は保たれ、協力者間の信頼も醸成されます。
@@ -344,8 +346,6 @@ PayPal では、法務チームが OSS 専門家と相談し、必要な手順�
 現代のプログラマーは、変化が成長につながることを学びます。
 新しい技術やツールはさておき、文化を変えることで、機敏に行動し、最新のスキルを身につけ続けることができるのです。
 インナーソースは、これらすべての成果への第一歩です。
-
-[^1]: Stol, KJ, P. Avgeriou et al. [“Key Factors for Adopting Inner Source.”](http://www.brian-fitzgerald.com/wp-content/uploads/2014/05/TOSEM-2014-stol.pdf) _ACM Transactions on Software Engineering Methodology (TOSEM)_ (2014): Vol 23, No 2.
 
 [^stol2011]: Stol, KJ, AB Muhammad, et al. [“A comparative study of challenges in integrating Open Source Software and Inner Source Software.”](http://www.cs.rug.nl/paris/papers/IST11.pdf) _Information and Software Technology_ 53 (2011): 1319–1336\.
 
