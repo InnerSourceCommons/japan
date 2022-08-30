@@ -1,4 +1,31 @@
 rules:
-  - expected: サーバー
+# 訳語の統一
+  - expected: ユニットテスト
     patterns:
-      - サーバ
+      - 単体テスト
+  - expected: リポジトリ
+    patterns:
+      - レポジトリ
+  - expected: コントリビューション
+    patterns:
+      - 貢献
+  - expected: ドキュメント
+    patterns:
+      - 文書
+  - expected: インナーソース
+    patterns:
+      - InnerSource
+# 人名と社名
+  - expected: PayPal
+    patterns:
+      - paypal
+      - Paypal
+      - payPal
+      - ペイパル
+# その他
+  - expected: (
+    patterns:
+      - （
+  - expected: )
+    patterns:
+      - ）

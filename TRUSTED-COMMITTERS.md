@@ -25,7 +25,6 @@
    1. 新しい TC を `.github/CODEOWNERS` に追加し、新しい PR について自動的に通知されるようにする。
 1. 新しいTCは [#japanese-contents](https://app.slack.com/client/T04PXKRM0/C03P1MVMBRS) チャンネルで賞賛されます。
 
-
 ## References
 
 ノミネーションプロセスなど、一部は日本コミュニティの成熟に伴い変更される可能性がありますが、基本的なトラステッドコミッターの役割やプロセスは [ユーロペース](https://tech.europace.de/voting-in-new-trusted-committers/) の事例に大きな影響を受けています。
