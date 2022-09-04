@@ -29,3 +29,21 @@ PayPal がインナーソースを採用するまでの過程には企業とし�
 [原本 (PDF形式3.3 MB)](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)も同じく CC BY ライセンスで提供されており、誰でもダウンロードすることができます。
 
 [cover-image]: https://innersourcecommons.org/images/learn/books/getting-started-with-innersource-cover-thumb.jpg "インナーソース入門"
+
+## 著者より日本語版に寄せて
+
+著者として日本語版の発刊を嬉しく思います。
+O’Reilly Media からの本書が世に出たのは 2015 年 7 月のことで、同社のレポートではトップクラスの人気が何年も続きました。
+これで日本でもソフトウェア開発方法を変革することはもちろん、コミュニケーションが根本から強化され、社内のどこにでも高品質な貢献をできるオープンな体質の実現に役立つでしょう。
+日本の多くの大企業が本書で語られている協働的なプログラミングの恩恵を受けられるのではないかと想像しています。
+協働と個人の尊重を理念とした企業文化とは、様々なチームの人材と才能を合わせ、他のチームと共にソフトウェア開発を乗り越えてゆくことから生まれるのです。
+インナーソースという働き方を学ぶことは、開発者も企業もオープンソースソフトウェアの価値を理解するのに役立ちます。
+この理解こそがインナーソースの推進者が常に目指してきた核となる目標なのです。
+
+As the author of Getting Started with InnerSource, I’m very happy to see a Japanese translation.
+O’Reilly Media released Getting Started with InnerSource in English in July 2015, and for several years it held top spot among our reports in attracting readers.
+Now it can play a role in Japan, not only to transform software practices, but to put communications on a firmer ground and open up organizations to high-quality contributions from all over the company.
+I think that a lot of large companies in Japan would benefit from instituting the type of collaborative programming described in the report. A business culture so oriented toward collaboration and personal respect can thrive by bringing talent from each team to improve the software managed by other teams.
+Learning the InnerSource way of working also helps programmers and companies appreciate the value of open source software, which has always been a key goal of the promoters of InnerSource.
+
+Andy Oram, author and editor, https://www.praxagora.com/
