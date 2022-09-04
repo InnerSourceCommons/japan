@@ -43,7 +43,8 @@ O’Reilly Media から本書が世に出たのは 2015 年 7 月のことで、
 As the author of Getting Started with InnerSource, I’m very happy to see a Japanese translation.
 O’Reilly Media released Getting Started with InnerSource in English in July 2015, and for several years it held top spot among our reports in attracting readers.
 Now it can play a role in Japan, not only to transform software practices, but to put communications on a firmer ground and open up organizations to high-quality contributions from all over the company.
-I think that a lot of large companies in Japan would benefit from instituting the type of collaborative programming described in the report. A business culture so oriented toward collaboration and personal respect can thrive by bringing talent from each team to improve the software managed by other teams.
+I think that a lot of large companies in Japan would benefit from instituting the type of collaborative programming described in the report.
+A business culture so oriented toward collaboration and personal respect can thrive by bringing talent from each team to improve the software managed by other teams.
 Learning the InnerSource way of working also helps programmers and companies appreciate the value of open source software, which has always been a key goal of the promoters of InnerSource.
 
 Andy Oram, author and editor, https://www.praxagora.com/
