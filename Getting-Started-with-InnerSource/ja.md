@@ -223,7 +223,7 @@ Node.js は明らかに勝っていました。
 
 PayPal が Node.js を採用するという発表は、多くのプログラマーを、特に C++ から Java への移行が長くて大変だったことを記憶しているプログラマーを心配させました。
 しかし、PayPal は、Node.js への移行がまったく違うものであることを示しました。
-PayPal は、移行トレーニングにわずか 2 日間のスケジュールを組みました。
+PayPal は、移行トレーニングにわずか 2日間のスケジュールを組みました。
 Harrell によると、トレーニングの参加者は、新しく活気があってエキサイティングな世界に入ったことをすぐに実感したそうです。
 さらに、JavaScript の分野のリーダーである Douglas Crockford をトレーニングのスタッフとして迎えられたことも幸運でした(Crockford は、非常に人気の高い書籍 _[JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)_ の著者であり、オライリーの _[JavaScript Master Classビデオ](http://shop.oreilly.com/product/9780596809614.do)_ の制作者でもあります)。
 
