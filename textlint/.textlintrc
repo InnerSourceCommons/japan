@@ -27,5 +27,7 @@
       }
     }
   },
-  "filters": {}
+  "filters": {
+    "comments": true
+  }
 }
