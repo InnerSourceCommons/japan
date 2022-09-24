@@ -14,7 +14,7 @@ jobs:
         book: [Home, Getting-Started-with-InnerSource, Understanding-the-InnerSource-Checklist]
     steps:
     - uses: actions/checkout@v3
-      ref: ${{ github.token }}
+      ref: ${{ matrix.book }}
     - name: Merge branch into branch for the book
       uses: mtanzi/action-automerge@v1
       with:
