@@ -3,13 +3,15 @@ name: Markdownlint
 on:
   push:
     branches:
-      - "main"
+      - "utic-*"
     paths:
       - "**/*.md"
       - ".markdownlint.json"
       - ".github/workflows/markdownlint.yml"
       - ".github/workflows/markdownlint-problem-matcher.json"
   pull_request:
+    branches:
+      - "utic-*"
     paths:
       - "**/*.md"
       - ".markdownlint.json"
@@ -31,5 +33,4 @@ jobs:
       run: |
         echo "::add-matcher::.github/workflows/markdownlint-problem-matcher.json"
         npm i -g markdownlint-cli
-        # markdownlint "**/*.md"
-        markdownlint --ignore Understanding-the-InnerSource-Checklist/ .
+        markdownlint "**/*.md"
