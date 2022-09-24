@@ -14,6 +14,12 @@ jobs:
         book: [Home, Getting-Started-with-InnerSource, Understanding-the-InnerSource-Checklist]
     steps:
     - uses: actions/checkout@v3
+    - name: Merge branch into branch for the book
+      uses: mtanzi/action-automerge@v1
+      with:
+        github_token: ${{ github.token }}
+        source: 'main'
+        target: ${{ matrix.book }}
     - name: Copy .gitbook.yml to root
       run: cp ${{ matrix.book }}/.gitbook.yaml .
     - name: Commit updated files for the book
