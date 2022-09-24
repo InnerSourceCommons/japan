@@ -17,7 +17,14 @@ jobs:
       with:
         ref: ${{ matrix.book }}
     - name: Merge branch into the book's branch
-      run: git merge main
+      uses: mtanzi/action-automerge@v1
+      with:
+        github_token: ${{ github.token }}
+        source: 'main'
+        target: ${{ matrix.book }}
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ matrix.book }}
     - name: Copy .gitbook.yml to root
       run: cp ${{ matrix.book }}/.gitbook.yaml .
     - name: Commit updated files for the book
