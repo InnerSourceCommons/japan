@@ -1,5 +1,4 @@
-Chapter 9. Appendix
-===================
+# Appendix
 
 The Actual Checklist
 ====================

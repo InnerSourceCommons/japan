@@ -1,5 +1,4 @@
-Chapter 7. From Internal Silos to Internal Transparency
-=======================================================
+# From Internal Silos to Internal Transparency
 
 TL;DR
 =====

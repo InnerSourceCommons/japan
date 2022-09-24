@@ -1,5 +1,4 @@
-Chapter 8. Looking Forward
-==========================
+# Looking Forward
 
 During our journey, we have found a need for many tools. Some help facilitate discussion and some help with standardization and compliance; others help with measurement and reporting. Please join us at [InnerSourceCommons.org](http://innersourcecommons.org/tools) where we are working on the open source versions of these tools.
 

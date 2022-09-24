@@ -1,5 +1,4 @@
-Chapter 1. Why InnerSource?
-===========================
+# Why InnerSource?
 
 A group of us in the open source community feel strongly that we can make work better by introducing and adopting open source principles and processes to larger enterprises. This includes attributes that benefit the company (faster development, better cross-team collaboration, more documentation) and an ethos that benefits the workers (mentoring processes, accountability, and a supportive community).
 

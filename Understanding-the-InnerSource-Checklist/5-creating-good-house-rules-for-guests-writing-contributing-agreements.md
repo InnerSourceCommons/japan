@@ -1,5 +1,4 @@
-Chapter 5. Creating Good House Rules for Guests: Writing Contributing Agreements
-================================================================================
+# Creating Good House Rules for Guests: Writing Contributing Agreements
 
 TL;DR
 =====
