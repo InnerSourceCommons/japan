@@ -1,4 +1,4 @@
-# インナーソースの日本語コンテンツ
+# コンテンツ一覧
 
 ## [インナーソース入門](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
 
