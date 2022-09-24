@@ -1,8 +1,6 @@
 # インナーソースの日本語コンテンツ
 
-<div style="max-width:200px;float:left">
-<img src="https://www.innersourcecommons.jp/images/learn/books/getting-started-with-innersource-cover-thumb.jpg" />
-</div>
+<img src="https://www.innersourcecommons.jp/images/learn/books/getting-started-with-innersource-cover-thumb.jpg" style="width:100px;float:left"/>
 
 インナーソースの世界へようこそ。インナーソースは、閉じた組織におけるオープンソースソフトウェアを開発するための原動力であり、プロジェクトの "オープン性" を企業内のチームを超えて広げるものです。この本では、オライリーの編集者兼著者である Andy Oram が、オープンソース開発を成功させる原則を確認するとともに、大手 EC の PayPal でインナーソースがどのように機能したのかを説明することによって、皆様をインナーソースの世界に導きます。
 
