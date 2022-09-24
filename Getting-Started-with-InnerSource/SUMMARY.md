@@ -9,3 +9,8 @@
 -----------
 
 * [訳者あとがき](afterword.md)
+
+## リソース
+
+* [GitHub](https://github.com/InnerSourceCommons/jp-contents/tree/main/Getting-Started-with-InnerSource)
+* [InnerSource Commons](http://innersourcecommons.org)
