@@ -1,5 +1,16 @@
 # コンテンツ一覧
 
+国際的にインナーソースの動きを推進する InnerSource Commons では日本コミュニティによりインナーソースに関するコンテンツの日本語版が提供されています。是非お手に取ってご覧ください！
+コミュニティにはコンテンツの拡充活動以外にもインナーソース実践者や、学びたい方を幅広い活動でサポートする体制があります。
+InnerSource実践者や、学びたい方を幅広い活動でサポートします。
+ぜひ [Slack](https://innersourcecommons-inviter.herokuapp.com/) にもお立ち寄り、コミュニティにご参加ください！
+
+- [Slack のインバイトリンク](https://innersourcecommons-inviter.herokuapp.com/)
+- [日本語 #jp-general チャンネル](https://app.slack.com/client/T04PXKRM0/C03M546NR16)
+- [翻訳プロジェクト #jp-contents チャンネル](https://app.slack.com/client/T04PXKRM0/C03P1MVMBRS)
+
+---
+
 ## [インナーソース入門](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
 
 [<img src="./getting-started-with-innersource-cover-thumb.jpg" style="float:left" />](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
