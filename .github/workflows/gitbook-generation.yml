@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "main"
+      - "gitbook-generation"
 
 jobs:
   gitbook-generation:
@@ -14,11 +15,18 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: ${{ github.head_ref }}
+        ref: ${{ matrix.book }}
+    - name: Merge branch into the book's branch
+      uses: mtanzi/action-automerge@v1
+      with:
+        github_token: ${{ github.token }}
+        source: 'main'
+        target: ${{ matrix.book }}
+    - run: ls -al ./${{ matrix.book }}/
     - name: Copy .gitbook.yml to root
       run: cp ${{ matrix.book }}/.gitbook.yaml .
     - name: Commit updated files for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Writing updated files for the book
-        branch: ${{ matrix.experimental }}
+        branch: ${{ matrix.book }}
