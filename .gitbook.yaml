@@ -1,2 +1,6 @@
-# This file will be overwritten by the deployment process
-# There is no need to edit it
+# In the deployment process, this file is copied to the root of the book
+# Root should be set to the relative path to the book from the root of the repo
+root: ./Getting-Started-with-InnerSource/
+
+structure:
+  summary: ./SUMMARY.md
