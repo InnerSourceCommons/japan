@@ -1,6 +1,6 @@
 # Summary​
 
-* [詳解 インナーソースチェックリスト](README.md)
+* [この本について](README.md)
 
 ## 本編 <a href="#contents" id="contents"></a>
 
