@@ -1,5 +1,4 @@
-Foreword
-========
+# Foreword
 
 PayPal first spoke about its InnerSource journey at OSCON North America in 2015. We didn’t claim to have all the answers, just a will to experiment and openly report on our findings as we went about our journey to adopt open source methodologies within PayPal to reduce engineering silos and increase cross-stack collaboration.
 

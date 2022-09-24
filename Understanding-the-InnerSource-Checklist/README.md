@@ -1,7 +1,17 @@
-# 詳解 InnerSource チェックリスト
+# 詳解 インナーソースチェックリスト(翻訳中)
 
-* [9章のチェックリスト日本語版(コミュニティ翻訳)](https://elinux.org/images/3/3d/Checklist.ja-9f733d2f6e9b.pdf)
+How to Launch Collaboration Within YourEnterprise
 
-## To Do
+![インナーソース入門][cover-image]
 
-* [ ] ライセンス関連の調査
+**原題:** [Getting Started with InnerSource](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)<br />
+**著者:** Silona Bonewald<br />
+**発行日:** <br />
+**発行元:** O’Reilly Media<br />
+**翻訳:** InnerSource Commons Japan
+
+## まえがき
+
+## 著者より日本語版に寄せて
+
+[cover-image]: https://innersourcecommons.org/images/learn/books/innersource-checklist-cover-thumb.jpg "詳解 インナーソースチェックリスト"

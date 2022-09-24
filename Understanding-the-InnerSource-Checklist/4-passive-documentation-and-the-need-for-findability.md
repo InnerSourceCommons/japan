@@ -1,5 +1,4 @@
-Chapter 4. Passive Documentation and the Need for Findability
-=============================================================
+# Passive Documentation and the Need for Findability
 
 TL;DR
 =====

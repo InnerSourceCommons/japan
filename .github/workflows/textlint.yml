@@ -2,11 +2,13 @@ name: TextLint
 
 on:
   push:
+    branches:
+      - "main"
     paths:
-      - '**/ja.md'
+      - "**/*.md"
   pull_request:
     paths:
-      - '**/ja.md'
+      - "**/*.md"
 jobs:
   run-textlint:
     runs-on: ubuntu-latest

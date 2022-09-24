@@ -1,5 +1,4 @@
-Chapter 2. What InnerSource Is and Isn’t
-========================================
+# What InnerSource Is and Isn’t
 
 TL;DR
 =====

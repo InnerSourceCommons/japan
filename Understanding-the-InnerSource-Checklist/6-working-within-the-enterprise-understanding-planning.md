@@ -1,5 +1,4 @@
-Chapter 6. Working Within the Enterprise: Understanding Planning
-================================================================
+# Working Within the Enterprise: Understanding Planning
 
 TL;DR
 =====

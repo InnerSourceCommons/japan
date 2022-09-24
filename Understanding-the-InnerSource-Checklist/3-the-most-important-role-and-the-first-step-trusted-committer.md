@@ -1,5 +1,4 @@
-Chapter 3. The Most Important Role, and the First Step: Trusted Committer
-=========================================================================
+# The Most Important Role, and the First Step: Trusted Committer
 
 TL;DR
 =====
