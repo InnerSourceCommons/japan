@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "main"
+      - "gitbook-generation"
 
 jobs:
   gitbook-generation:
