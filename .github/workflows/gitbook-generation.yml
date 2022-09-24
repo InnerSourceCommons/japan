@@ -16,7 +16,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
     - name: Copy .gitbook.yml to root
-      run: ${{ matrix.book }}/.gitbook.yaml .
+      run: cp ${{ matrix.book }}/.gitbook.yaml .
     - name: Commit updated files for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
