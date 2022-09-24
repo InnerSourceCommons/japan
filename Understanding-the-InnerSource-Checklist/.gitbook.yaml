@@ -1,3 +1,4 @@
 # In the deployment process, this file is copied to the root of the book
 # Root should be set to the relative path to the book from the root of the repo
 root: ./Understanding-the-InnerSource-Checklist/
+
