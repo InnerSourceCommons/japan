@@ -1,5 +1,5 @@
-name: Markdownlint
-
+name: Markdownlint for Dev
+# Including Understaning-the-InnerSource-Checklist/ in the markdownlint run
 on:
   push:
     branches:
