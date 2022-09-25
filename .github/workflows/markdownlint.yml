@@ -28,4 +28,4 @@ jobs:
       with:
         node-version: 12.x
     - name: Run Markdownlint
-      run: npm run markdownlint books
+      run: npm run markdownlint
