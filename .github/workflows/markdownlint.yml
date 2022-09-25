@@ -32,4 +32,4 @@ jobs:
         echo "::add-matcher::.github/workflows/markdownlint-problem-matcher.json"
         npm i -g markdownlint-cli
         # markdownlint "**/*.md"
-        markdownlint --ignore Understanding-the-InnerSource-Checklist/ .
+        markdownlint --ignore books/Understanding-the-InnerSource-Checklist/ .

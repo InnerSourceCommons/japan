@@ -22,9 +22,8 @@ jobs:
         github_token: ${{ github.token }}
         source: 'main'
         target: ${{ matrix.book }}
-    - run: ls -al ./${{ matrix.book }}/
     - name: Copy .gitbook.yml to root
-      run: cp ${{ matrix.book }}/.gitbook.yaml .
+      run: cp books/${{ matrix.book }}/.gitbook.yaml .
     - name: Commit updated files for the book
       uses: stefanzweifel/git-auto-commit-action@v4
       with:

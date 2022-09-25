@@ -21,5 +21,5 @@
 
 ## リソース
 
-* [GitHub](https://github.com/InnerSourceCommons/jp-contents/tree/main/Understanding-the-InnerSource-Checklist)
+* [GitHub](https://github.com/InnerSourceCommons/jp-contents/tree/main/books/Understanding-the-InnerSource-Checklist)
 * [InnerSource Commons](http://innersourcecommons.org)
