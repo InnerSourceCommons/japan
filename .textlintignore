@@ -1,0 +1,13 @@
+textlint/*
+
+TRANSLATION-POLICY.md
+CODE_OF_CONDUCT.md
+LICENSE.txt
+README.md
+
+books/Understanding-the-InnerSource-Checklist/*.md
+books/Adopting-InnerSource/*.md
+
+# Including Englihsh
+books/Getting-Started-with-InnerSource/README.md
+books/Getting-Started-with-InnerSource/afterword.md

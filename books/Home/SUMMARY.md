@@ -1,4 +1,4 @@
-# Summary​
+# Summary
 
 * [コンテンツ一覧](README.md)
 
