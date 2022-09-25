@@ -1,6 +1,6 @@
 # 詳解 インナーソースチェックリスト(翻訳中)
 
-How to Launch Collaboration Within YourEnterprise
+How to Launch Collaboration Within Your Enterprise
 
 ![インナーソース入門][cover-image]
 
