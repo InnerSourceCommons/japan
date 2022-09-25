@@ -28,8 +28,4 @@ jobs:
       with:
         node-version: 12.x
     - name: Run Markdownlint
-      run: |
-        echo "::add-matcher::.github/workflows/markdownlint-problem-matcher.json"
-        npm i -g markdownlint-cli
-        # markdownlint "**/*.md"
-        markdownlint --ignore books/Understanding-the-InnerSource-Checklist/ .
+      run: npm run markdownlint books
