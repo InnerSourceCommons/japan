@@ -1,4 +1,4 @@
-# Summary​
+# Summary
 
 * [インナーソース入門](README.md)
 

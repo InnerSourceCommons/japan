@@ -15,10 +15,11 @@
 
 ## Process for Adding new Trusted Committers
 
-私たちは相互の信頼に基づいた作業をしています。私たちの目標は、大きな変化に貢献した多くの人を、迅速かつ早期にトラステッドコミッターに追加することです。
+私たちは相互の信頼に基づいた作業をしています。
+私たちの目標は、コントリビュートした多くの人を、迅速かつ早期にトラステッドコミッターとして追加することです。
 
 トラステッドコミッターは既存のトラステッドコミッターのノミネーションによって任命されます。
-現在のノミネーションプロセスは InnerSource Patterns のプロセスを参考に実施されています。[こちら](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/TRUSTED-COMMITTERS.md) をご覧ください。
+現在のノミネーションプロセスはインナーソースパターンのプロセスを参考に実施されています。[こちら](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/TRUSTED-COMMITTERS.md) をご覧ください。
 
 1. 新しい TC はこのリポジトリへの書き込みアクセス権を得る
 1. 新しい TC をこのファイル (`TRUSTED-COMMITTERS.md`) に追加する。

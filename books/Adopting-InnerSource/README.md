@@ -1,5 +1,3 @@
-# Adopting InnerSource
+# To Do
 
-## To Do
-
-* [ ] ライセンス関連の調査
+- [ ] ライセンス関連の調査

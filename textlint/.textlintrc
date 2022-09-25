@@ -28,6 +28,13 @@
     }
   },
   "filters": {
-    "comments": true
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "InnerSource Commons", 
+        "InnerSourceCommons",
+        "Adopting InnerSource"
+      ]
+    }
   }
 }
