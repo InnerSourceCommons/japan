@@ -1,4 +1,4 @@
-name: Gitbook Generation
+name: Gitbook Branch Deploy
 
 on:
   push:
