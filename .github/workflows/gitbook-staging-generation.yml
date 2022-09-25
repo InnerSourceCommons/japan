@@ -1,4 +1,4 @@
-name: Gitbook Staging Generation
+name: Gitbook Staging Branch Deploy
 
 on:
   push:
