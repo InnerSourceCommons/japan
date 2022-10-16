@@ -76,18 +76,18 @@ We reserve the right to modify or supplement there terms.
 このプロジェクトはチームで、すなわち同じ目標を共有する複数人で進めます。
 チームメンバーは翻訳を担当する本書の構成要素を選び、分担します。
 
-| 構成要素 | 量(pages) | 翻訳メンバー(GitHub アカウント) |
+| 構成要素 | 量(pages) | 翻訳メンバー(GitHub / Slack name) |
 |----|----|----|
-| Forward | 1 | masskaneko |
-| 1. Why InnerSource | 6 |  |
+| Forward | 1 | masskaneko / Mass Kaneko |
+| 1. Why InnerSource | 6 | ystk / Yoshitake Kobayashi |
 | 2. What InnerSource Is and Isn't | 6 |  |
-| 3. The Most Important Role, and the First Step: Trusted Committer | 5 |  |
-| 4. Passive Documentation and the Need for Findability | 3 |  |
-| 5. Creating Good House Rules for Guests: Writing Contributing Agreements | 4 |  |
-| 6. Working Within the Enterprise: Understanding Planning | 6 |  |
+| 3. The Most Important Role, and the First Step: Trusted Committer | 5 | yuhattor / Yuki Hattori |
+| 4. Passive Documentation and the Need for Findability | 3 | bory-kb / Shoma Kubo |
+| 5. Creating Good House Rules for Guests: Writing Contributing Agreements | 4 | mura-mi / Takuya Murakami |
+| 6. Working Within the Enterprise: Understanding Planning | 6 | shrimp78 / Yoshiaki Kitamura |
 | 7. From Internal Silos to Internal Transparency | 6 |  |
 | 8. Looking Forward | 2 |  |
-| 9. Appendix | 9 |  |
+| 9. Appendix | 9 | hiromotai7 / HiroMotai |
 
 チームメンバーの募集は InnerSource Commons の Slack チャンネル `#jp-general, #jp-contents` で行います。
 これにより、新しいコントリビューター、継続的なコントリビューターが増えることを期待します。
@@ -112,7 +112,7 @@ Appendix については [InnerSource Commons によるものではない日本�
 
 本プロジェクトでは、[本リポジトリ共通の翻訳ポリシー](TRANSLATION-POLICY.md)に従います。一読ください。
 
-最初から DeepL や Google Translator といった機械翻訳を用い、その結果をもとに訳文を作成するプロセスはお止めください。
+最初から DeepL や Google Translator といった機械翻訳を用い、その結果をもとに訳文を作成する方法はお止めください。
 これらのツールでは概ね自然に感じられる訳文が得られますが、そうでないこともあります。
 自然に感じられる訳文であっても、意味が誤っていることもあります。
 特に本書のような専門書では顕著です。
