@@ -1,12 +1,12 @@
 # Appendix
 
-The Actual Checklist
-====================
+## The Actual Checklist
 
-It’s easy to feel overwhelmed with the task of starting an InnerSource project, much less taking your organization through the transition to a true InnerSource or open source company. PayPal has drawn a checklist from its own experiences and the experiences of colleagues in other companies making the transition. We present it here to help organize and focus what you need to do. Certainly, following the checklist slavishly will not produce success. Every organization needs to undertake investigations, discussions, and cultural change in order to benefit from InnerSource. But keeping this checklist in front of you can help reassure you that you’re making progress.
+<!-- It’s easy to feel overwhelmed with the task of starting an InnerSource project, much less taking your organization through the transition to a true InnerSource or open source company. PayPal has drawn a checklist from its own experiences and the experiences of colleagues in other companies making the transition. We present it here to help organize and focus what you need to do. Certainly, following the checklist slavishly will not produce success. Every organization needs to undertake investigations, discussions, and cultural change in order to benefit from InnerSource. But keeping this checklist in front of you can help reassure you that you’re making progress. -->
 
-This report was inspired by both the GNU Manifesto and Checklist Manifesto. We hope to inspire you to take at least a small step toward InnerSource and creating your own checklist and sharing it with us. The Apache Way was an important inspiration for the team, and you will spot similarities in this list.
+<!-- This report was inspired by both the GNU Manifesto and Checklist Manifesto. We hope to inspire you to take at least a small step toward InnerSource and creating your own checklist and sharing it with us. The Apache Way was an important inspiration for the team, and you will spot similarities in this list. -->
 
+<!-- 
 * Readiness
   * Personal
     * Do you believe this is a viable strategy for your company, or are you just doing it out of ideological commitment and idealism?
@@ -187,4 +187,5 @@ This report was inspired by both the GNU Manifesto and Checklist Manifesto. We h
       * Time
     * Who sees measurements? Display to the community?
   * Bug fixing
-* Product owners
+* Product owners 
+-->
