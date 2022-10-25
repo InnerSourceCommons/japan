@@ -1,6 +1,6 @@
-# Creating Good House Rules for Guests: Writing Contributing Agreements
+# 来客に良いハウスルールを作る: コントリビューションの合意事項を書く
 
-**TL;DR**
+**概要**
 
 <!--
 * Trusted Committers (TCs) are responsible for writing contributing agreements to explain house rules to contributors (e.g., code conventions and dependencies). Contributing agreements are living documents.
