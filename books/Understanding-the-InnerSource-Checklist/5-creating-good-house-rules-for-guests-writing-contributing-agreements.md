@@ -1,6 +1,11 @@
-# 来客に良いハウスルールを作る: コントリビューションの合意事項を書く
+# 来客に良いハウスルールを作る: コントリビューション・アグリーメントを書く
 
 **概要**
+
+* トラステッドコミッターには、コントリビューション・アグリーメントの記述を通じてコントリビューターにハウスルール<sup>1</sup>を説明する責任があります(例えば、コード規約や依存関係等)。コントリビューション・アグリーメントは生きたドキュメントです。
+* コントリビューターは「良き来客」となり、コントリビューションの前にアグリーメントや他の目につくドキュメントを読む必要があります。コントリビューターがアグリーメントに沿って整ったコントリビューションをするほど、それが受け入れられるようになります。
+* マネジメントはトラステッドコミッターがこれらのアグリーメントを作成することを支援する必要があります。
+* アグリーメントを標準化することは、トラステッドコミッターのオーナーシップが低下することにつながるので身長になる必要があります。複雑なアグリーメントはコントリビューションの妨げになるので、リスクの高いプロジェクトに限定されるべきです。
 
 <!--
 * Trusted Committers (TCs) are responsible for writing contributing agreements to explain house rules to contributors (e.g., code conventions and dependencies). Contributing agreements are living documents.
@@ -10,6 +15,9 @@
 -->
   
 <!-- TCs cannot be forced to accept and take ownership of broken code, code without proper tests, undocumented code, or even code that doesn’t meet their style standards. Contributing agreements are a way to formalize the responsibilities of the developers on the originating side of the code. -->
+
+- 訳注
+  - 1: 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指します。
 
 ## What Is a Contributing Agreement?
 
