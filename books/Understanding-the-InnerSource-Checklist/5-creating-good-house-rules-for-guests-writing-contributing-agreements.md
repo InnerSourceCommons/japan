@@ -13,6 +13,9 @@
 * Management needs to support the TCs on these agreements.
 * Be careful when standardizing agreements because this leads to less ownership by the TCs. Complex agreements can prevent contributions and should be reserved for high-risk projects.
 -->
+
+トラステッドコミッターは、壊れたコードや、適切にテストされていないコード、ドキュメントが書かれていないコード、彼らのコーディングスタイルから乖離したコードを受け入れ、オーナーシップを持たされることはできません。
+コントリビューション・アグリーメントは、それらの責務をコードを書いた開発者が担えるように形式化する方法なのです。
   
 <!-- TCs cannot be forced to accept and take ownership of broken code, code without proper tests, undocumented code, or even code that doesn’t meet their style standards. Contributing agreements are a way to formalize the responsibilities of the developers on the originating side of the code. -->
 
