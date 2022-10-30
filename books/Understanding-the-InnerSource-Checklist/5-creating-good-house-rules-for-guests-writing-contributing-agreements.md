@@ -22,9 +22,32 @@
 - 訳注
   - 1: 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指します。
 
-## What Is a Contributing Agreement?
+## コントリビューション・アグリーメントとは何か
+
+トラステッドコミッターは、_コントリビューション・アグリーメント_ を記述して所有します。
+コントリビューション・アグリーメントがあることでハウスルールは明確になり、コードによるコントリビューションをトラステッドコミッターが受け入れるために必要なことをコントリビューターに知らせることができます。
+コントリビューション・アグリーメントは開発に携わるすべての人の目に触れられるものです。
+アグリーメントには、トラステッドコミッターの名前や連絡先、スケジュールが記載されていなければなりません。
+それ以外の内容はトラステッドコミッター次第ですが、以下の点が書かれていると良いでしょう。
 
 <!-- The TCs write and own their _contributing agreements_. A contributing agreement is a device that specifies the house rules to let contributors know what is required in order for the TC to accept a code contribution. Contributing agreements are viewable by everyone in development. They must have the TCs’ names, contact information, and schedule. After that, the content is up to the TC. It will likely include some of the following: -->
+
+* トラステッドコミッターの専門領域
+* コミュニティ・ガイドライン
+* コーディング規約
+* テスト記述の規約
+* ブランチ作成の規約
+* コミットメッセージの規約
+* 良いプルリクエストを作成する方法
+* 機能リクエストの提出方法
+* 不具合報告の提出方法
+* セキュリティ上の問題の報告方法
+* ドキュメントの書き方
+* 完了の定義
+* 依存関係
+* ビルドプロセスの流れ
+* スプリントの流れ
+* ロードマップ
 
 <!--
 * The authoring TC’s specialties
@@ -44,6 +67,8 @@
 * Sprint schedule
 * Road map
 -->
+
+トラステッドコミッターは、プロジェクトを保護するためにこれらのアグリーメントを利用できるようにしておくことが重要です。トラステッドコミッターは、もし他のチームによるコントリビューションが指定に従っていない場合、コントリビューション・アグリーメントを参照しつつ、なぜコントリビューションが拒否されているかを説明できる必要があります。そうすることは、社内政治や、より広範に渡る問題を最小化することに大いに役立ちます。
 
 <!-- It is very important for the TCs to be able to invoke these agreements for protection. If another team’s code contribution does not meet the receiving TC’s specifications, the TC needs to be able to point to the contributing agreement to explain exactly why the code is being rejected. This helps immensely to minimize corporate politics and escalation issues. -->
 
