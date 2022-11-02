@@ -28,7 +28,7 @@ PayPal がインナーソースを採用するまでの過程には企業とし�
 この書籍は無償であり、クリエイティブ・コモンズ・ライセンス(CC BY)で提供されています。
 [原本 (PDF形式3.3 MB)](https://innersourcecommons.org/learn/books/getting-started-with-innersource/)も同じく CC BY ライセンスで提供されており、誰でもダウンロードすることができます。
 
-[cover-image]: https://innersourcecommons.org/images/learn/books/getting-started-with-innersource-cover-thumb.jpg "インナーソース入門"
+[cover-image]: ./getting-started-with-innersource.webp "インナーソース入門"
 
 ## 著者より日本語版に寄せて
 
@@ -48,3 +48,7 @@ A business culture so oriented toward collaboration and personal respect can thr
 Learning the InnerSource way of working also helps programmers and companies appreciate the value of open source software, which has always been a key goal of the promoters of InnerSource.
 
 Andy Oram, author and editor, https://www.praxagora.com/
+
+## License
+
+本書は O'Reilly Media, Inc. より正式に翻訳許可を受け、[CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) のライセンスのもと公開されています。
