@@ -72,13 +72,27 @@
 
 <!-- It is very important for the TCs to be able to invoke these agreements for protection. If another team’s code contribution does not meet the receiving TC’s specifications, the TC needs to be able to point to the contributing agreement to explain exactly why the code is being rejected. This helps immensely to minimize corporate politics and escalation issues. -->
 
-## Mi Casa Es Su Casa
+## 私の家は君の家<sup>1</sup>
+
+コントリビューション協定は、コントリビューターの期待値を管理するためにも重要な役割を果たします。
+私たちは、宿泊客にとってのハウスルールを比喩として使います。
+全員が同じ道徳規範に従っているとみなすのではなく、宿主が宿泊客に自らの期待値を伝えれば物事はスムーズに進みます。
+壊れやすいものがたくさんあり、整理整頓されたキッチンで普段から過ごす人と、程よい生活感のある部屋や猫の引っかき傷のある家具に囲まれて生活している人とでは、異なるハウスルールを持つことになるでしょう。
 
 <!-- The contributing agreements are also crucial in managing a contributor’s expectations. The metaphor we use is that of house rules for guests. Everything goes more smoothly if hosts communicate their expectations to their guests, instead of assuming that everyone has the same standards. Someone with a nice house with many breakable things and a very organized kitchen will have different house rules from a person who lives in a comfortable mess with cat-scratched furniture. -->
 
+そして宿主は、電子レンジと食器洗浄機を同時に動かそうとするとブレーカーが必ず落ちてしまうといったような、家の中にある予測のしづらい構造については客に注意を促さねばなりません。
+コントリビューション協定はコードに関するハウスルールや落とし穴を一覧化して配置するのに理想的な場所です。
+そうすることで、それは明確に書かれたハウスルールのように、客が損害を被ったり、誤解をしたり、嫌な感情を覚えたりすることを未然に防ぎます。
+
 <!-- And hosts should warn guests about quirks in their house, like a circuit breaker that trips if someone tries to run the microwave and the dishwasher at the same time. The contributing agreement is the perfect place to list the house rules and pitfalls of your codebase. And, like clearly explained house rules, it can prevent damage, misunderstandings, and hurt feelings. -->
 
+ここまでの比喩は、コントリビューターの取るべき行動にも当てはまります。善良な宿泊客は提示されたハウスルールに従いますし、当然のことながらルールにかかれていないことでも率先して整理整頓をするでしょう。つまり、目についた不具合を回収したり、リファクタリングを施すこともあります。そして _素晴らしい_ 宿泊客はボトルワインを持ってきてくれることもあるでしょう。素晴らしいコードベースの「お客さん」は、新しい機能の開発にコントリビューションしてくれたり、誰もが待ち望んでいた修正をしてくれるかもしれません。
+
 <!-- The metaphor extends to contributor behavior. Good guests follow the house rules, of course, but they also tidy up; that is, they help fix bugs or refactor code. And a _great_ guest brings a bottle of wine! A great codebase guest might contribute a feature or fix that everyone likes and wants. -->
+
+- 訳注:
+  - 1: 原文では "Mi casa Es Su Casa" と記載されています。これは直訳すると「私の家はあなたの家」ですが、転じて「気楽にしてね」という意味で使われます。
 
 ## Win/Win
 
