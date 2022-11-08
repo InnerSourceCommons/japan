@@ -68,7 +68,9 @@
 * Road map
 -->
 
-トラステッドコミッターは、プロジェクトを保護するためにこれらのアグリーメントを利用できるようにしておくことが重要です。トラステッドコミッターは、もし他のチームによるコントリビューションが指定に従っていない場合、コントリビューション協定を参照しつつ、なぜコントリビューションが拒否されているかを説明できる必要があります。そうすることは、社内政治や、より広範に渡る問題を最小化することに大いに役立ちます。
+トラステッドコミッターは、プロジェクトを保護するためにこれらのアグリーメントを利用できるようにしておくことが重要です。
+トラステッドコミッターは、もし他のチームによるコントリビューションが指定に従っていない場合、コントリビューション協定を参照しつつ、なぜコントリビューションが拒否されているかを説明できる必要があります。
+そうすることは、社内政治や、より広範に渡る問題を最小化することに大いに役立ちます。
 
 <!-- It is very important for the TCs to be able to invoke these agreements for protection. If another team’s code contribution does not meet the receiving TC’s specifications, the TC needs to be able to point to the contributing agreement to explain exactly why the code is being rejected. This helps immensely to minimize corporate politics and escalation issues. -->
 
