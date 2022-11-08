@@ -20,7 +20,7 @@
 <!-- TCs cannot be forced to accept and take ownership of broken code, code without proper tests, undocumented code, or even code that doesn’t meet their style standards. Contributing agreements are a way to formalize the responsibilities of the developers on the originating side of the code. -->
 
 - 訳注
-  - 1: 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指します。
+  - 1: 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指しますが、この章では宿泊施設を比喩として持ち出し、プロジェクトのオーナーを宿主、コントリビューターを宿泊客、ハウスルールを宿泊規約と例えています。
 
 ## コントリビューション協定とは何か
 
