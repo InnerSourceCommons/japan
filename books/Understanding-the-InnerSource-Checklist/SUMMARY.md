@@ -1,4 +1,4 @@
-# Summary​
+# Summary
 
 * [詳解 インナーソースチェックリスト](README.md)
 
