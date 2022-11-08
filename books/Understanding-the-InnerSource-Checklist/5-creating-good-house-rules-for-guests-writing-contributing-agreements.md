@@ -89,7 +89,11 @@
 
 <!-- And hosts should warn guests about quirks in their house, like a circuit breaker that trips if someone tries to run the microwave and the dishwasher at the same time. The contributing agreement is the perfect place to list the house rules and pitfalls of your codebase. And, like clearly explained house rules, it can prevent damage, misunderstandings, and hurt feelings. -->
 
-ここまでの比喩は、コントリビューターの取るべき行動にも当てはまります。善良な宿泊客は提示されたハウスルールに従いますし、当然のことながらルールにかかれていないことでも率先して整理整頓をするでしょう。つまり、目についた不具合を回収したり、リファクタリングを施すこともあります。そして _素晴らしい_ 宿泊客はボトルワインを持ってきてくれることもあるでしょう。素晴らしいコードベースの「お客さん」は、新しい機能の開発にコントリビューションしてくれたり、誰もが待ち望んでいた修正をしてくれるかもしれません。
+ここまでの比喩は、コントリビューターの取るべき行動にも当てはまります。
+善良な宿泊客は提示されたハウスルールに従いますし、当然のことながらルールにかかれていないことでも率先して整理整頓をするでしょう。
+つまり、目についた不具合を回収したり、リファクタリングを施すこともあります。
+そして _素晴らしい_ 宿泊客はボトルワインを持ってきてくれることもあるでしょう。
+素晴らしいコードベースの「お客さん」は、新しい機能の開発にコントリビューションしてくれたり、誰もが待ち望んでいた修正をしてくれるかもしれません。
 
 <!-- The metaphor extends to contributor behavior. Good guests follow the house rules, of course, but they also tidy up; that is, they help fix bugs or refactor code. And a _great_ guest brings a bottle of wine! A great codebase guest might contribute a feature or fix that everyone likes and wants. -->
 
