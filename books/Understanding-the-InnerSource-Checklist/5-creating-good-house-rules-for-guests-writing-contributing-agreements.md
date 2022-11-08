@@ -124,7 +124,7 @@ Linuxカーネルは、非常に厳しいコード提出のガイドラインや
 <!-- This diversity is very similar to the variety of projects in an enterprise. We all have certain core projects that could topple the business if they fail, and these projects require strict contributing agreements. But we also have tools that we would like to standardize, and this is a much lower-risk activity. The toolset teams should have the flexibility to have simpler contributing agreements to lure people into collaborating. Often, these less-risky codebases can be safe places for contributors to learn how to participate in InnerSource projects. -->
 
 コントリビューションの作成では、安全性と参加しやすさのバランスが問われます。
-短く簡単な協定はコントリビューションを歓迎していて、コントリビューションの過程で助言や支援をする意思があることを示すことになるでしょう。
+短く簡単な協定は、コントリビューションが歓迎されていて、その過程でトラステッドコミッターたちが助言や支援をする意思があることを示すことになるでしょう。
 長く、より複雑な協定はプロジェクトの難しさやリスクを伝え、そしてコードが受け入れいられるまでにコントリビューターはいくつかの関門をくぐり抜ける必要があるという事実を告げることになります。
 
 <!-- Creating the contributing agreements is a balance between safety and participation. A short, easy agreement indicates that you welcome contributions and are willing to mentor people through the process of contributing. A longer, more complex agreement can convey difficulty, risk, and the fact that contributors need to pass several goals before their code will be accepted. -->
