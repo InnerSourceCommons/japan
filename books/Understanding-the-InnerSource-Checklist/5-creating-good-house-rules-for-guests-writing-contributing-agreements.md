@@ -78,7 +78,7 @@
 
 コントリビューション協定は、コントリビューターの期待値を管理するためにも重要な役割を果たします。
 私たちは、宿泊客にとってのハウスルールを比喩として使います。
-全員が同じ道徳規範に従っているとみなすのではなく、宿主が宿泊客に自らの期待値を伝えれば物事はスムーズに進みます。
+全員が同じ道徳規範に従っていると思い込むのではなく、宿主が宿泊客に自らの期待値を伝えれば物事はスムーズに進みます。
 壊れやすいものがたくさんあり、整理整頓されたキッチンで普段から過ごす人と、程よい生活感のある部屋や猫の引っかき傷のある家具に囲まれて生活している人とでは、異なるハウスルールを持つことになるでしょう。
 
 <!-- The contributing agreements are also crucial in managing a contributor’s expectations. The metaphor we use is that of house rules for guests. Everything goes more smoothly if hosts communicate their expectations to their guests, instead of assuming that everyone has the same standards. Someone with a nice house with many breakable things and a very organized kitchen will have different house rules from a person who lives in a comfortable mess with cat-scratched furniture. -->
