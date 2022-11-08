@@ -102,7 +102,7 @@
 
 ## ウィン-ウィン
 
-多くのコントリビューターは、自分の行動や成果物がコントリビューション協定により従えば従うほど、それがより早く受け入れられコミットされると気づくでしょう。
+多くのコントリビューターは、自分の行動や成果物がコントリビューション協定により従うほど、それがより早く受け入れられコミットされると気づくでしょう。
 また、より寛大なコントリビューション協定を見れば、変更を提案したり提出することのリスクはより低いとわかるでしょう。
 
 <!-- Most contributors quickly realize that the more closely their submissions adhere to the contributing agreements, the faster those submissions are accepted and committed. Also, contributors know that when they see a more permissive agreement, there is less risk in submitting changes. -->
