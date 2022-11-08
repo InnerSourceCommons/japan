@@ -119,7 +119,7 @@ Linuxカーネルは、非常に厳しいコード提出のガイドラインや
 このような多様性が存在することは、ひとつの企業の中でいろいろなプロジェクトがあることと似ています。どんな企業でも、失敗すれば会社が傾いてしまうことが避けられない中核のプロジェクトがあり、そのプロジェクトには厳密なコントリビューション協定が求められます。
 一方で標準化することが望まれるツールも存在し、これは比較するとかなりリスクの低い活動だと言えます。
 そのツールを開発しているチームはよりシンプルなコントリビューション協定を敷き、人々がコントリビュートしてくれるように誘い出す柔軟さをもつべきでしょう。
-しばしば、このようなリスクの低いコードベースはコントリビューターがインナーソースプロジェクトに参加する方法を学ぶのに安全な場所となるでしょう。
+時に、このようなリスクの低いコードベースはコントリビューターがインナーソースプロジェクトに参加する方法を学ぶのに安全な場所となるでしょう。
 
 <!-- This diversity is very similar to the variety of projects in an enterprise. We all have certain core projects that could topple the business if they fail, and these projects require strict contributing agreements. But we also have tools that we would like to standardize, and this is a much lower-risk activity. The toolset teams should have the flexibility to have simpler contributing agreements to lure people into collaborating. Often, these less-risky codebases can be safe places for contributors to learn how to participate in InnerSource projects. -->
 
