@@ -92,7 +92,7 @@
 ここまでの比喩は、コントリビューターの取るべき行動にも当てはまります。
 善良な宿泊客は提示されたハウスルールに従いますし、当然のことながらルールにかかれていないことでも率先して整理整頓をするでしょう。
 つまり、目についた不具合を回収したり、リファクタリングを施すこともあります。
-そして _素晴らしい_ 宿泊客はボトルワインを持ってきてくれることもあるでしょう。
+そして _素晴らしい_ 宿泊客はボトルワインを持ってきてくれることさえあるでしょう。
 素晴らしいコードベースの「お客さん」は、新しい機能の開発にコントリビューションしてくれたり、誰もが待ち望んでいた修正をしてくれるかもしれません。
 
 <!-- The metaphor extends to contributor behavior. Good guests follow the house rules, of course, but they also tidy up; that is, they help fix bugs or refactor code. And a _great_ guest brings a bottle of wine! A great codebase guest might contribute a feature or fix that everyone likes and wants. -->
