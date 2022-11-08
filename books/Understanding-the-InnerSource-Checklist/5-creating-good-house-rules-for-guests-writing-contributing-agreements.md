@@ -83,7 +83,7 @@
 
 <!-- The contributing agreements are also crucial in managing a contributor’s expectations. The metaphor we use is that of house rules for guests. Everything goes more smoothly if hosts communicate their expectations to their guests, instead of assuming that everyone has the same standards. Someone with a nice house with many breakable things and a very organized kitchen will have different house rules from a person who lives in a comfortable mess with cat-scratched furniture. -->
 
-そして宿主は、電子レンジと食器洗浄機を同時に動かそうとするとブレーカーが必ず落ちてしまうといったような、家の中にある予測のしづらい構造については客に注意を促さねばなりません。
+そして宿主は、電子レンジと食器洗浄機を同時に動かそうとするとブレーカーが必ず落ちてしまうといったような、家の中にある予測のしづらい構造については予め客に注意を促さねばなりません。
 コントリビューション協定はコードに関するハウスルールや落とし穴を一覧化して配置するのに理想的な場所です。
 そうすることで、それは明確に書かれたハウスルールのように、客が損害を被ったり、誤解をしたり、嫌な感情を覚えたりすることを未然に防ぎます。
 
