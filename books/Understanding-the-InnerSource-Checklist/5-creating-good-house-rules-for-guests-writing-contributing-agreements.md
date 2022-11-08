@@ -132,10 +132,10 @@ Linuxカーネルは、非常に厳しいコード提出のガイドラインや
 会社全体で標準化を進めて1つのコントリビューション協定を標準化しようと試みたことのある企業も存在します。
 これは大企業が無意識に取る行動としてはいたって自然なものです。
 しかし、私たちはこういった企業の取組には反対してきました。
-なぜなら、会社全体に適用させる協定はトラステッドコミッターからオーナーシップを取り上げることになり、それは彼らの同意を得ることが負担になるからです。
-それは、これまで述べてきたような柔軟性を失うことにも繋がります。
+なぜなら、会社全体に適用させる協定はトラステッドコミッターからオーナーシップを取り上げることになり、企業にとっても彼らの同意を得ることが負担になるからです。
+また、これまで述べてきたような柔軟性を失うことに繋がってしまうのももうひとつの理由です。
 代わりに、トラステッドコミッターのための出発地点として、様々なリスク水準や複雑さに適応できるコントリビューション協定の雛形を作成します([「コントリビューション協定とは何か?」](#コントリビューション協定とは何か) にあるリストなどを記載します)。
-また、私たちは、振り返りの後や、新しいトラステッドコミッターが加入したタイミングなどに、コントリビューション協定を読み返し必要な更新を加えるよう、トラステッドコミッターたちに依頼しています。
+加えて、私たちは、振り返りの後や、新しいトラステッドコミッターが加入したタイミングなどに、コントリビューション協定を読み返し必要な更新を加えるよう、トラステッドコミッターたちに依頼しています。
 コントリビューション協定は生きたドキュメントであり続けることが不可欠なのです。
 
 <!-- Some groups have tried to standardize one contributing agreement across the entire company. This is a pretty natural reflex for large enterprises. But we have fought against this because a company-wide agreement takes ownership away from the TCs, costing the company their buy-in, and eliminates the flexibility just outlined. Instead, we create templates as a starting place for TCs (such as the list in [“What Is a Contributing Agreement?”](#what-is-a-contributing-agreement)), adjusted for various levels of risk and complexity. We also ask that TCs revisit and update their contributing agreements after a retrospective or when new TCs are assigned to the codebase. It is vital that contributing agreements remain living documents. -->
