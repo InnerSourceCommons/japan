@@ -21,7 +21,7 @@ jobs:
         node-version: '16'
         cache: npm
     - name: Install Dependent Module
-      run: npm install
+      run: npm ci
 
     - name: Run TextLint
       run: npm run textlint "**/*.md"

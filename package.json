@@ -1,7 +1,7 @@
 {
   "scripts": {
     "textlint": "npx textlint -c ./textlint/.textlintrc",
-    "markdownlint": "markdownlint --ignore books/Understanding-the-InnerSource-Checklist/ ./books"
+    "markdownlint": "markdownlint ./books"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.32.2",
