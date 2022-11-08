@@ -94,16 +94,42 @@
 - 訳注:
   - 1: 原文では "Mi casa Es Su Casa" と記載されています。これは直訳すると「私の家はあなたの家」ですが、転じて「気楽にしてね」という意味で使われます。
 
-## Win/Win
+## ウィン-ウィン
+
+多くのコントリビューターは、自分の行動や成果物がコントリビューション協定により従えば従うほど、それがより早く受け入れられコミットされると気づくでしょう。
+また、より寛大なコントリビューション協定を見れば、変更を提案したり提出することのリスクはより低いとわかるでしょう。
 
 <!-- Most contributors quickly realize that the more closely their submissions adhere to the contributing agreements, the faster those submissions are accepted and committed. Also, contributors know that when they see a more permissive agreement, there is less risk in submitting changes. -->
 
-## One Size Fits All?
+## 1つの解決策ですべてのサイズにフィットするか？
+
+オープンソースの世界では、団体が異なればコントリビューションする際のルールも異なります。
+違いのほとんどはリスクに関することです。
+Linuxカーネルは、非常に厳しいコード提出のガイドラインや、単純なコントリビューション協定よりも遥かにプロセスを敷いています。
+一方で、Node.js のモジュール開発は非常に寛大であり、プロジェクトに関わる人々には自分の作業が誰かの試みの重複になっていないかを検索を通じて確認するように求めている程度にとどまっています。
 
 <!-- In the open source world, different groups have different rules for contributions. Most of the differences are risk related. The Linux kernel has very strict submittal guidelines and processes that go far beyond a simple contributing agreement. On the other hand, agreements for Node.js modules are very permissive; they mostly ask that people do a search to ensure that they aren’t duplicating someone else’s effort. -->
 
+このような多様性が存在することは、ひとつの企業の中でいろいろなプロジェクトがあることと似ています。どんな企業でも、失敗すれば会社が傾いてしまうことが避けられない中核のプロジェクトがあり、そのプロジェクトには厳密なコントリビューション協定が求められます。
+一方で標準化することが望まれるツールも存在し、これは比較するとかなりリスクの低い活動だと言えます。
+そのツールを開発しているチームはよりシンプルなコントリビューション協定を敷き、人々がコントリビュートしてくれるように誘い出す柔軟さをもつべきでしょう。
+しばしば、このようなリスクの低いコードベースはコントリビューターがインナーソースプロジェクトに参加する方法を学ぶのに安全な場所となるでしょう。
+
 <!-- This diversity is very similar to the variety of projects in an enterprise. We all have certain core projects that could topple the business if they fail, and these projects require strict contributing agreements. But we also have tools that we would like to standardize, and this is a much lower-risk activity. The toolset teams should have the flexibility to have simpler contributing agreements to lure people into collaborating. Often, these less-risky codebases can be safe places for contributors to learn how to participate in InnerSource projects. -->
 
+コントリビューションの作成では、安全性と参加しやすさのバランスが問われます。
+短く簡単な協定はコントリビューションを歓迎していて、コントリビューションの過程で助言や支援をする意思があることを示すことになるでしょう。
+長く、より複雑な協定はプロジェクトの難しさやリスクを伝え、そしてコードが受け入れいられるまでにコントリビューターはいくつかの関門をくぐり抜ける必要があるという事実を告げることになります。
+
 <!-- Creating the contributing agreements is a balance between safety and participation. A short, easy agreement indicates that you welcome contributions and are willing to mentor people through the process of contributing. A longer, more complex agreement can convey difficulty, risk, and the fact that contributors need to pass several goals before their code will be accepted. -->
+
+会社全体で標準化を進めて1つのコントリビューション協定を標準化しようと試みたことなる企業もあります。
+これは大企業が無意識に取る行動としてはいたって自然なものです。
+しかし、私たちはこの取組には反対してきました。
+なぜなら、会社全体での協定はトラステッドコミッターからオーナーシップを取り上げることになり、それは彼らの同意を得ることが負担になるからです。
+それは、これまで述べてきたような柔軟性を失うことにも繋がります。
+代わりに、トラステッドコミッターのための出発地点として、様々なリスク水準や複雑さに適応できるコントリビューション協定の雛形を作成します。([「コントリビューション協定とは何か?」](#コントリビューション協定とは何か) にあるリストなどを記載します。)
+また、私たちは、振り返りの後や、新しいトラステッドコミッターが加入したタイミングなどに、コントリビューション協定を読み返し必要な更新を加えるよう、トラステッドコミッターたちに依頼しています。
+コントリビューション協定は生きたドキュメントであり続けることが不可欠なのです。
 
 <!-- Some groups have tried to standardize one contributing agreement across the entire company. This is a pretty natural reflex for large enterprises. But we have fought against this because a company-wide agreement takes ownership away from the TCs, costing the company their buy-in, and eliminates the flexibility just outlined. Instead, we create templates as a starting place for TCs (such as the list in [“What Is a Contributing Agreement?”](#what-is-a-contributing-agreement)), adjusted for various levels of risk and complexity. We also ask that TCs revisit and update their contributing agreements after a retrospective or when new TCs are assigned to the codebase. It is vital that contributing agreements remain living documents. -->
