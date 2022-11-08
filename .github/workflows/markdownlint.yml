@@ -29,6 +29,6 @@ jobs:
         node-version: '16'
         cache: npm
     - name: Install Dependent Module
-      run: npm install
+      run: npm ci
     - name: Run Markdownlint
       run: npm run markdownlint
