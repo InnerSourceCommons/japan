@@ -110,7 +110,10 @@ And, yes, some serious change management techniques are proposed here.
 この本に書かれていることを実践したことで起こる小さな変化が、より大きな文化の変化へと繋がることを体験していただきたいと考えています。
 そのために大切なマネージメント技術の変更がここで提案されています。
 
+<!-- 
 ## Our Audience
+-->
+## 対象読者
 
 <!--
 We strive to include something for everyone in this book.
@@ -119,6 +122,11 @@ Product owners and product specialists can make large gains through reuse, colla
 Planners will better understand how to manage the changes that InnerSource brings and will learn how helping teams negotiate the complexities of integration and collaboration can reduce tribal knowledge and technical debt.
 And, finally, upper management will find new ways to improve employee satisfaction and to integrate new business units and acquisitions.
 -->
+この本は、全ての読者がそれぞれの立場について学ぶことができるように書かれています。
+開発者は、コントリビュータや、コントリビューションされた内容を確認する _トラステッド・コミッター_ （この役割については後ほど説明します）が、どのようなものが学べます。
+プロダクトオーナーやプロダクトスペシャリストは、再利用やコラボレーション、インテグレーションを通して、大きな効果が得られます。
+プランナーは、 InnerSource の導入による変革をどのように管理するか理解することで、複雑なインテグレーションやコラボレーションを調停したり、属人的な知識や技術的な負債を減らせるようになります。
+そして最後に上位の管理者は、従業員満足度を向上したり、新しい事業ユニットや買収した企業を統合するための、新しい方法を発見することができます。
 
 ## What Does Open Source Have That I Don’t Have?
 
