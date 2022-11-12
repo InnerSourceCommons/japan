@@ -1,9 +1,14 @@
+<!-- 
+# Why InnerSource?
+-->
 # Why InnerSource?
 
 <!-- 
 A group of us in the open source community feel strongly that we can make work better by introducing and adopting open source principles and processes to larger enterprises.
 This includes attributes that benefit the company (faster development, better cross-team collaboration, more documentation) and an ethos that benefits the workers (mentoring processes, accountability, and a supportive community).
 -->
+私たちはオープンソースコミュニティのグループの一つとして、オープンソースの原則とプロセスを企業に取り込むことで、もっとうまく仕事ができるようになると強く感じています。
+この取り組みは、会社には開発スピードの向上やチーム間のコラボレーション向上、さらにはドキュメントの充実などの面で効果があります。また、従業員にはメンタリングや説明責任、コミュニティからの支援を通して職場の雰囲気が良くなるという効果があります。
 
 <!-- 
 It’s a big goal.
@@ -11,12 +16,21 @@ We started an organization called [InnerSource Commons](http://paypal.github.io/
 We talk often about perfection being the enemy of action.
 That’s one reason we focus on the smallest possible steps to effect change.
 -->
+これは大きなゴールです。
+私たちは、組織の中で情報やアイデアを共有する InnerSource という枠組みを広めるために、 [InnerSource Commons](http://paypal.github.io/InnerSourceCommons/) というコミュニティを立ち上げました。
+私たちは、まずは小さな変化を起こすことに焦点をあてています。
+なぜなら、完璧を求めることは行動の妨げにしかならないからです。
 
 <!--
 At the Commons, we also believe that when companies fundamentally understand many of the methods of open source, they can be confident and productive actors in the open source community.
-InnerSource is a way to bring them in while respecting their limits. InnerSource opens teams and departments within a company, but does not release proprietary information.
+InnerSource is a way to bring them in while respecting their limits.
+InnerSource opens teams and departments within a company, but does not release proprietary information.
 It has been shown to be effective at reducing silos, increasing cross-stack understanding, and even stimulating innovation.
 -->
+Commons は、企業がオープンソースの基本的な枠組み理解すれば、自信をもってオープンソースコミュニティで生産的な活動ができると確信しています。
+InnerSource は、誰もが各々の限界を尊重しつつ参加することができる仕組みです。
+InnerSource は、会社の中のチームや部門にオープンとはいえ、プロプライエタリな情報を公開するものではありません。
+むしろ、サイロを減らして組織間の相互理解を深め、イノベーションを加速するのに効果的なものです。
 
 <!--
 In good open source tradition, we are writing this book to share some of what we in the InnerSource community are doing to bring open source tools and methodologies to the enterprise environment.
@@ -24,16 +38,24 @@ At the end, we present a checklist that quickly lays out the tasks that differen
 It also lets you see how far your organization has come in implementing an InnerSource project.
 Our implementation of InnerSource adds common-sense steps as a recommended path, with a goal of “InnerSource-Ready” certification for groups completing the steps.
 -->
+どのようにオープンソースのツールや方法論を取り込んで、企業内に InnerSource コミュニティを立ち上げるか、その方法を共有するために、本書を執筆しています。
+末尾には、組織の中ですぐに使えるチェックリストを掲載しています。
+それによって、読者の組織がどの程度 InnerSource プロジェクトの実装に近づいているかを確認することができます。
+InnerSource の実装としては、推奨する一般的なステップを記載しており、そのステップを完了したグループが「 InnerSource-Ready 」な状態となることを目指しています。
 
 <!--
 The main point of this book is to find simple ways to encourage fundamental changes to typical corporate behavior.
 -->
+本書の目的は、典型的な企業活動の根本的な部分に変化を促す簡単な方法を見つけることにあります。
 
 <!--
 One of the great things about InnerSource is that it doesn’t need to begin—in fact, probably _should not_ begin—as a top-down mandate from headquarters.
 Just one team in one department can make a few small changes in the right places to see results.
 And, hopefully, other teams will be inspired enough to follow.
 -->
+InnerSource の優れた点の1つは、本社からのトップダウンの指示で開始する必要はないということです。また、開始すべきではありません。
+ある部門の1つのチームが、その効果を確認するのに良い場所で小さな変化を起こすことができるものです。
+そして願わくば、他のチームが刺激されて同じようにすることを期待しています。
 
 <!--
 Many InnerSource processes were born out of errors or problems.
@@ -41,15 +63,23 @@ In fact, one of our biggest strengths is our ability to learn from errors—thos
 Others will help us learn if we let them.
 That’s one reason we encourage transparency.
 -->
+多くの InnerSource のプロセスは、エラーや問題を解決することから始まっています。
+実際、私たちの最大の強みの1つは、自分や他人が犯した誤りから学んだ教訓を共有できることです。
+私たちが教訓を共有することで、別の機会に他の人たちが助けてくれます。
+これが透明性を奨励する理由の1つです。
 
 <!-- For example, people working on product integration often find it easier to send a series of private email exchanges or hold meetings among a fraction of the people planning the integration than to bring all stakeholders into the process.
 Requiring all of those involved to collaborate transparently has enormous payoffs,<sup><span id="annotation-1">1</span></sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
 -->
+例えば、製品のインテグレーション関わっている人たちは、一部の関係者だけでプライベートにメールをやり取りしたりミーティングをしたりする方が、すべてのステークホルダーを巻き込むよりも簡単だと感じています。
+関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup><span id="annotation-1">1</span></sup>には、自らが率先して情報を（見つけられる場所に）置き、他の人が学べるようにすることが必要です。
 
 <!--
 InnerSource is enabled by tools and processes, but it is also a change to the culture.
 The biggest change is allowing mistakes, talking about them, and learning from them.
 -->
+InnerSource は、ツールとプロセスがあれば実施できますが、文化の変化を起こすものでもあります。
+最も大きな変化は、ミスを許して議論し、そこから学ぶことにあります。
 
 <!--
 This book is a true exercise within this premise.
@@ -58,17 +88,27 @@ It will be posted on the [InnerSource Commons site](http://www.innersourcecommon
 We will print an official copy, of course.
 But because we strive to live in the “Pull Request Culture” we are creating, if you’re reading the hardcopy and see anything wrong or feel the need to add more to the conversation, please contribute your feedback online.
 -->
+この本は、こうした前提のもと、実際に経験したことを元にして書かれています。
+また、その経験から学んだことや解決方法を共有し、
+誰でもコメントをしたり、その情報を参考に人々が成長できるようにするために、InnerSource Commmons のサイトに全て公開しています。
+さらに、公式コピーの出版もしています。
+私たちは ”フルリクエストの文化” で活動するようにしているので、もしこのハードコピーを読んでいて間違いを見つけたり、議論を追加したりする必要があると感じたときには、いつでもオンラインでフィードバックしてください。
 
 <!--
 We understand that it can be difficult in a business environment to share feedback freely when _faux pas_ in brand management have financial repercussions.
 At the Commons, we work under _Chatham House Rules_ (see the section “[A Brief History of InnerSource](#a-brief-history-of-innersource)” later in this chapter) so that people can feel confident that nobody is reporting on their involvement until they are ready to go public.
 Likewise, with this book we have changed some names to protect the innocent, so to speak.
 -->
+ビジネス環境においては、自由にフィードバックを共有することがブランド価値を低下させ金銭的な影響を生じる可能性があることから、難しいこともあるでしょう。
+Commons は、チャタムハウス・ルール（この章の後ろにある “[InnerSource の歴史](#a-brief-history-of-innersource)”を参照）で活動しているので、明示的に公開を許可しない限り、誰もあなたの関与について触れません。
+実際、この本でも関わった人を守るために、何人かの名前を変更しています。
 
 <!--
 We hope that as we go on this journey, you will see how taking advantage of small changes can begin to make larger cultural change a reality.
 And, yes, some serious change management techniques are proposed here.
 -->
+この本に書かれていることを実践したことで起こる小さな変化が、より大きな文化の変化へと繋がることを体験していただきたいと考えています。
+そのために大切なマネージメント技術の変更がここで提案されています。
 
 ## Our Audience
 
