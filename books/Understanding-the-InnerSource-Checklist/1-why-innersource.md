@@ -128,14 +128,24 @@ And, finally, upper management will find new ways to improve employee satisfacti
 プランナーは、 InnerSource の導入による変革をどのように管理するか理解することで、複雑なインテグレーションやコラボレーションを調停したり、属人的な知識や技術的な負債を減らせるようになります。
 そして最後に上位の管理者は、従業員満足度を向上したり、新しい事業ユニットや買収した企業を統合するための、新しい方法を発見することができます。
 
+<!--
 ## What Does Open Source Have That I Don’t Have?
+-->
+## オープンソースにあって私にないものは何か？
 
-<!-- Briefly, open source has flexibility, synergy across groups because of transparency, a culture that fosters collaboration, and a combination of standardization and easy-to-find documentation that greatly improves the learning curve.
+<!--
+Briefly, open source has flexibility, synergy across groups because of transparency, a culture that fosters collaboration, and a combination of standardization and easy-to-find documentation that greatly improves the learning curve.
 Open source has developers that participate due to intrinsic motivations, an ethos of honoring mentors, and a view of contributions as a gift, not a burden.
 Transparency and widespread contributions lead to software that better meets the needs of the users.
 -->
+端的に言うと、オープンソースには柔軟性があり、透過性に基づくグループ間の相乗効果があり、コラボレーションを推奨するカルチャーがあり、そして標準化され簡単に見つけられるドキュメントを用いることで学習曲線を大幅に改善しているという特徴があります。
+オープンソースには、メンターに対する敬意を持ち、コントリビューションを負担と考えずにギフトと考えて自発的に参加する開発者がいます。
+透明性や広範なコントリビューションで、より多くのユーザのニーズが満たされるようになっています。
 
+<!--
 ## Open Source Today
+-->
+## 今日のオープンソース
 
 <!--
 Open source software has “won.” Every _Fortune 500_ company uses or works on some kind of open source project.
