@@ -7,7 +7,7 @@
 A group of us in the open source community feel strongly that we can make work better by introducing and adopting open source principles and processes to larger enterprises.
 This includes attributes that benefit the company (faster development, better cross-team collaboration, more documentation) and an ethos that benefits the workers (mentoring processes, accountability, and a supportive community).
 -->
-私たちはオープンソースコミュニティのグループの一つとして、オープンソースの原則とプロセスを企業に取り込むことで、もっとうまく仕事ができるようになると強く感じています。
+私たちはオープンソースコミュニティのグループの1つとして、オープンソースの原則とプロセスを企業に取り込むことで、もっとうまく仕事ができるようになると強く感じています。
 この取り組みは、会社には開発スピードの向上やチーム間のコラボレーション向上、さらにはドキュメントの充実などの面で効果があります。また、従業員にはメンタリングや説明責任、コミュニティからの支援を通して職場の雰囲気が良くなるという効果があります。
 
 <!-- 
@@ -17,7 +17,7 @@ We talk often about perfection being the enemy of action.
 That’s one reason we focus on the smallest possible steps to effect change.
 -->
 これは大きなゴールです。
-私たちは、組織の中で情報やアイデアを共有する InnerSource という枠組みを広めるために、 [InnerSource Commons](http://paypal.github.io/InnerSourceCommons/) というコミュニティを立ち上げました。
+私たちは、組織の中で情報やアイデアを共有するインナーソースという枠組みを広めるために、 [InnerSource Commons](http://paypal.github.io/InnerSourceCommons/) というコミュニティを立ち上げました。
 私たちは、まずは小さな変化を起こすことに焦点をあてています。
 なぜなら、完璧を求めることは行動の妨げにしかならないからです。
 
@@ -28,8 +28,8 @@ InnerSource opens teams and departments within a company, but does not release p
 It has been shown to be effective at reducing silos, increasing cross-stack understanding, and even stimulating innovation.
 -->
 Commons は、企業がオープンソースの基本的な枠組み理解すれば、自信をもってオープンソースコミュニティで生産的な活動ができると確信しています。
-InnerSource は、誰もが各々の限界を尊重しつつ参加することができる仕組みです。
-InnerSource は、会社の中のチームや部門にオープンとはいえ、プロプライエタリな情報を公開するものではありません。
+インナーソースは、誰もが各々の限界を尊重しつつ参加できる仕組みです。
+インナーソースは、会社の中のチームや部門にオープンとはいえ、プロプライエタリな情報を公開するものではありません。
 むしろ、サイロを減らして組織間の相互理解を深め、イノベーションを加速するのに効果的なものです。
 
 <!--
@@ -38,10 +38,10 @@ At the end, we present a checklist that quickly lays out the tasks that differen
 It also lets you see how far your organization has come in implementing an InnerSource project.
 Our implementation of InnerSource adds common-sense steps as a recommended path, with a goal of “InnerSource-Ready” certification for groups completing the steps.
 -->
-どのようにオープンソースのツールや方法論を取り込んで、企業内に InnerSource コミュニティを立ち上げるか、その方法を共有するために、本書を執筆しています。
+どのようにオープンソースのツールや方法論を取り込んで、企業内にインナーソースコミュニティを立ち上げるか、その方法を共有するために、本書を執筆しています。
 末尾には、組織の中ですぐに使えるチェックリストを掲載しています。
-それによって、読者の組織がどの程度 InnerSource プロジェクトの実装に近づいているかを確認することができます。
-InnerSource の実装としては、推奨する一般的なステップを記載しており、そのステップを完了したグループが「 InnerSource-Ready 」な状態となることを目指しています。
+そのチェックリストを使えば、読者の組織がどの程度インナーソースプロジェクトの実装に近づいているかを確認できます。
+インナーソースの実装としては、推奨する一般的なステップを記載しており、そのステップを完了したグループが「 InnerSource-Ready 」な状態となることを目指しています。
 
 <!--
 The main point of this book is to find simple ways to encourage fundamental changes to typical corporate behavior.
@@ -53,7 +53,7 @@ One of the great things about InnerSource is that it doesn’t need to begin—i
 Just one team in one department can make a few small changes in the right places to see results.
 And, hopefully, other teams will be inspired enough to follow.
 -->
-InnerSource の優れた点の1つは、本社からのトップダウンの指示で開始する必要はないということです。また、開始すべきではありません。
+インナーソースの優れた点の1つは、本社からのトップダウンの指示で開始する必要はないということです。また、開始すべきではありません。
 ある部門の1つのチームが、その効果を確認するのに良い場所で小さな変化を起こすことができるものです。
 そして願わくば、他のチームが刺激されて同じようにすることを期待しています。
 
@@ -63,7 +63,7 @@ In fact, one of our biggest strengths is our ability to learn from errors—thos
 Others will help us learn if we let them.
 That’s one reason we encourage transparency.
 -->
-多くの InnerSource のプロセスは、エラーや問題を解決することから始まっています。
+多くのインナーソースのプロセスは、エラーや問題を解決することから始まっています。
 実際、私たちの最大の強みの1つは、自分や他人が犯した誤りから学んだ教訓を共有できることです。
 私たちが教訓を共有することで、別の機会に他の人たちが助けてくれます。
 これが透明性を奨励する理由の1つです。
@@ -72,13 +72,13 @@ That’s one reason we encourage transparency.
 Requiring all of those involved to collaborate transparently has enormous payoffs,<sup><span id="annotation-1">1</span></sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
 -->
 例えば、製品のインテグレーション関わっている人たちは、一部の関係者だけでプライベートにメールをやり取りしたりミーティングをしたりする方が、すべてのステークホルダーを巻き込むよりも簡単だと感じています。
-関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup><span id="annotation-1">1</span></sup>には、自らが率先して情報を（見つけられる場所に）置き、他の人が学べるようにすることが必要です。
+関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup><span id="annotation-1">1</span></sup>には、自らが率先して情報を(見つけられる場所に)置き、他の人が学べるようにすることが必要です。
 
 <!--
 InnerSource is enabled by tools and processes, but it is also a change to the culture.
 The biggest change is allowing mistakes, talking about them, and learning from them.
 -->
-InnerSource は、ツールとプロセスがあれば実施できますが、文化の変化を起こすものでもあります。
+インナーソースは、ツールとプロセスがあれば実施できますが、文化の変化を起こすものでもあります。
 最も大きな変化は、ミスを許して議論し、そこから学ぶことにあります。
 
 <!--
@@ -90,7 +90,7 @@ But because we strive to live in the “Pull Request Culture” we are creating,
 -->
 この本は、こうした前提のもと、実際に経験したことを元にして書かれています。
 また、その経験から学んだことや解決方法を共有し、
-誰でもコメントをしたり、その情報を参考に人々が成長できるようにするために、InnerSource Commmons のサイトに全て公開しています。
+誰でもコメントをしたり、その情報を参考に人々が成長できるように、 InnerSource Commmons のサイトに全て公開しています。
 さらに、公式コピーの出版もしています。
 私たちは ”フルリクエストの文化” で活動するようにしているので、もしこのハードコピーを読んでいて間違いを見つけたり、議論を追加したりする必要があると感じたときには、いつでもオンラインでフィードバックしてください。
 
@@ -100,7 +100,7 @@ At the Commons, we work under _Chatham House Rules_ (see the section “[A Brief
 Likewise, with this book we have changed some names to protect the innocent, so to speak.
 -->
 ビジネス環境においては、自由にフィードバックを共有することがブランド価値を低下させ金銭的な影響を生じる可能性があることから、難しいこともあるでしょう。
-Commons は、チャタムハウス・ルール（この章の後ろにある “[InnerSource の歴史](#a-brief-history-of-innersource)”を参照）で活動しているので、明示的に公開を許可しない限り、誰もあなたの関与について触れません。
+Commons は、チャタムハウス・ルール(この章の後ろにある “[インナーソースの歴史](#a-brief-history-of-innersource)”を参照)で活動しているので、明示的に公開を許可しない限り、誰もあなたの関与について触れません。
 実際、この本でも関わった人を守るために、何人かの名前を変更しています。
 
 <!--
@@ -123,10 +123,10 @@ Planners will better understand how to manage the changes that InnerSource bring
 And, finally, upper management will find new ways to improve employee satisfaction and to integrate new business units and acquisitions.
 -->
 この本は、全ての読者がそれぞれの立場について学ぶことができるように書かれています。
-開発者は、コントリビュータや、コントリビューションされた内容を確認する _トラステッド・コミッター_ （この役割については後ほど説明します）が、どのようなものが学べます。
+開発者は、コントリビュータや、コントリビューションされた内容を確認する _トラステッド・コミッター_ (この役割については後ほど説明します)が、どのようなものが学べます。
 プロダクトオーナーやプロダクトスペシャリストは、再利用やコラボレーション、インテグレーションを通して、大きな効果が得られます。
-プランナーは、 InnerSource の導入による変革をどのように管理するか理解することで、複雑なインテグレーションやコラボレーションを調停したり、属人的な知識や技術的な負債を減らせるようになります。
-そして最後に上位の管理者は、従業員満足度を向上したり、新しい事業ユニットや買収した企業を統合するための、新しい方法を発見することができます。
+プランナーは、インナーソースの導入による変革をどのように管理するか理解することで、複雑なインテグレーションやコラボレーションを調停したり、属人的な知識や技術的な負債を減らせるようになります。
+そして最後に上位の管理者は、従業員満足度を向上したり、新しい事業ユニットや買収した企業を統合するための、新しい方法を発見できます。
 
 <!--
 ## What Does Open Source Have That I Don’t Have?
