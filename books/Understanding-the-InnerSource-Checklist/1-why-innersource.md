@@ -1,7 +1,7 @@
 <!-- 
 # Why InnerSource?
 -->
-# Why InnerSource?
+# なぜインナーソースなのか
 
 <!-- 
 A group of us in the open source community feel strongly that we can make work better by introducing and adopting open source principles and processes to larger enterprises.
@@ -41,7 +41,7 @@ Our implementation of InnerSource adds common-sense steps as a recommended path,
 どのようにオープンソースのツールや方法論を取り込んで、企業内にインナーソースコミュニティを立ち上げるか、その方法を共有するために、本書を執筆しています。
 末尾には、組織の中ですぐに使えるチェックリストを掲載しています。
 そのチェックリストを使えば、読者の組織がどの程度インナーソースプロジェクトの実装に近づいているかを確認できます。
-インナーソースの実装としては、推奨する一般的なステップを記載しており、そのステップを完了したグループが「 InnerSource-Ready 」な状態となることを目指しています。
+インナーソースの実装としては、推奨する一般的なステップを記載しており、そのステップを完了したグループが「インナーソースの準備ができている」状態となることを目指しています。
 
 <!--
 The main point of this book is to find simple ways to encourage fundamental changes to typical corporate behavior.
@@ -90,7 +90,7 @@ But because we strive to live in the “Pull Request Culture” we are creating,
 -->
 この本は、こうした前提のもと、実際に経験したことを元にして書かれています。
 また、その経験から学んだことや解決方法を共有し、
-誰でもコメントをしたり、その情報を参考に人々が成長できるように、 InnerSource Commmons のサイトに全て公開しています。
+誰でもコメントをしたり、その情報を参考に人々が成長できるように、 InnerSource Commons のサイトに全て公開しています。
 さらに、公式コピーの出版もしています。
 私たちは ”フルリクエストの文化” で活動するようにしているので、もしこのハードコピーを読んでいて間違いを見つけたり、議論を追加したりする必要があると感じたときには、いつでもオンラインでフィードバックしてください。
 
@@ -131,7 +131,7 @@ And, finally, upper management will find new ways to improve employee satisfacti
 <!--
 ## What Does Open Source Have That I Don’t Have?
 -->
-## オープンソースにあって私にないものは何か？
+## オープンソースにあって私にないものは何か
 
 <!--
 Briefly, open source has flexibility, synergy across groups because of transparency, a culture that fosters collaboration, and a combination of standardization and easy-to-find documentation that greatly improves the learning curve.
