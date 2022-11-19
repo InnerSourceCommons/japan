@@ -153,7 +153,10 @@ Sonatype, a major player in the open source community, conducted a survey in 201
 One major advantage of open source software is that it has consistently shown a lower defect density than the industry average.<sup>[3](#annotation-3)</sup>
 -->
 
+<!--
 ## Open Source’s Future in the Commercial World: InnerSource
+-->
+## Open Source’s Future in the Commercial World: インナーソース
 
 <!--
 But how do the strengths of open source help _within_ a company? Realistically, most companies cannot be strictly open source, because regulatory and commercial requirements forbid them from sharing their source code.
@@ -182,7 +185,10 @@ This minimizes disruption and gives people a chance to see how effective it is b
 In fact, just a single team in one department can effectively adopt InnerSource.
 -->
 
+<!--
 ## A Brief History of InnerSource
+-->
+## A Brief History of インナーソース
 
 <!-- Deciding to apply open source methodologies on an enterprise level is neither new nor unique.
 Many people have worked on similar projects for almost as long as open source has existed.
