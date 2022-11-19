@@ -185,6 +185,7 @@ This minimizes disruption and gives people a chance to see how effective it is b
 In fact, just a single team in one department can effectively adopt InnerSource.
 -->
 
+<span id="a-brief-history-of-innersource"></spun>
 <!--
 ## A Brief History of InnerSource
 -->
