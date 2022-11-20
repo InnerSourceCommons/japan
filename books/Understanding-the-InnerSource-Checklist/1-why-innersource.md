@@ -273,3 +273,11 @@ But we’ve made it easy to skim the  _why_ s: Each chapter begins with a TL;DR 
 <sup><span id="annotation-3">3</span></sup> In Coverity’s annual static code analysis reports, most recently, the [“Coverity Scan Report”](http://bit.ly/2o3g7O6).
 <sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.
 -->
+
+<sup><span id="annotation-1">1</span></sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
+
+<sup><span id="annotation-2">2</span></sup> Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
+
+<sup><span id="annotation-3">3</span></sup> In Coverity’s annual static code analysis reports, most recently, the [“Coverity Scan Report”](http://bit.ly/2o3g7O6).
+
+<sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.
