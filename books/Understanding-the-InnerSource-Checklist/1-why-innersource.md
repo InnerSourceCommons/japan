@@ -72,7 +72,7 @@ That’s one reason we encourage transparency.
 Requiring all of those involved to collaborate transparently has enormous payoffs,<sup><span id="annotation-1">1</span></sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
 -->
 例えば、製品のインテグレーション関わっている人たちは、一部の関係者だけでプライベートにメールをやり取りしたりミーティングをしたりする方が、すべてのステークホルダーを巻き込むよりも簡単だと感じています。
-関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup><span id="annotation-1">1</span></sup>には、自らが率先して情報を(見つけられる場所に)置き、他の人が学べるようにすることが必要です。
+関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup>[1](#annotation-1)</sup>には、自らが率先して情報を(見つけられる場所に)置き、他の人が学べるようにすることが必要です。
 
 <!--
 InnerSource is enabled by tools and processes, but it is also a change to the culture.
@@ -152,22 +152,32 @@ Open source software has “won.” Every _Fortune 500_ company uses or works on
 Sonatype, a major player in the open source community, conducted a survey in 2014 of large enterprises and found that “more than 90 percent of a typical application is now open source components.”<sup><span id="annotation-2">2</span></sup>
 One major advantage of open source software is that it has consistently shown a lower defect density than the industry average.<sup>[3](#annotation-3)</sup>
 -->
+オープンソース・ソフトウェアは、「勝利した」と言われています。
+Fortune500に掲載されている会社は、何らかのオープンソースプロジェクトを利用したり、そこで活動したりしています。
+オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました。<sup>[2](#annotation-2)</sup>
+オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります。<sup>[3](#annotation-3)</sup>
 
 <!--
 ## Open Source’s Future in the Commercial World: InnerSource
 -->
-## Open Source’s Future in the Commercial World: インナーソース
+## 産業界におけるオープンソースの将来：インナーソース
 
 <!--
 But how do the strengths of open source help _within_ a company? Realistically, most companies cannot be strictly open source, because regulatory and commercial requirements forbid them from sharing their source code.
 This is where InnerSource comes in.
 InnerSource is a method of applying lessons learned in the open source software movement to companies that are developing software internally.
 -->
+しかし、 _企業内_ でオープンソースの力はどのように役に立つのでしょうか。
+現実的には、ほとんどの企業が、規制や契約上ソースコード共有が禁止されているなどの理由で、オープンソースの力を活かすことができていません。
+ここでインナーソースの出番となります。
+インナーソースは、オープンソース・ソフトウェアの活動から学ぶことを、企業内のソフトウェア開発に活かす方法なのです。
 
 <!--
 InnerSource can help corporations become better actors in the open source community, while bringing the advantages of open source to the corporate world.
 Our most important goals are the following:
 -->
+インナーソースはオープンソースの利点を企業文化に取り入れることで、企業がオープンソースコミュニティでより良い活動者となるのに役立ちます。
+その重要なゴールには、次のものがあります。
 
 <!--
 * To help the enterprise learn how to improve collaboration
@@ -175,6 +185,10 @@ Our most important goals are the following:
 * To reduce bottlenecks
 * To facilitate integrations between teams
 -->
+* 企業内のコラボレーション改善方法を学ぶ
+* 企業内で洗練されたコードの作成を促進する
+* ボトルネックを減らす
+* チーム間連携を促進する
 
 <!--
 In most enterprises, it is difficult to make significant changes quickly.
@@ -184,8 +198,14 @@ InnerSource works by starting with the smallest steps possible to effect change,
 This minimizes disruption and gives people a chance to see how effective it is before making larger steps.
 In fact, just a single team in one department can effectively adopt InnerSource.
 -->
+大きな変革を素早く起こすことは、ほとんどの企業にとって大変困難なことです。
+急激な企業文化やプロセスを変更は、状況を改善させるのではなく、悪化させてしまうことがあります。
+これがトップからの強要で、関係者からの賛同が得られない場合はなおさらです。
+インナーソースの仕組みをうまく機能させるためには、効果測定しやすい小さな活動から始め、状況に応じて折り合いをつけながら柔軟に進めることが重要です。
+こうすることで、大きな変革を起こす前にインナーソースはどのような効果があるか関係者が理解でき、混乱を最小にできます。
+実際に、ある部門の１チームからインナーソースを始めるのが効果的です。
 
-<span id="a-brief-history-of-innersource"></spun>
+<span id="a-brief-history-of-innersource"></span>
 <!--
 ## A Brief History of InnerSource
 -->
