@@ -209,15 +209,22 @@ In fact, just a single team in one department can effectively adopt InnerSource.
 <!--
 ## A Brief History of InnerSource
 -->
-## A Brief History of インナーソース
+## インナーソースの歴史
 
-<!-- Deciding to apply open source methodologies on an enterprise level is neither new nor unique.
+<!-- 
+Deciding to apply open source methodologies on an enterprise level is neither new nor unique.
 Many people have worked on similar projects for almost as long as open source has existed.
 It is a natural decision because so many people enjoy working on open source projects and want to bring that ethos into their work environment.
 Many names have been used to describe this process of translating open source to the enterprise, from “internal open source,” “enterprise open source,” and “visual source” to “corporate open source,” but few have succeeded for long.
 The term we are using was coined by Tim O’Reilly more than 15 years ago.
 Originally, it was “Inner Source,” but we removed the space between the words so that the term is findable in a search.
 -->
+企業全体にオープンソースの方法論適用を決めることは、特に新しいことではありません。
+オープンソースが提唱されて以降、多くの人々が同様の方法を用いてプロジェクトに取り組んできました。
+オープンソースプロジェクトに関わる人の多くは、その方法論を職場に適用したいと考えるため、こうした決定がされることは自然な流れです。
+「社内オープンソース」、「エンタープライズオープンソース」、「視覚源」、「コーポレートオープンソース」など様々な名前を用いてオープンソースの方法論を企業に適用するための説明が行われてきましたが、今まで成功した人はほとんどいません。
+現在用いているインナーソース(InnerSource)という用語は、15年以上前に Tim O’Reilly が提案したものです。
+提案当初は「 Inner Source 」としていましたが、単語間のスペースを削除して用語検索しやすくしました。
 
 <!-- 
 InnerSource as a movement or method began with a conversation among a group of us in the open source community who were independently working to bring the open source ethos to the commercial world.
@@ -225,10 +232,15 @@ We created a consortium in true open source fashion[4](/chapter-1#fn05) to creat
 This way, open source leaders are able to maintain the ethos and culture of the true meaning of InnerSource, even in the sometimes-difficult enterprise environment.
 One key element of this process has been our fervent adoption of _Chatham House Rule_:
 -->
+インナーソースの方法論を広める活動は、それぞれの企業で個別にオープンソースの開発方法を社内適用する活動をしてきた人たちが、オープンソースコミュニティで知り合い会話を始めたことから始まりました。
+そして、オープンソースの開発スタイル[4](/chapter-1#fn05)を取り入れたオープンなコンソーシアムを設立して、インナーソースの定義や標準の作成し、その維持に取り組んでいます。
+こうすることで、オープンソースのリーダー達は、時に困難が想定される企業内でもインナーソース本来の考え方や文化を維持できます。
+この活動の重要なポイントの1つは、_チャタムハウスルール (Chatham House Rule)_ を厳格に適用していることです。
 
 <!-- 
 > When a meeting, or part thereof, is held under the [Chatham House Rule](https://www.chathamhouse.org/about/chatham-house-rule), participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.
 -->
+> 会議の一部や全体が[チャタムハウスルール](https://www.chathamhouse.org/about/chatham-house-rule)で行われる場合、参加者はその会議における発言者を含む参加者全員の身元や所属を明かさないというルールに従う限り、その会議で得た情報を自由に利用できます。
 
 <!--
 The simplicity of the Chatham House Rule embodies what we are working toward with InnerSource.
@@ -237,12 +249,20 @@ Transparency in a commercial environment has been a huge hurdle.
 This rule addresses commercial enterprises’ fear of collaboration with potential competitors and allows us to be more open with one another about what we are trying to do.
 It allows us to admit our failures and to share information and complaints with our peers so that we can work together as a group to quickly solve our problems.
 -->
+チャタムハウスルールのようなシンプルなルールを作ることは、インナーソースの活動にも活かされています。
+誰もが守れる簡単なルールを作成することで、変革の効果を最大にできます。
+しかし、商慣習がある中での透明性の確保は大きなハードルでした。
+透明性を確保するというルールは、たとえ競合相手であってもオープンにコラボレーションする方が、より大きな効果を得られる場合があるということを認識するためのものでもあります。
+グループとして協力し合う中で、互いに失敗を認めて情報や不満を共有することで、問題をより素早く解決できるようになります。
 
 <!--
 The Chatham House Rules are a compromise that open source did not need to make to survive, but that has been crucial to InnerSource’s creation and growth.
 It is pleasingly symbolic that we are using this tool of transparency and openness—along with a crucial dose of privacy—to create our new definition of InnerSource.
 It perfectly illustrates the dichotomy we are balancing.
 -->
+本来、チャタムハウスのルールはオープンソースに必要ないものですが、インナーソースの活動開始と発展には重要なものでした。
+インナーソースの定義や標準の作成に関わる人のプライバシーを尊重しつつ透明性やオープン性を確保することは、この活動の特徴と言えます。
+今でも、プライバシーと透明性の両立という二律背反な状況のバランスを取りながら活動しています。
 
 ## What Lies Behind Open Source Practices
 
