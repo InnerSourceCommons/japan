@@ -154,8 +154,8 @@ One major advantage of open source software is that it has consistently shown a 
 -->
 オープンソース・ソフトウェアは、「勝利した」と言われています。
 Fortune500に掲載されている会社は、何らかのオープンソースプロジェクトを利用したり、そこで活動したりしています。
-オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました。<sup>[2](#annotation-2)</sup>
-オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります。<sup>[3](#annotation-3)</sup>
+オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました<sup>[2](#annotation-2)</sup>。
+オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります<sup>[3](#annotation-3)</sup>。
 
 <!--
 ## Open Source’s Future in the Commercial World: InnerSource
@@ -264,7 +264,10 @@ It perfectly illustrates the dichotomy we are balancing.
 インナーソースの定義や標準の作成に関わる人のプライバシーを尊重しつつ透明性やオープン性を確保することは、この活動の特徴と言えます。
 今でも、プライバシーと透明性の両立という二律背反な状況のバランスを取りながら活動しています。
 
+<!--
 ## What Lies Behind Open Source Practices
+-->
+## オープンソースの方法論の裏にあるもの
 
 <!--
 A long tradition of jokes and humorous stories show children or unsophisticated people acting out things that they’ve seen other people do—for instance, building a nonfunctional plane from bamboo in a [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult)—without knowing why.
@@ -272,6 +275,10 @@ The humor springs from the absurdity of actions taken out of the original contex
 Unfortunately, too many practices adopted by businesses from open source projects fail for the same lack of understanding.
 What makes it even more difficult to adopt open source practices intelligently is that many open source practitioners talk about them enthusiastically without understanding why they worked in the open source setting.
 -->
+ジョークやユーモアには長い伝統があり、(例えば[カーゴ・カルト](https://en.wikipedia.org/wiki/Cargo_cult)で竹を使ってハリボテの飛行機を作るのは何故かという事と同様に)それをよく理解していない子供ですら見様見真似していることがあります。
+しかし、ユーモアという言葉には相手を単に笑わせるだけでなく、相手への配慮をもって傷つけずに笑わせるという側面もあり、相手の理解はとても重要です。
+残念ながら企業がオープンソースの方法論採用で失敗する原因の多くは、この方法論の本質の理解不足にあります。
+なぜオープンソースが成功するか、その本質を理解せずに実践について語るだけではオープンソースの方法論を上手に採用できません。
 
 <!-- 
 Most business documents stress _how_ to do things, but not  _why_ .
@@ -281,11 +288,21 @@ We put the checklist for starting InnerSource at the end of the report because w
 Bringing InnerSource to enterprises is a complex undertaking, and what we did might not work for everyone else.
 We prefer to explain why we decided we need a new rule and  _why_  a process works for us so that you can create your process—your own _how_—to fit your needs.
 -->
+ほとんどのビジネスドキュメントは、「_なぜ_」それが必要かという事より、「_どのように_」それを行うかを強調しています。
+ビジネス環境は、往々にしてプロセスを決めるより早く変化します。
+本書は、「_なぜ_」に着目して書かれており、新しいプラクティスの成功可能性を高める適切な環境作りに配慮しています。
+本書の末尾にインナーソースを開始するためのチェックリストを掲載しています。これを見れば、なぜそのようなプロセスをとったのか、その背景や関係者との関わりついて学ぶことができます。
+インナーソースを企業に取り入れることは一筋縄ではいかず、この本の事例を真似しても全ての人がうまく行くとは限りません。
+_なぜ_ 新しいルールやプロセスが必要で、それが有効かを学ぶことで、個々のニーズにあったプロセス、つまりは「自分の _やり方_ 」を見つけてください。
 
 <!--
 Of course, you can skip to the checklist in this book or at this [book’s website](http://paypal.github.io/InnerSourceCommons/) if you’re eager to move on.
-But we’ve made it easy to skim the  _why_ s: Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a problem we found, the smallest possible step to move toward a solution, and why that solution works.
+But we’ve made it easy to skim the  _why_ s:
+Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a problem we found, the smallest possible step to move toward a solution, and why that solution works.
 -->
+もちろん、早く先に進みたければ、この本のチェックリストや[ウェブサイト](http://paypal.github.io/InnerSourceCommons/)はスキップできます。
+しかし、「_なぜ_」を簡単に理解できる工夫が各所にあります。
+各章の最初には、TL;DR(Too Long, Didn't Read：長すぎる人のための要約) があり、問題とその解決のための最小のステップ、さらにはその解決策が有効な理由を解説しています。
 
 <!--
 <sup><span id="annotation-1">1</span></sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
@@ -294,10 +311,10 @@ But we’ve made it easy to skim the  _why_ s: Each chapter begins with a TL;DR 
 <sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.
 -->
 
-<sup><span id="annotation-1">1</span></sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
+<sup><span id="annotation-1">1</span></sup> [6章](/chapter-6#working_within_the_enterprise_understand)に詳細があります。
 
 <sup><span id="annotation-2">2</span></sup> Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
 
-<sup><span id="annotation-3">3</span></sup> In Coverity’s annual static code analysis reports, most recently, the [“Coverity Scan Report”](http://bit.ly/2o3g7O6).
+<sup><span id="annotation-3">3</span></sup> Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](http://bit.ly/2o3g7O6) 。
 
-<sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.
+<sup><span id="annotation-4">4</span></sup> 具体的には Apache Software Foundation のスタイルを指します。
