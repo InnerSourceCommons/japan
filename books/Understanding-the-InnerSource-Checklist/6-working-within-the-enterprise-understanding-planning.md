@@ -12,21 +12,32 @@
 もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。トップダウンによるマネージメントは複雑で、うまく機能する事はありません。オープンな共創こそスケールするのです。
   
 <!-- The biggest difference between InnerSource and open source is the business structure and its constraints. Working within an enterprise means a constant pull of hierarchy and power structures that are often contrary to the basic ethos of transparency and individual agency that is key to open source. Yet, open source has much to offer the business world. So how do we adapt to the business environment without diluting the fundamental aspects of open source? -->
-InnerSourceとオープンソースの最大の違いは、企業における組織構造や制約に起因します。
+インナーソースとオープンソースの最大の違いは、企業における組織構造や制約に起因します。
 企業の中では往々にして組織階層や権力が存在しますが、これらは透明性と個人の主体性を重んじるオープンソースの文化に反してしまいます。
 一方で、ビジネスの世界ではオープンソースから学べる事が多々ある事も事実です。
 では、どのように我々はオープンソースの基本的な文化を薄めることなく、企業内に応用していけばよいのでしょうか？
 
 
-## Keep It Small and Simple, and Engage Your Staff
+## 小さく簡素にしつつ、メンバーを巻き込む
 
 <!-- Our biggest successes have resulted from finding and using a key point of leverage within the existing structures in the enterprise. We review current processes and find places to modify them in small ways to move incrementally toward InnerSource. We work with the business environment’s desire to work with _how_ s and not _why_ s, and simply tell them explicitly how to modify processes to improve outcomes, without going into lectures about transparency and ownership. It is best to make the changes as simple as possible, both to encourage adaptability and to avoid triggering the resistance large organizations can have to change. -->
+私たちの最大の成功は、企業内に既に存在する組織の中でキーとなる力を発見し活かす事で得られました。
+現状のプロセスを見直し、それらをインナーソースに向けて小さく修正していくための方法を見つけるのです。
+私たちは、透明性や所有権について議論することなく、「なぜ」ではなく「どのように」を考えながらビジネス環境の要望に応えつつ、結果を改善するための明確な手段をシンプルに相手に伝えています。
+適応性を増し、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
 
 <!-- For example, our written process for creating contributor agreements is very small and simple with few requirements: the agreements are owned by the Trusted Committers (TCs), they are viewable by other teams, and they contain the TCs’ contact information and availability. Other than the contact information and schedule, we do not dictate the content of the agreements at all. Of course, we do encourage and expect them to contain much more information! And problems with a guest contributor become the ideal learning experience to trigger additions or changes to the contributing agreement. It’s kind of like when you stay at someone’s house, and the host has a rule of no loud music after 2 a.m.; you know that someone before you must have played loud music at 2 a.m. -->
+例えば、私たちのコントリビューション協定をい作製するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能でありトラステッドコミッターの連絡先や予定が書かれています。
+トラステッドコミッターの連絡先と予定以外には何も強要していません。
+もちろん、他の情報も多く記載される事は推奨していますし期待しています!
+ゲストコントリビューターがこの問題に取り組む事は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
+これは、誰かの家に泊まった時その家の家主が深夜2時以降は音楽を大音量で流してはいけないというルールを持っているというような事です。
 
 <!-- A crucial part of the TC process is that the employee who will be most affected by the change is given more power (and more responsibility) to manage that change. -->
+トラステッドコミッターのプロセスで重要なのは、何か変更を行う従業員がその変更を行う上でより多くの力や責任を持つという事にあります。
 
 <!-- These simple requirements, plus the rule that TCs are completely in charge of accepting or rejecting code changes, are relatively small and unalarming changes to the InnerSource process. But look at the results: -->
+これらのシンプルな要求事項に加え、トラステッドコミッターがコードの変更を受け入れるか拒否するかのルールというのは、比較的小さいもので、インナーソースプロセスに対してあまり警戒されません。しかし結果を見てください。
 
 <!--
 * The TCs have a huge incentive to fully participate in the new process.
@@ -36,8 +47,15 @@ InnerSourceとオープンソースの最大の違いは、企業における組
 * As more code changes come in, the TCs do more mentoring, which creates more documentation.
 * The TCs become more deeply familiar with their codebase and its external impact.
 -->
+* トラステッドコミッターには、新しいプロセスを創るという大きなインセンティブがあります
+* 協定に連絡先が掲載されていれば、すぐによいコミュニケーションとドキュメンテーションが始まります
+* 協定に明確な期待があれば、更に良いコラボレーションへつながります
+* コードの変更は、更に迅速なポジティブフィードバックループへつながります
+* より多くのコード変更を行い、トラステッドコミッターがより多くのメンタリングを行う事は、より多くのドキュメント作成をもたらします
+* トラステッドコミッターは自分達のコードと外部への影響について更に深く理解する事になります
   
 <!-- The minimal requirements allow the teams to adapt the process to their own needs—a major tenet of open source—and lead to the InnerSource goals of better collaboration, fewer bottlenecks, better integration, and, almost certainly, cleaner code. -->
+必要最低限の要求は、チームが独自に求めているプロセス (オープンソースの信念) に適応する事を可能にし、よりよいコラボレーションというインナーソースのゴールへ導き、ボトルネックを減らし、良いインテグレーションを増やし、ほぼ確実にコードはクリーンな状態となります。
 
 ## Planning and Product Specialists
 
