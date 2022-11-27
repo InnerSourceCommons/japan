@@ -13,7 +13,7 @@
 
 ## [インナーソース入門](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
 
-[<img src="./getting-started-with-innersource-cover-thumb.jpg" style="float:left" />](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
+[<img src="./getting-started-with-innersource-cover-thumb.png" style="float:left" />](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
 
 インナーソースの世界へようこそ。
 インナーソースは、閉じた組織におけるオープンソースソフトウェアを開発するための原動力であり、プロジェクトの "オープン性" を企業内のチームを超えて広げるものです。
