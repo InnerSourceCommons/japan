@@ -17,21 +17,20 @@
 一方で、ビジネスの世界ではオープンソースから学べる事が多々ある事も事実です。
 では、どのように我々はオープンソースの基本的な文化を薄めることなく、企業内に応用していけばよいのでしょうか？
 
-
-## 小さく簡素にしつつ、メンバーを巻き込む
+## 小さく、シンプルでありながらメンバーを巻き込む
 
 <!-- Our biggest successes have resulted from finding and using a key point of leverage within the existing structures in the enterprise. We review current processes and find places to modify them in small ways to move incrementally toward InnerSource. We work with the business environment’s desire to work with _how_ s and not _why_ s, and simply tell them explicitly how to modify processes to improve outcomes, without going into lectures about transparency and ownership. It is best to make the changes as simple as possible, both to encourage adaptability and to avoid triggering the resistance large organizations can have to change. -->
-私たちの最大の成功は、企業内に既に存在する組織の中でキーとなる力を発見し活かす事で得られました。
+私たちの最大の成功は、企業組織の中に既において既に存在している鍵となるような力を発見し、それをどう活用するかにありました。
 現状のプロセスを見直し、それらをインナーソースに向けて小さく修正していくための方法を見つけるのです。
-私たちは、透明性や所有権について議論することなく、「なぜ」ではなく「どのように」を考えながらビジネス環境の要望に応えつつ、結果を改善するための明確な手段をシンプルに相手に伝えています。
-適応性を増し、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
+私たちは透明性や所有権について議論することなく、 _なぜ_ ではなく _どのように_ を考えながらビジネス環境の要望に応え、結果を改善するための明確な手段をシンプルに相手に伝えています。
+適応性を増やし、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
 
 <!-- For example, our written process for creating contributor agreements is very small and simple with few requirements: the agreements are owned by the Trusted Committers (TCs), they are viewable by other teams, and they contain the TCs’ contact information and availability. Other than the contact information and schedule, we do not dictate the content of the agreements at all. Of course, we do encourage and expect them to contain much more information! And problems with a guest contributor become the ideal learning experience to trigger additions or changes to the contributing agreement. It’s kind of like when you stay at someone’s house, and the host has a rule of no loud music after 2 a.m.; you know that someone before you must have played loud music at 2 a.m. -->
 例えば、私たちのコントリビューション協定をい作製するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能でありトラステッドコミッターの連絡先や予定が書かれています。
-トラステッドコミッターの連絡先と予定以外には何も強要していません。
+むしろ、トラステッドコミッターの連絡先と予定以外には何も強要していません。
 もちろん、他の情報も多く記載される事は推奨していますし期待しています!
 ゲストコントリビューターがこの問題に取り組む事は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
-これは、誰かの家に泊まった時その家の家主が深夜2時以降は音楽を大音量で流してはいけないというルールを持っているというような事です。
+これは誰かの家に泊まった時、その家の家主が深夜2時以降は音楽を大音量で流してはいけない、というルールがあるのと同程度です。
 
 <!-- A crucial part of the TC process is that the employee who will be most affected by the change is given more power (and more responsibility) to manage that change. -->
 トラステッドコミッターのプロセスで重要なのは、何か変更を行う従業員がその変更を行う上でより多くの力や責任を持つという事にあります。
@@ -49,19 +48,22 @@
 -->
 * トラステッドコミッターには、新しいプロセスを創るという大きなインセンティブがあります
 * 協定に連絡先が掲載されていれば、すぐによいコミュニケーションとドキュメンテーションが始まります
-* 協定に明確な期待があれば、更に良いコラボレーションへつながります
+* 明確に期待している事が協定に書かれていれば、更に良いコラボレーションへつながります
 * コードの変更は、更に迅速なポジティブフィードバックループへつながります
-* より多くのコード変更を行い、トラステッドコミッターがより多くのメンタリングを行う事は、より多くのドキュメント作成をもたらします
+* 多くのコード変更を行い、トラステッドコミッターがより多くのメンタリングを行う事は、結果として多くのドキュメンテーションにつながります
 * トラステッドコミッターは自分達のコードと外部への影響について更に深く理解する事になります
   
 <!-- The minimal requirements allow the teams to adapt the process to their own needs—a major tenet of open source—and lead to the InnerSource goals of better collaboration, fewer bottlenecks, better integration, and, almost certainly, cleaner code. -->
-必要最低限の要求は、チームが独自に求めているプロセス (オープンソースの信念) に適応する事を可能にし、よりよいコラボレーションというインナーソースのゴールへ導き、ボトルネックを減らし、良いインテグレーションを増やし、ほぼ確実にコードはクリーンな状態となります。
+要求事項を必要最低限に抑えることは、チームが独自に求めているプロセス (オープンソースの信念) に適応でき、より良いコラボレーションというインナーソースのゴールへ導きます。また、ボトルネックを減らし、良いインテグレーションは増え、ほぼ確実にコードはクリーンな状態となります。
 
-## Planning and Product Specialists
+## Planning & Product Specialists
 
 <!-- After our success in improving integration with TCs and contributor agreements, we knew we had to create something similar to smooth the planning process. The product specialist role, which monitors all aspects of the product lifecycle, needs to work on breaking down silos between teams and products, and to see how these products can integrate with others in the company. -->
+トラステッドコミッターとコントリビューション協定を活用しインテグレーションを加速させることに成功した後、製品を企画するプロセスにおいても同様の必要性を感じました。
+製品スペシャリストは製品のライフサイクルにおいてあらゆる側面を注視しつつ、チームや製品間のサイロをなくし、社内にある他の製品ともどのようにインテグレーションできるか常に考える必要があります。
 
 <!-- Product specialists need the ability and knowledge to properly negotiate and prioritize features across teams. But, we have found that even though people working on code or product integration _know_ they need to sit down and discuss things with the other teams involved, they don’t usually make time for the necessary meetings unless they’re pushed. Anything not on the schedule is easy to put off. This results in poor communication, delays, and misunderstandings. The fix is a formal process change to force the necessary meetings, with greater inclusion to ensure that the appropriate people are in the planning sessions, and greater transparency to break down the silo mentality. We are working with our product specialists now to improve public records of this process. -->
+また製品スペシャリストは他チームと適切に交渉しつつ、実装すべきフィーチャーの優先順位を決める事ができる能力と知識が必要になります。
 
 ## Inclusion and Transparency
 
