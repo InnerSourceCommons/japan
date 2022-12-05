@@ -52,19 +52,47 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 企業とは、人々の不安、習慣、定型作業、階層、意志によって形作られているものであり、技術よりも社内の政治的力学によって動いているのです。
 本書の終わりに示すチェックリストが人に関連するものとなっている理由はこれなのです。
 
-### A Parable: GitHub Without InnerSource
+### GitHub はあるがインナーソースではなかったとしたら
 
 <!-- The first big problem we encountered when introducing InnerSource was an increase in escalation up the management chain. We like to call it the “Big Cheese Story” (see the following sidebar). At its core, it is a story of fear. We believe it is unique to the corporate environment and not the open source world. We found that this story resonated with many of our participants in the InnerSource Commons. The awesome part is that open source’s existing processes already had several pieces of the solution, though they had not been put together before. -->
-
-**The Big Cheese Story**
+筆者らがインナーソースの導入時に最初に直面した大きな問題は、マネジメント層で報告が増えることでした。
+筆者らはこの問題を "お偉いさんの物語" と呼ぶことにしました。
+可愛らしい名前ですが、恐怖の物語です。
+願わくば企業の中だけで起きることであり、決してオープンソースの世界で起きてほしくはないことです。
+インナーソースコモンズのメンバーからの報告では、この問題はあちこちの企業で起きていることがわかりました。
+そして、素晴らしいことにオープンソースのプロセスでは、この問題を解決する鍵がいくつか既にあるということです。
+ただ、企業では見つけていなかったのです。
+一体どういう意味なのか、"お偉いさんの物語" をもとに理解していきましょう。
 
 <!-- Once upon a time, there was a company that decided to embrace InnerSource, so it dictated that all code was to be moved to GitHub Enterprise. Because there was no cohesive version control before, there was much rejoicing across the company. Now, the developers finally had visibility to one another’s code! No longer would the developers need to submit a change request to planning, and hope it was accepted and scheduled some time in the next year. Visions of seamless collaborations danced in developers’ heads! -->
+あるとき、インナーソースを始めた会社がありました。
+インナーソースなのですから、全てのコードを GitHub に移すことにしました。
+それ以前は統一的なバージョン管理の仕組みが無かったので、社内ではあちこちから歓喜の声が上がりました。
+ついに他の開発者のコードを見ることができるようになったのです！
+何か変更を提案するときに、それが受け入れられ、来年のいつかに計画され、なんていう首を長くする時間とはおさらばなのです。
+開発者達は円滑な協働のできる未来を想像して浮足立っていました。
 
 <!-- An intrepid programmer decided to do a pull request on the big codebase, and told her manager that she could write the necessary change in a matter of weeks. Her Big Cheese was very pleased. So, the intrepid programmer wrote the change and submitted the pull requests and waited...and waited...and waited...until her Big Cheese became very unhappy and asked why the changes had not been added. The intrepid programmer replied that she had finished the work and submitted the pull request, but the changes hadn’t been accepted by the other codebase. -->
+ある勇敢なプログラマーは大きなコードベースに対してプルリクエストを送ると決め、上司に「数週間で書ける」と報告しました。
+彼女のお偉いさんはとても喜び、彼女はついにプルリクエストを送りました。
+そして、待てど…暮らせど…一向にマージされません。
+とうとうお偉いさんの機嫌は悪くなり、なぜ変更されないのか勇敢なプログラマーに問い詰めました。
+彼女は「自分の仕事は終えてプルリクエストを送ったのですが、一向に受け入れられないのです。」と答えました。
 
 <!-- So, her Big Cheese went to the Big Cheese that owned the other codebase, and asked him to force one of his groups to accept those changes. After all, there was now a big backlog waiting to go through! The Big Cheese of the codebase agreed and ordered some poor individual in his group to accept those changes. But that individual didn’t like how the intrepid programmer wrote the changes, because they were not “how things are done.” They were written in a different style, used a different test scheme, and maybe didn’t take advantage of an existing module. Thus, the second programmer rewrote the entire change before adding it to the codebase. -->
+そこで、彼女のお偉いさんは別のコードベースを統括するお偉いさんを訪ねました。
+そのコードベースを担う組織の1グループに、変更を受け入れてもらうように強く願い出たのです。
+なにしろ他に仕事が山積みなのですから！
+そのコードベースのお偉いさんは提案に同意し、グループ内の冴えないプログラマーに変更を受け入れるよう命じました。
+ところが冴えないプログラマーは勇敢なプログラマーのコードが気に入りませんでした。
+自分流の書き方ではないからです。
+コーディングスタイルも違うし、テストの仕組みも違うし、既存のモジュールも活用していないようでした。
+結局し、冴えないプログラマーは提案されたほとんどのコードを書き直してからコードベースに取り込む羽目になりました。
 
 <!-- No one learned anything. No documentation was created. And now everyone hates InnerSource because it creates bottlenecks and makes programmers look difficult to the Big Cheeses. Plus, the product owners are frustrated because no one has included them in the process. -->
+色々と苦労があったにも関わらず、誰も何も学びませんでしたし、何のドキュメントも作られませんでした。
+インナーソースは手間がかかるし、お偉いさんの印象も良くないからダメだ、と皆が感じるようになっていきました。
+また、プロダクトオーナーは自分を通さずに物事が進むのにイライラしていました。
 
 ### Breaking Down the Big Cheese Problem
 
