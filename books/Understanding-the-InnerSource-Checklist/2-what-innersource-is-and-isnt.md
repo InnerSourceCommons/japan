@@ -1,12 +1,27 @@
-# What InnerSource Is and Isn’t
+# インナーソースとは何なのか？何ではないのか？
 
 <!-- **TL;DR** Too often, enterprise culture wants to change the definition of InnerSource to something more familiar. We must help enterprise stakeholders create clear practices and definitions in order to maintain the culture of open source as much as possible while still highlighting the benefits to the enterprise. -->
+**TL;DR**  
+企業では、インナーソースを身近に感じられるように定義しようとすることがよくあります。
+本章では、インナーソースおよびそのプラクティスを明確に定義できるように解説していきます。
+営利企業としての利益に焦点を当てつつも、オープンソースの文化を受け入れられるような定義が必要なのです。
 
 <!-- One of the major problems we have encountered when implementing InnerSource has been, at its root, a vocabulary problem. After we completed several successful InnerSource projects, we noticed that many people began using the word InnerSource in a simplistic, degenerate manner. Probably the most damaging misunderstanding was that InnerSource meant outsourcing work from a busy team to another that presumably had more capacity. In general, it’s easy to fall into the fallacy of thinking that effective processes are just about following certain procedures or using certain tools, without regard for the culture that makes success possible. -->
+インナーソースの実践において筆者が経験してきた最も典型的かつ根源的な問題は、語彙の問題です。
+筆者らがインナーソース適用のプロジェクトをいくつか終えた後に気づいたのは、適用先の社員がインナーソースという言葉を矮小化して使い始めたことでした。
+最も深刻な痛手は、インナーソースという活動が忙しいチームの手を離れて別のチームに割り振られた外注的な作業であるという誤解です。
+成功のための文化を考えようとせず、決まった作業手順に従おうとしたり特定のツールを使ったりすると、良いプロセスであっても簡単に失敗するのです。
 
 <!-- Discussing the problems caused by this vocabulary issue became a bonding moment for all of us at the InnerSource Commons. Many members of the Commons want to focus on the larger problems of culture change, and the distorted definitions of Innersource were emblematic of the problems they are fighting. InnerSource goes much farther than simple processes or tools, and sometimes that makes definitions more difficult to communicate in an enterprise environment. -->
+こうした語彙の問題はインナーソースコモンズ全員の結束をうながすものとなりました。
+多くのメンバーは、文化の刷新という大きな問題に挑戦したいと考えており、インナーソースに対する歪んだ理解は戦う相手の筆頭だったのです。
+インナーソースは単純なプロセスやツールよりも上位の概念であり、企業に定義を浸透させてゆくのは難しいのです。
 
 <!-- The vocabulary issue might sound minor, but we’ve found again and again that it is vital, especially when introducing change, that terms are clearly and explicitly defined and agreed upon. It is also important that the definitions are easy to find. This includes terms like “InnerSource,” but also includes roles and responsibilities. Some of the first steps toward InnerSource are to clearly and publicly define standards, roles, and responsibilities. -->
+語彙の問題というと小さく聞こえる読者もいるかもしれません。
+ですが、用語を明確かつ厳格に定義して合意することが変革には不可欠であることを、我々は何度も痛感してきました。
+また、定義はすぐに確認できるものでなければなりません。
+インナーソースの定義だけでなく、そのための組織標準、職種、責任といった定義が明確かつ組織全体に示されている必要があるのです。
 
 ## We Have GitHub Enterprise, So We Must Be InnerSource!
 
