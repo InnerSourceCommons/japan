@@ -114,9 +114,21 @@
 ## Rewarding TCs
 
 <!-- We found it important to work with HR and management to ensure the TC role is recognized formally. This solves two problems: development wins because they are reassured that management must respect the code review process, and no more Big Cheeses forcing code changes! The enterprise wins because the new role gives a path to promote programmers without taking them away from coding, which is what they do best and often love the most. -->
+トラステッドコミッターの役割が正式に認識されるようにするには、人事部および経営陣と協力することが重要であることがわかりました。
+そうすることにより、管理者がコードレビュープロセスを尊重する必要があることを再確認できるため、開発が成功しやすくなるほか、"お偉いさん" がコードの変更を強制することがなくなります。
+この新しい役割は、プログラマーをコーディングから引き離すことなく昇進させる手段を提供するため、企業にとってもメリットがあります。
 
 <!-- The TC role illuminates a developer’s advanced skills in mentoring, deep knowledge of architecture, and best code-review practices. We have found the TC role to be a difficult one, and companies need to determine how to properly reward those dedicated staff that take on the additional responsibilities. -->
+トラステッドコミッターの役割は、開発者の高度なスキルを明確にします。
+それはメンタリング、アーキテクチャに関する深い知識、コードレビューのベストプラクティスなど多岐にわたります。
+トラステッドコミッターの役割が難しいものです。
+そのため企業は、追加の責任を負う献身的なスタッフにどのように適切に報いるかを決定する必要があります。
 
 <!-- We are enhancing our promotion path to Fellow for developers to reflect this complexity. This allows us to reward the “full-stack” developers we are creating and allows promotion without having to move to management roles that some developers find to be tedious. We get to keep the programmers that really understand the various codebases and encourage them to help refactor and reduce technical debt. -->
+私たちはこのような複雑性を反映するために、開発者が "フェロー" に昇進するためのパスを強化しています。
+これはフルスタックな開発者を生み出し、一部の開発者が退屈に感じる管理職に移行することなく昇進することにつながります。
+そして、さまざまなコードベースを本質的に理解しているプログラマーを抱えることで、リファクタリングや技術的負債の削減に貢献することができるようになります。
 
 <!-- <sup><span id="annotation-1">1</span></sup> GitHub uses the term PR, as do several other tools. Companies not using these tools might call the same thing problem reports, change requests, or tickets. -->
+他のいくつかのツールと同様に GitHub はプルリクエストという言葉を使っています。
+これらのツールを使用していない企業では、同じものを問題報告、変更要求、あるいはチケットと呼ぶかもしれません。
