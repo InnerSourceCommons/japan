@@ -23,17 +23,34 @@
 また、定義はすぐに確認できるものでなければなりません。
 インナーソースの定義だけでなく、そのための組織標準、職種、責任といった定義が明確かつ組織全体に示されている必要があるのです。
 
-## We Have GitHub Enterprise, So We Must Be InnerSource!
+## GitHub を使ってるからインナーソースはできてるでしょ？
 
 <!-- **TL;DR** GitHub helps with code transparency, but doesn’t actually change the typical enterprise silo-based mentality. Without the processes we talk about in this book, GitHub instead creates serious collaboration and integration issues, which can turn into bottlenecks, especially on critical codebases needed by many teams. -->
+GitHub は組織におけるコードの透明性を上げますが、それだけで組織の縦割り問題が解決するわけではありません。
+本書で扱うプロセスがなければ、GitHub が協働やインテグレーションの深刻な問題を引き起こします。
+また、そうした問題は、たくさんのチームが依存する中心的なコードベースにおけるボトルネックになりかねないのです。
 
 <!-- The idea that GitHub is all that’s needed to be InnerSource is a concept we fight against daily. Most people do not realize that it takes much more than GitHub to find, create, and grow open source communities. The communities create the software, not the other way around, but more often than not, large companies lack a sense of holistic community. -->
+インナーソースの実現には GitHub が必要だという意見は、私達が毎日戦っている概念です。
+ほとんどの人々は、社内におけるオープンソースの源を見つけ、コミュニティとして育ててゆく方が GitHub の活用よりもはるかに大変であることに気づいていません。
+コミュニティがソフトウェアを作るのであって他の何者でもないのですが、大企業にはそれに気づくためのコミュニティ全般に対するセンスがないのです。
 
-### InnerSource Is About Culture and Processes, Not Just Tools
+### インナーソースは文化とプロセスであり、ツールだけではない
 
 <!-- The first steps toward InnerSource must be to foster trust and increase clear communication. This makes it possible for a sense of community to grow and improves collaboration. But businesses often lead from the _how_, rather than the _why_. We can’t tell them to foster trust in their teams; that is too vague and can’t be expressed as an action item. We fight the constant battle of process and hierarchy versus agility and customer influence. So how do we work around that? How do we make better decisions and collaborate more, without spending more money? These are things that GitHub cannot answer but InnerSource can. -->
+インナーソースを実現する初歩は、信頼を育むことと明確なコミュニケーションを増やすことです。
+これにより、新たな協働を引き起こして改善してゆくためのセンスを磨く機会が生まれるのです。
+従来のビジネスでは _なぜか？_ よりも _どうやって？_ に着目しがちであることに注意しましょう。
+チームの信頼を育むというのは漠然としていて、具体的な作業内容を定義することはできません。
+ですから、プロセスと組織的階層 vs アジリティと顧客の影響という対立が生まれるのです。
+さて、どうすれば我々は良い意思決定と多くの協働をコストを抑えて実現できるでしょうか？
+これこそがインナーソースにできて GitHub にはできないことなのです。
 
 <!-- It is true that using a tool like GitHub to make version control easy, visible, and accessible is a step in the right direction. But we need to think beyond tools and their advantages and flaws, and consider people. Enterprises are made of people with their own fears, habits, established patterns, hierarchy, and motivations, and they respond to corporate politics as much as to technology. This is why each of the checklist items focuses on some aspect of the human piece of the puzzle. -->
+GitHub のようなバージョン管理とコード検索のツールを使うこと自体は、インナーソースの実現に向けた正しい方向です。
+ですが、ツールの良し悪しよりも人を考慮する必要があります。
+企業とは、人々の不安、習慣、定型作業、階層、意志によって形作られているものであり、技術よりも社内の政治的力学によって動いているのです。
+本書の終わりに示すチェックリストが人に関連するものとなっている理由はこれなのです。
 
 ### A Parable: GitHub Without InnerSource
 
