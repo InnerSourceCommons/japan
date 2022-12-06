@@ -64,16 +64,37 @@
 
 <!-- Product specialists need the ability and knowledge to properly negotiate and prioritize features across teams. But, we have found that even though people working on code or product integration _know_ they need to sit down and discuss things with the other teams involved, they don’t usually make time for the necessary meetings unless they’re pushed. Anything not on the schedule is easy to put off. This results in poor communication, delays, and misunderstandings. The fix is a formal process change to force the necessary meetings, with greater inclusion to ensure that the appropriate people are in the planning sessions, and greater transparency to break down the silo mentality. We are working with our product specialists now to improve public records of this process. -->
 また製品スペシャリストは他チームと適切に交渉しつつ、実装すべきフィーチャーの優先順位を決める事ができる能力と知識が必要になります。
+しかし、製品のコードや製品のインテグレーションに関わっている人でさえ本来は腰を据えて他のチームとじっくり議論しなければならないと _知っていつつも_ 強制されない限り時間を作らないものです。
+元の予定に無かったものは、簡単に後回しになり、コミュニケーション不足は遅延や誤解を生じさせます。
+これを正すための手段は、正式なプロセスを変更し必要な会議を必ず開催すると同時に、適切な参加メンバーをより多く集め、サイロ化された考え方をより多く壊していく事となります。
+製品スペシャリストとは、このオープンなプロセスを改善するため協調していく必要があります。
 
-## Inclusion and Transparency
+## インクルージョンと透明性
 
 <!-- Full inclusion in the planning stage of the process is crucial; all of the teams must be at the table for the process to work smoothly. Representatives from each team need to be present for the story grooming process, not just the owners of the primary codebase. Different teams often have different or conflicting priorities. Getting planners from each team together in one room helps them negotiate among themselves to get all the work done. Inclusion leads to smoother collaboration. -->
+プロセスを潤滑にすすめていくためには、全てのチームが最初の企画段階から参加する事が不可欠となります。
+ストーリーグルーミングのプロセスでは、主要なコードのオーナーだけでなく各チームの代表者が参加する必要があります。
+個々のチームは、個々の優先順位があり時に相反します。
+各チームの企画者が集まることで、全てのタスクが完了するために何が必要かを考え、お互いが補完しあう事ができます。
+インクルージョンによって協業は更に加速するのです。
 
 <!-- Transparency during the planning process is also important. We feel that it helps to reduce conflict. When a conversation is public and intended to be archived, we find that participants often become better at considering the entire company when working out priorities. It helps to break down the silo mentality. -->
+企画段階での透明性も同時に重要で、対立を減らすことを助長すると我々は考えています。
+お互いの会話がパブリックな場でアーカイブされる事によって、参加者は全体によってより良い優先順位を考えられるようになる事を発見してきました。
+つまり、サイロ化の考えに打ち勝てるという事です。
 
 <!-- Transparency in planning increased as a side effect of adding more people to the planning meetings. More people are present for the trade-offs and negotiations. Just as important is the small process change we had already implemented, requiring that all relevant conversations be a part of the passive documentation. This means that everyone can review discussions in the future, and alters people’s conversational strategies. Also, by creating passive documentation, you can avoid information overload as people search more and spam less. -->
+企画会議に参加する人数を増やした事で透明性が更に高まるという側面もあります。
+トレードオフの議論をする場に、より多くの人が参加できるからです。
+また、行った変更がたとえ小さなものだったとしても、関連するチーム同士の全ての会話を保存しておく事は非常に重要です。
+これは、将来に渡り過去にどんな会話があったかをチェックする事ができると同時に、チーム同士の会話のあり方自体を変えるという事を意味します。
+また、会話が自動的に保存されていくということは情報の過多を防ぎ、検索性を向上させ、スパムをへらすことにも繋がります。
 
 <!-- Prioritization of projects and resources is usually done opaquely at companies. The reasoning is rarely made public and is done behind closed doors. This leaves employees to come up with their own narratives to explain priorities. Again, we see that when a company gives the _how_ but not the _why_, employees cannot make adjustments on the fly. It cripples their decision-making, and is a key element of bad escalation processes. -->
+通常多くの企業では、プロジェクトやリソースをどう優先順位付けするかという議論を密室の中で行います。
+そのため、従業員はその優先順位を説明するためには独自の物語を考えなければなりません。
+ここでも _なぜするのか_ ではなく、 _どうするのか_ という事に焦点をあてなければ、その都度物語を考えさせられるはめになり、改善に向かえません。
+不透明であるという事は、社員の意思決定のスピードを遅らせエスカレーションのプロセスも悪くなる要因となります。
 
 <!-- Bringing transparency to the process gives employees the ability to make corrections as necessary, because they understand the end goal and will not blindly continue down a designated path that they know will lead to the wrong outcome. In addition, making prioritization and resource allocation more transparent reduces hierarchically based fears of kingdom building, or the appearance of it. -->
 
