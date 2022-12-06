@@ -94,15 +94,35 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 インナーソースは手間がかかるし、お偉いさんの印象も良くないからダメだ、と皆が感じるようになっていきました。
 また、プロダクトオーナーは自分を通さずに物事が進むのにイライラしていました。
 
-### Breaking Down the Big Cheese Problem
+<!-- ### Breaking Down the Big Cheese Problem -->
+### お偉いさん問題の詳細
 
 <!-- At first, we were surprised by the Big Cheese problem, because we knew that the more code that other teams can see into, the better they can understand the pieces they are integrating with and/or reusing. But we found that just having the code visible doesn’t automatically lead to collaboration, especially in an enterprise environment. The incentives are different from the open source environment. -->
+インナーソースの適用プロジェクトを始めた頃はお偉いさん問題に驚かされました。
+他チームのコードを見ることができれば、それらをどのように自チームのコードと統合したり、あるいは自チームのために再利用したりできるかに役立つと考えていたからです。
+しかし、単にコードが見えるだけでは協働にはつながらないということがわかりました。
+特に大企業であるほどこの問題は顕著です。
+オープンソースの世界とは利害の力学が違うのです。
 
 <!-- First, most of the code had previously been developed in silos. This meant that teams had undocumented styles, structures, and practices that outsiders couldn’t know about until they submitted code that could not be accepted by the maintainers. Beyond that, there was a siloed culture that encouraged people to talk only to people in their own group and to use language that outsiders couldn’t understand. This often happens in complex structures. I’ll cover the organizational aspects later in this booklet. -->
+まず、ほとんどのコードは閉じた部署(サイロ)の中で開発されていたことに注意が必要です。
+つまり、部署の構造も業務プロセスも習慣も明文化されておらず、部外者は知るよしもないのです。
+ですから、部外者がコードの変更を提案しても受け入れられなかったのです。
+それだけではありません。
+部署では内部の社員とだけ話し、部外者には通じない言葉を使う文化がありました。
+これは複合的な構造の組織ではよくあることであり、後述します。
 
 <!-- If you do not understand the underlying architecture of the full stack, especially an older one with poor documentation, making silos is a normal response. It is easier to understand and take ownership of only your component. This is the piece you have the most control over. However, this method doesn’t lend itself to an atmosphere of collaboration, and can increase complexity and discourage reuse. -->
+ソフトウェアのアーキテクチャを理解していない開発者がいたとして、特にそのソフトウェアが古いものでドキュメントに乏しい場合、その開発者が特定の集団に閉じこもろうとするのは自然なことです。
+自分達の理解できるコンポーネントのみに責任を持つ方が簡単であり、コントロールし続けられるからです。
+しかし、それでは協働しようという雰囲気にはならず、アーキテクチャは複雑になり、コンポーネントは再利用されなくなってしまうのです。
 
 <!-- Because of this complexity, potential collaborators didn’t want to contribute until the pain from lack of integration was more painful than the fear of contributing. And the owners of the codebase were loath to accept responsibility for code that was not their priority and was written by someone not on their team. This resistance to collaboration resulted in a constant stream of escalations up the leadership chain. It turned GitHub into a bottleneck, especially for high-demand codebases, which tend to be high risk. Consequently, the code that the most people needed access to became the most difficult to contribute to. -->
+コントリビューションをしたいと思っている開発者であっても複雑さの前に恐れてしまい、本当に協力しないとまずいという切羽詰まった段階になるまで踏み切ろうとしないのです。
+また、コードベースの責任者は、自チームではない開発者が書いたコードに対する優先度を低く見積もり、責任を受け入れることを嫌がりました。
+こうした協働への反作用が、上司になんとかしてもらうという連鎖を生みました。
+そして、需要の高いコードベースであるほど GitHub がボトルネックになってしまいます。
+結局、最も多くの人がアクセスするコードが、最もコントリビューションしにくいコードになってしまうのです。
 
 <!-- We found that contributors were often inspired to write pull requests for the changes they needed in other codebases. But the codebase hosts were not accepting their pull requests, mainly because it meant extra work and responsibility for them. It became all risk and little gain. -->
 
