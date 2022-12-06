@@ -125,13 +125,39 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 結局、最も多くの人がアクセスするコードが、最もコントリビューションしにくいコードになってしまうのです。
 
 <!-- We found that contributors were often inspired to write pull requests for the changes they needed in other codebases. But the codebase hosts were not accepting their pull requests, mainly because it meant extra work and responsibility for them. It became all risk and little gain. -->
+コントリビューターが他のコードベースにプルリクエストを送る動機は、自らの需要だということがわかりました。
+ですが、プルリクエストを送られた人々は、余計な仕事と責任が増える(ハイリスクローリターン)と考えて受け入れようとしないのです。
 
 <!-- We had to go back in the history of open source to find answers to these cultural problems. Then, we had to figure out how to make the solutions match enterprise structures. And we had to simplify the solutions so that they could be more universally adopted. I’ll explain our solution in [Chapter 3, _The Most Important Role, and the First Step: Trusted Committer_](/chapter-3#the_most_important_rolecomma_and_the_fir). -->
+そうした文化的な問題の解決方法を探るべく、オープンソースの歴史に学ぶ必要があります。
+また、オープンソースで上手くいっている方法を企業の中で発揮するように応用しないとなりません。
+さらに、全社員がくまなく受け入れられるように単純明快な方法に仕上げることも望ましいのです。
+この方法を3章で解説します。
 
-### More Communication Pitfalls
+### さらなるコミュニケーションの落とし穴
 
 <!-- Communication in a siloed culture presents problems that are very different from those in a traditional open source environment. In particular, planning is significantly different. Two weeks before the beginning of my employment at PayPal, several teams submitted their feature-level integration requests to one popular codebase as a part of their quarterly planning. The core team took those stories and rewrote them to fit the current construct of their codebase, with no involvement of the submitters, and then sent them back to the external teams. Near the end of the quarter, many team leads came to the InnerSource team with the rewritten stories, complaining that InnerSource was really just “conscripted code.” They felt like they were being conscripted to do another team’s work. They did not realize that the code they were being asked to produce was actually the changes needed to complete their own integration requests. Confused, we sent them back their original requests and showed how the new stories were actually derived from their original stories. This is when we learned that the external teams had not been involved at all in the rewrite. Clearly, this was a major communication failure! For the next (and all subsequent) rounds of planning, we made sure all teams were present for the negotiations and rewrites of stories. After this communication problem was solved, we made significant gains. An order of magnitude of code was accepted through pull requests, and external stories that had been on backlogs for years were cleared. -->
+閉じた文化におけるコミュニケーションの問題は伝統的なオープンソースの世界で起きる問題とは異なるものです。
+特に計画段階における問題は全く異なります。
+筆者が PayPal に入社する2週間前、四半期計画の一環として、ある中心的なコードベースに対して複数のチームが機能レベルの変更を要求しました。
+そのコードベースを担うコアチームは、寄せられたユーザーストーリーをコードベースの建てつけに合うように勝手に書き直し、要求元である外部のチームに送り返したのです。
+四半期の終わりになり、それらのチームは書き直されたユーザーストーリーを持ってインナーソース推進チームに駆け込んできて不満をぶちまけました。
+「まるでインナーソースは徴兵されたコードだ」というのです。
+他チームの仕事をするように強制されてしまったと感じたのです。
+一方、変更要求を受け取ったチームは、それらの変更要求が事業の四半期計画を達成するために必要な変更であることに気づいていなかったのです。
+インナーソース推進チームは混乱しながらも、元々の変更要求をコアチームに再送して事情を説明しました。
+
+こうして筆者らは、変更要求が勝手に書き直されるという明らかなコミュニケーションの失敗を経験しました。
+そして、その次回からは、変更要求を書き直す際には全チームのいる場で交渉するように改善しました。
+この問題が解決してから大きく進歩したことがわかりました。
+プルリクエストとして溜まっていたコード変更は承認され、バックログに溜まっていた他チームからのユーザーストーリーも解消したのです。
 
 <!-- We also had an issue with teams creating significant pull requests against codebases with little to no warning to the codebase owners. Of course, in an enterprise environment, such a significant expenditure of resources without planning or communication too often became a battle of the Big Cheeses. -->
+他の問題もあります。
+何の気なしに大きなプルリクエストを送るチームがいたのです。
+企業において計画もコミュニケーションもないままこのように多くのリソースを費やすと、お偉いさん同士の戦いになってしまいます。
 
 <!-- We needed to create a defined list of proven practices based on our experiences. We could see that better communication and well-defined expectations across teams was absolutely necessary. [Chapter 6, _Working Within the Enterprise: Understanding Planning_](/chapter-6#working_within_the_enterprise_understand) presents an explanation of the steps we’ve taken toward a solution. -->
+筆者らはこうした問題を経験し、実証された一連のプラクティスを定義する必要があると判断しました。
+良質なコミュニケーションとは何か、チーム間の期待は何かを明示することが絶対に必要があると確信したのです。
+6章では、筆者らの解決に向けた歩みを示します。
