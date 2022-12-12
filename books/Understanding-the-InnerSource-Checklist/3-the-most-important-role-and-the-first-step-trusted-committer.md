@@ -22,10 +22,10 @@
 コードの所有者と外部のコントリビューターが協力しなければ、何も改善されず、誰もが失望ることになってしまいます。
 
 <!-- Many of the problems stem from the fact that developers in the enterprise environment are often unwilling to dedicate time to reviewing and accepting pull requests or mentoring developers in other areas. And who can blame them? They typically have assigned tasks and goals that are specific to their own project, not to other projects that happen to touch their codebase. In addition, most people are disinclined to accept responsibility for something they have not written. -->
-問題の多くは、企業における開発者がプルリクエストのレビューや受け入れ、あるいはほかの領域の開発者のメンタリングに時間を割くことを望まない傾向にあることに起因しています。
-ただし　、それを責めることはできません。
+問題の多くは、企業における開発者がプルリクエストのレビューや受け入れ、あるいはほかの領域の開発者のメンタリングに時間を割くことを望まない傾向があることに起因しています。
+ただしそれを責めることはできません。
 一般的には、全ての人は自身にアサインされたタスクや目標を持っています。
-それは彼らのプロジェクトに対するものであり、たまたまコードベースに触れることになった誰かのプロジェクトに対するものではないのです。
+それは彼らのプロジェクトに対するものであり、たまたまコードベースを触ることになった誰かのプロジェクトに対するものではないのです。
 そしてほとんどの人は、自分が書いていないコードに対して責任を負うことに抵抗があります。
 
 <!-- But, for InnerSource to work, some developers _must_ take on responsibilities outside of their silos, so we created a new role with defined responsibilities and called it the Trusted Committer (TC). This is the most fundamental change we have implemented so far, and it is crucial to making InnerSource work. In fact, it is step one in its implementation. -->
@@ -37,7 +37,7 @@
 ## 役割を定義する
 
 <!-- The TC has the following list of responsibilities (each bullet point helps the TC’s team to better communicate and collaborate with other teams): -->
-トラステッドコミッターには以下のような責任があります (各項目は、トラステッドコミッターのチームがより良いコミュニケーションと協業を実現するために役立ちます):
+トラステッドコミッターには以下のような責任があります。 (各項目は、トラステッドコミッターのチームがより良いコミュニケーションと協業を実現するために役立ちます)
 
 <!-- 
 * Write and maintain the rules for contributing to the codebase
