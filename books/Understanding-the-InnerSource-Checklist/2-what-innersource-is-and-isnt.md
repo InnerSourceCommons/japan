@@ -3,8 +3,8 @@
 
 <!-- **TL;DR** Too often, enterprise culture wants to change the definition of InnerSource to something more familiar. We must help enterprise stakeholders create clear practices and definitions in order to maintain the culture of open source as much as possible while still highlighting the benefits to the enterprise. -->
 **TL;DR**  
-企業がインナーソースを導入するとき、その定義を身近に感じられるように曲解することがよくあります。
-ですから、筆者らは社内のインナーソース関係者が正しく定義し、正しく実践できるように支えなければと考えました。
+企業がインナーソースを導入するとき、親近感を持てるように定義を曲げることがよくあります。
+ですから、筆者らは導入企業がインナーソースを正しく定義し、正しく実践できるように支えなければと考えました。
 営利企業としての利益に焦点を当てつつも、オープンソースの文化を受け入れられるような定義が必要なのです。
 
 <!-- One of the major problems we have encountered when implementing InnerSource has been, at its root, a vocabulary problem. After we completed several successful InnerSource projects, we noticed that many people began using the word InnerSource in a simplistic, degenerate manner. Probably the most damaging misunderstanding was that InnerSource meant outsourcing work from a busy team to another that presumably had more capacity. In general, it’s easy to fall into the fallacy of thinking that effective processes are just about following certain procedures or using certain tools, without regard for the culture that makes success possible. -->
@@ -161,7 +161,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 <!-- We also had an issue with teams creating significant pull requests against codebases with little to no warning to the codebase owners. Of course, in an enterprise environment, such a significant expenditure of resources without planning or communication too often became a battle of the Big Cheeses. -->
 他の問題もあります。
 何の気なしに大きなプルリクエストを送るチームがいたのです。
-企業において計画もコミュニケーションもないままこのように多くのリソースを費やすと、お偉いさん同士の戦いになってしまいます。
+企業において計画もコミュニケーションもないままこのように多くのリソースを費やすと、重役同士の戦いになってしまいます。
 
 <!-- We needed to create a defined list of proven practices based on our experiences. We could see that better communication and well-defined expectations across teams was absolutely necessary. [Chapter 6, _Working Within the Enterprise: Understanding Planning_](/chapter-6#working_within_the_enterprise_understand) presents an explanation of the steps we’ve taken toward a solution. -->
 筆者らはこうした問題を経験し、実証された一連のプラクティスを定義する必要があると判断しました。
