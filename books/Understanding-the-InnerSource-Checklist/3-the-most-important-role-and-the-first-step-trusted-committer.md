@@ -30,7 +30,7 @@
 
 <!-- But, for InnerSource to work, some developers _must_ take on responsibilities outside of their silos, so we created a new role with defined responsibilities and called it the Trusted Committer (TC). This is the most fundamental change we have implemented so far, and it is crucial to making InnerSource work. In fact, it is step one in its implementation. -->
 しかし、インナーソースが機能するためには、一部の開発者がサイロの外に責任を負わなければ_なりません_。
-そのため私たちは責任を定義した新しい役割をつくり、それをトラステッドコミッターと呼部ことにしました。
+そのため、私たちは責任を定義した新しい役割をつくり、それをトラステッドコミッターと呼ぶことにしました。
 これは、私たちがこれまでに実施した最も基本的な変革であり、インナーソースを機能させるために不可欠なものです。
 事実として、トラステッドコミッターを取り入れることはインナーソース実現への第一歩です。
 
