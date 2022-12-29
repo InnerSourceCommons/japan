@@ -8,7 +8,7 @@ PayPal がインナーソースの取り組みを初めて発表した場は2015
 
 <!-- A key part of our InnerSource journey has been building a team capable of designing tools and processes that can help us make this cultural shift. Silona Bonewald’s experience with open source and with product management along with her love of data science made her the ideal person to implement InnerSource across all of PayPal. -->
 この旅路が成功したのは、文化的な進歩を成すためのツールとプロセスを設計する能力のあるチームによるところが大きいでしょう。
-Silona Benewald が PayPal の全てに対してインナーソースを実現できた背景には、彼女のオープンソースとプロダクトマネジメントにおける経験と、データサイエンスへの愛着があります。
+Silona Benewald が PayPal 全体にわたりインナーソースを実現できた背景には、彼女のオープンソースとプロダクトマネジメントにおける経験と、データサイエンスへの愛着があります。
 
 <!-- Silona likes order. She makes checklists to ensure that she doesn’t forget small details, but also to establish implementation norms and streamline adoption of new ideas. She’s written this booklet to share some of the thinking that went into our InnerSource Implementation Checklist. We hope you enjoy it and benefit from it. -->
 Silona は秩序を大事にしています。
