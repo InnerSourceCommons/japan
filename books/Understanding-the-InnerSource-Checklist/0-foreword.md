@@ -3,7 +3,7 @@
 
 <!-- PayPal first spoke about its InnerSource journey at OSCON North America in 2015. We didn’t claim to have all the answers, just a will to experiment and openly report on our findings as we went about our journey to adopt open source methodologies within PayPal to reduce engineering silos and increase cross-stack collaboration. -->
 PayPal がインナーソースの取り組みを初めて発表した場は2015年に北米で開催された OSCON(O'Reilly's Open Source Convention) です。
-我々がインナーソースに関する全ての解を持っているわけではなく、一例を成したに過ぎません。
+我々はその時、すべての答えを持っているわけではなく、オープンソース由来の方法を応用して PayPal 内の壁を壊し、協働を引き起こしてきた一連の旅路を公開するという意志を持っていたにすぎませんでした。
 この発表は、オープンソース由来の方法を応用して PayPal 内の壁を壊し、協働を引き起こしてきた一連の旅路を公開するという意志の表れなのです。
 
 <!-- A key part of our InnerSource journey has been building a team capable of designing tools and processes that can help us make this cultural shift. Silona Bonewald’s experience with open source and with product management along with her love of data science made her the ideal person to implement InnerSource across all of PayPal. -->
