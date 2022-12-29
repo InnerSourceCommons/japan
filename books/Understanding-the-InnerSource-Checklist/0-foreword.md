@@ -17,4 +17,4 @@ Silona は秩序を大事にしています。
 みなさんが本書を楽しみ、知見を得られますように。
 
 <!-- Danese Cooper, head of Open and InnerSource, PayPal -->
-Danese Cooper, オープンソースおよびインナーソース責任者, PayPal
+<!-- textlint-disable -->Danese Cooper, オープンソースおよびインナーソース責任者, PayPal<!-- textlint-enable -->
