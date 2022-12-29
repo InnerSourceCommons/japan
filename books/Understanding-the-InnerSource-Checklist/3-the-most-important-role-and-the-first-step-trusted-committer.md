@@ -19,7 +19,7 @@
 そうしない場合はボトルネックが発生し、上層部へのエスカレーションがおきます。
 また、外部チームはコードのスタイルと標準に準拠するべく学習をする必要があります。
 そうしない場合はコントリビュートした内容を大幅に書き直さなければなりません。
-コードの所有者と外部のコントリビューターが協力しなければ、何も改善されず、誰もが失望ることになってしまいます。
+コードの所有者と外部のコントリビューターが協力しなければ、何も改善されず、誰もが失望することになってしまいます。
 
 <!-- Many of the problems stem from the fact that developers in the enterprise environment are often unwilling to dedicate time to reviewing and accepting pull requests or mentoring developers in other areas. And who can blame them? They typically have assigned tasks and goals that are specific to their own project, not to other projects that happen to touch their codebase. In addition, most people are disinclined to accept responsibility for something they have not written. -->
 問題の多くは、企業における開発者がプルリクエストのレビューや受け入れ、あるいはほかの領域の開発者のメンタリングに時間を割くことを望まない傾向があることに起因しています。
