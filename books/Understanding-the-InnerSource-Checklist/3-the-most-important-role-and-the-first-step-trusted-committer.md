@@ -22,7 +22,7 @@
 コードの所有者と外部のコントリビューターが協力しなければ、何も改善されず、誰もが失望することになってしまいます。
 
 <!-- Many of the problems stem from the fact that developers in the enterprise environment are often unwilling to dedicate time to reviewing and accepting pull requests or mentoring developers in other areas. And who can blame them? They typically have assigned tasks and goals that are specific to their own project, not to other projects that happen to touch their codebase. In addition, most people are disinclined to accept responsibility for something they have not written. -->
-問題の多くは、企業における開発者がプルリクエストのレビューや受け入れ、あるいはほかの領域の開発者のメンタリングに時間を割くことを望まない傾向があることに起因しています。
+企業における開発者は、プルリクエストのレビューと承認、および他部署・他プロジェクトの開発者の育成に時間を割くことを望まない傾向があります。問題の多くは、これに起因しているのです。
 ただしそれを責めることはできません。
 一般的には、全ての人は自身にアサインされたタスクや目標を持っています。
 それは彼らのプロジェクトに対するものであり、たまたまコードベースを触ることになった誰かのプロジェクトに対するものではないのです。
@@ -54,14 +54,14 @@
 * 他領域のコントリビューターへの助言
 * プルリクエストのマージ
 * リファクタリングやモジュール化作業へのリーダーシップ
-* ディスカッションリストへの参加
-* アナウンスの発信
-* コラボレーション機会の発見と提案
+* チケットやチャットにおける議論への参加
+* 連絡事項の周知
+* コラボレーション機会の新規開拓
 
 <!-- We should point out that in the open source world, many groups have independently evolved a similar role. We specifically borrowed from [“The Apache Way”](http://theapacheway.com), a tool developed by the [Apache Software Foundation](https://www.apache.org). These roles are assigned to people who have shown a high level of dedication to a project. TCs are ultimately responsible for the codebase, and are often gatekeepers of the code. The level of power in these roles often has a direct relationship to the amount of risk. For example, the Linux kernel is widespread and high risk, so the Linux kernel has divided its version of the TC role into two levels, Janitors and Mentors. On the other hand, Node.js modules are very low risk. The community might not embrace a new module after vetting it, but new modules can’t break anything, so there is no TC role. Anyone can publish a Node.js module with npm. -->
 
 なおオープンソースの世界では、多くのグループが独自に同様の役割を進化させていることを指摘しておきます。
-私たちは特に [Apache ソフトウェア財団](https://www.apache.org)が開発したツールである["The Apache Way"](http://theapacheway.com) を借用しています。
+私たちは特に [Apache ソフトウェア財団](https://www.apache.org)が開発した提唱した理念である["The Apache Way"](http://theapacheway.com) を借用しています。
 これらの役割は、プロジェクトに高いレベルの貢献をした人に与えられます。
 トラステッドコミッターは、コードに対する最終的な責任を負っており、しばしばコードのゲートキーパーとなります。
 これらの役割における力の程度は、ときにリスクの大きさと直接的な関係を見ることができます。
@@ -86,7 +86,8 @@
 
 <!-- Our solution is to have the TCs work with the product specialists to create a rotation schedule for themselves. They publish their schedules for other teams to see, in order to manage contributor expectations. We also find it helpful to list each TC’s specialties in the schedule so that the contributors know when someone with the appropriate expertise will be available to help them. It was also important to create new reward structures for the difficult and critical work done by TCs, a process I’ll describe later in the section “[Rewarding TCs](#rewarding-tcs).” -->
 我々の解決策は、トラステッドコミッターがプロダクトのスペシャリストと協力して、役割のローテーションスケジュールを作成することです。
-コントリビューターの期待値を管理するため、他のチームが見ることができるようにスケジュールは公開されます。
+他チームにいるコントリビューターからの期待に配慮して、このスケジュールは社内に公開されます。
+この期待とは、レビューと指導における専門知識への期待です。
 スケジュールに各トラステッドコミッターの専門分野を記載しておくと、適切な専門知識を持った人がいつ支援できるかをコントリビューターが知ることができるようになります。
 また、トラステッドコミッターが行う困難で重要な仕事に対して、新しい報酬体系を作ることも重要でした。
 このプロセスについては、「[TCへの報酬](#rewarding-tcs)」のセクションで後ほど説明します。
@@ -94,7 +95,7 @@
 <!-- In our experience, the number of TCs per project varies greatly. In a high-risk project with about 30 developers, we ask that six programmers be assigned to the TC role. At any one time, half of them actively work in the TC role, reviewing code and mentoring, while the other half actively code. They switch roles at the end of every two-week sprint. This has been ideal for the TCs, because two weeks is a good solid length of time to either really get into coding, or to settle into mentoring and documentation. -->
 私たちの経験では、プロジェクトごとにトラステッドコミッターの人数は大きく異なります。
 30人程度の開発者が参加する高リスクのプロジェクトでは、6人のプログラマーにトラステッドコミッターの役割を担ってもらうようにお願いしています。
-常時、半分はトラステッドコミッターとしてコードのレビューやメンタリングを行い、残りの半分は積極的にコードを書くようにしています。
+常時、半分はトラステッドコミッターとしてコードのレビューや技術的な相談を行い、残りの半分は積極的にコードを書くようにしています。
 2週間のスプリントごとにその役割は交代します。
 これはトラステッドコミッターにとって理想的でした。
 2週間という期間は、コーディングに没頭するにも、メンタリングや文書作成に専念するにも、ちょうど良い長さだからです。
