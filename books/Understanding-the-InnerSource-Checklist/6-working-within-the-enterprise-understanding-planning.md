@@ -26,7 +26,7 @@
 適応性を増やし、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
 
 <!-- For example, our written process for creating contributor agreements is very small and simple with few requirements: the agreements are owned by the Trusted Committers (TCs), they are viewable by other teams, and they contain the TCs’ contact information and availability. Other than the contact information and schedule, we do not dictate the content of the agreements at all. Of course, we do encourage and expect them to contain much more information! And problems with a guest contributor become the ideal learning experience to trigger additions or changes to the contributing agreement. It’s kind of like when you stay at someone’s house, and the host has a rule of no loud music after 2 a.m.; you know that someone before you must have played loud music at 2 a.m. -->
-例えば、私たちのコントリビューション協定をい作製するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能でありトラステッドコミッターの連絡先や予定が書かれています。
+例えば、私たちのコントリビューション協定をい作製するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能であり、トラステッドコミッターの連絡先や予定が書かれています。
 むしろ、トラステッドコミッターの連絡先と予定以外には何も強要していません。
 もちろん、他の情報も多く記載される事は推奨していますし期待しています!
 ゲストコントリビューターがこの問題に取り組む事は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
@@ -117,13 +117,35 @@
 ## Results
 
 <!-- Greater inclusion in the planning stages does create a resource problem initially: scheduling meetings with large groups is difficult, the meetings can run longer than anticipated, and every person pulled into a meeting necessarily is putting off other tasks. But we saw benefits almost immediately. The teams understood the prioritization process better, which improved our Agile process. And the change velocity in the core team’s ability to accept external code was so large that it more than made up for the time lost in planning, by a factor of 10. And we were able to clear stories from contributor’s teams that had been on the backlog for years. -->
+計画段階から関連メンバを巻き込むことでの問題点もあります。たとえば、大勢のメンバーの都合のつく予定を見ながら会議を設定する事が難しかったり、会議自体が予想よりも長引く事もあります。また、会議に参加しなければならないメンバーは他の業務を後回しにしがちです。
+しかしそれ以上の価値をすぐに理解しました。
+チームメンバーはプライオリティを今まで以上に理解しはじめ、アジャイルプロセスの改善に活かされました。
+一方でコアチームが外部コードを取り入れるスピードは非常に大きく改善されました。結果として、計画段階に費やされた時間の10倍以上を補填する事にまで繋がりました。
+そして、何年もの間バックログに放置されていたコントリビューターチームの要望を一掃する事ができたのです。
 
 <!-- Opening up the process by including more people and making it more transparent also has an amazing effect on the teams’ ability to cross-collaborate. This leads to more effective decision-making both internally and across teams. We also found that by improving communication through passive documentation, eventually the meetings became smaller as teams used clearer communication. -->
+より多くの人を巻き込んで、高い透明性を確保することは組織間のコラボレーションを行うにあたって非常に良い効果を発揮します。
+これはチームの内部でも、外部とのコラボレーションにおいても良い意思決定に繋がることになります。
+また、明確な文章化を徹底することによってコミュニケーションの質自体も改善し、結果として会議時間の縮小にも繋がる事もわかりました。
 
 <!-- We did find that the increased communication required some external facilitation in the beginning. A key element was teaching the product specialists to negotiate more effectively by always looking at the win/win solution for the company. This stage was relatively short; after things were ironed out between teams, collaboration increased dramatically and little external help was needed. -->
+初期において、外部からのファシリテートのためにコミュニケーションの量は実際に増えました。
+しかし重要なのは、会社にとってWin Winとなる解決策を常に模索し続け、より効果のあるコミュニケーションを製品スペシャリストに徹底してもらうよう働きかけた事です。
+この期間は比較的短く終わりました。チーム間で物事が円滑に進むようになった後はコラボレーションが劇的に増加し、外部からの支援はほとんど必要がなくなりました。
 
 ## Crossing the Gap from Planning to Developers
 
 <!-- To our great satisfaction, the teams at PayPal really began to work well together, doing some horse trading and some very complex bargaining. One team’s product specialist even came up with a new, simple process change that we have added to the InnerSource checklist: product specialists must create and own a file called _HELPWANTED.md_. This file is where product specialists can transparently post their backlog. Developers who are looking for a project to work on will search the code repositories, but don’t usually think to look into project management tools, even if they have access. So, the _HELPWANTED.md_ file is placed in the code repository. Again, findability is important! -->
+私達の大きな実現のため、PayPal内のチームは抜け目がなく非常に複雑な交渉を共同で進めました。
+ある製品スペシャリストは我々が実際にInnerSourceチェックリストに追加した簡単なプロセス変更を考案しました。それは、製品スペシャリストは _HELPWANTED.md_ というファイルを自分たちで作成し、所有しなければならないというものです。
+彼らは透明性を保ちつつ、このファイルをバックログに保管できるようになっています。
+通常、作業対象のコードリポジトリを探している開発者たちは、たとえアクセス権があったとしてもプロジェクト管理ツールの中まで調べようとは思いません。
+よって、 _HELPWANTED.me_ をコードリポジトリに設置する事となるのです。
+ここでもやはり、発見のしやすさが重要な事が分かります。
 
 <!-- Some well-done _HELPWANTED.md_ documents have been generated from the project management tools, complete with notes and levels of prioritization. This really helps inform guest contributors about other teams’ needs. Often, potential contributors can tell which stories are similar to their own projects, so they choose which ones they can help with the most. The _HELPWANTED.md_ file is a great addition to the win/win mentality. Contributors can and do trade with other teams, fixing an item in the backlog in exchange for moving their feature-sized code changes up the review list. -->
+注釈や優先度合いなどがしっかりと補完されたいくつかの優れた _HELPWANTED.me_ はプロジェクト管理ツールから生まれています。
+これはゲストコントリビューターが他のチームが求めていることを知るのに大きく役立っています。
+潜在的なコントリビューターは自分達の抱えているプロジェクトと近しいストーリーを見分けやすくなり、最も貢献できそうな案件を選びやすくなります。
+_HELPWANTED.md_ は、Win/Winの精神に大きく寄与しています。
+コントリビューターは他のチームのバックログの中にあるアイテムに修正を加える代わりに、レビューリストの上位に移動するといったトレードをすることができるようになりましたし、実際に行っています。
