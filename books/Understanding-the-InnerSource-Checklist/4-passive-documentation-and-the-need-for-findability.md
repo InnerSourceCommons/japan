@@ -1,5 +1,5 @@
 <!-- # Passive Documentation and the Need for Findability -->
-# パッシブドキュメンﾄとファインダビリティの必要性
+# 検索可能性の必要性とパッシブ・ドキュメンテーション
 
 **TL;DR**
 
@@ -8,19 +8,19 @@
 * You can accelerate passive documentation by rewarding both the writers and consumers of the document.
 * Passive documentation must be findable to be useable. Sometimes, this means that you will need to manually cross-tag between siloed datasets.
 -->
-パッシブドキュメンﾄは人材育成と部族内知識の把握に重要です。初めはチームはコミュニケーションロスを発生させますが、ベロシティの増加はこのロスを補っても余りあるのです。
-あなたはドキュメントの作成者・消費者双方に報酬を出すことでパッシブドキュメンﾄを加速できます。
-パッシブドキュメンﾄは発見可能でなければ、利用可能とはならない。ときどき、これはサイロ化したデータセット間のタグを手動で設定する必要があります。
+パッシブ・ドキュメンテーションは部族内知識の捕捉と人材育成に欠かせないものです。チームは初期にコミュニケーションの落ち込みを感じることがありますが、速度の向上はその落ち込みを補っても余りあるのです。
+ドキュメンテーションの作成者と消費者の両方に報酬を与えることで、パッシブ・ドキュメンテーションを促進することができます。
+パッシブ・ドキュメンテーションを利用可能とするためには、それが検索可能な状態でなければなりません。ときどき、これはサイロ化したデータセット間のタグを手動で設定する必要があります。
 
 <!-- Passive documentation is the record of the documentation we create every day while communicating openly. It is a great way to get tribal knowledge out of silos and into a format that is archival and findable. As an added bonus, it is typically kept with the project or the code that it documents, thus it is in an easy-to-find, context-relevant location. -->
 
 
 
 <!-- ## Creating Passive Documentation -->
-## パッシブドキュメンﾄの作成
+## パッシブ・ドキュメンテーションの作成
 
 <!-- Passive documentation consists of written information that was produced not specifically to document for the future, but to explain something in the present, as it is needed. For example, it often includes the following: -->
-パッシブドキュメンﾄは将来のためではなく、必要に応じて作成された現在の状況を説明するための情報から成っています。
+パッシブ・ドキュメンテーションは将来のためではなく、現在必要なことを説明するために書かれた情報から成っています。
 例えば以下のようなものです。
 
 <!--
@@ -28,27 +28,27 @@
 * Conversations the product owners have when they are explaining their priorities to one another, or arranging them
 * The connection between a piece of the code and the project stories about the code, and the live conversations about both
 -->
-- トラステッドコミッターが自身のコードを統合する方法を学んでいるコントリビューターを育成している際に交わした会話
-- プロダクトオーナーたちが互いにタスクの優先順位を説明したり、整理整頓するときに交わした会話
-- コードの一部とコードに関するプロジェクトのストーリーの関係性、およびこれらに関する会話
+- トラステッドコミッター (TC) が、コントリビューターに対して、彼らのコードベースを統合する方法を指導する際に行われる会話
+- プロダクトオーナーたちが互いにタスクの優先順位を説明したり、整理整頓するときに交わす会話
+- コードの一部とプロジェクトのコードに関するストーリー、そしてこれらに関する生きた会話
 
 
 <!-- At first, the most difficult part is persuading people to have these conversations more openly. They tend to start out wary of creating a lasting reference document on the fly. We found that when people realize that they are not writing formal documents, but are simply capturing mentoring conversations, the resistance dissipates. And the benefits of the rapid increase in documentation are quickly obvious to all. -->
 
-最初はこれらの会話をもっとオープンにするよう説得することが最も難しいのです。
+最初に最も難しいのは、人々に対してこれらの会話をもっとオープンにすることを説得することです。
 彼らは今後も参照するドキュメントを事前準備なしに作ることに対して慎重になる傾向があります。
 しかし彼らが公式なドキュメントを書いているのではなく、単に育成のために交わした会話を記録しているだけであると気づくと、抵抗感がなくなっていくことがわかりました。
-またドキュメントの急速な拡充によるメリットは一目瞭然でした。
+またドキュメンテーションの急速な拡充によるメリットは誰の目にも明らかでした。
 
 
 <!-- To be captured in passive documentation, conversations need to happen in a written format. Common written formats include comments in a pull request, a tagged conversation in a public Slack channel, a comments page in a wiki, and a tagged email in a discussion group. In the open source world, we often say that conversations that don’t happen publicly on the email list or wiki aren’t “real.” We are working to change the culture internally to be the same. If there is an important discussion in person, at the end of it one person always commits to creating a written record of it. They do this by writing the discussion up in an email that all parties can approve, and then posting the write-up to the larger community. -->
 
-パッシブドキュメントとするためには会話は文字に起こされ一定のフォーマットで記述される必要があります。
+パッシブ・ドキュメンテーションに記録されるには、会話は文書上で行われる必要があります。
 一般的な記述形式はプルリクエストのコメント、Slack のパブリックチャンネルにあるタグ付けされた会話、wiki 内のコメントページ、ディスカッショングループ内のタグ付きメールなどです。
 オープンソースの世界ではメーリングリスト、もしくは wiki で公開されていない会話は”本物”ではないとよく言われます。
 私たちは社内においても同じような文化へ変化させていこうと取り組んでいます。
 また、もし対面で重要な議論があったのであれば、最終的に誰か必ず一人が記録に残すことを約束します。
-そのためには全ての関係者が承認できるようにメールに議論の内容を詳しく記述し、その内容をより大きなコミュニティにも公開します。
+そのためには、全ての関係者が承認できるように議論の内容を詳しくメールに記述し、その内容をより大きなコミュニティにも公開します。
 
 
 ## “Did You Read the FINE Manual?”
