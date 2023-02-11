@@ -7,12 +7,12 @@
 * Create formal processes to work within the enterprise environment. Formalizing processes keeps everyone on the same page.
 * Transparency in planning helps because if the employees do not understand why decisions are made, they cannot propose corrections to the implementation. Top-down management is a complex process that rarely works. Open collaboration scales better.
 -->
-計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は1桁以上向上する事がわかっています。
-組織内での正式なプロセスを作製し、定型化することで、全員が同じ目線を持つことが可能になります。
-もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。トップダウンによるマネージメントは複雑で、うまく機能する事はありません。オープンな共創こそスケールするのです。
+計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は桁違いの向上を見せる事がわかっています。
+組織内での正式なプロセスを作成し、定型化することで、全員が同じ目線を持つことが可能になります。
+もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。トップダウンによるマネージメントは複雑で、めったに機能する事はありません。オープンな共創こそスケールするのです。
   
 <!-- The biggest difference between InnerSource and open source is the business structure and its constraints. Working within an enterprise means a constant pull of hierarchy and power structures that are often contrary to the basic ethos of transparency and individual agency that is key to open source. Yet, open source has much to offer the business world. So how do we adapt to the business environment without diluting the fundamental aspects of open source? -->
-インナーソースとオープンソースの最大の違いは、企業における組織構造や制約に起因します。
+インナーソースとオープンソースの最大の違いは、企業における事業構造や制約に起因します。
 企業の中では往々にして組織階層や権力が存在しますが、これらは透明性と個人の主体性を重んじるオープンソースの文化に反してしまいます。
 一方で、ビジネスの世界ではオープンソースから学べる事が多々ある事も事実です。
 では、どのように我々はオープンソースの基本的な文化を薄めることなく、企業内に応用していけばよいのでしょうか？
@@ -20,16 +20,16 @@
 ## 小さく、シンプルでありながらメンバーを巻き込む
 
 <!-- Our biggest successes have resulted from finding and using a key point of leverage within the existing structures in the enterprise. We review current processes and find places to modify them in small ways to move incrementally toward InnerSource. We work with the business environment’s desire to work with _how_ s and not _why_ s, and simply tell them explicitly how to modify processes to improve outcomes, without going into lectures about transparency and ownership. It is best to make the changes as simple as possible, both to encourage adaptability and to avoid triggering the resistance large organizations can have to change. -->
-私たちの最大の成功は、企業組織の中に既において既に存在している鍵となるような力を発見し、それをどう活用するかにありました。
+私たちの最大の成功は、企業組織の中において既に存在している鍵となるような力を発見し、それをどう活用するかにありました。
 現状のプロセスを見直し、それらをインナーソースに向けて小さく修正していくための方法を見つけるのです。
 私たちは透明性や所有権について議論することなく、 _なぜ_ ではなく _どのように_ を考えながらビジネス環境の要望に応え、結果を改善するための明確な手段をシンプルに相手に伝えています。
-適応性を増やし、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
+適応性を高め、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
 
 <!-- For example, our written process for creating contributor agreements is very small and simple with few requirements: the agreements are owned by the Trusted Committers (TCs), they are viewable by other teams, and they contain the TCs’ contact information and availability. Other than the contact information and schedule, we do not dictate the content of the agreements at all. Of course, we do encourage and expect them to contain much more information! And problems with a guest contributor become the ideal learning experience to trigger additions or changes to the contributing agreement. It’s kind of like when you stay at someone’s house, and the host has a rule of no loud music after 2 a.m.; you know that someone before you must have played loud music at 2 a.m. -->
-例えば、私たちのコントリビューション協定をい作製するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能であり、トラステッドコミッターの連絡先や予定が書かれています。
+例えば、私たちのコントリビューション協定を作成するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能であり、トラステッドコミッターの連絡先や予定が書かれています。
 むしろ、トラステッドコミッターの連絡先と予定以外には何も強要していません。
 もちろん、他の情報も多く記載される事は推奨していますし期待しています!
-ゲストコントリビューターがこの問題に取り組む事は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
+ゲストコントリビューターが直面する問題は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
 これは誰かの家に泊まった時、その家の家主が深夜2時以降は音楽を大音量で流してはいけない、というルールがあるのと同程度です。
 
 <!-- A crucial part of the TC process is that the employee who will be most affected by the change is given more power (and more responsibility) to manage that change. -->
