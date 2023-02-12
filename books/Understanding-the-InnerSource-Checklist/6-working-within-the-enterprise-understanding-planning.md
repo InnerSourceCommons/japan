@@ -33,10 +33,11 @@
 これは誰かの家に泊まった時、その家の家主が深夜2時以降は音楽を大音量で流してはいけない、というルールがあるのと同程度です。
 
 <!-- A crucial part of the TC process is that the employee who will be most affected by the change is given more power (and more responsibility) to manage that change. -->
-トラステッドコミッターのプロセスで重要なのは、何か変更を行う従業員がその変更を行う上でより多くの力や責任を持つという事にあります。
+トラステッドコミッターのプロセスで重要なのは、その変更の影響を最もうける従業員には、それを管理するためのより大きな権限を持つという事にあります。
 
 <!-- These simple requirements, plus the rule that TCs are completely in charge of accepting or rejecting code changes, are relatively small and unalarming changes to the InnerSource process. But look at the results: -->
-これらのシンプルな要求事項に加え、トラステッドコミッターがコードの変更を受け入れるか拒否するかのルールというのは、比較的小さいもので、インナーソースプロセスに対してあまり警戒されません。しかし結果を見てください。
+これらのシンプルな要求事項に加え、トラステッドコミッターがコードの変更を受け入れるか拒否するかのルールというのは、比較的小さいもので、インナーソースプロセスに対してあまり警戒されません。
+しかし結果を見てください。
 
 <!--
 * The TCs have a huge incentive to fully participate in the new process.
@@ -46,9 +47,9 @@
 * As more code changes come in, the TCs do more mentoring, which creates more documentation.
 * The TCs become more deeply familiar with their codebase and its external impact.
 -->
-* トラステッドコミッターには、新しいプロセスを創るという大きなインセンティブがあります
+* トラステッドコミッターには、新しいプロセスに関与するという大きなインセンティブがあります
 * 協定に連絡先が掲載されていれば、すぐによいコミュニケーションとドキュメンテーションが始まります
-* 明確に期待している事が協定に書かれていれば、更に良いコラボレーションへつながります
+* 明確に期待している事がドキュメントに書かれていれば、更に良いコラボレーションへつながります
 * コードの変更は、更に迅速なポジティブフィードバックループへつながります
 * 多くのコード変更を行い、トラステッドコミッターがより多くのメンタリングを行う事は、結果として多くのドキュメンテーションにつながります
 * トラステッドコミッターは自分達のコードと外部への影響について更に深く理解する事になります
@@ -65,7 +66,8 @@
 <!-- Product specialists need the ability and knowledge to properly negotiate and prioritize features across teams. But, we have found that even though people working on code or product integration _know_ they need to sit down and discuss things with the other teams involved, they don’t usually make time for the necessary meetings unless they’re pushed. Anything not on the schedule is easy to put off. This results in poor communication, delays, and misunderstandings. The fix is a formal process change to force the necessary meetings, with greater inclusion to ensure that the appropriate people are in the planning sessions, and greater transparency to break down the silo mentality. We are working with our product specialists now to improve public records of this process. -->
 また製品スペシャリストは他チームと適切に交渉しつつ、実装すべきフィーチャーの優先順位を決める事ができる能力と知識が必要になります。
 しかし、製品のコードや製品のインテグレーションに関わっている人でさえ本来は腰を据えて他のチームとじっくり議論しなければならないと _知っていつつも_ 強制されない限り時間を作らないものです。
-元の予定に無かったものは、簡単に後回しになり、コミュニケーション不足は遅延や誤解を生じさせます。
+元の予定に無かったものは、簡単に後回しになります。
+その結果、コミュニケーション不足、遅延、誤解を生じさせます。
 これを正すための手段は、正式なプロセスを変更し必要な会議を必ず開催すると同時に、適切な参加メンバーをより多く集め、サイロ化された考え方をより多く壊していく事となります。
 製品スペシャリストとは、このオープンなプロセスを改善するため協調していく必要があります。
 
