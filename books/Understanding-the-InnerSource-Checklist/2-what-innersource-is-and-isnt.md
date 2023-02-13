@@ -74,7 +74,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 インナーソースなのですから、全てのコードを GitHub Enterprise に移すことにしました。
 それ以前は部署横断的なバージョン管理の仕組みが無かったので、社内ではあちこちから歓喜の声が上がりました。
 ついに他の開発者のコードを見ることができるようになったのです！
-何か変更を提案するときに、それが受諾されたとしても実現するのは来年のいつか…なんていう首を長くする時間とはおさらばなのです。
+何か変更を提案するときに、それが受け入れられたとしても実現するのは来年のいつか…なんていう首を長くする時間とはおさらばなのです。
 開発者達は円滑な協働のできる未来を想像して浮足立っていました。
 
 <!-- An intrepid programmer decided to do a pull request on the big codebase, and told her manager that she could write the necessary change in a matter of weeks. Her Big Cheese was very pleased. So, the intrepid programmer wrote the change and submitted the pull requests and waited...and waited...and waited...until her Big Cheese became very unhappy and asked why the changes had not been added. The intrepid programmer replied that she had finished the work and submitted the pull request, but the changes hadn’t been accepted by the other codebase. -->
