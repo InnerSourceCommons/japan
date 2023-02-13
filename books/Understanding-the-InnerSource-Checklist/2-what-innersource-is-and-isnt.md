@@ -130,7 +130,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 結局、最も多くの人がアクセスするコードが、最もコントリビューションしにくいコードになってしまうのです。
 
 <!-- We found that contributors were often inspired to write pull requests for the changes they needed in other codebases. But the codebase hosts were not accepting their pull requests, mainly because it meant extra work and responsibility for them. It became all risk and little gain. -->
-コントリビューターが他のコードベースにプルリクエストを送る動機は、自らの需要だということもわかりました。
+さらに、コントリビューターが他のコードベースにプルリクエストを送る動機は、自らの需要だということもわかりました。
 ですが、プルリクエストを送られた人々は、余計な仕事と責任が増える(ハイリスクローリターン)と考えて受け入れようとしないのです。
 
 <!-- We had to go back in the history of open source to find answers to these cultural problems. Then, we had to figure out how to make the solutions match enterprise structures. And we had to simplify the solutions so that they could be more universally adopted. I’ll explain our solution in [Chapter 3, _The Most Important Role, and the First Step: Trusted Committer_](/chapter-3#the_most_important_rolecomma_and_the_fir). -->
