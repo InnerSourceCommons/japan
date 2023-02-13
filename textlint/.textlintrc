@@ -22,7 +22,11 @@
         "preferInList": ""
       },
       "ja-no-weak-phrase": false,
-      "no-exclamation-question-mark": false
+      "no-exclamation-question-mark": false,
+      "no-doubled-joshi": {
+        "min_interval" : 2,
+        "allow": ["ど", "も", "や"]
+      }
     }
   },
   "filters": {
