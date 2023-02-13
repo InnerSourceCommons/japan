@@ -104,7 +104,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 <!-- At first, we were surprised by the Big Cheese problem, because we knew that the more code that other teams can see into, the better they can understand the pieces they are integrating with and/or reusing. But we found that just having the code visible doesn’t automatically lead to collaboration, especially in an enterprise environment. The incentives are different from the open source environment. -->
 インナーソースの適用プロジェクトを始めた頃は重役物語に驚かされました。
-他チームのコードを見ることができれば、それらをどのように自チームのコードと統合したり、あるいは自チームのために再利用したりできるかに役立つと考えていたからです。
+他チームのコードを見ることができれば、それらをどのように自チームのコードと統合したり、あるいは自分たちのチームのために再利用したりできるかに役立つと考えていたからです。
 しかし、単にコードが見えるだけでは協働にはつながらないということがわかりました。
 特に大企業であるほどこの問題は顕著です。
 オープンソースの世界とは利害の力学が違うのです。
