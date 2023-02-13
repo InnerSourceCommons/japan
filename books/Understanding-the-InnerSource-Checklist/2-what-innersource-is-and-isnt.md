@@ -46,7 +46,7 @@ GitHub は組織におけるコードの透明性を上げますが、それだ�
 インナーソースを実現する第一歩は、信頼を育むことと透明性のあるコミュニケーションを増やすことです。
 これにより、新たな協働を引き起こして改善してゆくためのセンスを磨く機会が生まれるのです。
 ただし、ビジネスでは _なぜか？_ よりも _どのように？_ から考えがちであることに注意しましょう。
-チームの信頼を育むというのは漠然としていて、具体的な作業内容を定義することはできません。
+チームの信頼を育むというのは漠然としていて、具体的な作業内容を定義できません。
 ですから、組織的階層とプロセス vs 顧客への影響とアジリティ、という対立が生まれるのです。
 さて、我々はどうすれば良い意思決定と多くの協働をコストを抑えて実現できるでしょうか？
 これこそがインナーソースにできて GitHub にはできないことなのです。
@@ -61,7 +61,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 ### GitHub はあるがインナーソースではなかったとしたら
 
 <!-- The first big problem we encountered when introducing InnerSource was an increase in escalation up the management chain. We like to call it the “Big Cheese Story” (see the following sidebar). At its core, it is a story of fear. We believe it is unique to the corporate environment and not the open source world. We found that this story resonated with many of our participants in the InnerSource Commons. The awesome part is that open source’s existing processes already had several pieces of the solution, though they had not been put together before. -->
-筆者らがインナーソースの導入時に最初に直面した大きな問題は、マネジメント層で報告が連鎖することでした。
+筆者らがインナーソースの導入時に直面した最初の大きな問題は、マネジメント層で報告が連鎖することでした。
 筆者らはこの問題を "重役物語" と呼ぶことにしました。
 願わくば企業の中だけで起きることであり、決してオープンソースの世界で起きてほしくはないことです。
 インナーソースコモンズのメンバーからの報告では、この問題はあちこちの企業で起きていることがわかりました。
@@ -71,7 +71,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 <!-- Once upon a time, there was a company that decided to embrace InnerSource, so it dictated that all code was to be moved to GitHub Enterprise. Because there was no cohesive version control before, there was much rejoicing across the company. Now, the developers finally had visibility to one another’s code! No longer would the developers need to submit a change request to planning, and hope it was accepted and scheduled some time in the next year. Visions of seamless collaborations danced in developers’ heads! -->
 あるとき、インナーソースを始めた会社がありました。
-インナーソースなのですから、全てのコードを GitHub Enterprise に移すことにしました。
+インナーソースなのですから、全てのコードを GitHub Enterprise へ移すことにしました。
 それ以前は部署横断的なバージョン管理の仕組みが無かったので、社内ではあちこちから歓喜の声が上がりました。
 ついに他の開発者のコードを見ることができるようになったのです！
 何か変更を提案するときに、それが受け入れられたとしても実現するのは来年のいつか…なんていう首を長くする時間とはおさらばなのです。
@@ -92,7 +92,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 ところが冴えないプログラマーは勇敢なプログラマーのコードが気に入りませんでした。
 自分流の書き方ではないからです。
 コーディングスタイルも違うし、テストの仕組みも違うし、既存のモジュールも活用していないようでした。
-結局、冴えないプログラマーは提案されたほとんどのコードを書き直してからコードベースに取り込む羽目になりました。
+結局、冴えないプログラマーは提案されたほとんどのコードを書き直してからコードベースへ取り込む羽目になりました。
 
 <!-- No one learned anything. No documentation was created. And now everyone hates InnerSource because it creates bottlenecks and makes programmers look difficult to the Big Cheeses. Plus, the product owners are frustrated because no one has included them in the process. -->
 色々と苦労があったにも関わらず、誰も何も学びませんでしたし、何のドキュメントも作られませんでした。
@@ -127,7 +127,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 また、コードベースの責任者は、自チームではない開発者が書いたコードに対する優先度を低く見積もり、責任を受け入れることを嫌がりました。
 こうした協働への反作用が、上司になんとかしてもらうという連鎖を生みました。
 そして、需要の高いコードベースであるほど GitHub がボトルネックになってしまいます。
-結局、最も多くの人がアクセスするコードが、最もコントリビューションしにくいコードになってしまうのです。
+結局、最も多くの人からアクセスされるコードが、最もコントリビューションしにくいコードになってしまうのです。
 
 <!-- We found that contributors were often inspired to write pull requests for the changes they needed in other codebases. But the codebase hosts were not accepting their pull requests, mainly because it meant extra work and responsibility for them. It became all risk and little gain. -->
 さらに、コントリビューターが他のコードベースにプルリクエストを送る動機は、自らの需要だということもわかりました。
@@ -146,11 +146,11 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 閉じた文化におけるコミュニケーションの問題は、伝統的なオープンソースの世界で起きる問題とは異なるものです。
 特に計画段階における問題は全く異なります。
 筆者が PayPal に入社する2週間前、四半期計画の一環として、ある中心的なコードベースに対して複数のチームが機能レベルの変更を要求しました。
-そのコードベースを担うコアチームは、寄せられたユーザーストーリーをコードベースの建てつけに合うように勝手に書き直し、要求元である外部のチームに送り返したのです。
+そのコードベースを担うコアチームは、寄せられたユーザーストーリーをコードベースの建てつけに合わせて勝手に書き直し、要求元である外部のチームに送り返したのです。
 四半期の終わりになり、それらのチームは書き直されたユーザーストーリーを持ってインナーソース推進チームに駆け込んできて不満をぶちまけました。
 「まるでインナーソースは徴兵されたコードだ」というのです。
 他チームの仕事をするように強制されてしまったと感じたのです。
-一体どういうことかと調べてみると、変更要求を受け取ったチームは、それらの変更要求が事業の四半期計画を達成するために必要な変更であることに気づいていなかったのです。
+一体どういうことかと調べてみると、変更要求を受け取ったチームは、それらの変更要求が事業の四半期計画を達成するための必要な変更であることに気づいていなかったのです。
 インナーソース推進チームは混乱しながらも、元々の変更要求をコアチームに再送して事情を説明しました。
 
 こうして筆者らは、変更要求が勝手に書き直されるという明らかなコミュニケーションの失敗を経験しました。
