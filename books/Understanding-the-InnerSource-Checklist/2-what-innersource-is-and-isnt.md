@@ -123,7 +123,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 しかし、それでは協働しようという雰囲気にはならず、アーキテクチャは複雑になり、コンポーネントは再利用されなくなってしまうのです。
 
 <!-- Because of this complexity, potential collaborators didn’t want to contribute until the pain from lack of integration was more painful than the fear of contributing. And the owners of the codebase were loath to accept responsibility for code that was not their priority and was written by someone not on their team. This resistance to collaboration resulted in a constant stream of escalations up the leadership chain. It turned GitHub into a bottleneck, especially for high-demand codebases, which tend to be high risk. Consequently, the code that the most people needed access to became the most difficult to contribute to. -->
-コントリビューションをしたいと思っている開発者であっても複雑さの前に恐れてしまい、本当に協力しないとまずいという切羽詰まった段階になるまで踏み切ろうとしないのです。
+コントリビューションをしたいと思っている開発者であっても複雑さの前に恐れてしまい、本当に協力しないとまずいという切羽詰まった段階になるまで踏み切ろうとしません。
 また、コードベースの責任者は、自チームではない開発者が書いたコードに対する優先度を低く見積もり、責任を受け入れることを嫌がりました。
 こうした協働への反作用が、上司になんとかしてもらうという連鎖を生みました。
 そして、需要の高いコードベースであるほど GitHub がボトルネックになってしまいます。
