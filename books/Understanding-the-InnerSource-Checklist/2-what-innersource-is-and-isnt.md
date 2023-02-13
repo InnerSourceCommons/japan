@@ -71,7 +71,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 <!-- Once upon a time, there was a company that decided to embrace InnerSource, so it dictated that all code was to be moved to GitHub Enterprise. Because there was no cohesive version control before, there was much rejoicing across the company. Now, the developers finally had visibility to one another’s code! No longer would the developers need to submit a change request to planning, and hope it was accepted and scheduled some time in the next year. Visions of seamless collaborations danced in developers’ heads! -->
 あるとき、インナーソースを始めた会社がありました。
-インナーソースなのですから、全てのコードを GitHub に移すことにしました。
+インナーソースなのですから、全てのコードを GitHub Enterprise に移すことにしました。
 それ以前は部署横断的なバージョン管理の仕組みが無かったので、社内ではあちこちから歓喜の声が上がりました。
 ついに他の開発者のコードを見ることができるようになったのです！
 何か変更を提案するときに、それが受諾されたとしても実現するのは来年のいつか…なんていう首を長くする時間とはおさらばなのです。
