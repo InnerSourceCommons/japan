@@ -22,9 +22,7 @@
         "preferInList": ""
       },
       "ja-no-weak-phrase": false,
-      "no-exclamation-question-mark": {
-        "severity": "warning"
-      }
+      "no-exclamation-question-mark": false
     }
   },
   "filters": {
