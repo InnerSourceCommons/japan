@@ -135,7 +135,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 <!-- We had to go back in the history of open source to find answers to these cultural problems. Then, we had to figure out how to make the solutions match enterprise structures. And we had to simplify the solutions so that they could be more universally adopted. I’ll explain our solution in [Chapter 3, _The Most Important Role, and the First Step: Trusted Committer_](/chapter-3#the_most_important_rolecomma_and_the_fir). -->
 我々はそうした文化的な問題の解決方法を探るべく、オープンソースの歴史に学ぶ必要がありました。
-また、オープンソースで上手くいっている方法を企業の中で発揮するように応用しないとなりません。
+また、オープンソースで上手くいっている方法を企業の中で発揮できるように応用する方法を見つけ出す必要がありました。
 さらに、全社員がくまなく受け入れられるように単純明快な方法に仕上げることも望ましいのです。
 この方法を3章で解説します。
 
