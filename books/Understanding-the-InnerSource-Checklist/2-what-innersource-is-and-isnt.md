@@ -92,7 +92,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 ところが冴えないプログラマーは勇敢なプログラマーのコードが気に入りませんでした。
 自分流の書き方ではないからです。
 コーディングスタイルも違うし、テストの仕組みも違うし、既存のモジュールも活用していないようでした。
-結局し、冴えないプログラマーは提案されたほとんどのコードを書き直してからコードベースに取り込む羽目になりました。
+結局、冴えないプログラマーは提案されたほとんどのコードを書き直してからコードベースに取り込む羽目になりました。
 
 <!-- No one learned anything. No documentation was created. And now everyone hates InnerSource because it creates bottlenecks and makes programmers look difficult to the Big Cheeses. Plus, the product owners are frustrated because no one has included them in the process. -->
 色々と苦労があったにも関わらず、誰も何も学びませんでしたし、何のドキュメントも作られませんでした。
