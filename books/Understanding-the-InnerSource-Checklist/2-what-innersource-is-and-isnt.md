@@ -45,7 +45,7 @@ GitHub は組織におけるコードの透明性を上げますが、それだ�
 <!-- The first steps toward InnerSource must be to foster trust and increase clear communication. This makes it possible for a sense of community to grow and improves collaboration. But businesses often lead from the _how_, rather than the _why_. We can’t tell them to foster trust in their teams; that is too vague and can’t be expressed as an action item. We fight the constant battle of process and hierarchy versus agility and customer influence. So how do we work around that? How do we make better decisions and collaborate more, without spending more money? These are things that GitHub cannot answer but InnerSource can. -->
 インナーソースを実現する第一歩は、信頼を育むことと透明性のあるコミュニケーションを増やすことです。
 これにより、新たな協働を引き起こして改善してゆくためのセンスを磨く機会が生まれるのです。
-ただし、ビジネスでは _なぜか？_ よりも _どうやって？_ から考えがちであることに注意しましょう。
+ただし、ビジネスでは _なぜか？_ よりも _どのように？_ から考えがちであることに注意しましょう。
 チームの信頼を育むというのは漠然としていて、具体的な作業内容を定義することはできません。
 ですから、組織的階層に基づくプロセス vs 顧客価値のためのアジリティ、という対立が生まれるのです。
 さて、我々はどうすれば良い意思決定と多くの協働をコストを抑えて実現できるでしょうか？
