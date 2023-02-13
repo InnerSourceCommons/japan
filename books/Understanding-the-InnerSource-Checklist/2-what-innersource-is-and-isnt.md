@@ -155,7 +155,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 こうして筆者らは、変更要求が勝手に書き直されるという明らかなコミュニケーションの失敗を経験しました。
 そして、その次回からは、変更要求を書き直す際には全チームのいる場で交渉するように改善しました。
-この問題が解決してから大きく進歩したことがわかりました。
+ このコミュニケーションの問題が解決された後、大きな成果を上げることができました。
 プルリクエストとして溜まっていたコード変更は承認され、バックログに溜まっていた他チームからのユーザーストーリーも解消したのです。
 
 <!-- We also had an issue with teams creating significant pull requests against codebases with little to no warning to the codebase owners. Of course, in an enterprise environment, such a significant expenditure of resources without planning or communication too often became a battle of the Big Cheeses. -->
