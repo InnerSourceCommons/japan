@@ -115,7 +115,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 ですから、部外者がコードの変更を提案しても受け入れられなかったのです。
 それだけではありません。
 部署では内部の社員とだけ話し、部外者には通じない言葉を使う文化がありました。
-これは複合的な構造の組織ではよくあることであり、後の章で説明します。
+これは複雑な構造の組織ではよくあることであり、後の章で説明します。
 
 <!-- If you do not understand the underlying architecture of the full stack, especially an older one with poor documentation, making silos is a normal response. It is easier to understand and take ownership of only your component. This is the piece you have the most control over. However, this method doesn’t lend itself to an atmosphere of collaboration, and can increase complexity and discourage reuse. -->
 ソフトウェアのアーキテクチャを理解していない開発者がいたとして、特にそのソフトウェアが古いものでドキュメントに乏しい場合、その開発者が特定の集団に閉じこもろうとするのは自然なことです。
