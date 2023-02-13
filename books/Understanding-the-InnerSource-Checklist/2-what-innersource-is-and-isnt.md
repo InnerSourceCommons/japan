@@ -110,7 +110,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 オープンソースの世界とは利害の力学が違うのです。
 
 <!-- First, most of the code had previously been developed in silos. This meant that teams had undocumented styles, structures, and practices that outsiders couldn’t know about until they submitted code that could not be accepted by the maintainers. Beyond that, there was a siloed culture that encouraged people to talk only to people in their own group and to use language that outsiders couldn’t understand. This often happens in complex structures. I’ll cover the organizational aspects later in this booklet. -->
-まず、ほとんどのコードは閉じた部署(サイロ)の中で開発されていたことに注意が必要です。
+まず、それまでほとんどのコードは閉じた部署(サイロ)の中で開発されていました。
 つまり、部署の構造も業務プロセスも習慣も明文化されておらず、部外者は知るよしもないのです。
 ですから、部外者がコードの変更を提案しても受け入れられなかったのです。
 それだけではありません。
