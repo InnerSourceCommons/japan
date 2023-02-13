@@ -80,7 +80,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 <!-- An intrepid programmer decided to do a pull request on the big codebase, and told her manager that she could write the necessary change in a matter of weeks. Her Big Cheese was very pleased. So, the intrepid programmer wrote the change and submitted the pull requests and waited...and waited...and waited...until her Big Cheese became very unhappy and asked why the changes had not been added. The intrepid programmer replied that she had finished the work and submitted the pull request, but the changes hadn’t been accepted by the other codebase. -->
 ある勇敢なプログラマーは大きなコードベースに対してプルリクエストを送ると決め、上司に「数週間で書ける」と報告しました。
 彼女のレポートラインにいる重役はとても喜び、彼女はついにプルリクエストを送りました。
-そして、待てど…暮らせど…一向にマージされません。
+そして、待てど暮らせど一向にマージされません
 とうとう重役の機嫌は悪くなり、なぜ変更されないのか勇敢なプログラマーに問い詰めました。
 彼女は「自分の仕事は終えてプルリクエストを送ったのですが、一向に受け入れられないのです。」と答えました。
 
