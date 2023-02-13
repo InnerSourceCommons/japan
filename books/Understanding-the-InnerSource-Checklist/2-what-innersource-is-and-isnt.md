@@ -54,7 +54,7 @@ GitHub は組織におけるコードの透明性を上げますが、それだ�
 <!-- It is true that using a tool like GitHub to make version control easy, visible, and accessible is a step in the right direction. But we need to think beyond tools and their advantages and flaws, and consider people. Enterprises are made of people with their own fears, habits, established patterns, hierarchy, and motivations, and they respond to corporate politics as much as to technology. This is why each of the checklist items focuses on some aspect of the human piece of the puzzle. -->
 GitHub のようなバージョン管理とコード検索のツールを使うこと自体は、インナーソースの実現に向けた正しい方向です。
 ですが、ツールの良し悪しよりも人を考慮する必要があります。
-企業とは、人々の不安、習慣、定型作業、階級、意志によって形作られているものであり、技術よりも社内の政治的力学によって動いているのです。
+企業は、人々の恐れ、習慣、定型作業、階級、動機によって形成されており、技術よりも社内の政治的力学によって動いているのです。
 本書の終わりに示すチェックリストが人に関連するものとなっている理由はこれなのです。
 
 <!-- ### A Parable: GitHub Without InnerSource -->
