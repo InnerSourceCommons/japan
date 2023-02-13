@@ -4,7 +4,7 @@
 <!-- **TL;DR** Too often, enterprise culture wants to change the definition of InnerSource to something more familiar. We must help enterprise stakeholders create clear practices and definitions in order to maintain the culture of open source as much as possible while still highlighting the benefits to the enterprise. -->
 **TL;DR**  
 企業がインナーソースを導入するとき、親近感を持てるように定義を曲げることがあまりにも頻繁に起こります。
-ですから、筆者らは導入企業がインナーソースを正しく定義し、正しく実践できるように支えなければと考えました。
+そのため、筆者らは導入企業がインナーソースを正しく定義し、正しく実践できるように支えなければと考えました。
 営利企業としての利益に焦点を当てつつも、オープンソースの文化を受け入れられるような定義が必要なのです。
 
 <!-- One of the major problems we have encountered when implementing InnerSource has been, at its root, a vocabulary problem. After we completed several successful InnerSource projects, we noticed that many people began using the word InnerSource in a simplistic, degenerate manner. Probably the most damaging misunderstanding was that InnerSource meant outsourcing work from a busy team to another that presumably had more capacity. In general, it’s easy to fall into the fallacy of thinking that effective processes are just about following certain procedures or using certain tools, without regard for the culture that makes success possible. -->
