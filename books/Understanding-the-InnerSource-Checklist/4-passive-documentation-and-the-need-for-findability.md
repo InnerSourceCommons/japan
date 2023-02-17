@@ -14,8 +14,6 @@
 
 <!-- Passive documentation is the record of the documentation we create every day while communicating openly. It is a great way to get tribal knowledge out of silos and into a format that is archival and findable. As an added bonus, it is typically kept with the project or the code that it documents, thus it is in an easy-to-find, context-relevant location. -->
 
-
-
 <!-- ## Creating Passive Documentation -->
 ## パッシブ・ドキュメンテーションの作成
 
@@ -32,14 +30,12 @@
 - プロダクトオーナーたちが互いにタスクの優先順位を説明したり、整理整頓するときに交わす会話
 - コードの一部とプロジェクトのコードに関するストーリー、そしてこれらに関する生きた会話
 
-
 <!-- At first, the most difficult part is persuading people to have these conversations more openly. They tend to start out wary of creating a lasting reference document on the fly. We found that when people realize that they are not writing formal documents, but are simply capturing mentoring conversations, the resistance dissipates. And the benefits of the rapid increase in documentation are quickly obvious to all. -->
 
 最初に最も難しいのは、人々に対してこれらの会話をもっとオープンにすることを説得することです。
 彼らは今後も参照するドキュメントを事前準備なしに作ることに対して慎重になる傾向があります。
 しかし彼らが公式なドキュメントを書いているのではなく、単に育成のために交わした会話を記録しているだけであると気づくと、抵抗感がなくなっていくことがわかりました。
 またドキュメンテーションの急速な拡充によるメリットは誰の目にも明らかでした。
-
 
 <!-- To be captured in passive documentation, conversations need to happen in a written format. Common written formats include comments in a pull request, a tagged conversation in a public Slack channel, a comments page in a wiki, and a tagged email in a discussion group. In the open source world, we often say that conversations that don’t happen publicly on the email list or wiki aren’t “real.” We are working to change the culture internally to be the same. If there is an important discussion in person, at the end of it one person always commits to creating a written record of it. They do this by writing the discussion up in an email that all parties can approve, and then posting the write-up to the larger community. -->
 
@@ -49,7 +45,6 @@
 私たちは社内においても同じような文化へ変化させていこうと取り組んでいます。
 また、もし対面で重要な議論があったのであれば、その終わりには必ず誰か一人が記録に残すことを合意します。
 そのためには、全ての関係者が承認できるように議論の内容を詳しくメールに記述し、その内容をより大きなコミュニティにも公開します。
-
 
 <!-- ## “Did You Read the FINE Manual?” -->
 ## “素晴らしいマニュアルはもうお読みになりましたか？”
