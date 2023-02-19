@@ -99,16 +99,16 @@
 不透明であるという事は、社員の意思決定のスピードを遅らせエスカレーションのプロセスも悪くなる要因となります。
 
 <!-- Bringing transparency to the process gives employees the ability to make corrections as necessary, because they understand the end goal and will not blindly continue down a designated path that they know will lead to the wrong outcome. In addition, making prioritization and resource allocation more transparent reduces hierarchically based fears of kingdom building, or the appearance of it. -->
-プロセスを透明化する事で、メンバーは必要に応じ軌道修正ができるようにもなります。なぜなら、間違った結果に繋がると分かっていながらも盲目的に進めていたような作業を正し、本当のゴールを理解できるようになるためです。
-加えてプライオリティとリソースの最適化を行う事で、組織内にありがちな権威への恐怖や、どのように見られているかなどを気にする負担も軽減する事となります。
+プロセスを透明化する事で、メンバーは必要に応じ軌道修正ができるようにもなります。なぜなら、本当のゴールを理解することで、誰かに指示されたものの間違った成果に繋がるやり方を妄信的に進むことがなくなるからです。
+加えて、優先順位付けとリソース配置の透明性を高めることで、組織階層から生じる権威への不安や、実際にその権威の出現は少なくなります。
 
 ## Planners Can Have an Impact on Processes
 
 <!-- We began with simple rules. For high-risk and high-demand codebases, we found it necessary to formalize planning. The product specialists worked with the TCs to add rules to the contributing agreements requiring external contributors to file an issue request before submitting a significant code change. “Significant” meant using more than three story points in Rally. This requirement was the first step in creating a solidified process that requires the product specialists on both teams to meet and collaborate with one another as well as the TC and contributor prior to a significant code change. -->
 私達はシンプルなルールから着手しました。
-リスクや求められる変更が大きいコードベースでは、計画を形式化する必要があることがわかりました。
+リスクや需要が大きいコードベースでは、計画を形式化する必要があることがわかりました。
 そこでプロダクトスペシャリストとTCが協力し、外部のコントリビューターが重要な変更を提出する際にはイシューリクエストの提出を義務付けるよう、コントリビューションアグリーメントにルールを追加しました。
-ここでの"重要"とは、Rallyにおける３つ以上のストーリーポイントを使用する事を意味します。
+ここでの"重要"とは、Rallyにおける３以上のストーリーポイントを使用する事を意味します。
 このルールは、両チームの製品スペシャリスト同士、またコントリビューターとTCが協調する事を必須とする、強固なプロセス形成のための第一歩となりました。
 
 <!-- Such structured meetings were not necessary for other codebases. Instead, their contributing agreements generally ask potential contributors to contact the TC and product specialist in advance on the listed discussion channels. Again, adaptability is key! -->
