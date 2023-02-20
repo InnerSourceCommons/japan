@@ -42,7 +42,7 @@ We are working on creating pattern languages from stories that our members creat
 -->
 私達は、 InnerSource Commons という組織を立ち上げました。
 既に50名以上のメンバーがおり、そのほとんどが大企業から参加してます。
-私達の最初のゴールの一つに、インナーソースの標準を作ることがあります。
+私達の最初のゴールの1つに、インナーソースの標準を作ることがあります。
 そこで、メンバーの経験をもとにインナーソースパターンを作成することに取り組んでいます。
 
 <!--
@@ -55,7 +55,7 @@ We are spreading information in several ways:
 * We have classes based on ones we’ve given at conferences, now trimmed to fit in 30-minute segments.
 * We have [training materials on the wiki](http://www.innersourcecommons.org/training). If you have any feedback or create any materials that you want to share, please contact us there or follow the link to our Slack chat channel.
 -->
-* （本書のように）オライリーメディアから出版してトレーニング資料と一緒に提供することで、インナーソースに興味がある人が学べるようにします。
+* (本書のように)オライリーメディアから出版してトレーニング資料と一緒に提供することで、インナーソースに興味を持つ人が学べるようにします。
 * カンファレンスで使用した資料を30分程度の講義資料にまとめます。
 * [InnerSource Commons のWiki](http://www.innersourcecommons.org/training)にトレーニング資料を掲載しています。これらの資料について何かコメントがあれば、是非InnerSource CommonsのサイトやSlackなどでフィードバックをお願いします。
   
@@ -70,8 +70,8 @@ In the pattern project, we create simple patterns that contain five elements:
 -->
 Commons で進行中の最も大きなプロジェクトに、インナーソース実施の課題に対処するパターンを作成することがあります。
 Leonardo da Vinci は、解決困難な課題の解決を自然に求めました。
-_私達_ が解決困難な課題に直面した時、オープンソースとして作成されたこれらのパターン集の中に類似のものがあれば、その解決方法を参考にすることが可能です。
-そこで、次の5つのポイントを含むようにパターンの作成を行います。
+_私達_ が解決困難な課題に直面した時、オープンソースとして作成されたこれらのパターン集の中に類似のものがあれば、その解決方法を参考にできます。
+そこで、次の5つのポイントを含むようにパターンの作成します。
 
 <!--
 * A description of the problem
