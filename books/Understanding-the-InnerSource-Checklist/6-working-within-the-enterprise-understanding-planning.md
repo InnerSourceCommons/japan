@@ -61,7 +61,7 @@
 
 <!-- After our success in improving integration with TCs and contributor agreements, we knew we had to create something similar to smooth the planning process. The product specialist role, which monitors all aspects of the product lifecycle, needs to work on breaking down silos between teams and products, and to see how these products can integrate with others in the company. -->
 トラステッドコミッターとコントリビューション協定を活用しインテグレーションを加速させることに成功した後、製品を企画するプロセスにおいても同様の必要性を感じました。
-製品スペシャリストは製品のライフサイクルにおいてあらゆる側面を注視しつつ、チームや製品間のサイロをなくし、社内にある他の製品ともどのようにインテグレーションできるか常に考える必要があります。
+製品のライフサイクルにおけるあらゆる側面を注視している製品スペシャリストは、チームや製品間のサイロをなくし、社内にある他の製品とインテグレーションできる方法を常に考える必要があります。
 
 <!-- Product specialists need the ability and knowledge to properly negotiate and prioritize features across teams. But, we have found that even though people working on code or product integration _know_ they need to sit down and discuss things with the other teams involved, they don’t usually make time for the necessary meetings unless they’re pushed. Anything not on the schedule is easy to put off. This results in poor communication, delays, and misunderstandings. The fix is a formal process change to force the necessary meetings, with greater inclusion to ensure that the appropriate people are in the planning sessions, and greater transparency to break down the silo mentality. We are working with our product specialists now to improve public records of this process. -->
 また製品スペシャリストは他チームと適切に交渉しつつ、実装すべきフィーチャーの優先順位を決める事ができる能力と知識が必要になります。
