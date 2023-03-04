@@ -43,7 +43,7 @@ We are working on creating pattern languages from stories that our members creat
 私達は、 InnerSource Commons という組織を立ち上げました。
 既に50名以上のメンバーがおり、そのほとんどは大企業から参加しています。
 私達の最初のゴールの1つは、インナーソースの標準を作ることです。
-そこで、メンバーの経験をもとにしたインナーソースパターンの作成に取り組んでいます。
+そこで、メンバーの経験をもとに、インナーソースパターンを作成しています。
 
 <!--
 We are spreading information in several ways:
