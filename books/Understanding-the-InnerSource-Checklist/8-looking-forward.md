@@ -41,9 +41,9 @@ One of our primary goals at the moment is to create an industry standard.
 We are working on creating pattern languages from stories that our members create.
 -->
 私達は、 InnerSource Commons という組織を立ち上げました。
-既に50名以上のメンバーがおり、そのほとんどが大企業から参加してます。
-私達の最初のゴールの1つに、インナーソースの標準を作ることがあります。
-そこで、メンバーの経験をもとにインナーソースパターンを作成することに取り組んでいます。
+既に50名以上のメンバーがおり、そのほとんどは大企業から参加しています。
+私達の最初のゴールの1つは、インナーソースの標準を作ることです。
+そこで、メンバーの経験をもとにしたインナーソースパターンの作成に取り組んでいます。
 
 <!--
 We are spreading information in several ways:
@@ -55,8 +55,8 @@ We are spreading information in several ways:
 * We have classes based on ones we’ve given at conferences, now trimmed to fit in 30-minute segments.
 * We have [training materials on the wiki](http://www.innersourcecommons.org/training). If you have any feedback or create any materials that you want to share, please contact us there or follow the link to our Slack chat channel.
 -->
-* (本書のように)オライリーメディアから出版してトレーニング資料と一緒に提供することで、インナーソースに興味を持つ人が学べるようにします。
-* カンファレンスで使用した資料を30分程度の講義資料にまとめます。
+* インナーソースに興味を持つ人や会社が学べるように、(本書のような)トレーニング資料を含む本をオライリーメディアの協力を得て出版しています。
+* カンファレンスで使用した資料を30分程度の講義資料にまとめました。
 * [InnerSource Commons のWiki](http://www.innersourcecommons.org/training)にトレーニング資料を掲載しています。これらの資料について何かコメントがあれば、是非InnerSource CommonsのサイトやSlackなどでフィードバックをお願いします。
   
 <!-- **InnerSource Pattern Language** -->
