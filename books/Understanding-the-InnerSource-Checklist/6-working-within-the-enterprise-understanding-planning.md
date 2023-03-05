@@ -9,7 +9,9 @@
 -->
 計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は桁違いの向上を見せる事がわかっています。
 組織内での正式なプロセスを作成し、定型化することで、全員が同じ目線を持つことが可能になります。
-もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。トップダウンによるマネージメントは複雑で、めったに機能する事はありません。オープンな共創こそスケールするのです。
+もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。
+トップダウンによるマネージメントは複雑で、めったに機能する事はありません。
+オープンな共創こそスケールするのです。
   
 <!-- The biggest difference between InnerSource and open source is the business structure and its constraints. Working within an enterprise means a constant pull of hierarchy and power structures that are often contrary to the basic ethos of transparency and individual agency that is key to open source. Yet, open source has much to offer the business world. So how do we adapt to the business environment without diluting the fundamental aspects of open source? -->
 インナーソースとオープンソースの最大の違いは、企業における事業構造や制約に起因します。
