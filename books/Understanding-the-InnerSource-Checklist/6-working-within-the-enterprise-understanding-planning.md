@@ -28,7 +28,8 @@
 適応性を高め、大きな組織が変化に対する拒絶反応を起こさないようにするためにも、変更は出来るかぎりシンプルにするのがベストです。
 
 <!-- For example, our written process for creating contributor agreements is very small and simple with few requirements: the agreements are owned by the Trusted Committers (TCs), they are viewable by other teams, and they contain the TCs’ contact information and availability. Other than the contact information and schedule, we do not dictate the content of the agreements at all. Of course, we do encourage and expect them to contain much more information! And problems with a guest contributor become the ideal learning experience to trigger additions or changes to the contributing agreement. It’s kind of like when you stay at someone’s house, and the host has a rule of no loud music after 2 a.m.; you know that someone before you must have played loud music at 2 a.m. -->
-例えば、私たちのコントリビューション協定を作成するためのプロセスは非常にシンプルで、要求事項はほとんどありません。コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能であり、トラステッドコミッターの連絡先や予定が書かれています。
+例えば、私たちのコントリビューション協定を作成するためのプロセスは非常にシンプルで、要求事項はほとんどありません。
+コントリビューション協定はトラステッドコミッターが所有し、他のチームからも閲覧が可能であり、トラステッドコミッターの連絡先や予定が書かれています。
 むしろ、トラステッドコミッターの連絡先と予定以外には何も強要していません。
 もちろん、他の情報も多く記載される事は推奨していますし期待しています!
 ゲストコントリビューターが直面する問題は、コントリビューション協定の追加や変更を経験する理想的な学習体験になります。
