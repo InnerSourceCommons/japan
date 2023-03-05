@@ -113,7 +113,7 @@
 <!-- We began with simple rules. For high-risk and high-demand codebases, we found it necessary to formalize planning. The product specialists worked with the TCs to add rules to the contributing agreements requiring external contributors to file an issue request before submitting a significant code change. “Significant” meant using more than three story points in Rally. This requirement was the first step in creating a solidified process that requires the product specialists on both teams to meet and collaborate with one another as well as the TC and contributor prior to a significant code change. -->
 私達はシンプルなルールから着手しました。
 リスクや需要が大きいコードベースでは、計画を形式化する必要があることがわかりました。
-そこでプロダクトスペシャリストとTCが協力し、外部のコントリビューターが重要な変更を提出する際にはイシューリクエストの提出を義務付けるよう、コントリビューションアグリーメントにルールを追加しました。
+そこでプロダクトスペシャリストとTCが協力し、外部のコントリビューターが重要な変更を提出する際にはイシューリクエストの提出を義務付けるよう、コントリビューション協定にルールを追加しました。
 ここでの"重要"とは、Rallyにおける３以上のストーリーポイントを使用する事を意味します。
 このルールは、両チームの製品スペシャリスト同士、またコントリビューターとTCが協調する事を必須とする、強固なプロセス形成のための第一歩となりました。
 
