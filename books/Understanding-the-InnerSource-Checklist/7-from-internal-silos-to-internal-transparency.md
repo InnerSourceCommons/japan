@@ -1,4 +1,5 @@
-# From Internal Silos to Internal Transparency
+<!--# From Internal Silos to Internal Transparency-->
+# 組織内サイロから組織内透明性へ
 
 **TL;DR**
 
@@ -6,18 +7,40 @@
 * Team divisions tend to create silos of information that hamper decision-making.  
 * Transparency can be reintroduced through rules about documenting activities and requirements for meetings on important decisions.
 -->
-  
-## Where Did Silos Come From?
+* チームを分けると情報のサイロ化が進み、意思決定に支障が起きがちである。
+* そうした場に透明性を再度もたらすには、ドキュメント作成のルールと、重要な意思決定をする会議のルールが必要である。
+
+<!--## Where Did Silos Come From?-->
+## サイロはどこから来るのか？
 
 <!-- British anthropologist Robin Dunbar has proposed a theory that a social animal’s neocortex size limits that animal’s comfortable social group size. [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number) suggests that humans are best able to handle approximately 150 relationships in a larger sense, and tend to maintain stronger ties to smaller groups of around 50.<sup>[1](#annotation-1)</sup> This maps back to tribes and their sizes. Many in the corporate world have noticed similar size limitations when creating organizational charts. Silos are a natural extension of those hierarchical situations. They also evolve out of specialization, and from these groupings tribal knowledge is born. -->
+イギリスの人類学者である Robin Dumbar の説によると、群れを作る動物が快適だと感じる群れの個体数は、その動物の大脳新皮質の大きさに依存します。
+この数は[ダンバー数](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%90%E3%83%BC%E6%95%B0)と呼ばれ、人間においては約150人だとされています。
+また、その中でもより小さな50人ほどの集団と強く結びつこうとするそうです [6-1]。
+これが部族の大きさを決める法則だと考えられます。
+会社で働いたことのある人であれば、組織構成図において似たような上限が描かれていることを知っているでしょう。
+サイロとは、そうした組織階層を作ることの延長上に自然と現れるのです。
+また、人を専門性で分けようとするときにもサイロは現れ、その区分における部族的知識が生まれるのです。
 
 <!-- With silos, people do not need to care as much about consensus. They make communication and permissions easier because they divide people into smaller groups. And dividing people into assigned groups can make accountability easier. If something goes wrong with security, people can blame the security group. -->
+サイロがあれば、各サイロ内にいる人々の意思統一にそれほど気にかける必要はありません。
+小さなグループでは、コミュニケーションも許可を得ることも簡単になるのです。
+それぞれのグループに誰が属するかを決めれば説明責任も簡単になります。
+例えば、セキュリティに問題があれば、それはセキュリティグループの責任だ、と言えるようになるのです。
 
-## What’s Wrong with Silos?
+<!--## What’s Wrong with Silos?-->
+## サイロの何が悪いのか？
 
 <!-- As you can guess, communication between the silos can become difficult, and problems can cascade through the company. Communicating over a wall never has the same emotional impact on people. Getting things right matters more when you know one of the customer representatives personally and you hear his frustration when a bug you accidently created increases his call volume. -->
+サイロ同士でコミュニケーションをとることが難しくなり、組織内で問題が連鎖することは多くの読者が想像しているでしょう。
+壁を超えたコミュニケーションの心理的な影響は、超えずに済む場合と決して同じではないのです。
+あなたが作ってしまったバグによって、個人的なつながりもある顧客担当者からの通話が荒ぶるのを聞けば、物事を正しく理解することの重要さがわかるでしょう。
 
 <!-- In the modern world of integrations and acquisitions, silos seriously hamper cross-team communications. Silos make the world of permissions a devastating morass of unproductivity as people swim upstream to find the tribal knowledge locked away in the silos. In really large enterprises, people attempt to diagram the convoluted jungle paths of interactivity and permissions via road maps. This is a losing battle because the vines continue to grow even as maps are drawn. -->
+事業の統合や買収が進む現代では、サイロはチーム同士のコミュニケーションの大きな障害となります。
+その障害とは、あらゆる承認を得ることを泥沼化させる生産性への大ダメージであり、川上のサイロに閉ざされた部族的知識を得るために上流へ泳ぐようなものです。
+巨大企業では、承認を得るための道筋がジャングルのように入り組んでおり、その図示を試みることがあります。
+しかし、図を描いている間にツルが伸び続けるため、負け戦であることは確定しています。
 
 ## Transparency for Community Sourcing
 
@@ -75,7 +98,8 @@
 
 <!-- There is also the topic of information overload and overcommunication. This is why search is a key element. We want to transition corporate culture from a push mentality, in which endless bulletins are sent out, to a pull mentality, in which people are confident that they will get the information they need when they need it via search. -->
 
-<!-- 
-* <sup><span id="annotation-1">1</span></sup> Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
-* <sup><span id="annotation-2">2</span></sup> [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
-* <sup><span id="annotation-3">3</span></sup> [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business) -->
+## 6章の参考文献
+
+* [6-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
+* [6-2] [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
+* [6-3] [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
