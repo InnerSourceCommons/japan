@@ -122,7 +122,7 @@
 その代わり、決められたコミュニケーションチャネルの中で、潜在的なコントリビューターがTCと製品スペシャリストに事前に連絡しておくことをコントリビューション協定の中で定めています。
 繰り返しになりますが、柔軟な適用性がキモとなるのです。
 
-## Results
+## ルールを定めた結果
 
 <!-- Greater inclusion in the planning stages does create a resource problem initially: scheduling meetings with large groups is difficult, the meetings can run longer than anticipated, and every person pulled into a meeting necessarily is putting off other tasks. But we saw benefits almost immediately. The teams understood the prioritization process better, which improved our Agile process. And the change velocity in the core team’s ability to accept external code was so large that it more than made up for the time lost in planning, by a factor of 10. And we were able to clear stories from contributor’s teams that had been on the backlog for years. -->
 計画段階から関連メンバを巻き込むことは最初はリソース上の問題を引き起こします。たとえば、大勢のメンバーの都合のつく予定を見ながら会議を設定する事が難しかったり、会議自体が予想よりも長引く事もあります。また、会議に参加しなければならないメンバーは他の業務を後回しにしがちです。
