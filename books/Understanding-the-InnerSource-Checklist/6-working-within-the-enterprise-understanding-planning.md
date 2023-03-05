@@ -125,7 +125,9 @@
 ## ルールを定めた結果
 
 <!-- Greater inclusion in the planning stages does create a resource problem initially: scheduling meetings with large groups is difficult, the meetings can run longer than anticipated, and every person pulled into a meeting necessarily is putting off other tasks. But we saw benefits almost immediately. The teams understood the prioritization process better, which improved our Agile process. And the change velocity in the core team’s ability to accept external code was so large that it more than made up for the time lost in planning, by a factor of 10. And we were able to clear stories from contributor’s teams that had been on the backlog for years. -->
-計画段階から関連メンバを巻き込むことは最初はリソース上の問題を引き起こします。たとえば、大勢のメンバーの都合のつく予定を見ながら会議を設定する事が難しかったり、会議自体が予想よりも長引く事もあります。また、会議に参加しなければならないメンバーは他の業務を後回しにしがちです。
+計画段階から関連メンバを巻き込むことは最初はリソース上の問題を引き起こします。
+たとえば、大勢のメンバーの都合のつく予定を見ながら会議を設定する事が難しかったり、会議自体が予想よりも長引く事もあります。
+また、会議に参加しなければならないメンバーは他の業務を後回しにしがちです。
 しかし私達はそれ以上の価値をすぐに理解しました。
 チームメンバーは優先順位付けのプロセスを今まで以上に理解しはじめ、アジャイルプロセスの改善に活かされました。
 一方でコアチームが外部からのコードを取り入れるスピードは非常に大きく改善されました。結果として、計画段階に費やされた時間の10倍以上を補填する事にまで繋がりました。
