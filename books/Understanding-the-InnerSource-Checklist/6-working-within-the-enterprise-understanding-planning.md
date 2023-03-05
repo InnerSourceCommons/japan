@@ -40,7 +40,7 @@
 
 <!-- These simple requirements, plus the rule that TCs are completely in charge of accepting or rejecting code changes, are relatively small and unalarming changes to the InnerSource process. But look at the results: -->
 これらのシンプルな要求事項に加え、トラステッドコミッターがコードの変更を受け入れるか拒否するかのルールというのは、比較的小さいもので、インナーソースプロセスに対してあまり警戒されません。
-しかし結果を見てください。
+しかし、こうした要求事項は次の結果につながるのです。
 
 <!--
 * The TCs have a huge incentive to fully participate in the new process.
