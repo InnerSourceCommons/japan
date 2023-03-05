@@ -93,7 +93,7 @@
 <!-- Transparency in planning increased as a side effect of adding more people to the planning meetings. More people are present for the trade-offs and negotiations. Just as important is the small process change we had already implemented, requiring that all relevant conversations be a part of the passive documentation. This means that everyone can review discussions in the future, and alters people’s conversational strategies. Also, by creating passive documentation, you can avoid information overload as people search more and spam less. -->
 企画会議に参加する人数を増やした事で透明性が更に高まるという側面もあります。
 トレードオフの議論をする場に、より多くの人が参加できるからです。
-また、行った変更がたとえ小さなものだったとしても、関連するチーム同士の全ての会話を保存しておく事は非常に重要です。
+また、行った変更がたとえ小さなものだったとしても、関連するチーム同士の全ての会話をパッシブ・ドキュメンテーション(4章)として保存しておく事は非常に重要です。
 これは、将来に渡り過去にどんな会話があったかをチェックする事ができると同時に、チーム同士の会話のあり方自体を変えるという事を意味します。
 また、会話が自動的に保存されていくということは情報の過多を防ぎ、検索性を向上させ、スパムをへらすことにも繋がります。
 
