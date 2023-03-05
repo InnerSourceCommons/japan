@@ -16,7 +16,7 @@
 <!-- The biggest difference between InnerSource and open source is the business structure and its constraints. Working within an enterprise means a constant pull of hierarchy and power structures that are often contrary to the basic ethos of transparency and individual agency that is key to open source. Yet, open source has much to offer the business world. So how do we adapt to the business environment without diluting the fundamental aspects of open source? -->
 インナーソースとオープンソースの最大の違いは、企業における事業構造や制約に起因します。
 企業の中では往々にして組織階層や権力が存在しますが、これらは透明性と個人の主体性を重んじるオープンソースの文化に反してしまいます。
-一方で、ビジネスの世界ではオープンソースから学べる事が多々あることも事実です。
+一方で、ビジネスの世界ではオープンソースから学べる場合が多々あることも事実です。
 では、どのように我々はオープンソースの基本的な文化を薄めることなく、企業内に応用していけばよいのでしょうか？
 
 ## 小さく、シンプルでありながらメンバーを巻き込む
