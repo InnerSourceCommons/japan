@@ -50,7 +50,7 @@
 * As more code changes come in, the TCs do more mentoring, which creates more documentation.
 * The TCs become more deeply familiar with their codebase and its external impact.
 -->
-* トラステッドコミッターには、新しいプロセスに関与するという大きなインセンティブがあります
+* トラステッドコミッターには、新しいプロセスに関与するという大きなインセンティブが生まれます
 * 協定に連絡先が掲載されていれば、すぐによいコミュニケーションとドキュメンテーションが始まります
 * 明確に期待している事がドキュメントに書かれていれば、更に良いコラボレーションへつながります
 * コードの変更は、更に迅速なポジティブフィードバックループへつながります
