@@ -58,7 +58,8 @@
 * トラステッドコミッターは自分達のコードと外部への影響について更に深く理解する事になります
   
 <!-- The minimal requirements allow the teams to adapt the process to their own needs—a major tenet of open source—and lead to the InnerSource goals of better collaboration, fewer bottlenecks, better integration, and, almost certainly, cleaner code. -->
-要求事項を必要最低限に抑えることは、チームが独自に求めているプロセス (オープンソースの信念) に適応でき、より良いコラボレーションというインナーソースのゴールへ導きます。また、ボトルネックを減らし、良いインテグレーションは増え、ほぼ確実にコードはクリーンな状態となります。
+要求事項を必要最低限に抑えることにより、チームのプロセスをチーム固有のニーズ（オープンソースの信念）に合わせることができます。
+そして、良いコラボレーション、良いインテグレーション、ボトルネックの低減、整理されたコードというインナーソースの目標にもつながるのです。
 
 <!-- ## Planning & Product Specialists -->
 ## 企画&製品スペシャリスト
