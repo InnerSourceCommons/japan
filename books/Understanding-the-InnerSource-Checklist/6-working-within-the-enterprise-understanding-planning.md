@@ -119,7 +119,7 @@
 
 <!-- Such structured meetings were not necessary for other codebases. Instead, their contributing agreements generally ask potential contributors to contact the TC and product specialist in advance on the listed discussion channels. Again, adaptability is key! -->
 他のコードベースではこのような形式ばったミーティングは必要となりませんでした。
-その代わり、決められたコミュニケーションチャネルの中で、潜在的なコントリビューターがTCと製品スペシャリストに事前に連絡しておくことをコントリビューションアグリーメントの中で定めています。
+その代わり、決められたコミュニケーションチャネルの中で、潜在的なコントリビューターがTCと製品スペシャリストに事前に連絡しておくことをコントリビューション協定の中で定めています。
 繰り返しになりますが、柔軟な適用性がキモとなるのです。
 
 ## Results
