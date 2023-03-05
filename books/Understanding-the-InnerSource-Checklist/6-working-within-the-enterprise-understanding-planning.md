@@ -79,7 +79,7 @@
 ## インクルージョンと透明性
 
 <!-- Full inclusion in the planning stage of the process is crucial; all of the teams must be at the table for the process to work smoothly. Representatives from each team need to be present for the story grooming process, not just the owners of the primary codebase. Different teams often have different or conflicting priorities. Getting planners from each team together in one room helps them negotiate among themselves to get all the work done. Inclusion leads to smoother collaboration. -->
-プロセスを潤滑にすすめていくためには、全てのチームが最初の企画段階から参加する事が不可欠となります。
+プロセスを円滑に進めていくためには、全てのチームが最初の企画段階から参加する事が不可欠となります。
 ストーリーグルーミングのプロセスでは、主要なコードのオーナーだけでなく各チームの代表者が参加する必要があります。
 ときにチーム間で優先順位は異なり、それらは相反することもあります。
 各チームの企画者が集まることで、全てのタスクが完了するために何が必要か互いに話し合う事ができます。
