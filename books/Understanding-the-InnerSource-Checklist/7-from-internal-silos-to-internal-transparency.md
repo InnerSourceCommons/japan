@@ -42,15 +42,28 @@
 巨大企業では、承認を得るための道筋がジャングルのように入り組んでおり、その図示を試みることがあります。
 しかし、図を描いている間にツルが伸び続けるため、負け戦であることは確定しています。
 
-## Transparency for Community Sourcing
+<!--## Transparency for Community Sourcing-->
+## コミュニティの力を得るための透明性
 
 <!-- Hopefully, by now you are convinced that transparency in coding has multiple benefits. But consider this, as well: transparency is a core tenet in science and academia. It is a key element in scientific rigor.<sup>[2](#annotation-2)</sup> We believe that it works within a company for the same reasons it works with academia. It improves collaboration, and empowers anyone within the company to see when a project is going off track and help to fix it. -->
+ここまでの記述で、コーディングには様々な面で透明性が欲しいと想像できたのではないでしょうか。
+これは科学と学術でも同様で、厳密さのための核となる考え方なのです [6-2]。
+そして、学術で透明性が働くのと同様に企業でも機能すると私たちは確信しています。
+透明性はコラボレーションを改善し、プロジェクトを脱線から軌道修正できる力を全ての社員に与えるのです。
 
 <!-- Many businesses are learning the value of transparent communication with customers. Facebook, Twitter, and other forms of social media empower customers to get issues resolved publicly. Businesses have the opportunity to increase trust by handling problems effectively.<sup>[3](#annotation-3)</sup> -->
+世の中のビジネス事例で、顧客とのコミュニケーションに透明性があることの価値を学んだケースは多いことでしょう。
+Facebook、Twitter などのソーシャルメディアによって、顧客は公共の場で問題を解決できる力を得ました。
+企業は、問題を効率的に解決する姿を見せることによって、顧客の信頼を得ることができるようになったのです [6-3]。
 
-## Transparency Boosts Decision-Making
+<!--## Transparency Boosts Decision-Making-->
+## 意思決定を加速する透明性
 
 <!-- Many organizations are seriously hampered because people can’t offer input to decisions that cross team boundaries. A staff member will say, “I don’t know what’s really going on in that group, so I can’t make a judgment.” The documentation and open meetings that this report proposes as part of the InnerSource culture will go a long way toward fixing this problem. People need three things to participate in decision-making: information (which documentation provides), access (which comes in meetings), and permission (which must become part of the InnerSource culture). -->
+多くの組織では、複数のチームにまたがる意思決定に関与できないことに大きく悩まされています。
+そうした社員は「中で何が起きているかわからないから判断できない」と言うでしょう。
+本書がインナーソースの文化として提唱している明文化とオープンな会議は、この問題を解決するための長い道を進むでしょう。
+社員が意思決定に関与するには、文書である情報、情報への到達、そして情報を閲覧する許可というインナーソースの文化の3種が必要なのです。
 
 ## How Do We Break Down Silo Walls?
 
