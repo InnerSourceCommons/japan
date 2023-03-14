@@ -65,11 +65,15 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 本書がインナーソースの文化として提唱している明文化とオープンな会議は、この問題を解決するための長い道を進むでしょう。
 社員が意思決定に関与するには、文書である情報、情報への到達、そして情報を閲覧する許可というインナーソースの文化の3種が必要なのです。
 
-## How Do We Break Down Silo Walls?
+<!--## How Do We Break Down Silo Walls?-->
+## サイロを壊す方法
 
 <!-- If the problem with silos is that they impair communication and lock up tribal knowledge, the solution is to create processes that open communication channels and produce findable documentation. -->
+サイロによる問題がコミュニケーションの阻害と部族的知識の非公開だとすれば、その解決策はオープンなコミュニケーション方法を確立し、ドキュメントを見つけられるようにすることです。
 
 <!-- Luckily, we can do both with the same processes, discussed in earlier chapters. All of the steps toward InnerSource are steps toward opening up the silos: -->
+これまでの章で述べたように、そのどちらも同じプロセスで実現できます。
+インナーソースへの道はサイロを壊す道と同じであり、以下に示すものです。
 
 <!--
 * Create new roles to take ownership of creating and maintaining documents that explicitly communicate expectations and needs, or assign this responsibility to existing roles. The roles should go to people most directly affected by the changes.
@@ -78,8 +82,16 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 * Make those channels accessible company-wide.
 * Archive the discussions in a findable location.
 -->
+* ソフトウェアやチームへの期待と要求を記すドキュメントの作成に責任を持つ役割を定める。この役割は、ドキュメントに記された変更の影響を受ける人々に働きかける必要がある。
+* ソフトウェアの統合を計画する段階において、その計画を明文化し、計画の議論に関係者をできるだけ呼ぶためのプロセスを作る。
+* 議論の場と連絡網は決まったものを用いることを義務付ける。
+* そうしたコミュニケーションを会社の誰もが閲覧できるようにする。
+* 議論の結果を発見可能な場に残す。
 
 <!-- There is a cost to making these changes. Projects might slow down as some people move into new roles and others adjust to more meetings and online discussions. But the benefits come quickly. -->
+こうした変化にはコストがかかります。
+誰かが新しい役割を担い、他のメンバーも会議やオンラインでの議論に関わるようになるので、プロジェクトの進行が遅くなる可能性があります。
+ですが、そのコストに対するメリットは早くやってきます。
 
 ## Findable Documentation Is Part of Transparency
 
