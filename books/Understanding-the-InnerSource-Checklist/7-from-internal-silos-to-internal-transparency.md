@@ -93,19 +93,49 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 誰かが新しい役割を担い、他のメンバーも会議やオンラインでの議論に関わるようになるので、プロジェクトの進行が遅くなる可能性があります。
 ですが、そのコストに対するメリットは早くやってきます。
 
-## Findable Documentation Is Part of Transparency
+<!--## Findable Documentation Is Part of Transparency-->
+## ドキュメントの発見容易性は透明性の一部
 
 <!-- We as a society have become accustomed to using a search to find what we need. Filing email into folders is becoming obsolete; why spend time filing when you can just run a search? Yet finding necessary documentation in a company can feel more like a treasure hunt. One of our big goals is to improve documentation, and a major component of this is not just _creating_ it, but making it _findable_. Yes, documentation is an aspect of transparency.-->
+現代人は、欲しい情報を検索することに慣れています。
+メールも検索すればよくなったので、時間をかけてフォルダに振り分ける方法は過去のものになりつつあります。
+一方、企業で必要なドキュメントを探すことは宝探しのようです。
+これに対する私達の目標はドキュメントを作る方法を改善することですが、改善するのは書き方ではなく発見容易性です。
+ドキュメントの発見容易性とは透明性の一部なのです。
 
 <!-- Documentation in accessible and logical places becomes a major driver of transparency and collaboration. Creating documentation is usually a low priority and rarely has passionate champions, yet it can drastically shorten learning curves, ease collaboration, and prevent misunderstandings. Fortunately, InnerSource, when done correctly, creates extensive and findable documentation as a side effect. -->
+ドキュメントがアクセス可能であり理解しやすい場所に置かれていることは、透明性とコラボレーションにとって重要なことです。
+ドキュメントの作成は優先度が低く、熱意を持って取り組む人は少ないものですが、学習曲線が劇的に短縮し、コラボレーションを容易にし、誤解を防止することができます。
+そして、インナーソースが適切に実施された副次的な結果として、広範かつ発見容易性の高いドキュメントが得られます。
 
 <!-- As an enterprise transitions toward InnerSource, there is a time cost to the extra communication that is required. But if the enterprise first sets up passive documentation processes to capture this extra communication, that extra communication is a huge gain for future productivity. Learning from what worked and what didn’t is always useful for organizations, but most enterprises make no real effort to capture and share this knowledge. Sometimes, it is fear of liability, but if the conversations are done in a public fashion, people will already be aware of those repercussions and higher-quality conversations will ensue. -->
+企業がインナーソースを目指す過程で、コミュニケーションの追加という時間的コストが発生します。
+しかし、早い段階からパッシブドキュメンテーションというプロセスを整備して、その追加されたコミュニケーションを残すことができれば、その記録(ドキュメント)は未来を加速させる財産になるでしょう。
+うまくいったこと、いなかったことからの学びは組織にとって常に有用なものですが、そのために努力する企業は少ないものです。
+情報を残さないことは責任の恐れによる場合があります。
+ただ、社内に公開された場所で何らかの会話がなされれば、おのずと社員はその影響に気づき、より質の高い会話が残されてゆくでしょう。
 
 <!-- Look for ways to make passive documentation available to all levels in the company, not just developers in GitHub, email lists, or Slack conversations. Passive documentation reduces the barrier to nonwriters sharing knowledge precisely when it is needed. And by having the immediate feedback that passive documentation creates, questions are guaranteed to be answered well. Slack and other tools that allow more communication across silos have been extremely valuable in increasing collaboration. -->
+パッシブドキュメンテーションの実現方法を社内のあらゆる職種や部署で検討しましょう。
+方法は、開発者が使う GitHub, メーリングリスト、Slack だけではありません。
+パッシブドキュメンテーションによって、書いた当事者以外が知識を必要としたときに得やすくなります。
+また、パッシブドキュメンテーションに対する質問や感想といったフィードバックは素早く伝わり、適切な回答も得られます。
+Slack に代表されるサイロを超えられるコミュニケーションツールは、コラボレーションの加速に大きな価値があるものです。
 
 <!-- Of course, there’s probably already some existing documentation scattered across the company. Many of our member organizations at the InnerSource Commons are looking at larger search solutions to make it easier to open information across departments and tools. Although their solutions don’t let people change or edit what they find in search (they must to return to the tool that created the information), they can at least find out what is happening and to whom to talk. Slack is proving very valuable in both facilitating and archiving those discussions on a wider scope. -->
+類するドキュメントは既に社内に断片的に存在していることでしょう。
+インナーソースコモンズにいるメンバーの多くは、複数の部署やツールに対応した大きな検索方法を求めています。
+しかしながら、検索して見つけた情報から何が起きていて誰の意志によるものかはわかっても、その内容を変更したり議論に加わることは検索ツールではできないのです。
+その情報を作るのに使われたツールに戻る必要があります。
+その点、Slack は議論の推進と記録の両方に長けていることを多くの企業で証明しています。
 
 <!-- It is also important for the enterprise to make collaboration a real priority. Communication costs will temporarily rise as the organization transitions. This is typical for in any change-management scenario. But communicating earlier during cross-team collaboration creates large productivity gains. Companies spend millions and millions on internal integrations and integrations of acquisitions. Having these conversations publicly facilitates the next acquisition or integration. -->
+また、コラボレーションを創出する優先度が高いと経営レベルで判断することも重要です。
+インナーソースへの移行に伴い、コミュニケーションコストは一時的に上昇します。
+これはどの企業の移行でも共通することです。
+しかし、早期にチーム間でコラボレーションすることは大きな利益を生みます。
+部署の統合や買収した企業の統合にかかるコストは億単位であり、統合の頻度は度重なるものです。
+本節で述べたドキュメントの発見容易性を高める活動に取り組むことによって統合も促進され、さらなる統合や買収が可能となります。
 
 ## Where Do We Still Need to Improve Transparency?
 
