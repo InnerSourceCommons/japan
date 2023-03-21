@@ -16,14 +16,14 @@
 <!-- British anthropologist Robin Dunbar has proposed a theory that a social animal’s neocortex size limits that animal’s comfortable social group size. [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number) suggests that humans are best able to handle approximately 150 relationships in a larger sense, and tend to maintain stronger ties to smaller groups of around 50.<sup>[1](#annotation-1)</sup> This maps back to tribes and their sizes. Many in the corporate world have noticed similar size limitations when creating organizational charts. Silos are a natural extension of those hierarchical situations. They also evolve out of specialization, and from these groupings tribal knowledge is born. -->
 イギリスの人類学者である Robin Dumbar の説によると、群れを作る動物が快適だと感じる群れの個体数は、その動物の大脳新皮質の大きさに依存します。
 この数は[ダンバー数](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%90%E3%83%BC%E6%95%B0)と呼ばれ、人間においては約150人だとされています。
-また、その中でもより小さな50人ほどの集団と強く結びつこうとするそうです [6-1]。
+また、その中でもより小さな50人ほどの集団と強く結びつく傾向があるそうです [6-1]。
 これが部族の大きさを決める法則だと考えられます。
 会社で働いたことのある人であれば、組織構成図において似たような上限が描かれていることを知っているでしょう。
 サイロとは、そうした組織階層を作ることの延長上に自然と現れるのです。
-また、人を専門性で分けようとするときにもサイロは現れ、その区分における部族的知識が生まれるのです。
+人を専門性で分けようとするときにもサイロは現れ、その区分における部族的知識が生まれるのです。
 
 <!-- With silos, people do not need to care as much about consensus. They make communication and permissions easier because they divide people into smaller groups. And dividing people into assigned groups can make accountability easier. If something goes wrong with security, people can blame the security group. -->
-サイロがあれば、各サイロ内にいる人々の意思統一にそれほど気にかける必要はありません。
+サイロがあれば、各サイロ内の意思統一をそれほど気にかける必要はありません。
 小さなグループでは、コミュニケーションも許可を得ることも簡単になるのです。
 それぞれのグループに誰が属するかを決めれば説明責任も簡単になります。
 例えば、セキュリティに問題があれば、それはセキュリティグループの責任だ、と言えるようになるのです。
@@ -38,7 +38,7 @@
 
 <!-- In the modern world of integrations and acquisitions, silos seriously hamper cross-team communications. Silos make the world of permissions a devastating morass of unproductivity as people swim upstream to find the tribal knowledge locked away in the silos. In really large enterprises, people attempt to diagram the convoluted jungle paths of interactivity and permissions via road maps. This is a losing battle because the vines continue to grow even as maps are drawn. -->
 事業の統合や買収が進む現代では、サイロはチーム同士のコミュニケーションの大きな障害となります。
-その障害とは、あらゆる承認を得ることを泥沼化させる生産性への大ダメージであり、川上のサイロに閉ざされた部族的知識を得るために上流へ泳ぐようなものです。
+その障害とは、あらゆる承認を得ることを泥沼化させる生産性への大ダメージであり、川上のサイロに閉ざされた部族的知識を得ようと上流へ泳ぐようなものです。
 巨大企業では、承認を得るための道筋がジャングルのように入り組んでおり、その図示を試みることがあります。
 しかし、図を描いている間にツルが伸び続けるため、負け戦であることは確定しています。
 
@@ -60,10 +60,10 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 ## 意思決定を加速する透明性
 
 <!-- Many organizations are seriously hampered because people can’t offer input to decisions that cross team boundaries. A staff member will say, “I don’t know what’s really going on in that group, so I can’t make a judgment.” The documentation and open meetings that this report proposes as part of the InnerSource culture will go a long way toward fixing this problem. People need three things to participate in decision-making: information (which documentation provides), access (which comes in meetings), and permission (which must become part of the InnerSource culture). -->
-多くの組織では、複数のチームにまたがる意思決定に関与できないことに大きく悩まされています。
+多くの組織では、複数のチームをまたぐ意思決定へ関与できないことに大きく悩まされています。
 そうした社員は「中で何が起きているかわからないから判断できない」と言うでしょう。
 本書がインナーソースの文化として提唱している明文化とオープンな会議は、この問題を解決するための長い道を進むでしょう。
-社員が意思決定に関与するには、文書である情報、情報への到達、そして情報を閲覧する許可というインナーソースの文化の3種が必要なのです。
+社員が意思決定に関与するには、ドキュメントとしての情報、情報への到達、そして情報を閲覧する許可というインナーソースの文化の3種が必要なのです。
 
 <!--## How Do We Break Down Silo Walls?-->
 ## サイロを壊す方法
@@ -89,8 +89,8 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 * 議論の結果を発見可能な場に残す。
 
 <!-- There is a cost to making these changes. Projects might slow down as some people move into new roles and others adjust to more meetings and online discussions. But the benefits come quickly. -->
-こうした変化にはコストがかかります。
-誰かが新しい役割を担い、他のメンバーも会議やオンラインでの議論に関わるようになるので、プロジェクトの進行が遅くなる可能性があります。
+新しい役割が増え、他のメンバーも会議やオンラインでの議論へ関わるようになります。
+これにより、プロジェクトの進行が遅くなるというコスト増の可能性があります。
 ですが、そのコストに対するメリットは早くやってきます。
 
 <!--## Findable Documentation Is Part of Transparency-->
@@ -105,7 +105,7 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 
 <!-- Documentation in accessible and logical places becomes a major driver of transparency and collaboration. Creating documentation is usually a low priority and rarely has passionate champions, yet it can drastically shorten learning curves, ease collaboration, and prevent misunderstandings. Fortunately, InnerSource, when done correctly, creates extensive and findable documentation as a side effect. -->
 ドキュメントがアクセス可能であり理解しやすい場所に置かれていることは、透明性とコラボレーションにとって重要なことです。
-ドキュメントの作成は優先度が低く、熱意を持って取り組む人は少ないものですが、学習曲線が劇的に短縮し、コラボレーションを容易にし、誤解を防止することができます。
+ドキュメントの作成は優先度が低く、熱意を持って取り組む人は少ないものですが、学習曲線が劇的に短縮し、コラボレーションを容易にし、誤解を防止できます。
 そして、インナーソースが適切に実施された副次的な結果として、広範かつ発見容易性の高いドキュメントが得られます。
 
 <!-- As an enterprise transitions toward InnerSource, there is a time cost to the extra communication that is required. But if the enterprise first sets up passive documentation processes to capture this extra communication, that extra communication is a huge gain for future productivity. Learning from what worked and what didn’t is always useful for organizations, but most enterprises make no real effort to capture and share this knowledge. Sometimes, it is fear of liability, but if the conversations are done in a public fashion, people will already be aware of those repercussions and higher-quality conversations will ensue. -->
@@ -126,7 +126,7 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 類するドキュメントは既に社内に断片的に存在していることでしょう。
 インナーソースコモンズにいるメンバーの多くは、複数の部署やツールに対応した大きな検索方法を求めています。
 しかしながら、検索して見つけた情報から何が起きていて誰の意志によるものかはわかっても、その内容を変更したり議論に加わることは検索ツールではできないのです。
-その情報を作るのに使われたツールに戻る必要があります。
+その情報を作るのに使われたツールを開く必要があります。
 その点、Slack は議論の推進と記録の両方に長けていることを多くの企業で証明しています。
 
 <!-- It is also important for the enterprise to make collaboration a real priority. Communication costs will temporarily rise as the organization transitions. This is typical for in any change-management scenario. But communicating earlier during cross-team collaboration creates large productivity gains. Companies spend millions and millions on internal integrations and integrations of acquisitions. Having these conversations publicly facilitates the next acquisition or integration. -->
@@ -137,24 +137,43 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 部署の統合や買収した企業の統合にかかるコストは億単位であり、統合の頻度は度重なるものです。
 本節で述べたドキュメントの発見容易性を高める活動に取り組むことによって統合も促進され、さらなる統合や買収が可能となります。
 
-## Where Do We Still Need to Improve Transparency?
+<!--## Where Do We Still Need to Improve Transparency?-->
+## さらに、どこの透明性を向上させるのか？
 
 <!-- Those of us doing InnerSource already have code transparency through GitHub. We have taken the first steps to make planning and communications more transparent, but we still need to find more solutions in this area. -->
+インナーソースを実践している我々は、コードの透明性については GitHub の活用によってクリアしています。
+計画とコミュニケーションの透明性を高める活動についても始めています。
+それでも、まだやれることがあるのです。
 
 <!-- Often, tools themselves inhibit transparency across departments. When most enterprise software charges by the user, it becomes financially prohibitive to buy a user account for everyone in the company. A solution is to look primarily at tools that allow the company to become tools-agnostic through APIs. Many tools today have APIs, so you can use tools like Zapier and IFTTT to connect them. -->
+多くの場合、ツールそのものが部署間の透明性を妨げています。
+ユーザー単位で費用が決まる商用ツールでは、全社員にアカウントを発行することが財務的に難しくなるからです。
+この解決策として、現代のツールが API を備えていることに着目して、Zapier や IFTTT を用いて、当該ツールのアカウントを持っていない社員もツールから情報を得たり書き込んだりできるようにする方法が挙げられます。
 
-## What Are the Limits or Pitfalls in Enterprise Transparency?
+<!--## What Are the Limits or Pitfalls in Enterprise Transparency?-->
+## 透明性を広げる限界、あるいは落とし穴はあるのか？
 
 <!-- There are hard limits to transparency in commercial enterprises, especially for publicly traded companies and international companies that need to worry about compliance issues with multiple governments. This is a significant difference from most open source organizations. Another important pitfall is handling remote access. Again, this is largely because of regulatory issues. When looking for technological solutions, you must keep these issues in mind. -->
+営利企業では透明性に厳しい限界があり、オープンソース組織との大きな相違点です。
+特に、上場企業、多数の政府との法的遵守を考慮する必要のある多国籍企業では顕著です。
+もう1つの落とし穴と言える点はリモートアクセスの管理であり、これも規制が大きく影響しています。
+透明性のためのソリューションを検討する際には、技術面だけでなく、これらの問題を考慮する必要があります [6-4]。
 
 <!-- Some enterprise agencies do look to open source organizations to help with global transparency when they are ready to become universally open. But when wading through the difficulties of being open within the company, while not violating laws about insider trading, they are on their own. -->
+オープンソース組織に対して、世界に情報公開する仕組みや支援を期待する企業がいます。
+しかし、インサイダー取引に接触しないように情報公開するには、企業自身の努力が必要です。
 
 <!-- Still, the push to recover lost tribal knowledge, combined with the increased productivity and employee morale engendered by InnerSource, is convincing many enterprises that the price of transparency, even with all of these caveats, is a worthwhile endeavor. -->
+とはいえ、失われた部族的知識を取り戻そうとする動きは、生産性と社員のモラルを高めるインナーソースによって加速されており、前述の限界や落とし穴があるとしても投資価値ありと確信する企業が増えています。
 
 <!-- There is also the topic of information overload and overcommunication. This is why search is a key element. We want to transition corporate culture from a push mentality, in which endless bulletins are sent out, to a pull mentality, in which people are confident that they will get the information they need when they need it via search. -->
+過剰な情報が生まれ、コミュニケーションも過剰になるのではないか？という落とし穴も考えられます。
+これに対しては検索が重要になります。
+情報を必要とする人に対して情報を持つ人が継続的に更新を通知するというプッシュ型よりも、必要なときに必要な情報を検索できるというプル型に企業文化を移行させるべき、というのが著者らの意見です。
 
 ## 6章の参考文献
 
 * [6-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
 * [6-2] [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
 * [6-3] [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
+* [6-4] 訳注：<!--textlint-disable-->例えば、外為法による輸出規制はグローバルなソフトウェア開発体制に影響します。<!--textlint-enable-->
