@@ -1,4 +1,4 @@
-# 詳解 インナーソースチェックリスト(翻訳中)
+# 詳解 インナーソースチェックリスト (Preview)
 
 How to Launch Collaboration Within Your Enterprise
 
