@@ -4,15 +4,15 @@
 
 ## 本編 <a href="#contents" id="contents"></a>
 
-* [Foreword](./0-foreword.md)
-* [why innersource](./1-why-innersource.md)
-* [what innersource is and isn't](./2-what-innersource-is-and-isnt.md)
-* [The most important role and the first step trusted committer](./3-the-most-important-role-and-the-first-step-trusted-committer.md)
-* [Passive documentation and the need for findability](./4-passive-documentation-and-the-need-for-findability.md)
-* [Creating good house rules for guests writing contributing agreements](./5-creating-good-house-rules-for-guests-writing-contributing-agreements.md)
-* [Working within the enterprise understanding planning](./6-working-within-the-enterprise-understanding-planning.md)
-* [From internal silos to internal transparency](./7-from-internal-silos-to-internal-transparency.md)
-* [Looking forward](./8-looking-forward.md)
+* [まえがき](./0-foreword.md)
+* [なぜインナーソースなのか](./1-why-innersource.md)
+* [インナーソースとは何なのか？何ではないのか？](./2-what-innersource-is-and-isnt.md)
+* [最も重要な役割、そして最初の一歩: トラステッドコミッター](./3-the-most-important-role-and-the-first-step-trusted-committer.md)
+* [検索可能性の必要性とパッシブ・ドキュメンテーション](./4-passive-documentation-and-the-need-for-findability.md)
+* [来客に良いハウスルールを作る: コントリビューション協定を書く](./5-creating-good-house-rules-for-guests-writing-contributing-agreements.md)
+* [組織内にあてはめる: 計画の理解](./6-working-within-the-enterprise-understanding-planning.md)
+* [組織内サイロから組織内透明性へ](./7-from-internal-silos-to-internal-transparency.md)
+* [今後の展望](./8-looking-forward.md)
 * [Appendix](./9-appendix.md)
 
 -----------
@@ -22,4 +22,4 @@
 ## リソース
 
 * [GitHub](https://github.com/InnerSourceCommons/jp-contents/tree/main/books/Understanding-the-InnerSource-Checklist)
-* [InnerSource Commons](http://innersourcecommons.org)
+* [InnerSource Commons](http://innersourcecommons.org/ja)
