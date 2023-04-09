@@ -2,3 +2,5 @@
 # Root should be set to the relative path to the book from the root of the repo
 root: ./books/Understanding-the-InnerSource-Checklist/
 
+structure:
+  summary: ./SUMMARY.md
