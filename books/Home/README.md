@@ -29,7 +29,7 @@
 
 ---
 
-## 詳解 インナーソース・チェックリスト (翻訳中)
+## 詳解 インナーソース・チェックリスト (Preview)
 
 <img src="./innersource-checklist-cover-thumb.jpg" style="float:left" />
 
