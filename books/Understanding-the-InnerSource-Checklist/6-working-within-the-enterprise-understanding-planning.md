@@ -1,12 +1,11 @@
 # 組織内にあてはめる: 計画の理解
 
-**TL;DR**
-
 <!--
 * Transparency needs to be a part of the planning process. Creating internal transparency has led in our experience to more than an order of magnitude gain in external code acceptance.  
 * Create formal processes to work within the enterprise environment. Formalizing processes keeps everyone on the same page.
 * Transparency in planning helps because if the employees do not understand why decisions are made, they cannot propose corrections to the implementation. Top-down management is a complex process that rarely works. Open collaboration scales better.
 -->
+**要約**  
 計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は桁違いの向上を見せる事がわかっています。
 組織内での正式なプロセスを作成し、定型化することで、全員が同じ目線を持つことが可能になります。
 もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。
@@ -147,16 +146,16 @@
 ## 企画から開発者までのギャップを超える
 
 <!-- To our great satisfaction, the teams at PayPal really began to work well together, doing some horse trading and some very complex bargaining. One team’s product specialist even came up with a new, simple process change that we have added to the InnerSource checklist: product specialists must create and own a file called _HELPWANTED.md_. This file is where product specialists can transparently post their backlog. Developers who are looking for a project to work on will search the code repositories, but don’t usually think to look into project management tools, even if they have access. So, the _HELPWANTED.md_ file is placed in the code repository. Again, findability is important! -->
-私達の大きな目標を実現するために、PayPal内のチームは抜け目がなく非常に複雑な交渉を共同で進めました。
-ある製品スペシャリストは我々が実際にInnerSourceチェックリストに追加した簡単なプロセス変更を考案しました。それは、製品スペシャリストは _HELPWANTED.md_ というファイルを自分たちで作成し、所有しなければならないというものです。
+私達の大きな目標を実現するために、PayPal 内のチームは抜け目がなく非常に複雑な交渉を共同で進めました。
+ある製品スペシャリストは我々が実際にインナーソースチェックリストに追加した簡単なプロセス変更を考案しました。それは、製品スペシャリストは _HELPWANTED.md_ というファイルを自分たちで作成し、所有しなければならないというものです。
 彼らは透明性を保ちつつ、このバックログをファイルの中に記載して掲載することができます。
 通常、作業対象のコードリポジトリを探している開発者たちは、たとえアクセス権があったとしてもプロジェクト管理ツールの中まで調べようとは思いません。
 よって、 _HELPWANTED.md_ をコードリポジトリに設置する事となるのです。
 繰り返しますが、発見のしやすさは重要です。
 
 <!-- Some well-done _HELPWANTED.md_ documents have been generated from the project management tools, complete with notes and levels of prioritization. This really helps inform guest contributors about other teams’ needs. Often, potential contributors can tell which stories are similar to their own projects, so they choose which ones they can help with the most. The _HELPWANTED.md_ file is a great addition to the win/win mentality. Contributors can and do trade with other teams, fixing an item in the backlog in exchange for moving their feature-sized code changes up the review list. -->
-いくつかの良くできた _HELPWANTED.me_ は、ノートや優先順位付けのレベルも含め、プロジェクト管理ツールから生成されました。
+いくつかの良くできた _HELPWANTED.md_ は、ノートや優先順位付けのレベルも含め、プロジェクト管理ツールから生成されました。
 これはゲストコントリビューターが他のチームが求めていることを知るのに大きく役立っています。
-潜在的なコントリビューターは自分達の抱えているプロジェクトと近しいストーリーを見分けやすくなり、最も貢献できそうなものを選びやすくなります。
+潜在的なコントリビューターは自分達の抱えているプロジェクトと近しいストーリーを見分けやすくなり、最もコントリビューションできそうなものを選びやすくなります。
 _HELPWANTED.md_ は、Win/Winの精神に大きく寄与しています。
 コントリビューターは他のチームのバックログの中にあるアイテムをこなす代わりに、自分達が追加したい変更をレビューリストの上位に移動するといった取引ができるようになりましたし、実際に行っています。

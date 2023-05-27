@@ -16,7 +16,7 @@ One such tool is called Agora—for enterprise search.
 We are working toward an open system in which employees can easily add in diverse data sources.
 This will allow search across tools and domains.
 -->
-例えば、 Agora というツールはエンタープライズ検索のためのものです。 
+例えば、 Agora というツールはエンタープライズ検索のためのものです[8-1]。
 多様なデータソースを従業員が簡単に追加できるオープンなシステムを目指しています。
 これによりツールやドメインを超えた検索が可能になります。
 
@@ -57,11 +57,8 @@ We are spreading information in several ways:
 -->
 * インナーソースに興味を持つ人や会社が学べるように、(本書のような)トレーニング資料を含む本をオライリーメディアの協力を得て出版しています。
 * カンファレンスで使用した資料を30分程度の講義資料にまとめました。
-* [InnerSource Commons のWiki](http://www.innersourcecommons.org/training)にトレーニング資料を掲載しています。これらの資料について何かコメントがあれば、是非InnerSource CommonsのサイトやSlackなどでフィードバックをお願いします。
+* [InnerSource Commons の Wiki](http://www.innersourcecommons.org/training)にトレーニング資料を掲載しています。これらの資料について何かコメントがあれば、是非 InnerSource Commons のサイトや Slack などでフィードバックをお願いします。
   
-<!-- **InnerSource Pattern Language** -->
-**インナーソースパターン**
-
 <!--
 One very large-scale project under way at the Commons is creating a pattern language for finding solutions to problems.
 Leonardo da Vinci looked to nature for solutions to difficult problems.
@@ -89,4 +86,8 @@ _私達_ が解決困難な課題に直面した時、オープンソースと�
 <!--
 Thankfully, the many similar (and already documented!) [patterns](http://www.innersourcecommons.org/patterns) in the open source world are making quick work of this project.
 -->
-ありがたいことに、この動きは素早く順調に進んでおり、[既に多くの類似パターンがオープンソースで文書化されています。](http://www.innersourcecommons.org/patterns)
+ありがたいことに、この動きは素早く順調に進んでおり、[既に多くの類似パターンがオープンソースで文書化されています。](https://innersourcecommons.org/ja/learn/books/innersource-patterns/)
+
+## 8章の参考文献と注釈
+
+* [8-1] 2023年5月現在、[GitHub 上の InnerSource Commons](https://github.com/orgs/InnerSourceCommons/repositories?type=all) に Agora は見当たらない。

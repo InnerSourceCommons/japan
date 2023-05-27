@@ -72,7 +72,7 @@ That’s one reason we encourage transparency.
 Requiring all of those involved to collaborate transparently has enormous payoffs,<sup><span id="annotation-1">1</span></sup> especially if you do it in a way that can be archived (in a discoverable location) so that other people can learn from it.
 -->
 例えば、製品のインテグレーション関わっている人たちは、一部の関係者だけでプライベートにメールをやり取りしたりミーティングをしたりする方が、すべてのステークホルダーを巻き込むよりも簡単だと感じています。
-関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る<sup>[1](#annotation-1)</sup>には、自らが率先して情報を(見つけられる場所に)置き、他の人が学べるようにすることが必要です。
+関係者全員に透明性のあるコラボレーションを要求し大きな効果を得る [1-1] には、自らが率先して情報を(見つけられる場所に)置き、他の人が学べるようにすることが必要です。
 
 <!--
 InnerSource is enabled by tools and processes, but it is also a change to the culture.
@@ -100,7 +100,7 @@ At the Commons, we work under _Chatham House Rules_ (see the section “[A Brief
 Likewise, with this book we have changed some names to protect the innocent, so to speak.
 -->
 ビジネス環境においては、自由にフィードバックを共有することがブランド価値を低下させ金銭的な影響を生じる可能性があることから、難しいこともあるでしょう。
-Commons は、チャタムハウス・ルール(この章の後ろにある “[インナーソースの歴史](#a-brief-history-of-innersource)”を参照)で活動しているので、明示的に公開を許可しない限り、誰もあなたの関与について触れません。
+Commons は、チャタムハウスルールで活動しているので、明示的に公開を許可しない限り、誰もあなたの関与について触れません。
 実際、この本でも関わった人を守るために、何人かの名前を変更しています。
 
 <!--
@@ -154,8 +154,8 @@ One major advantage of open source software is that it has consistently shown a 
 -->
 オープンソース・ソフトウェアは、「勝利した」と言われています。
 Fortune500に掲載されている会社は、何らかのオープンソースプロジェクトを利用したり、そこで活動したりしています。
-オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました<sup>[2](#annotation-2)</sup>。
-オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります<sup>[3](#annotation-3)</sup>。
+オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました [1-2]。
+オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります [1-3]。
 
 <!--
 ## Open Source’s Future in the Commercial World: InnerSource
@@ -205,11 +205,10 @@ In fact, just a single team in one department can effectively adopt InnerSource.
 こうすることで、大きな変革を起こす前にインナーソースはどのような効果があるか関係者が理解でき、混乱を最小にできます。
 実際に、ある部門の１チームからインナーソースを始めるのが効果的です。
 
-<span id="a-brief-history-of-innersource"></span>
 <!--
 ## A Brief History of InnerSource
 -->
-## インナーソースの歴史
+## インナーソースの歴史 <a href="#a-brief-history-of-innersource" id="#a-brief-history-of-innersource"></a>
 
 <!-- 
 Deciding to apply open source methodologies on an enterprise level is neither new nor unique.
@@ -233,7 +232,7 @@ This way, open source leaders are able to maintain the ethos and culture of the 
 One key element of this process has been our fervent adoption of _Chatham House Rule_:
 -->
 インナーソースの方法論を広める活動は、それぞれの企業で個別にオープンソースの開発方法を社内適用する活動をしてきた人たちが、オープンソースコミュニティで知り合い会話を始めたことから始まりました。
-そして、オープンソースの開発スタイル[4](/chapter-1#fn05)を取り入れたオープンなコンソーシアムを設立して、インナーソースの定義や標準の作成し、その維持に取り組んでいます。
+そして、オープンソースの開発スタイル[1-4] を取り入れたオープンなコンソーシアムを設立して、インナーソースの定義や標準の作成し、その維持に取り組んでいます。
 こうすることで、オープンソースのリーダー達は、時に困難が想定される企業内でもインナーソース本来の考え方や文化を維持できます。
 この活動の重要なポイントの1つは、_チャタムハウスルール (Chatham House Rule)_ を厳格に適用していることです。
 
@@ -302,7 +301,7 @@ Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a proble
 -->
 もちろん、早く先に進みたければ、この本のチェックリストや[ウェブサイト](http://paypal.github.io/InnerSourceCommons/)はスキップできます。
 しかし、「_なぜ_」を簡単に理解できる工夫が各所にあります。
-各章の最初には、TL;DR(Too Long, Didn't Read：長すぎる人のための要約) があり、問題とその解決のための最小のステップ、さらにはその解決策が有効な理由を解説しています。
+各章の最初には要約があり、問題とその解決のための最小のステップ、さらにはその解決策が有効な理由を解説しています。
 
 <!--
 <sup><span id="annotation-1">1</span></sup> More on this in [Chapter 6](/chapter-6#working_within_the_enterprise_understand).
@@ -311,10 +310,9 @@ Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a proble
 <sup><span id="annotation-4">4</span></sup> Specifically, Apache Software Foundation style.
 -->
 
-<sup><span id="annotation-1">1</span></sup> [6章](/chapter-6#working_within_the_enterprise_understand)に詳細があります。
+## 1章の参考文献と注釈
 
-<sup><span id="annotation-2">2</span></sup> Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
-
-<sup><span id="annotation-3">3</span></sup> Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](http://bit.ly/2o3g7O6) 。
-
-<sup><span id="annotation-4">4</span></sup> 具体的には Apache Software Foundation のスタイルを指します。
+* [1-1] 6章に詳細があります。
+* [1-2] Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
+* [1-3] Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](http://bit.ly/2o3g7O6) 。
+* [1-4] 具体的には Apache Software Foundation のスタイルを指します。

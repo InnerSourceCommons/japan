@@ -1,24 +1,24 @@
 <!-- # Passive Documentation and the Need for Findability -->
-# 検索可能性の必要性とパッシブ・ドキュメンテーション
-
-**TL;DR**
+# 検索可能性の必要性とパッシブドキュメンテーション
 
 <!--
 * Passive documentation is crucial for mentoring and capturing tribal knowledge. The team takes a communication hit at the beginning, but the increase in velocity more than makes up for it.
 * You can accelerate passive documentation by rewarding both the writers and consumers of the document.
 * Passive documentation must be findable to be useable. Sometimes, this means that you will need to manually cross-tag between siloed datasets.
 -->
-* パッシブ・ドキュメンテーションは部族内知識の捕捉と人材育成に欠かせないものです。チームは初期にコミュニケーションの落ち込みを感じることがありますが、速度の向上はその落ち込みを補っても余りあるのです。
-* ドキュメンテーションの作成者と消費者の両方に報酬を与えることで、パッシブ・ドキュメンテーションを促進することができます。
-* パッシブ・ドキュメンテーションを利用可能とするためには、それが検索可能な状態でなければなりません。これはサイロ化した複数のデータセットにまたがるタグづけをときどきする必要性を意味しています。
+**要約**
+
+* パッシブドキュメンテーションは部族内知識の捕捉と人材育成に欠かせないものです。チームは初期にコミュニケーションの落ち込みを感じることがありますが、速度の向上はその落ち込みを補っても余りあるのです。
+* ドキュメンテーションの作成者と消費者の両方に報酬を与えることで、パッシブドキュメンテーションを促進することができます。
+* パッシブドキュメンテーションを利用可能とするためには、それが検索可能な状態でなければなりません。これはサイロ化した複数のデータセットにまたがるタグづけをときどきする必要性を意味しています。
 
 <!-- Passive documentation is the record of the documentation we create every day while communicating openly. It is a great way to get tribal knowledge out of silos and into a format that is archival and findable. As an added bonus, it is typically kept with the project or the code that it documents, thus it is in an easy-to-find, context-relevant location. -->
 
 <!-- ## Creating Passive Documentation -->
-## パッシブ・ドキュメンテーションの作成
+## パッシブドキュメンテーションの作成
 
 <!-- Passive documentation consists of written information that was produced not specifically to document for the future, but to explain something in the present, as it is needed. For example, it often includes the following: -->
-パッシブ・ドキュメンテーションは将来のためではなく、現在必要なことを説明するために書かれた情報から成っています。
+パッシブドキュメンテーションは将来のためではなく、現在必要なことを説明するために書かれた情報から成っています。
 例えば以下のようなものです。
 
 <!--
@@ -39,7 +39,7 @@
 
 <!-- To be captured in passive documentation, conversations need to happen in a written format. Common written formats include comments in a pull request, a tagged conversation in a public Slack channel, a comments page in a wiki, and a tagged email in a discussion group. In the open source world, we often say that conversations that don’t happen publicly on the email list or wiki aren’t “real.” We are working to change the culture internally to be the same. If there is an important discussion in person, at the end of it one person always commits to creating a written record of it. They do this by writing the discussion up in an email that all parties can approve, and then posting the write-up to the larger community. -->
 
-パッシブ・ドキュメンテーションに記録されるには、会話は文書上で行われる必要があります。
+パッシブドキュメンテーションに記録されるには、会話は文書上で行われる必要があります。
 一般的な記述形式はプルリクエストのコメント、Slack のパブリックチャネルにあるタグ付けされた会話、wiki 内のコメントページ、ディスカッショングループ内のタグ付きメールなどです。
 オープンソースの世界ではメーリングリスト、もしくは wiki で公開されていない会話は”本物”ではないとよく言われます。
 私たちは社内においても同じような文化へ変化させていこうと取り組んでいます。

@@ -1,8 +1,8 @@
 # 来客に良いハウスルールを作る: コントリビューション協定を書く
 
-**概要**
+**要約**
 
-* トラステッドコミッターには、コントリビューション協定の記述を通じてコントリビューターにハウスルール<sup>1</sup>を説明する責任があります(例えば、コード規約や依存関係等)。コントリビューション協定は生きたドキュメントです。
+* トラステッドコミッターには、コントリビューション協定の記述を通じてコントリビューターにハウスルール[5-1] を説明する責任があります(例えば、コード規約や依存関係等)。コントリビューション協定は生きたドキュメントです。
 * コントリビューターは「良き来客」となり、コントリビューションの前にアグリーメントや他の目につくドキュメントを読む必要があります。コントリビューターが協定に沿って整ったコントリビューションをするほど、それが受け入れられるようになります。
 * マネジメントはトラステッドコミッターがこれらのアグリーメントを作成することを支援する必要があります。
 * アグリーメントを標準化することは、トラステッドコミッターのオーナーシップが低下することにつながるので慎重になる必要があります。複雑なアグリーメントはコントリビューションの妨げになるので、リスクの高いプロジェクトに限定されるべきです。
@@ -19,10 +19,7 @@
   
 <!-- TCs cannot be forced to accept and take ownership of broken code, code without proper tests, undocumented code, or even code that doesn’t meet their style standards. Contributing agreements are a way to formalize the responsibilities of the developers on the originating side of the code. -->
 
-- 訳注
-  - 1: 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指しますが、この章では宿泊施設を比喩として持ち出し、プロジェクトのオーナーを宿主、コントリビューターを宿泊客、ハウスルールを宿泊規約と例えています。
-
-## コントリビューション協定とは何か
+## コントリビューション協定とは何か<a href="#what-is-contribution-agreement" id="#what-is-contribution-agreement">
 
 トラステッドコミッターは、_コントリビューション協定_ を記述して所有します。
 コントリビューション協定があることでハウスルールは明確になり、コードによるコントリビューションをトラステッドコミッターが受け入れるために必要なことをコントリビューターに知らせることができます。
@@ -74,10 +71,10 @@
 
 <!-- It is very important for the TCs to be able to invoke these agreements for protection. If another team’s code contribution does not meet the receiving TC’s specifications, the TC needs to be able to point to the contributing agreement to explain exactly why the code is being rejected. This helps immensely to minimize corporate politics and escalation issues. -->
 
-## 私の家は君の家<sup>1</sup>
+## 私の家は君の家(気楽にしてね) [5-2]
 
 コントリビューション協定は、コントリビューターの期待値を管理するためにも重要な役割を果たします。
-私たちは、宿泊客にとってのハウスルールを比喩として使います。
+私たちは、宿泊客にとってのハウスルール[5-1] を比喩として使います。
 全員が同じ道徳規範に従っていると思い込むのではなく、宿主が宿泊客に自らの期待値を伝えれば物事はスムーズに進みます。
 壊れやすいものがたくさんあり、整理整頓されたキッチンで普段から過ごす人と、程よい生活感のある部屋や猫の引っかき傷のある家具に囲まれて生活している人とでは、異なるハウスルールを持つことになるでしょう。
 
@@ -96,9 +93,6 @@
 素晴らしいコードベースの「お客さん」は、新しい機能の開発にコントリビューションしてくれたり、誰もが待ち望んでいた修正をしてくれるかもしれません。
 
 <!-- The metaphor extends to contributor behavior. Good guests follow the house rules, of course, but they also tidy up; that is, they help fix bugs or refactor code. And a _great_ guest brings a bottle of wine! A great codebase guest might contribute a feature or fix that everyone likes and wants. -->
-
-- 訳注:
-  - 1: 原文では "Mi casa Es Su Casa" と記載されています。これは直訳すると「私の家はあなたの家」ですが、転じて「気楽にしてね」という意味で使われます。
 
 ## ウィン-ウィン
 
@@ -134,8 +128,13 @@ Linuxカーネルは、非常に厳しいコード提出のガイドラインや
 しかし、私たちはこういった企業の取組には反対してきました。
 なぜなら、会社全体に適用させる協定はトラステッドコミッターからオーナーシップを取り上げることになり、企業にとっても彼らの同意を得ることが負担になるからです。
 また、これまで述べてきたような柔軟性を失うことに繋がってしまうのももうひとつの理由です。
-代わりに、トラステッドコミッターのための出発地点として、様々なリスク水準や複雑さに適応できるコントリビューション協定の雛形を作成します([「コントリビューション協定とは何か?」](#コントリビューション協定とは何か) にあるリストなどを記載します)。
+代わりに、トラステッドコミッターのための出発地点として、様々なリスク水準や複雑さに適応できるコントリビューション協定の雛形を作成します。
 加えて、私たちは、振り返りの後や、新しいトラステッドコミッターが加入したタイミングなどに、コントリビューション協定を読み返し必要な更新を加えるよう、トラステッドコミッターたちに依頼しています。
 コントリビューション協定は生きたドキュメントであり続けることが不可欠なのです。
 
 <!-- Some groups have tried to standardize one contributing agreement across the entire company. This is a pretty natural reflex for large enterprises. But we have fought against this because a company-wide agreement takes ownership away from the TCs, costing the company their buy-in, and eliminates the flexibility just outlined. Instead, we create templates as a starting place for TCs (such as the list in [“What Is a Contributing Agreement?”](#what-is-a-contributing-agreement)), adjusted for various levels of risk and complexity. We also ask that TCs revisit and update their contributing agreements after a retrospective or when new TCs are assigned to the codebase. It is vital that contributing agreements remain living documents. -->
+
+## 5章の参考文献と注釈
+
+* [5-1] (訳注) 一般にハウスルールとは、特定の団体や組織でのみ適用される規則を指しますが、この章では宿泊施設を比喩として持ち出し、プロジェクトのオーナーを宿主、コントリビューターを宿泊客、ハウスルールを宿泊規約と例えています。
+* [5-2] (訳注) 原文では "Mi Casa Es Su Casa" と記載されています。これは直訳すると「私の家はあなたの家」ですが、転じて「気楽にしてね」という意味で使われます。
