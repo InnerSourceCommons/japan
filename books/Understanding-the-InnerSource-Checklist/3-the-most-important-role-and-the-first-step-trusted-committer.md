@@ -1,13 +1,13 @@
 # 最も重要な役割、そして最初の一歩: トラステッドコミッター
 
-**TL;DR**
-
 <!--
 * For projects with any level of risk, you need to have a _Trusted Committer_. Define the role’s responsibilities clearly, based on the level of risk.
 * Trusted Committers shift back and forth between coding and Trusted Committer responsibilities.
 * The Trusted Committer role is difficult, and you need to reward those employees who deserve and accept the role.
 * The rewards to the enterprise are great: better integrated code, better code reviews, faster pull request (PR) turnaround time, clearer knowledge for refactoring, more documentation with less pain, and bottleneck reduction.
 -->
+**要約**
+
 * リスクの程度に関わらずプロジェクトには _トラステッドコミッター_ が必要です。リスクの程度に応じ、役割の責任を明確に定義しましょう。
 * トラステッドコミッターは役割としての責任に加えコーディングに対する責任も持ちます。その責任対象は行ったり来たりします。
 * トラステッドコミッターは難しい役割です。その役割にふさわしく、引き受けてくれる社員には報酬を与える必要があります。
@@ -90,7 +90,7 @@
 この期待とは、レビューと指導における専門知識への期待です。
 スケジュールに各トラステッドコミッターの専門分野を記載しておくと、適切な専門知識を持った人がいつ支援できるかをコントリビューターが知ることができるようになります。
 また、トラステッドコミッターが行う困難で重要な仕事に対して、新しい報酬体系を作ることも重要でした。
-このプロセスについては、「[TCへの報酬](#rewarding-tcs)」のセクションで後ほど説明します。
+このプロセスについては、トラステッドコミッターへの報酬というセクションで後ほど説明します。
 
 <!-- In our experience, the number of TCs per project varies greatly. In a high-risk project with about 30 developers, we ask that six programmers be assigned to the TC role. At any one time, half of them actively work in the TC role, reviewing code and mentoring, while the other half actively code. They switch roles at the end of every two-week sprint. This has been ideal for the TCs, because two weeks is a good solid length of time to either really get into coding, or to settle into mentoring and documentation. -->
 私たちの経験では、プロジェクトごとにトラステッドコミッターの人数は大きく異なります。
@@ -109,7 +109,7 @@
 ## 即時に得られる効果
 
 <!-- Assigning the code reviews of PRs<sup>[1](#annotation-1)</sup> to the TC role greatly accelerated the turnaround on the PRs and increased the level of code reviews. Plus, we found that TCs used their mentoring time to create some wonderful documentation for the next big refactor of code. The lead for one of the major architectural reworks said that using InnerSource helped his team really understand how to significantly refactor the codebase. It also greatly decreased the amount of interrupt-driven coding from external bug fixes because those were also addressed in the bug fix PRs. -->
-プルリクエスト<sup>[1](#annotation-1)</sup> のコードレビューをトラステッドコミッターの役割に割り当てることで、プルリクエストのターンアラウンドが大幅に加速し、コードレビューのレベルも上がりました。
+プルリクエスト[3-1] のコードレビューをトラステッドコミッターの役割に割り当てることで、プルリクエストのターンアラウンドが大幅に加速し、コードレビューのレベルも上がりました。
 さらに、トラステッドコミッターはメンタリングの時間を使って、次の大きなリファクタリングに備えた素晴らしいドキュメントを作成することがわかりました。
 とある主要なアーキテクチャの再構築に取り組んだ責任者は、インナーソースを使用することで、コードベースを大幅にリファクタリングする方法を、チームが本当の意味で理解するのに役立ったと述べています。
 また、外部からの割り込みタスクとして入ってくるバグ修正に関しても、そのプルリクエストで対処されるようになり、大幅にコードの量が削減されました。
@@ -117,7 +117,7 @@
 <!-- The documentation was created semi-painlessly by archiving public mentorship discussions between the TCs and contributors, and making them easily accessible in a context-relevant location in the codebase itself. This meant that the time spent on mentoring, valuable in and of itself, served double duty. We call this passive documentation, and we discuss it in more depth in [Chapter 4, _Passive Documentation and the Need for Findability_](/chapter-4#passive_documentation_and_the_need_for_f). -->
 このドキュメントは、トラステッドコミッターとコントリビューターの間で行われた公開メンタリングの議論をアーカイブし、コードベースのコンテキストに応じた場所から簡単にアクセスできるようにすることで、ほとんど苦労せずに作成されました。
 これは、メンタリングに費やされた価値のある時間が、二重の役割を果たしたことを意味します。
-これをパッシブドキュメントと呼び、[Chapter 4, _Passive Documentation and the Need for Findability_](/chapter-4#passive_documentation_and_the_need_for_f)で詳しく説明します。
+これをパッシブドキュメンテーションと呼び、4章で詳しく説明します。
 
 ## トラステッドコミッターへの報酬
 
@@ -138,5 +138,7 @@
 そして、さまざまなコードベースを本質的に理解しているプログラマーを抱えることで、リファクタリングや技術的負債の削減に貢献することができるようになります。
 
 <!-- <sup><span id="annotation-1">1</span></sup> GitHub uses the term PR, as do several other tools. Companies not using these tools might call the same thing problem reports, change requests, or tickets. -->
-他のいくつかのツールと同様に GitHub はプルリクエストという言葉を使っています。
-これらのツールを使用していない企業では、同じものを問題報告、変更要求、あるいはチケットと呼ぶかもしれません。
+
+## 3章の参考文献と注釈
+
+* [3-1] 他のいくつかのツールと同様に GitHub はプルリクエストという言葉を使っています。これらのツールを使用していない企業では、同じものを問題報告、変更要求、あるいはチケットと呼ぶかもしれません。

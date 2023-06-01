@@ -1,14 +1,14 @@
 <!--# From Internal Silos to Internal Transparency-->
 # 組織内サイロから組織内透明性へ
 
-**TL;DR**
-
 <!--
 * Team divisions tend to create silos of information that hamper decision-making.  
 * Transparency can be reintroduced through rules about documenting activities and requirements for meetings on important decisions.
 -->
-* チームを分けると情報のサイロ化が進み、意思決定に支障が起きがちである。
-* そうした場に透明性を再度もたらすには、ドキュメント作成のルールと、重要な意思決定をする会議のルールが必要である。
+**要約**
+
+* チームを分けると情報のサイロ化が進み、意思決定に支障が起きがちです。
+* そうした場に透明性を再度もたらすには、ドキュメント作成のルールと、重要な意思決定をする会議のルールが必要です。
 
 <!--## Where Did Silos Come From?-->
 ## サイロはどこから来るのか？
@@ -16,7 +16,7 @@
 <!-- British anthropologist Robin Dunbar has proposed a theory that a social animal’s neocortex size limits that animal’s comfortable social group size. [Dunbar’s number](https://en.wikipedia.org/wiki/Dunbar%27s_number) suggests that humans are best able to handle approximately 150 relationships in a larger sense, and tend to maintain stronger ties to smaller groups of around 50.<sup>[1](#annotation-1)</sup> This maps back to tribes and their sizes. Many in the corporate world have noticed similar size limitations when creating organizational charts. Silos are a natural extension of those hierarchical situations. They also evolve out of specialization, and from these groupings tribal knowledge is born. -->
 イギリスの人類学者である Robin Dumbar の説によると、群れを作る動物が快適だと感じる群れの個体数は、その動物の大脳新皮質の大きさに依存します。
 この数は[ダンバー数](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%B3%E3%83%90%E3%83%BC%E6%95%B0)と呼ばれ、人間においては約150人だとされています。
-また、その中でもより小さな50人ほどの集団と強く結びつく傾向があるそうです [6-1]。
+また、その中でもより小さな50人ほどの集団と強く結びつく傾向があるそうです [7-1]。
 これが部族の大きさを決める法則だと考えられます。
 会社で働いたことのある人であれば、組織構成図において似たような上限が描かれていることを知っているでしょう。
 サイロとは、そうした組織階層を作ることの延長上に自然と現れるのです。
@@ -38,7 +38,7 @@
 
 <!-- In the modern world of integrations and acquisitions, silos seriously hamper cross-team communications. Silos make the world of permissions a devastating morass of unproductivity as people swim upstream to find the tribal knowledge locked away in the silos. In really large enterprises, people attempt to diagram the convoluted jungle paths of interactivity and permissions via road maps. This is a losing battle because the vines continue to grow even as maps are drawn. -->
 事業の統合や買収が進む現代では、サイロはチーム同士のコミュニケーションの大きな障害となります。
-その障害とは、あらゆる承認を得ることを泥沼化させる生産性への大ダメージであり、川上のサイロに閉ざされた部族的知識を得ようと上流へ泳ぐようなものです。
+その障害とは、あらゆる承認を得ることを泥沼化させる生産性への大ダメージであり、川上のサイロに閉ざされた部族内知識を得ようと上流へ泳ぐようなものです。
 巨大企業では、承認を得るための道筋がジャングルのように入り組んでおり、その図示を試みることがあります。
 しかし、図を描いている間にツルが伸び続けるため、負け戦であることは確定しています。
 
@@ -47,14 +47,14 @@
 
 <!-- Hopefully, by now you are convinced that transparency in coding has multiple benefits. But consider this, as well: transparency is a core tenet in science and academia. It is a key element in scientific rigor.<sup>[2](#annotation-2)</sup> We believe that it works within a company for the same reasons it works with academia. It improves collaboration, and empowers anyone within the company to see when a project is going off track and help to fix it. -->
 ここまでの記述で、コーディングには様々な面で透明性が欲しいと想像できたのではないでしょうか。
-これは科学と学術でも同様で、厳密さのための核となる考え方なのです [6-2]。
+これは科学と学術でも同様で、厳密さのための核となる考え方なのです [7-2]。
 そして、学術で透明性が働くのと同様に企業でも機能すると私たちは確信しています。
 透明性はコラボレーションを改善し、プロジェクトを脱線から軌道修正できる力を全ての社員に与えるのです。
 
 <!-- Many businesses are learning the value of transparent communication with customers. Facebook, Twitter, and other forms of social media empower customers to get issues resolved publicly. Businesses have the opportunity to increase trust by handling problems effectively.<sup>[3](#annotation-3)</sup> -->
 世の中のビジネス事例で、顧客とのコミュニケーションに透明性があることの価値を学んだケースは多いことでしょう。
 Facebook、Twitter などのソーシャルメディアによって、顧客は公共の場で問題を解決できる力を得ました。
-企業は、問題を効率的に解決する姿を見せることによって、顧客の信頼を得ることができるようになったのです [6-3]。
+企業は、問題を効率的に解決する姿を見せることによって、顧客の信頼を得ることができるようになったのです [7-3]。
 
 <!--## Transparency Boosts Decision-Making-->
 ## 意思決定を加速する透明性
@@ -94,19 +94,19 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 ですが、そのコストに対するメリットは早くやってきます。
 
 <!--## Findable Documentation Is Part of Transparency-->
-## ドキュメントの発見容易性は透明性の一部
+## ドキュメントの検索可能性は透明性の一部
 
 <!-- We as a society have become accustomed to using a search to find what we need. Filing email into folders is becoming obsolete; why spend time filing when you can just run a search? Yet finding necessary documentation in a company can feel more like a treasure hunt. One of our big goals is to improve documentation, and a major component of this is not just _creating_ it, but making it _findable_. Yes, documentation is an aspect of transparency.-->
 現代人は、欲しい情報を検索することに慣れています。
 メールも検索すればよくなったので、時間をかけてフォルダに振り分ける方法は過去のものになりつつあります。
 一方、企業で必要なドキュメントを探すことは宝探しのようです。
-これに対する私達の目標はドキュメントを作る方法を改善することですが、改善するのは書き方ではなく発見容易性です。
-ドキュメントの発見容易性とは透明性の一部なのです。
+これに対する私達の目標はドキュメントを作る方法を改善することですが、改善するのは書き方ではなく検索可能性です。
+ドキュメントの検索可能性とは透明性の一部なのです。
 
 <!-- Documentation in accessible and logical places becomes a major driver of transparency and collaboration. Creating documentation is usually a low priority and rarely has passionate champions, yet it can drastically shorten learning curves, ease collaboration, and prevent misunderstandings. Fortunately, InnerSource, when done correctly, creates extensive and findable documentation as a side effect. -->
 ドキュメントがアクセス可能であり理解しやすい場所に置かれていることは、透明性とコラボレーションにとって重要なことです。
 ドキュメントの作成は優先度が低く、熱意を持って取り組む人は少ないものですが、学習曲線が劇的に短縮し、コラボレーションを容易にし、誤解を防止できます。
-そして、インナーソースが適切に実施された副次的な結果として、広範かつ発見容易性の高いドキュメントが得られます。
+そして、インナーソースが適切に実施された副次的な結果として、広範かつ検索可能性の高いドキュメントが得られます。
 
 <!-- As an enterprise transitions toward InnerSource, there is a time cost to the extra communication that is required. But if the enterprise first sets up passive documentation processes to capture this extra communication, that extra communication is a huge gain for future productivity. Learning from what worked and what didn’t is always useful for organizations, but most enterprises make no real effort to capture and share this knowledge. Sometimes, it is fear of liability, but if the conversations are done in a public fashion, people will already be aware of those repercussions and higher-quality conversations will ensue. -->
 企業がインナーソースを目指す過程で、コミュニケーションの追加という時間的コストが発生します。
@@ -135,7 +135,7 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 これはどの企業の移行でも共通することです。
 しかし、早期にチーム間でコラボレーションすることは大きな利益を生みます。
 部署の統合や買収した企業の統合にかかるコストは億単位であり、統合の頻度は度重なるものです。
-本節で述べたドキュメントの発見容易性を高める活動に取り組むことによって統合も促進され、さらなる統合や買収が可能となります。
+本節で述べたドキュメントの検索可能性を高める活動に取り組むことによって統合も促進され、さらなる統合や買収が可能となります。
 
 <!--## Where Do We Still Need to Improve Transparency?-->
 ## さらに、どこの透明性を向上させるのか？
@@ -157,7 +157,7 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 営利企業では透明性に厳しい限界があり、オープンソース組織との大きな相違点です。
 特に、上場企業、多数の政府との法的遵守を考慮する必要のある多国籍企業では顕著です。
 もう1つの落とし穴と言える点はリモートアクセスの管理であり、これも規制が大きく影響しています。
-透明性のためのソリューションを検討する際には、技術面だけでなく、これらの問題を考慮する必要があります [6-4]。
+透明性のためのソリューションを検討する際には、技術面だけでなく、これらの問題を考慮する必要があります [7-4]。
 
 <!-- Some enterprise agencies do look to open source organizations to help with global transparency when they are ready to become universally open. But when wading through the difficulties of being open within the company, while not violating laws about insider trading, they are on their own. -->
 オープンソース組織に対して、世界に情報公開する仕組みや支援を期待する企業がいます。
@@ -171,9 +171,9 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 これに対しては検索が重要になります。
 情報を必要とする人に対して情報を持つ人が継続的に更新を通知するというプッシュ型よりも、必要なときに必要な情報を検索できるというプル型に企業文化を移行させるべき、というのが著者らの意見です。
 
-## 6章の参考文献
+## 7章の参考文献と注釈
 
-* [6-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
-* [6-2] [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
-* [6-3] [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
-* [6-4] 訳注：<!--textlint-disable-->例えば、外為法による輸出規制はグローバルなソフトウェア開発体制に影響します。<!--textlint-enable-->
+* [7-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
+* [7-2] [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
+* [7-3] [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
+* [7-4] (訳注) <!--textlint-disable-->例えば、外為法による輸出規制はグローバルなソフトウェア開発体制に影響します。<!--textlint-enable-->
