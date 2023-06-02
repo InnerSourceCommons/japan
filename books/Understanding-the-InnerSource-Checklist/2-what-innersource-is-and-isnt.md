@@ -11,7 +11,7 @@
 最も典型的かつ根源的な問題は、語彙の問題です。
 基本的な概念の誤解とも言えます。
 筆者らがインナーソース適用のプロジェクトをいくつか終えた後に気づいたのは、適用先の社員がインナーソースという言葉を矮小化して使い始めたことでした。
-最も深刻な痛手は、インナーソースという活動が忙しいチームの手を離れた外注的な作業である、という誤解です。
+最も有害な誤解は、インナーソースという活動が忙しいチームの手を離れた外注的な作業である、というものです。
 成功のための文化を考えようとせず、決まった作業手順に従おうとしたり特定のツールを使ったりすると、良いプロセスであっても簡単に失敗するのです。
 
 <!-- Discussing the problems caused by this vocabulary issue became a bonding moment for all of us at the InnerSource Commons. Many members of the Commons want to focus on the larger problems of culture change, and the distorted definitions of Innersource were emblematic of the problems they are fighting. InnerSource goes much farther than simple processes or tools, and sometimes that makes definitions more difficult to communicate in an enterprise environment. -->
@@ -61,13 +61,13 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 ### GitHub はあるがインナーソースではなかったとしたら
 
 <!-- The first big problem we encountered when introducing InnerSource was an increase in escalation up the management chain. We like to call it the “Big Cheese Story” (see the following sidebar). At its core, it is a story of fear. We believe it is unique to the corporate environment and not the open source world. We found that this story resonated with many of our participants in the InnerSource Commons. The awesome part is that open source’s existing processes already had several pieces of the solution, though they had not been put together before. -->
-筆者らがインナーソースの導入時に直面した最初の大きな問題は、マネジメント層で報告が連鎖することでした。
-筆者らはこの問題を "重役物語" と呼ぶことにしました。
+筆者らがインナーソースの導入時に直面した最初の大きな問題は、マネージャー間で依頼が連鎖することでした。
+筆者らはこの問題を "お偉いさんのお使い" と呼ぶことにしました。
 願わくば企業の中だけで起きることであり、決してオープンソースの世界で起きてほしくはないことです。
 インナーソースコモンズのメンバーからの報告では、この問題はあちこちの企業で起きていることがわかりました。
 そして、素晴らしいことにオープンソースのプロセスでは、この問題を解決する鍵がいくつか既にあるということです。
 ただ、企業では鍵を見つけられていなかったのです。
-一体どういう意味なのか、"重役物語" をもとに理解していきましょう。
+一体どういう意味なのか、"お偉いさんのお使い" をもとに理解していきましょう。
 
 <!-- Once upon a time, there was a company that decided to embrace InnerSource, so it dictated that all code was to be moved to GitHub Enterprise. Because there was no cohesive version control before, there was much rejoicing across the company. Now, the developers finally had visibility to one another’s code! No longer would the developers need to submit a change request to planning, and hope it was accepted and scheduled some time in the next year. Visions of seamless collaborations danced in developers’ heads! -->
 あるとき、インナーソースを始めた会社がありました。
@@ -78,17 +78,17 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 開発者達は円滑な協働のできる未来を想像して浮足立っていました。
 
 <!-- An intrepid programmer decided to do a pull request on the big codebase, and told her manager that she could write the necessary change in a matter of weeks. Her Big Cheese was very pleased. So, the intrepid programmer wrote the change and submitted the pull requests and waited...and waited...and waited...until her Big Cheese became very unhappy and asked why the changes had not been added. The intrepid programmer replied that she had finished the work and submitted the pull request, but the changes hadn’t been accepted by the other codebase. -->
-ある勇敢なプログラマーは大きなコードベースに対してプルリクエストを送ると決め、上司に「数週間で書ける」と報告しました。
-彼女のレポートラインにいる重役はとても喜び、彼女はついにプルリクエストを送りました。
-そして、待てど暮らせど一向にマージされません
-とうとう重役の機嫌は悪くなり、なぜ変更されないのか勇敢なプログラマーに問い詰めました。
+ある勇敢なプログラマーは大きなコードベースに対してプルリクエストを送ると決め、マネージャーに「数週間で書ける」と報告しました。
+彼女のレポートラインにいるマネージャーはとても喜び、彼女はついにプルリクエストを送りました。
+そして、待てど暮らせど一向にマージされません。
+とうとうマネージャーの機嫌は悪くなり、なぜ変更されないのか勇敢なプログラマーに問い詰めました。
 彼女は「自分の仕事は終えてプルリクエストを送ったのですが、一向に受け入れられないのです。」と答えました。
 
 <!-- So, her Big Cheese went to the Big Cheese that owned the other codebase, and asked him to force one of his groups to accept those changes. After all, there was now a big backlog waiting to go through! The Big Cheese of the codebase agreed and ordered some poor individual in his group to accept those changes. But that individual didn’t like how the intrepid programmer wrote the changes, because they were not “how things are done.” They were written in a different style, used a different test scheme, and maybe didn’t take advantage of an existing module. Thus, the second programmer rewrote the entire change before adding it to the codebase. -->
-そこで、彼女の重役は別のコードベースを統括する別の重役を訪ねました。
+そこで、彼女のマネージャーは別のコードベースを統括する別のマネージャーを訪ねました。
 そのコードベースを担う組織の1グループに、変更を受け入れてもらうように強く願い出たのです。
 なにしろ他に仕事が山積みなのですから！
-頼まれた重役は提案に同意し、グループ内の冴えないプログラマーに変更を受け入れるよう命じました。
+頼まれたマネージャーは提案に同意し、グループ内の冴えないプログラマーに変更を受け入れるよう命じました。
 ところが冴えないプログラマーは勇敢なプログラマーのコードが気に入りませんでした。
 自分流の書き方ではないからです。
 コーディングスタイルも違うし、テストの仕組みも違うし、既存のモジュールも活用していないようでした。
@@ -96,14 +96,14 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 
 <!-- No one learned anything. No documentation was created. And now everyone hates InnerSource because it creates bottlenecks and makes programmers look difficult to the Big Cheeses. Plus, the product owners are frustrated because no one has included them in the process. -->
 色々と苦労があったにも関わらず、誰も何も学びませんでしたし、何のドキュメントも作られませんでした。
-インナーソースは手間がかかるし、重役の印象も良くないからダメだ、と皆が感じるようになっていきました。
+インナーソースは手間がかかるし、マネージャーの印象も良くないからダメだ、と皆が感じるようになっていきました。
 また、プロダクトオーナーは自分を通さずに物事が進むのにイライラしていました。
 
 <!-- ### Breaking Down the Big Cheese Problem -->
-### 重役物語の詳細
+### "お偉いさんのお使い" の詳細
 
 <!-- At first, we were surprised by the Big Cheese problem, because we knew that the more code that other teams can see into, the better they can understand the pieces they are integrating with and/or reusing. But we found that just having the code visible doesn’t automatically lead to collaboration, especially in an enterprise environment. The incentives are different from the open source environment. -->
-インナーソースの適用プロジェクトを始めた頃は重役物語に驚かされました。
+インナーソースの適用プロジェクトを始めた頃は、"お偉いさんのお使い" に驚かされました。
 他チームのコードを見ることができれば、それらをどのように自チームのコードと統合したり、あるいは自分たちのチームのために再利用したりできるかに役立つと考えていたからです。
 しかし、単にコードが見えるだけでは協働にはつながらないということがわかりました。
 特に大企業であるほどこの問題は顕著です。
@@ -125,7 +125,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 <!-- Because of this complexity, potential collaborators didn’t want to contribute until the pain from lack of integration was more painful than the fear of contributing. And the owners of the codebase were loath to accept responsibility for code that was not their priority and was written by someone not on their team. This resistance to collaboration resulted in a constant stream of escalations up the leadership chain. It turned GitHub into a bottleneck, especially for high-demand codebases, which tend to be high risk. Consequently, the code that the most people needed access to became the most difficult to contribute to. -->
 コントリビューションをしたいと思っている開発者であっても複雑さの前に恐れてしまい、本当に協力しないとまずいという切羽詰まった段階になるまで踏み切ろうとしません。
 また、コードベースの責任者は、自チームではない開発者が書いたコードに対する優先度を低く見積もり、責任を受け入れることを嫌がりました。
-こうした協働への反作用が、上司になんとかしてもらうという連鎖を生みました。
+こうした協働への反作用が、マネージャーになんとかしてもらうという連鎖を生みました。
 そして、需要の高いコードベースであるほど GitHub がボトルネックになってしまいます。
 結局、最も多くの人からアクセスされるコードが、最もコントリビューションしにくいコードになってしまうのです。
 
@@ -161,7 +161,7 @@ GitHub のようなバージョン管理とコード検索のツールを使う�
 <!-- We also had an issue with teams creating significant pull requests against codebases with little to no warning to the codebase owners. Of course, in an enterprise environment, such a significant expenditure of resources without planning or communication too often became a battle of the Big Cheeses. -->
 他の問題もあります。
 何の気なしに大きなプルリクエストを送るチームがいたのです。
-企業において計画もコミュニケーションもないままこのように多くのリソースを費やすと、重役同士の戦いになってしまいます。
+企業において計画もコミュニケーションもないままこのように多くのリソースを費やすと、マネージャー同士の戦いになってしまいます。
 
 <!-- We needed to create a defined list of proven practices based on our experiences. We could see that better communication and well-defined expectations across teams was absolutely necessary. [Chapter 6, _Working Within the Enterprise: Understanding Planning_](/chapter-6#working_within_the_enterprise_understand) presents an explanation of the steps we’ve taken toward a solution. -->
 筆者らはこうした問題を経験し、実証された一連のプラクティスを定義する必要があると判断しました。

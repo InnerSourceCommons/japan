@@ -69,7 +69,7 @@ Facebook、Twitter などのソーシャルメディアによって、顧客は�
 ## サイロを壊す方法
 
 <!-- If the problem with silos is that they impair communication and lock up tribal knowledge, the solution is to create processes that open communication channels and produce findable documentation. -->
-サイロによる問題がコミュニケーションの阻害と部族的知識の非公開だとすれば、その解決策はオープンなコミュニケーション方法を確立し、ドキュメントを見つけられるようにすることです。
+サイロによる問題がコミュニケーションの阻害と部族的知識の非公開だとすれば、その解決策はオープンなコミュニケーション方法を確立し、ドキュメンテーションを見つけられるようにすることです。
 
 <!-- Luckily, we can do both with the same processes, discussed in earlier chapters. All of the steps toward InnerSource are steps toward opening up the silos: -->
 これまでの章で述べたように、そのどちらも同じプロセスで実現できます。
@@ -130,7 +130,7 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 その点、Slack は議論の推進と記録の両方に長けていることを多くの企業で証明しています。
 
 <!-- It is also important for the enterprise to make collaboration a real priority. Communication costs will temporarily rise as the organization transitions. This is typical for in any change-management scenario. But communicating earlier during cross-team collaboration creates large productivity gains. Companies spend millions and millions on internal integrations and integrations of acquisitions. Having these conversations publicly facilitates the next acquisition or integration. -->
-また、コラボレーションを創出する優先度が高いと経営レベルで判断することも重要です。
+また、コラボレーションを創出する優先度が高いことを経営レベルで判断することも重要です。
 インナーソースへの移行に伴い、コミュニケーションコストは一時的に上昇します。
 これはどの企業の移行でも共通することです。
 しかし、早期にチーム間でコラボレーションすることは大きな利益を生みます。
@@ -173,7 +173,8 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 
 ## 7章の参考文献と注釈
 
-* [7-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](http://bit.ly/2o3rsgZ), visiontemenos.com.
-* [7-2] [_https://en.wikipedia.org/wiki/Transparency\_(behavior)_](https://en.wikipedia.org/wiki/Transparency_(behavior))
-* [7-3] [_https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business_](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
+* [7-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](https://www.visiontemenos.com/blog/all-you-want-to-know-about-dunbars-number-from-prehistory-to-21st-century-enterprise), visiontemenos.com.
+	- (訳注) ダンバー数については、"友達の数は何人？ - ダンバー数とつながりの進化心理学" (2011, インターシフト) という邦訳書があります。
+* [7-2] [https://en.wikipedia.org/wiki/Transparency\_(behavior)](https://en.wikipedia.org/wiki/Transparency_(behavior))
+* [7-3] [https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
 * [7-4] (訳注) <!--textlint-disable-->例えば、外為法による輸出規制はグローバルなソフトウェア開発体制に影響します。<!--textlint-enable-->

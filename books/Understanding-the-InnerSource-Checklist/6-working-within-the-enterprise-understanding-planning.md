@@ -6,11 +6,11 @@
 * Transparency in planning helps because if the employees do not understand why decisions are made, they cannot propose corrections to the implementation. Top-down management is a complex process that rarely works. Open collaboration scales better.
 -->
 **要約**  
-計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は桁違いの向上を見せる事がわかっています。
-組織内での正式なプロセスを作成し、定型化することで、全員が同じ目線を持つことが可能になります。
-もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。
-トップダウンによるマネージメントは複雑で、めったに機能する事はありません。
-オープンな共創こそスケールするのです。
+
+* 計画段階において、透明性はとても重要です。我々の経験上、組織内での透明性を確立することで、外部からのコード受入れ件数は桁違いの向上を見せる事がわかっています。
+* 組織内での正式なプロセスを作成し、定型化することで、全員が共通認識を持てます。
+* もし仮に透明性が無く、意思決定の背景や理由を知らないようであれば、従業員はコードの修正提案を行う事ができなくなります。
+トップダウンによるマネジメントは複雑で、めったに機能する事はありません。オープンな共創こそスケールするのです。
   
 <!-- The biggest difference between InnerSource and open source is the business structure and its constraints. Working within an enterprise means a constant pull of hierarchy and power structures that are often contrary to the basic ethos of transparency and individual agency that is key to open source. Yet, open source has much to offer the business world. So how do we adapt to the business environment without diluting the fundamental aspects of open source? -->
 インナーソースとオープンソースの最大の違いは、企業における事業構造や制約に起因します。
@@ -53,11 +53,11 @@
 * 協定に連絡先が掲載されていれば、すぐによいコミュニケーションとドキュメンテーションが始まります
 * 明確に期待している事がドキュメントに書かれていれば、更に良いコラボレーションへつながります
 * コードの変更は、更に迅速なポジティブフィードバックループへつながります
-* 多くのコード変更を行い、トラステッドコミッターがより多くのメンタリングを行う事は、結果として多くのドキュメンテーションにつながります
+* 多くのコードを変更し、トラステッドコミッターがより多くのメンタリングを行う事は、結果として多くのドキュメンテーションにつながります
 * トラステッドコミッターは自分達のコードと外部への影響について更に深く理解する事になります
   
 <!-- The minimal requirements allow the teams to adapt the process to their own needs—a major tenet of open source—and lead to the InnerSource goals of better collaboration, fewer bottlenecks, better integration, and, almost certainly, cleaner code. -->
-要求事項を必要最低限に抑えることにより、チームのプロセスをチーム固有のニーズ（オープンソースの信念）に合わせることができます。
+要求事項を必要最低限に抑えることにより、チームのプロセスをチーム固有のニーズ(オープンソースの信念)に合わせることができます。
 そして、良いコラボレーション、良いインテグレーション、ボトルネックの低減、整理されたコードというインナーソースの目標にもつながるのです。
 
 <!-- ## Planning & Product Specialists -->
@@ -92,9 +92,9 @@
 <!-- Transparency in planning increased as a side effect of adding more people to the planning meetings. More people are present for the trade-offs and negotiations. Just as important is the small process change we had already implemented, requiring that all relevant conversations be a part of the passive documentation. This means that everyone can review discussions in the future, and alters people’s conversational strategies. Also, by creating passive documentation, you can avoid information overload as people search more and spam less. -->
 企画会議に参加する人数を増やした事で透明性が更に高まるという側面もあります。
 トレードオフの議論をする場に、より多くの人が参加できるからです。
-また、行った変更がたとえ小さなものだったとしても、関連するチーム同士の全ての会話をパッシブ・ドキュメンテーション(4章)として保存しておく事は非常に重要です。
-これは、将来に渡り過去にどんな会話があったかをチェックする事ができると同時に、チーム同士の会話のあり方自体を変えるという事を意味します。
-また、会話が自動的に保存されていくということは情報の過多を防ぎ、検索性を向上させ、スパムをへらすことにも繋がります。
+また、行った変更がたとえ小さなものだったとしても、関連するチーム同士の全ての会話をパッシブドキュメンテーション(4章)として保存しておく事は非常に重要です。
+これは、将来に渡り過去にどんな会話があったかをチェックできると同時に、チーム同士の会話のあり方自体を変えるという事を意味します。
+そして、会話が自動的に保存されていくということは情報の過多を防ぎ、検索性を向上させ、スパムをへらすことにも繋がります。
 
 <!-- Prioritization of projects and resources is usually done opaquely at companies. The reasoning is rarely made public and is done behind closed doors. This leaves employees to come up with their own narratives to explain priorities. Again, we see that when a company gives the _how_ but not the _why_, employees cannot make adjustments on the fly. It cripples their decision-making, and is a key element of bad escalation processes. -->
 通常多くの企業では、プロジェクトやリソースをどう優先順位付けするかという議論を密室の中で行います。
@@ -130,15 +130,15 @@
 しかし私達はそれ以上の価値をすぐに理解しました。
 チームメンバーは優先順位付けのプロセスを今まで以上に理解しはじめ、アジャイルプロセスの改善に活かされました。
 一方でコアチームが外部からのコードを取り入れるスピードは非常に大きく改善されました。結果として、計画段階に費やされた時間の10倍以上を補填する事にまで繋がりました。
-そして、何年もの間バックログに放置されていたコントリビューターチームの要望を完了する事ができたのです。
+そして、何年もの間バックログに放置されていたコントリビューターチームの要望を完了できたのです。
 
 <!-- Opening up the process by including more people and making it more transparent also has an amazing effect on the teams’ ability to cross-collaborate. This leads to more effective decision-making both internally and across teams. We also found that by improving communication through passive documentation, eventually the meetings became smaller as teams used clearer communication. -->
 より多くの人を巻き込んでプロセスを開かれたものにし、高い透明性を確保することは組織間のコラボレーションを行うにあたって非常に良い効果を発揮します。
 これによって、チーム内・チーム間を問わずより効率的な意思決定が出来るようになりました。
-また、パッシブ・ドキュメンテーションを徹底することによってコミュニケーションの質自体も改善し、結果として会議時間の縮小にも繋がる事もわかりました。
+また、パッシブドキュメンテーションを徹底することによってコミュニケーションの質自体も改善し、結果として会議時間の縮小にも繋がる事もわかりました。
 
 <!-- We did find that the increased communication required some external facilitation in the beginning. A key element was teaching the product specialists to negotiate more effectively by always looking at the win/win solution for the company. This stage was relatively short; after things were ironed out between teams, collaboration increased dramatically and little external help was needed. -->
-初期において、コミュニケーションの増加は外部からのファシリテートが必要であることがわかりました。
+初期段階でコミュニケーションを増やすには、外部からのファシリテートが必要であることがわかりました。
 重要なのは、会社にとってWin Winとなる解決策を常に模索し続け、より効果のあるコミュニケーションを製品スペシャリストに徹底してもらうよう働きかけた事です。
 この期間は比較的短く終わりました。チーム間で物事が円滑に進むようになった後はコラボレーションが劇的に増加し、外部からの支援はほとんど必要がなくなりました。
 
@@ -148,7 +148,7 @@
 <!-- To our great satisfaction, the teams at PayPal really began to work well together, doing some horse trading and some very complex bargaining. One team’s product specialist even came up with a new, simple process change that we have added to the InnerSource checklist: product specialists must create and own a file called _HELPWANTED.md_. This file is where product specialists can transparently post their backlog. Developers who are looking for a project to work on will search the code repositories, but don’t usually think to look into project management tools, even if they have access. So, the _HELPWANTED.md_ file is placed in the code repository. Again, findability is important! -->
 私達の大きな目標を実現するために、PayPal 内のチームは抜け目がなく非常に複雑な交渉を共同で進めました。
 ある製品スペシャリストは我々が実際にインナーソースチェックリストに追加した簡単なプロセス変更を考案しました。それは、製品スペシャリストは _HELPWANTED.md_ というファイルを自分たちで作成し、所有しなければならないというものです。
-彼らは透明性を保ちつつ、このバックログをファイルの中に記載して掲載することができます。
+彼らは透明性を保ちつつ、このバックログをファイルの中に記載して掲載できます。
 通常、作業対象のコードリポジトリを探している開発者たちは、たとえアクセス権があったとしてもプロジェクト管理ツールの中まで調べようとは思いません。
 よって、 _HELPWANTED.md_ をコードリポジトリに設置する事となるのです。
 繰り返しますが、発見のしやすさは重要です。

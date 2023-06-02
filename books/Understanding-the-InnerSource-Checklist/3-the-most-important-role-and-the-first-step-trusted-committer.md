@@ -11,7 +11,7 @@
 * リスクの程度に関わらずプロジェクトには _トラステッドコミッター_ が必要です。リスクの程度に応じ、役割の責任を明確に定義しましょう。
 * トラステッドコミッターは役割としての責任に加えコーディングに対する責任も持ちます。その責任対象は行ったり来たりします。
 * トラステッドコミッターは難しい役割です。その役割にふさわしく、引き受けてくれる社員には報酬を与える必要があります。
-* 企業は、より統合されたコード、コードレビューの質向上、プルリクエスト応答時間の短縮、より明確なファクタリングのノウハウ、ドキュメント作成の省力化、ボトルネックの解消といった素晴らしい恩恵をうけます。
+* 企業は、より統合されたコード、コードレビューの質向上、プルリクエスト応答時間の短縮、より明確なリファクタリングのノウハウ、ドキュメント作成の省力化、ボトルネックの解消といった素晴らしい恩恵をうけます。
 
 <!-- In the previous chapter, we described some of the cultural problems we’ve encountered. Codebase owners must accept pull requests, or they create bottlenecks and escalations up the management chain. External teams must learn and conform to the style and standards of the codebase to which they are contributing, or their contributions must be extensively rewritten. And when codebase owners and external contributors don’t work together, nothing gets better and everyone ends up discouraged. -->
 前章では、私たちが直面したいくつかの文化的な問題を取り上げました。
@@ -51,7 +51,7 @@
 -->
 * コードベースへのコントリビューションに対するルール作成と管理
 * 受け取るコード(プルリクエスト)のレビュー
-* 他領域のコントリビューターへの助言
+* 他領域からのコントリビューターへの助言
 * プルリクエストのマージ
 * リファクタリングやモジュール化作業へのリーダーシップ
 * チケットやチャットにおける議論への参加
@@ -68,7 +68,7 @@
 例えば、Linuxカーネルは広範囲に渡っておりリスクが高いため、Linuxカーネルではトラステッドコミッターの役割を Janitors と Mentors のレベルに分けています。
 一方で Node.js のモジュールは非常にローリスクです。
 コミュニティは精査後に新しいモジュールを受け入れないかもしれませんが、新しいモジュールが何かを壊すことはできません。
-そのため Node.js にはトラステッドコミッターの役割はありません。Node.js のモジュールは、誰でも npm で公開することができます。
+そのため Node.js にはトラステッドコミッターの役割はありません。Node.js のモジュールは、誰でも npm で公開できます。
 
 ## 役割に磨きをかける
 
@@ -95,7 +95,7 @@
 <!-- In our experience, the number of TCs per project varies greatly. In a high-risk project with about 30 developers, we ask that six programmers be assigned to the TC role. At any one time, half of them actively work in the TC role, reviewing code and mentoring, while the other half actively code. They switch roles at the end of every two-week sprint. This has been ideal for the TCs, because two weeks is a good solid length of time to either really get into coding, or to settle into mentoring and documentation. -->
 私たちの経験では、プロジェクトごとにトラステッドコミッターの人数は大きく異なります。
 30人程度の開発者が参加する高リスクのプロジェクトでは、6人のプログラマーにトラステッドコミッターの役割を担ってもらうようにお願いしています。
-常時、半分はトラステッドコミッターとしてコードのレビューや技術的な相談を行い、残りの半分は積極的にコードを書くようにしています。
+常時、半分はトラステッドコミッターとしてコードのレビューや技術的な相談をし、残りの半分は積極的にコードを書くようにしています。
 2週間のスプリントごとにその役割は交代します。
 これはトラステッドコミッターにとって理想的でした。
 2週間という期間は、コーディングに没頭するにも、メンタリングや文書作成に専念するにも、ちょうど良い長さだからです。
@@ -135,7 +135,7 @@
 <!-- We are enhancing our promotion path to Fellow for developers to reflect this complexity. This allows us to reward the “full-stack” developers we are creating and allows promotion without having to move to management roles that some developers find to be tedious. We get to keep the programmers that really understand the various codebases and encourage them to help refactor and reduce technical debt. -->
 私たちはこのような複雑性を反映するために、開発者が "フェロー" に昇進するためのパスを強化しています。
 これはフルスタックな開発者を生み出し、一部の開発者が退屈に感じる管理職に移行することなく昇進することにつながります。
-そして、さまざまなコードベースを本質的に理解しているプログラマーを抱えることで、リファクタリングや技術的負債の削減に貢献することができるようになります。
+そして、さまざまなコードベースを本質的に理解しているプログラマーを抱えることで、リファクタリングや技術的負債の削減に貢献できるようになります。
 
 <!-- <sup><span id="annotation-1">1</span></sup> GitHub uses the term PR, as do several other tools. Companies not using these tools might call the same thing problem reports, change requests, or tickets. -->
 

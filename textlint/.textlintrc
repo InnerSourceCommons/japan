@@ -24,8 +24,9 @@
       "ja-no-weak-phrase": false,
       "no-exclamation-question-mark": false,
       "no-doubled-joshi": {
-        "min_interval" : 2,
-        "allow": ["ど", "も", "や"]
+        "min_interval" : 3,
+        "allow": ["ど", "も", "や"],
+        "severity": "warning"
       }
     }
   },
