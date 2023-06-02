@@ -174,7 +174,7 @@ Slack に代表されるサイロを超えられるコミュニケーション�
 ## 7章の参考文献と注釈
 
 * [7-1] Ipsita Priyadarshini, [“All you want to know about Dunbar’s number”](https://www.visiontemenos.com/blog/all-you-want-to-know-about-dunbars-number-from-prehistory-to-21st-century-enterprise), visiontemenos.com.
-	- (訳注) ダンバー数については、"友達の数は何人？ - ダンバー数とつながりの進化心理学" (2011, インターシフト) という邦訳書があります。
+    - (訳注) ダンバー数については、"友達の数は何人？ - ダンバー数とつながりの進化心理学" (2011, インターシフト) という邦訳書があります。
 * [7-2] [https://en.wikipedia.org/wiki/Transparency\_(behavior)](https://en.wikipedia.org/wiki/Transparency_(behavior))
 * [7-3] [https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business](https://www.theguardian.com/sustainable-business/rebuild-restore-recover-trust-business)
 * [7-4] (訳注) <!--textlint-disable-->例えば、外為法による輸出規制はグローバルなソフトウェア開発体制に影響します。<!--textlint-enable-->

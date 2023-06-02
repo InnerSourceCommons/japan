@@ -313,6 +313,6 @@ Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a proble
 
 * [1-1] 6章に詳細があります。
 * [1-2] Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](https://blog.sonatype.com/2014/06/opening_letter_2014_survey/), The Nexus, June 20, 2014.
-* [1-3] Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](https://www.synopsys.com/blogs/software-security/2017-coverity-scan-report-open-source-security/) 
-	- 訳注：原著では Coverity Scan Report 2013 へのリンクがありましたが、邦訳を執筆している2023年5月現在は存在しないので、2017年版に差し替えています。
+* [1-3] Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](https://www.synopsys.com/blogs/software-security/2017-coverity-scan-report-open-source-security/)
+    - 訳注：原著では Coverity Scan Report 2013 へのリンクがありましたが、邦訳を執筆している2023年5月現在は存在しないので、2017年版に差し替えています。
 * [1-4] 具体的には Apache Software Foundation のスタイルを指します。
