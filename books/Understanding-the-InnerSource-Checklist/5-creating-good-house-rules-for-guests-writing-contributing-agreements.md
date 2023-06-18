@@ -19,7 +19,7 @@
   
 <!-- TCs cannot be forced to accept and take ownership of broken code, code without proper tests, undocumented code, or even code that doesn’t meet their style standards. Contributing agreements are a way to formalize the responsibilities of the developers on the originating side of the code. -->
 
-## コントリビューション協定とは何か<a href="#what-is-contribution-agreement" id="#what-is-contribution-agreement" />
+## コントリビューション協定とは何か<a href="#what-is-contribution-agreement" id="#what-is-contribution-agreement" ></a>
 
 トラステッドコミッターは、_コントリビューション協定_ を記述して所有します。
 コントリビューション協定があることでハウスルールは明確になり、コードによるコントリビューションをトラステッドコミッターが受け入れるために必要なことをコントリビューターに知らせることができます。
