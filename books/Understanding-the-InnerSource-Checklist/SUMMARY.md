@@ -1,6 +1,6 @@
 # Summary
 
-* [詳解 インナーソースチェックリスト](README.md)
+* [インナーソースチェックリスト](README.md)
 
 ## 本編 <a href="#contents" id="contents"></a>
 
@@ -8,7 +8,7 @@
 * [なぜインナーソースなのか](./1-why-innersource.md)
 * [インナーソースとは何なのか？何ではないのか？](./2-what-innersource-is-and-isnt.md)
 * [最も重要な役割、そして最初の一歩: トラステッドコミッター](./3-the-most-important-role-and-the-first-step-trusted-committer.md)
-* [検索可能性の必要性とパッシブ・ドキュメンテーション](./4-passive-documentation-and-the-need-for-findability.md)
+* [検索可能性の必要性とパッシブドキュメンテーション](./4-passive-documentation-and-the-need-for-findability.md)
 * [来客に良いハウスルールを作る: コントリビューション協定を書く](./5-creating-good-house-rules-for-guests-writing-contributing-agreements.md)
 * [組織内にあてはめる: 計画の理解](./6-working-within-the-enterprise-understanding-planning.md)
 * [組織内サイロから組織内透明性へ](./7-from-internal-silos-to-internal-transparency.md)

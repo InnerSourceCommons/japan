@@ -1,10 +1,17 @@
 # 実際のチェックリスト
 
 <!-- It’s easy to feel overwhelmed with the task of starting an InnerSource project, much less taking your organization through the transition to a true InnerSource or open source company. PayPal has drawn a checklist from its own experiences and the experiences of colleagues in other companies making the transition. We present it here to help organize and focus what you need to do. Certainly, following the checklist slavishly will not produce success. Every organization needs to undertake investigations, discussions, and cultural change in order to benefit from InnerSource. But keeping this checklist in front of you can help reassure you that you’re making progress. -->
-インナーソースプロジェクトを開始する事に対してプレッシャーを感じるのはその通りで、ましてや、真のインナーソースまたはオープンソース企業への移行を通じて、あなたの組織をかじ取りをするのは簡単ではありません。PayPal 社は、独自の経験と移行を行っているほかの企業の同僚の経験からチェックリストを記載しています。私たちは、あなたが何をすべきかを整理し、集中するのに役立つよう、ここにチェックリストを提示します。もちろん、このチェックリストに素直に従うだけでは、成功は得られません。全ての組織は、調査、議論、インナーソースの恩恵を得るための文化的に変化することを始めていく必要があります。しかし、あなたがこのチェックリストを常に確認していれば、進捗があることがわかり安心するでしょう。
+インナーソースプロジェクトを開始する事に対してプレッシャーを感じるのはその通りで、ましてや、真のインナーソースまたはオープンソース企業への移行を通じて、あなたの組織をかじ取りをするのは簡単ではありません。
+PayPal 社は、自社独自の経験と、インナーソースへ移行している他社に勤める同志の経験からチェックリストを記載しています。
+私たちは、あなたが何をすべきかを整理し、集中するのに役立つよう、ここにチェックリストを提示します。
+もちろん、このチェックリストに素直に従うだけでは、成功は得られません。
+全ての組織は、調査、議論、インナーソースの恩恵を得るための文化的に変化することを始めていく必要があります。
+しかし、あなたがこのチェックリストを常に確認していれば、進捗があることがわかり安心するでしょう。
 
 <!-- This report was inspired by both the GNU Manifesto and Checklist Manifesto. We hope to inspire you to take at least a small step toward InnerSource and creating your own checklist and sharing it with us. The Apache Way was an important inspiration for the team, and you will spot similarities in this list. -->
-このチェックリストは、[GNU宣言](https://www.gnu.org/gnu/manifesto.ja.html)と Checklist Manifesto(邦訳：[アナタはなぜチェックリストを使わないのか？(晋遊舎, 2011)](https://www.shinyusha.co.jp/media/checklist/)) の両方に触発されたものです。私たちはあなたがインナーソースにむけて少なくとも小さな一歩を踏み出し、あなた自身のチェックリストを作成し、それを私たちにも共有(展開)してくれることを期待しています。[Apache Way](https://www.apache.org/theapacheway/) はチームにとって重要なインスピレーションであり、あなたもこのリストに同じような感覚を感じることでしょう。
+このチェックリストは、[GNU宣言](https://www.gnu.org/gnu/manifesto.ja.html)と Checklist Manifesto(邦訳：[アナタはなぜチェックリストを使わないのか？(晋遊舎, 2011)](https://www.shinyusha.co.jp/media/checklist/)) の両方に触発されたものです。
+私たちはあなたがインナーソースにむけて少なくとも小さな一歩を踏み出し、あなた自身のチェックリストを作成し、それを私たちにも共有(展開)してくれることを期待しています。
+[Apache Way](https://www.apache.org/theapacheway/) はチームにとって重要なインスピレーションであり、あなたもこのリストに同じような感覚を感じることでしょう。
 
 <!-- * Readiness
   * Personal
@@ -212,7 +219,7 @@
       そのプロジェクトとチームの準備ができているかをこのチェックリストの基準に評価できますか？
     * [ ] どのようにプロジェクトをインナーソースとして登録しますか？
   * [ ] スタッフメンバーは外部プロジェクトにコントリビューションする時間がありますか？
-  * [ ] スタッフメンバーはチームの損益の計測と実証を行うリソースが割り当てられていますか？
+  * [ ] スタッフメンバーはチームの損益の計測と実証をするリソースが割り当てられていますか？
   * [ ] スタッフメンバーは自身の専門性やモチベーションに基づいてどのプロジェクトに取り組むかを選ぶことができますか？
   * [ ] 様々な方向からの優れたコントリビューションを評価できる実力主義の理念がありますか？
 * [ ] 開発者
@@ -394,3 +401,10 @@
   * [ ] 測定結果を誰が閲覧するか？コミュニティへ開示するか？
 * [ ] バグ修正
 * [ ] 製品責任者
+
+## 9章の訳注
+
+原著では、本章は9章という扱いではなく、付録(Appendix)です。
+ですが、構成的には章であり、原稿を公開している GitHub および本書を公開する Gitbook においても章として見えることから、9章と致しました。
+また、原著にはセクションがありませんでしたが、見やすさを考慮してセクションを設けました。
+そして、よりチェックリストらしく、Markdown の拡張形式である `* [ ]` を用いた記述としました。

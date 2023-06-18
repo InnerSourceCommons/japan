@@ -57,7 +57,7 @@ We are spreading information in several ways:
 -->
 * インナーソースに興味を持つ人や会社が学べるように、(本書のような)トレーニング資料を含む本をオライリーメディアの協力を得て出版しています。
 * カンファレンスで使用した資料を30分程度の講義資料にまとめました。
-* [InnerSource Commons の Wiki](http://www.innersourcecommons.org/training)にトレーニング資料を掲載しています。これらの資料について何かコメントがあれば、是非 InnerSource Commons のサイトや Slack などでフィードバックをお願いします。
+* InnerSource Commons のサイトに[学習資料](https://innersourcecommons.org/ja/learn/learning-path/)を掲載しています。これらの資料について何かコメントがあれば、是非 InnerSource Commons のサイトや [Slack](https://innersourcecommons.org/slack) などでフィードバックをお願いします。
   
 <!--
 One very large-scale project under way at the Commons is creating a pattern language for finding solutions to problems.
@@ -90,4 +90,4 @@ Thankfully, the many similar (and already documented!) [patterns](http://www.inn
 
 ## 8章の参考文献と注釈
 
-* [8-1] 2023年5月現在、[GitHub 上の InnerSource Commons](https://github.com/orgs/InnerSourceCommons/repositories?type=all) に Agora は見当たらない。
+* [8-1] (訳注) 2023年5月現在、[GitHub 上の InnerSource Commons](https://github.com/orgs/InnerSourceCommons/repositories?type=all) に Agora は見当たらない。

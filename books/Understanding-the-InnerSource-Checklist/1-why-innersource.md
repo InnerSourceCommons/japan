@@ -89,10 +89,9 @@ We will print an official copy, of course.
 But because we strive to live in the “Pull Request Culture” we are creating, if you’re reading the hardcopy and see anything wrong or feel the need to add more to the conversation, please contribute your feedback online.
 -->
 この本は、こうした前提のもと、実際に経験したことを元にして書かれています。
-また、その経験から学んだことや解決方法を共有し、
-誰でもコメントをしたり、その情報を参考に人々が成長できるように、 InnerSource Commons のサイトに全て公開しています。
-さらに、公式コピーの出版もしています。
-私たちは ”フルリクエストの文化” で活動するようにしているので、もしこのハードコピーを読んでいて間違いを見つけたり、議論を追加したりする必要があると感じたときには、いつでもオンラインでフィードバックしてください。
+そして、その経験から学んだことや解決方法を共有し、誰でもコメントをしたり、その情報を参考に人々が成長できるように、 InnerSource Commons のサイトに全て公開しています。
+また、紙の書籍も出版しています。
+私たちは "プルリクエストの文化" で活動するようにしているので、もし本書を読んでいて間違いを見つけたり、議論を追加したりする必要があると感じたときには、いつでもオンラインでフィードバックしてください。
 
 <!--
 We understand that it can be difficult in a business environment to share feedback freely when _faux pas_ in brand management have financial repercussions.
@@ -107,8 +106,8 @@ Commons は、チャタムハウスルールで活動しているので、明示
 We hope that as we go on this journey, you will see how taking advantage of small changes can begin to make larger cultural change a reality.
 And, yes, some serious change management techniques are proposed here.
 -->
-この本に書かれていることを実践したことで起こる小さな変化が、より大きな文化の変化へと繋がることを体験していただきたいと考えています。
-そのために大切なマネージメント技術の変更がここで提案されています。
+本書に記された私達の経験を読むことで、小さな変化がより大きな文化の変革へと繋がることを追体験していただきたいと願っています。
+そのために重要なソフトウェア変更管理の方法も本書で説明しています。
 
 <!-- 
 ## Our Audience
@@ -131,7 +130,7 @@ And, finally, upper management will find new ways to improve employee satisfacti
 <!--
 ## What Does Open Source Have That I Don’t Have?
 -->
-## オープンソースにあって私にないものは何か
+## オープンソースにあって、その他にないものは何か
 
 <!--
 Briefly, open source has flexibility, synergy across groups because of transparency, a culture that fosters collaboration, and a combination of standardization and easy-to-find documentation that greatly improves the learning curve.
@@ -152,10 +151,10 @@ Open source software has “won.” Every _Fortune 500_ company uses or works on
 Sonatype, a major player in the open source community, conducted a survey in 2014 of large enterprises and found that “more than 90 percent of a typical application is now open source components.”<sup><span id="annotation-2">2</span></sup>
 One major advantage of open source software is that it has consistently shown a lower defect density than the industry average.<sup>[3](#annotation-3)</sup>
 -->
-オープンソース・ソフトウェアは、「勝利した」と言われています。
+OSS(Open Source Software) は、「勝利した」と言われています。
 Fortune500に掲載されている会社は、何らかのオープンソースプロジェクトを利用したり、そこで活動したりしています。
 オープンソースコミュニティにおける主要なプレイヤーである Sonatype は、2014に大企業を対象に行った調査で「今や典型的なアプリケーションの90％以上がオープンソースコンポーネントとなっている」ということを明らかにしました [1-2]。
-オープンソース・ソフトウェアの主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります [1-3]。
+OSS の主な強みのひとつに、欠陥密度が産業界の平均よりも一貫して低いということがあります [1-3]。
 
 <!--
 ## Open Source’s Future in the Commercial World: InnerSource
@@ -221,7 +220,7 @@ Originally, it was “Inner Source,” but we removed the space between the word
 企業全体にオープンソースの方法論適用を決めることは、特に新しいことではありません。
 オープンソースが提唱されて以降、多くの人々が同様の方法を用いてプロジェクトに取り組んできました。
 オープンソースプロジェクトに関わる人の多くは、その方法論を職場に適用したいと考えるため、こうした決定がされることは自然な流れです。
-「社内オープンソース」、「エンタープライズオープンソース」、「視覚源」、「コーポレートオープンソース」など様々な名前を用いてオープンソースの方法論を企業に適用するための説明が行われてきましたが、今まで成功した人はほとんどいません。
+「社内オープンソース」、「エンタープライズオープンソース」、「ビジュアルソース」、「コーポレートオープンソース」など様々な名前を用いてオープンソースの方法論を企業に適用するための説明が行われてきましたが、今まで成功した人はほとんどいません。
 現在用いているインナーソース(<!-- textlint-disable -->InnerSource<!-- textlint-enable -->)という用語は、15年以上前に Tim O’Reilly が提案したものです。
 提案当初は「 Inner Source 」としていましたが、単語間のスペースを削除して用語検索しやすくしました。
 
@@ -232,7 +231,7 @@ This way, open source leaders are able to maintain the ethos and culture of the 
 One key element of this process has been our fervent adoption of _Chatham House Rule_:
 -->
 インナーソースの方法論を広める活動は、それぞれの企業で個別にオープンソースの開発方法を社内適用する活動をしてきた人たちが、オープンソースコミュニティで知り合い会話を始めたことから始まりました。
-そして、オープンソースの開発スタイル[1-4] を取り入れたオープンなコンソーシアムを設立して、インナーソースの定義や標準の作成し、その維持に取り組んでいます。
+そして、オープンソースの開発スタイル[1-4] を取り入れたオープンなコンソーシアムを設立して、インナーソースの定義や標準を作成し、その維持に取り組んでいます。
 こうすることで、オープンソースのリーダー達は、時に困難が想定される企業内でもインナーソース本来の考え方や文化を維持できます。
 この活動の重要なポイントの1つは、_チャタムハウスルール (Chatham House Rule)_ を厳格に適用していることです。
 
@@ -313,6 +312,7 @@ Each chapter begins with a TL;DR (Too Long; Didn’t Read) that sums up a proble
 ## 1章の参考文献と注釈
 
 * [1-1] 6章に詳細があります。
-* [1-2] Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](http://bit.ly/2o3vRR6), The Nexus, June 20, 2014.
-* [1-3] Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](http://bit.ly/2o3g7O6) 。
+* [1-2] Wayne Jackson, [“The 2014 Survey: Marked by an Industry Shock Wave”](https://blog.sonatype.com/2014/06/opening_letter_2014_survey/), The Nexus, June 20, 2014.
+* [1-3] Coverity 静的解析年次レポートより。最近では [“Coverity Scan Report”](https://www.synopsys.com/blogs/software-security/2017-coverity-scan-report-open-source-security/)
+    - 訳注：原著では Coverity Scan Report 2013 へのリンクがありましたが、邦訳を執筆している2023年5月現在は存在しないので、2017年版に差し替えています。
 * [1-4] 具体的には Apache Software Foundation のスタイルを指します。

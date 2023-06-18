@@ -6,12 +6,6 @@ rules:
   - expected: リポジトリ
     patterns:
       - レポジトリ
-  - expected: コントリビューション
-    patterns:
-      - 貢献
-  - expected: ドキュメント
-    patterns:
-      - 文書
   - expected: インナーソース
     patterns:
       - InnerSource
