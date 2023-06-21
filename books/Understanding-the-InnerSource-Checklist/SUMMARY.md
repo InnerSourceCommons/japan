@@ -13,7 +13,7 @@
 * [組織内にあてはめる: 計画の理解](./6-working-within-the-enterprise-understanding-planning.md)
 * [組織内サイロから組織内透明性へ](./7-from-internal-silos-to-internal-transparency.md)
 * [今後の展望](./8-looking-forward.md)
-* [Appendix](./9-appendix.md)
+* [実際のチェックリスト](./9-appendix.md)
 
 -----------
 

@@ -13,6 +13,7 @@
 * トラステッドコミッターは難しい役割です。その役割にふさわしく、引き受けてくれる社員には報酬を与える必要があります。
 * 企業は、より統合されたコード、コードレビューの質向上、プルリクエスト応答時間の短縮、より明確なリファクタリングのノウハウ、ドキュメント作成の省力化、ボトルネックの解消といった素晴らしい恩恵をうけます。
 
+----
 <!-- In the previous chapter, we described some of the cultural problems we’ve encountered. Codebase owners must accept pull requests, or they create bottlenecks and escalations up the management chain. External teams must learn and conform to the style and standards of the codebase to which they are contributing, or their contributions must be extensively rewritten. And when codebase owners and external contributors don’t work together, nothing gets better and everyone ends up discouraged. -->
 前章では、私たちが直面したいくつかの文化的な問題を取り上げました。
 コードの所有者はプルリクエストを受け付ける必要があります。
