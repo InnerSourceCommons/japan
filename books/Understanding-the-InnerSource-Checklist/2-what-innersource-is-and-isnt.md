@@ -7,6 +7,7 @@
 そのため、筆者らは導入企業がインナーソースを正しく定義し、正しく実践できるように支えなければと考えました。
 営利企業としての利益に焦点を当てつつも、オープンソースの文化を受け入れられるような定義が必要なのです。
 
+----
 <!-- One of the major problems we have encountered when implementing InnerSource has been, at its root, a vocabulary problem. After we completed several successful InnerSource projects, we noticed that many people began using the word InnerSource in a simplistic, degenerate manner. Probably the most damaging misunderstanding was that InnerSource meant outsourcing work from a busy team to another that presumably had more capacity. In general, it’s easy to fall into the fallacy of thinking that effective processes are just about following certain procedures or using certain tools, without regard for the culture that makes success possible. -->
 最も典型的かつ根源的な問題は、語彙の問題です。
 基本的な概念の誤解とも言えます。

@@ -7,6 +7,7 @@
 * マネジメントはトラステッドコミッターがこれらのアグリーメントを作成することを支援する必要があります。
 * アグリーメントを標準化することは、トラステッドコミッターのオーナーシップが低下することにつながるので慎重になる必要があります。複雑なアグリーメントはコントリビューションの妨げになるので、リスクの高いプロジェクトに限定されるべきです。
 
+----
 <!--
 * Trusted Committers (TCs) are responsible for writing contributing agreements to explain house rules to contributors (e.g., code conventions and dependencies). Contributing agreements are living documents.
 * Contributors need to be good houseguests and read the agreements (and any other findable documentation) before contributing. The better they groom their contribution to match the contributing agreement, the greater the velocity of acceptance.
