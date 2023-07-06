@@ -11,9 +11,9 @@
 
 ---
 
-## [インナーソース入門](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
+## [インナーソース入門](https://jp-contents.innersourcecommons.org/v/getting-started-with-innersource/)
 
-[<img src="./getting-started-with-innersource-cover-thumb.png" style="float:left" />](https://innersourcecommons.gitbook.io/books/v/getting-started-with-innersource/)
+[<img src="./getting-started-with-innersource-cover-thumb.png" style="float:left" />](https://jp-contents.innersourcecommons.org/v/getting-started-with-innersource/)
 
 インナーソースの世界へようこそ。
 インナーソースは、閉じた組織におけるオープンソースソフトウェアを開発するための原動力であり、プロジェクトの "オープン性" を企業内のチームを超えて広げるものです。
@@ -29,9 +29,9 @@
 
 ---
 
-## 詳解 インナーソース・チェックリスト (Preview)
+## [インナーソースチェックリスト](https://jp-contents.innersourcecommons.org/v/understanding-the-innersource-checklist/)
 
-<img src="./innersource-checklist-cover-thumb.jpg" style="float:left" />
+[<img src="./innersource-checklist-cover-thumb.jpg" style="float:left" />](https://jp-contents.innersourcecommons.org/v/understanding-the-innersource-checklist/)
 
 Silona Bonewald が、オープンソースからの教訓を適用することによって、インナーソースのイニシアチブがあなたの会社において、どのように役立つのかを解説します。
 このチェックリストはそれが会社全体であるのか、または1つのチームのために、インナーソースのアプローチを使用してソフトウェアを生成するために必要な様々なガイダンスとなります。
