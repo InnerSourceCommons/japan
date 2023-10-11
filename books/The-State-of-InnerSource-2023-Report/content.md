@@ -1,7 +1,7 @@
 # State of Innersource
 
 [State of InnerSource 2022 - 2023 RESULTS (innersourcecommons.org)](https://innersourcecommons.org/documents/surveys/State.of.InnerSource.Report.2022-2023.pdf)
-
+![Title](images/Title.png)
 # Intro
 
 The InnerSource Commons community regularly runs the State of InnerSource survey to get feedback on the status of InnerSource within our community member organizations.
@@ -59,7 +59,7 @@ Apart from the answers below,additional answers included sharing best practices,
 
 **When I think of InnerSource, I think of…**
 
-![Untitled](images/Untitled.png)
+![When I think of InnerSource, I think of…](images/When_I_think_of_InnerSource_I_think_of.png)
 
 ## Perceived InnerSource Benefits - Individuals
 
@@ -68,7 +68,8 @@ It is interesting that the personal benefits reported do differ from the organiz
 
 **InnerSource has helped me and my team in the following ways…**
 
-![Untitled](images/Untitled%201.png)
+![InnerSource has helped me and my team in the following ways…](images/InnerSource_has_helped_me_and_my_team_in_the_following_ways.png)
+
 
 # InnerSource in Organizations
 
@@ -78,11 +79,12 @@ The majority of respondents agree that InnerSource is both an important strategy
 
 **It is clear that InnerSource is an important strategy in my organization.**
 
-![Untitled](images/Untitled%202.png)
+![It is clear that InnerSource is an important strategy in my organization.](images/It_is_clear_that_InnerSource_is_an_important_strategy_in_my_organization.png)
 
 **Executive management of my organization explicitly supports the InnerSource initiative.**
 
-![Untitled](images/Untitled%203.png)
+![Executive management of my organization explicitly supports the InnerSource initiative.](images/Executive_management_of_my_organization_explicitly_supports_the_InnerSource_initiative.png)
+
 
 ### InnerSource Origins & Trajectory
 
@@ -94,13 +96,13 @@ A further 39% said it was a mix of both.
 
 **How long ago was InnerSource first adopted in your organization?**
 
-![Untitled](images/Untitled%204.png)
+![How long ago was InnerSource first adopted in your organization?](images/How_long_ago_was_InnerSource_first_adopted_in_your_organization.png)
 
 **How would you describe the current trajectory of InnerSource projects/programs at your organization?**
 
 The vast majority of respondents reported that they were in the “scaling” phase of InnerSource adoption (64%), with a quarter tasked with rolling out InnerSource throughout their organization.
 
-![Untitled](images/Untitled%205.png)
+![Trajectory of InnerSource](images/Trajectory_of_InnerSource.png)
 
 ### Resourcing InnerSource
 
@@ -109,11 +111,11 @@ The vast majority of respondents reported that they were in the “scaling” ph
 The majority of respondents (78%) reported that they had an InnerSource Program in their organization, either formally or informally structured.
 In addition to the formal programs, 43% of organizations said there are dedicated people in their organization focused exclusively on rolling out InnerSource, a similar 44% said there was not.
 
-![Untitled](images/Untitled%206.png)
+![Status of InnerSource Programs](images/Status_of_InnerSource_Programs.png)
 
 **How is InnerSource resourced in your organization?**
 
-![Untitled](images/Untitled%207.png)
+![How is InnerSource resourced in your organization?](images/How_is_InnerSource_resourced_in_your_organization.png)
 
 ### **Organization Motivation & Progress**
 
@@ -121,7 +123,7 @@ We asked respondents to consider what motivated their organization to participat
 We then asked which of those areas had seen measurable progress since adopting InnerSource.
 Knowledge sharing was the most common motivation and area of progress, followed by removing silos and creating reusable software.
 
-![Untitled](images/Untitled%208.png)
+![Organization Motivation and Measurable Progress](images/Organization_Motivation_and_Measurable_Progress.png)
 
 ### Metrics used to measure InnerSource progress
 
@@ -183,7 +185,7 @@ Once again, progress in this area has been reported on an anecdotal basis.
 
 The top three blockers associated with InnerSource were time to contribute, lack of middle management buy-in and a lack of familiarity with InnerSource principles.
 
-![Untitled](images/Untitled%209.png)
+![Blockers or Obstacles](images/Blockers_or_Obstacles.png)
 
 The time factor featured heavily when respondents were invited to comment further on obstructions to InnerSource in their organizations.
 There were also a substantial number of comments on the need for greater support from team/unit managers or direct line managers to facilitate engagement in InnerSource.
@@ -204,61 +206,61 @@ Almost half (49%) of the respondents said there was a standardized way to “reg
 
 **People within my organization are afforded time to contribute to InnerSource projects.**
 
-![Untitled](images/Untitled%2010.png)
+![People within my organization are afforded time to contribute to InnerSource projects.](images/People_within_my_organization_are_afforded_time_to_contribute_to_InnerSource_projects.png)
 
 **People within my organization can choose what projects to work on based on their expertise and motivations.**
 
-![Untitled](images/Untitled%2011.png)
+![People within my organization can choose what projects to work on based on their expertise and motivations.](images/People_within_my_organization_are_afforded_time_to_contribute_to_InnerSource_projects.png)
 
 **Developers in my organization are supported and encouraged to make guest contributions to projects outside their departments / business units / teams.**
 
-![Untitled](images/Untitled%2012.png)
+![Developers in my organization are supported and encouraged to make guest contributions to projects outside their departments / business units / teams.](images/Developers_in_my_organization_are_supported_and_encouraged_to_make_guest_contributions_to_projects_outside_their_departments_business_units_teams.png)
 
 **My project has accepted guest contributions from people not in the team.**
 
-![Untitled](images/Untitled%2013.png)
+![My project has accepted guest contributions from people not in the team.](images/My_project_has_accepted_guest_contributions_from_people_not_in_the_team.png)
 
 ### InnerSource Project Readiness
 
-![Untitled](images/Untitled%2014.png)
+![Select statements that apply to your project](images/Select_statements_that_apply_to_your_project.png)
 
 **Members of my team have experience accepting guest contributions from people outside the team.**
 
-![Untitled](images/Untitled%2015.png)
+![Members of my team have experience accepting guest contributions from people outside the team.](images/Members_of_my_team_have_experience_accepting_guest_contributions_from_people_outside_the_team.png)
 
 ### Team Practices
 
-![Untitled](images/Untitled%2016.png)
+![Team Practices](images/Team_Practices.png)
 
 ### Rewards & Career
 
 **My organization offers rewards for people who make guest contributions to projects owned by other teams.**
 
-![Untitled](images/Untitled%2017.png)
+![My organization offers rewards for people who make guest contributions to projects owned by other teams.](images/My_organization_offers_rewards_for_people_who_make_guest_contributions_to_projects_owned_by_other_teams.png)
 
 **My organization has defined criteria for career promotions based on InnerSource values and contributions.**
 
-![Untitled](images/Untitled%2018.png)
+![My organization has defined criteria for career promotions based on InnerSource values and contributions.](images/My_organization_has_defined_criteria_for_career_promotions_based_on_InnerSource_values_and_contributions.png)
 
 **My organization supports a path for career advancement that does not require management.**
 
-![Untitled](images/Untitled%2019.png)
+![My organization supports a path for career advancement that does not require management.](images/My_organization_supports_a_path_for_career_advancement_that_does_not_require_management.png)
 
 # InnerSource Commons Feedback
 
 ### Resources to Get Started
 
-![Untitled](images/Untitled%2020.png)
+![What type of resources would you need to get started with InnerSource?](images/What_type_of_resources_would_you_need_to_get_started_with_InnerSource.png)
 
 ### InnerSource Commons Resources
 
 **Which InnerSource Commons activities and assets have you engaged and made use of?**
 
-![Untitled](images/Untitled%2021.png)
+![Which InnerSource Commons activities and assets have you engaged and made use of?](images/Which_InnerSource_Commons_activities_and_assets_have_you_engaged_and_made_use_of.png)
 
 **What features or content could be added to make InnerSource Commons more useful to you?**
 
-![Untitled](images/Untitled%2022.png)
+![What features or content could be added to make InnerSource Commons more useful to you?](images/What_features_or_content_could_be_added_to_make_InnerSource_Commons_more_useful_to_you.png)
 
 # About the Survey
 
@@ -289,12 +291,12 @@ Respondents had a range of roles.
 25% identified as developer or DevOps specialist.
 Other roles included engineering manager (ca. 7%), senior executive (ca. 6%), and product managers and process improvement specialists (ca. 6%).
 
-![Untitled](images/Untitled%2023.png)
+![Role](images/Role.png)
 
 #### Work Experience
 Most respondents had 10+ years of experience.
 
-![Untitled](images/Untitled%2024.png)
+![Years of Work Experience](images/Years_of_Work_Experience.png)
 
 ### Firmographics
 
@@ -303,19 +305,19 @@ As in previous years, respondents are working in a wide range of domains, with t
 The category technology obviously comprises a wide range of companies offering many different types of services and products.
 As in previous surveys, several respondents work in the financial services domain.
 
-![Untitled](images/Untitled%2025.png)
+![Sector](images/Sector.png)
 
 #### Org & Dev Org Size
 Half of our respondents came from very large organizations (20,000+), and there was a wide spread of size of developer organization.
 
-![Untitled](images/Untitled%2026.png)
+![Org Size](images/Org_Size.png)
 
-![Untitled](images/Untitled%2027.png)
+![Dev Org Size](images/Dev_Org_Size.png)
 
 #### Geographic Location
 Respondents came from over 20 different countries, but over 40% of the respondents came from Germany and the United States
 
-![Untitled](images/Untitled%2028.png)
+![Country](images/Country.png)
 
 # Acknowledgements
 
